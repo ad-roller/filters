@@ -1,0 +1,17 @@
+{
+  "filterId": 251,
+  "name": "ad-roller filter",
+  "description": "广告碾压机屏蔽列表,强力去除广告，不留余地。",
+  "timeAdded": 1404115015843,
+  "homepage": "https://github.com/gentlyx/adguard-plus",
+  "expires": "2 days",
+  "displayNumber": 2,
+  "groupId": 7,
+  "subscriptionUrl": "https://raw.githubusercontent.com/gentlyx/adguard-plus/master/android/filters/251_optimized.txt",
+  "tags": [
+    "purpose:ads",
+    "reference:101",
+    "recommended",
+    "lang:zh"
+  ]
+}

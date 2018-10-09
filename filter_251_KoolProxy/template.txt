@@ -1,0 +1,7 @@
+!
+||adse.wsa.ximalaya.com^
+||msg.qy.net^$third-party
+||ximalaya.com/api/*/adRealTime
+||igexin.com^
+||customstat.video.51togic.com^
+@include "https://kprule.com/koolproxy.txt" /exclude="../exclusions.txt" /stripComments
