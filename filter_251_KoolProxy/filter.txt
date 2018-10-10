@@ -4,6 +4,25 @@
 ||ximalaya.com/api/*/adRealTime
 ||igexin.com^
 ||customstat.video.51togic.com^
+||ad.m.iqiyi.com^
+||afp.iqiyi.com^
+||api.cupid.iqiyi.com^
+||c.uaa.iqiyi.com^
+||cloudpush.iqiyi.com^
+||cm.passport.iqiyi.com^
+||emoticon.sns.iqiyi.com^
+||gamecenter.iqiyi.com^
+||hotchat-im.iqiyi.com^
+||ifacelog.iqiyi.com^
+||mbdlog.iqiyi.com^
+||meta.video.qiyi.com^
+||paopao.iqiyi.com^
+||policy.video.iqiyi.com^
+||rcd.iqiyi.com^
+||cmts.iqiyi.com^
+||data.video.qiyi.com^
+||msg.71.am^
+||msga.cupid.iqiyi.com^
 !x  -----------------------------------------------------------------------------------------------------------------
 /http:\/\/m\.[^/]*\/\d{3,}\.html\?/
 /http:\/\/m\.[^/]*\/\d{3,}\.html\?/
