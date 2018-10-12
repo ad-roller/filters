@@ -1,9 +1,9 @@
 !
-! Checksum: i2X29QziN1h/IT/szjQ0+Q
-! OriginalVersion: 201810120932
+! Checksum: eoL0++sPcwMZlsBbebwLFA
+! OriginalVersion: 201810121012
 ! Title: EasyList China
 ! Chinese supplement for the EasyList filters
-! Last Modified: 12 Oct 2018 09:32 UTC
+! Last Modified: 12 Oct 2018 10:12 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: http://abpchina.org/forum/
 ! License: https://easylist-downloads.adblockplus.org/COPYING
