@@ -264,6 +264,8 @@
 @@|http://jstv.
 ! @@|http://jstvimedia.allyes.com/crossdomain.xml is excluded by: @@
 @@|http://jstvimedia.allyes.com/crossdomain.xml
+! @@|http://kprules.b0.upaiyun.com is excluded by: @@
+@@|http://kprules.b0.upaiyun.com
 ! @@|http://livew.l.qq.com/crossdomain.xml is excluded by: @@
 @@|http://livew.l.qq.com/crossdomain.xml
 ! @@|http://livew.l.qq.com/livemsg?pf=H5&ad_type=W*&pf_ex= is excluded by: @@
@@ -522,8 +524,12 @@
 @@||114la.com/|
 ! @@||17173im.allyes.com^ is excluded by: @@
 @@||17173im.allyes.com^
+! @@||192.168. is excluded by: @@
+@@||192.168.
 ! @@||19iiii.info/js/logo$script is excluded by: @@
 @@||19iiii.info/js/logo$script
+! @@||360doc.com/resaveartsmall.aspx is excluded by: @@
+@@||360doc.com/resaveartsmall.aspx
 ! @@||52xiyou.com$domain=9377.com|52guoguo.cn is excluded by: @@
 @@||52xiyou.com$domain=9377.com|52guoguo.cn
 ! @@||53kf.com/company.php?arg=51fanli is excluded by: @@
@@ -656,6 +662,8 @@
 @@||res.mmstat.com
 ! @@||res.yyets.com/ads/mediav-250.js is excluded by: @@
 @@||res.yyets.com/ads/mediav-250.js
+! @@||routerlogin.net is excluded by: @@
+@@||routerlogin.net
 ! @@||seasungame.com/ad/ is excluded by: @@
 @@||seasungame.com/ad/
 ! @@||share.dmhy.org/images/$image is excluded by: @@
@@ -790,6 +798,8 @@
 @@@@|https://img1.doubanio.com
 ! @@@@|https://img3.doubanio.com is excluded by: @@
 @@@@|https://img3.doubanio.com
+! @@@@|https://kprules.b0.upaiyun.com is excluded by: @@
+@@@@|https://kprules.b0.upaiyun.com
 ! @@@@|https://ka.163.com is excluded by: @@
 @@@@|https://ka.163.com
 ! !@@@@|https://iface.iqiyi.com is excluded by: @@
@@ -1102,6 +1112,8 @@
 |http://*.com/js/AA.js$script
 ! |http://*.com/js/_banner.js is excluded by: |http://*
 |http://*.com/js/_banner.js
+! |http://*.com/js/aa.htm is excluded by: |http://*
+|http://*.com/js/aa.htm
 ! |http://*.com/js/aaa/$script is excluded by: |http://*
 |http://*.com/js/aaa/$script
 ! |http://*.com/js/ad.$script is excluded by: |http://*
@@ -1168,6 +1180,8 @@
 |http://*.com/logo/playjs.js
 ! |http://*.com/main/s?user= is excluded by: |http://*
 |http://*.com/main/s?user=
+! |http://*.com/ms/c- is excluded by: |http://*
+|http://*.com/ms/c-
 ! |http://*.com/myjs/alljs.js is excluded by: |http://*
 |http://*.com/myjs/alljs.js
 ! |http://*.com/myjs/my_all.js is excluded by: |http://*
@@ -2684,12 +2698,22 @@
 ||m.biquge.com.tw/wap/skin/wap.js$s@function topgg()*function skin_xuanfu()@function xxx()@@
 ! ||m.dmzx.com$s@<script src="http://jssd.dmzx.com:8881/*</script>@@ is excluded by: @@
 ||m.dmzx.com$s@<script src="http://jssd.dmzx.com:8881/*</script>@@
+! ||m.xiaoxiaoshuwu.com/$s@((/(MQQBrowser)/i.test(navigator.userAgent)))@@ is excluded by: @@
+||m.xiaoxiaoshuwu.com/$s@((/(MQQBrowser)/i.test(navigator.userAgent)))@@
+! ||m.xiaoxiaoshuwu.com/$s@<script src="http://include.xiaoxiaoshuwu.com:8089/*"></script>@@ is excluded by: @@
+||m.xiaoxiaoshuwu.com/$s@<script src="http://include.xiaoxiaoshuwu.com:8089/*"></script>@@
+! ||m.xiaoxiaoshuwu.net/$s@((/(MQQBrowser)/i.test(navigator.userAgent)))@@ is excluded by: @@
+||m.xiaoxiaoshuwu.net/$s@((/(MQQBrowser)/i.test(navigator.userAgent)))@@
 ! ||m.doc88.com$s@function hideAd()@@ is excluded by: @@
 ||m.doc88.com$s@function hideAd()@@
 ! ||meijukankan.net$s@</script><script>;(function(){var d=/*</script>@@ is excluded by: @@
 ||meijukankan.net$s@</script><script>;(function(){var d=/*</script>@@
 ! ||meijukankan.net$s@<script type="text/javascript" src="http://www.qdlansehaiwan.com:82/*</script>@@ is excluded by: @@
 ||meijukankan.net$s@<script type="text/javascript" src="http://www.qdlansehaiwan.com:82/*</script>@@
+! ||news.china.com/*/news.360.*.common.js^$s@var oneAd =@@ is excluded by: @@
+||news.china.com/*/news.360.*.common.js^$s@var oneAd =@@
+! ||newstorrentsspace.info$s@window.open('/freeone/@@ is excluded by: @@
+||newstorrentsspace.info$s@window.open('/freeone/@@
 ! ||oload.site$s@BetterJsPop.add(@@ is excluded by: @@
 ||oload.site$s@BetterJsPop.add(@@
 ! ||panduoduo.net$s@<script type="text/javascript" src="http://106.14.95.104:8085/*</script>@@ is excluded by: @@
@@ -2710,6 +2734,10 @@
 ||tsdm.net$s@<script>ipad_s('dm_tsdm','http://moe.005.tv/',50); </script>@@
 ! ||wx.qq.com$s@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@@ is excluded by: @@
 ||wx.qq.com$s@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@@
+! ||www.id97.com/$s@<script src="https://jc.anhuilitian.net/*.js"></script>@@ is excluded by: @@
+||www.id97.com/$s@<script src="https://jc.anhuilitian.net/*.js"></script>@@
+! ||www.shclk.com/$s@window.open(?http://@@ is excluded by: @@
+||www.shclk.com/$s@window.open(?http://@@
 ! ||xunyingwang.com$s@<script src="https://*.js"></script>@@ is excluded by: @@
 ||xunyingwang.com$s@<script src="https://*.js"></script>@@
 ! ||yzz4.com$s@ var s = document.* head.appendChild(s);@@ is excluded by: @@
@@ -2722,6 +2750,8 @@
 ||2kandy.com$s@<script src="http://js6964.zzbaowen.com*</script>@@
 ! ||https://m.80s.tw$s@<script src="https://jsjs.nthyn.com/vs.php?id=*</script>@@ is excluded by: @@
 ||https://m.80s.tw$s@<script src="https://jsjs.nthyn.com/vs.php?id=*</script>@@
+! ||https://news.china.com/*/news.360.*.common.js^$s@var oneAd =@@ is excluded by: @@
+||https://news.china.com/*/news.360.*.common.js^$s@var oneAd =@@
 ! !|https://www.baidu.com/s$s@<script id="ecomScript">*</script>@@ is excluded by: @@
 !|https://www.baidu.com/s$s@<script id="ecomScript">*</script>@@
 ! !|https://www.baidu.com/s?$s@<script>?A.setup('pageData', {"paramData":*</script>@@ is excluded by: @@
@@ -2732,6 +2762,8 @@
 |https://www.cnbeta.com/articles/$s@<section class="mt5 cber" style="display:none">*</section>@@
 ! |https://www.cnbeta.com/assets/js/pages/article.js?v=$s@var CheckBlock=function(options)@@ is excluded by: @@
 |https://www.cnbeta.com/assets/js/pages/article.js?v=$s@var CheckBlock=function(options)@@
+! |https://www.gaoqingkong.com/$s@var paypopupURL@@ is excluded by: @@
+|https://www.gaoqingkong.com/$s@var paypopupURL@@
 ! |https://www.jb51.net/$s@<script>rjLoader();</script>*rjLoader(true);</script>@@ is excluded by: @@
 |https://www.jb51.net/$s@<script>rjLoader();</script>*rjLoader(true);</script>@@
 ! |https://www.80s.tw/$s@<script src="http://80s.qucaigg.com*/script>@@ is excluded by: @@
@@ -3070,6 +3102,8 @@
 |http://ping.chinaz.com/$s@<iframe frameborder="0"*</iframe>@@
 ! |http://qingse.one/view/$s@<script src="https://caches.space/bootstrap3/js/bootstrap.js"></script>@@ is excluded by: @@
 |http://qingse.one/view/$s@<script src="https://caches.space/bootstrap3/js/bootstrap.js"></script>@@
+! |http://renrencili.*$s@<div class="footer" >*/opensug.js"></script>@@ is excluded by: @@
+|http://renrencili.*$s@<div class="footer" >*/opensug.js"></script>@@
 ! |http://ssg.feiwan.net/$s@<script type="text/rocketscript" data-rocketsrc='http://www.feiwan.net/zqcom_style/ad/*></script>@@ is excluded by: @@
 |http://ssg.feiwan.net/$s@<script type="text/rocketscript" data-rocketsrc='http://www.feiwan.net/zqcom_style/ad/*></script>@@
 ! |http://savebt.com/$s@<div class="footer" >*/opensug.js"></script>@@ is excluded by: @@
@@ -3321,6 +3355,10 @@
 ! Invalid rule options:
 ||eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
+||renrencili.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+! Invalid rule options:
+|http://4pda.ru/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+! Invalid rule options:
 |http://bbs.pcbeta.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/koolproxy-element-hiding.js"></script></head>@
 ! Invalid rule options:
 |http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
@@ -3330,6 +3368,8 @@
 |http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
 |http://sports.mop.com/$s@</body>@<script>inHackcss.H('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
+! Invalid rule options:
+|http://www.66rd.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
 |http://www.creaders.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
@@ -3365,6 +3405,8 @@
 ! Invalid rule options:
 |https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
+|https://www.gaoqingkong.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+! Invalid rule options:
 |https://www.gamersky.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</body>@<script>inHackcss.H('#j-topOpBox')</script></body>@
@@ -3385,7 +3427,7 @@
 ! Invalid selector:
 66yp.cc###down_box{display: block!important;display: block}
 ! Invalid selector:
-678pan.cc###down_box{display:block!important;}.span9,[src*=".sinaimg.cn/large/"]
+678pan.vip###down_box{display:block!important;}[src*=".sinaimg.cn/large/"],[height="105"]
 ! Invalid selector:
 blog.163.com##.wrapperbg{height: 151px;}
 ! Invalid selector:
@@ -3545,6 +3587,8 @@ yxdown.com###topsearch{top: 100px;}
 ! || are unnecessary for element hiding rule:
 ||https://panda.tv###download,.room-ad,.room-ad-banner,[href^="https://s.click.taobao.com/"],.room-co-activity-container,[href^="/ad_view?paew=pc_web-ad-"],.pd-plouto-container,.pd-plouto-container.room-plouto
 ! || are unnecessary for element hiding rule:
+||https://panda.tv##.room-banner-images
+! || are unnecessary for element hiding rule:
 ||https://qidian.com##div[class^="gg"],div[class^="show_ggpic_"],DIV.a_mu,div[id^="div_100"],div.qd_sms_pop,div.top_game_info,div#down_3g_20130621,div.game_info,iframe#dongfangIframe,div.adbox,div.spn_gg02,div.skin_box_hd,div.splb_txtbox,div.game_tj box_cont,div#ucADClient1_div,#app_download_blank_show,#fixBoxs,#topFixed,#arb-banner,#banner1,.banner-wrap,#topGameOp,#tr-banner,#j_bodyRecWrap,a.jumpWrap,.top-bg-op-box,.top-bg-box,.games-op-wrap,.right-op-wrap,.home-pure-ad,.mybook-game-ad,#page-ops
 ! || are unnecessary for element hiding rule:
 ||https://qdmm.com##DIV[id^="down_3g_201"],DIV[id^="down2_3g_201"],div#div_10029118,div.show_ggpic_990X60,div.show_ggpic_770X60,div.show_tjimg,.qd_sms_pop,#spanADHead,#ADClientLtop0609_Div
@@ -3669,6 +3713,8 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||9gui.net/$s@eval(function(p,a,c,k,e,r){e=function(c){ return(c<a*</script>@</script>@
 ! Invalid rule options:
+||bitauto.com/$s@document.domain = "bitauto.com";@document.domain = "*";@
+! Invalid rule options:
 ||bbs.pcbeta.com$s@{padding:9px;width:980px;height:100%;@{padding:9px;width:980px;height:260px;@
 ! Invalid rule options:
 ||bbs.pcbeta.com$s@{padding:9px;width:980px;height:4??px;@{padding:9px;width:980px;height:260px;@
@@ -3703,7 +3749,17 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||m.88dushu.com/mobile/css/my.min.js$s@function tongji()*function baba_wenzi()@function xxx_wenzi()@
 ! Invalid rule options:
+||m.fpzw.com/wap/wap.js$s@function lanmu_head*function tongji@function xxx@
+! Invalid rule options:
+||m.tvmao.com/$s@function addAD@function xxx@
+! Invalid rule options:
+||m.txt99.cc/Public/m/script/common.js$s@function fixedad()*function tj()@function xxx()@
+! Invalid rule options:
 ||minisite2012.qq.com$s@<div class="ad_bg">@<div>@
+! Invalid rule options:
+||newplayer.jfrft.com/webcloud/index.php?url=$s@if (count == 40)@if (count == 1)@
+! Invalid rule options:
+||news.163.com$s@DDDDDD; height: 241px;@DDDDDD; height: 151px;@
 ! Invalid rule options:
 ||pubg.op.gg$s@src="//hb.vntsm.com/v3/live/ad-manager.min.js"@src=""@
 ! Invalid rule options:
@@ -3723,19 +3779,55 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||subhd.com$s@var paypopupURL=*</script>@}</script>@
 ! Invalid rule options:
+||sqsxs.com/201$s@function zhuye_1()*function tongji()@function xxx()@
+! Invalid rule options:
+||sqsxs.com:88/201$s@function zhuye_1()*function tongji()@function xxx()@
+! Invalid rule options:
+||soyunpan.com$s@var  win_pop_ip=*</script>@</script>@
+! Invalid rule options:
+||ssports.iqiyi.com/play/$s@var adid = "0";@var adid = "-1";@
+! Invalid rule options:
 ||ssl.77kpw.cc/p2p/$s@1000);@0);@
 ! Invalid rule options:
 ||ssl.77kpw.cc/weparse/index.php?id=$s@, 1000);@, 0);@
 ! Invalid rule options:
 ||tiantianzhibo.com/player/ck/ck.php$s@|1000|@|0|@
 ! Invalid rule options:
+||www.lepan.cc/down$s@document.getElementById('down_box').style.display="none";@document.getElementById('down_box').style.display="";@
+! Invalid rule options:
+||www.dwbpy.com/link.php$s@<SCRIPT LANGUAGE="javascript"> ??var Time=3;*</head>@</head>@
+! Invalid rule options:
+||www.gxnews.com.cn/css/selectColor_2009/style2.css$s@height:445px;@height:121px;@
+! Invalid rule options:
+||www.miercn.com/style_2013/content.css$s@height:185px;@height:90px;
+! Invalid rule options:
+||www.shclk.com/link.php$s@<SCRIPT LANGUAGE="javascript"> ??var Time=3;*</head>@</head>@
+! Invalid rule options:
+||www.viidii.info/?http://$s@var waittime = 30;@var waittime = 2;@
+! Invalid rule options:
+||www.vvpan.com/down$s@<div class="code clearfix" id="code_box" style="display:none">*<div class="talk_show">@<div class="talk_show">@
+! Invalid rule options:
+||www.vvpan.com/down$s@<div id="down_box" style="display:none">@<div id="down_box">@
+! Invalid rule options:
+||www.yunsp.com.cn:8080/dispatch/videoPlay/getInfo?vid=$s@"adBeforeInfo":@"xwhyc":@
+! Invalid rule options:
+||www.yyets.com/resource/$s@<div style="margin:0;padding:0;width:640px;height:345px;overflow:hidden;background-color:#fff;">@<div style="margin:0;padding:0;width:640px;height:0px;overflow:hidden;background-color:#fff;">@
+! Invalid rule options:
 ||xingqu.baidu.com$s@</html>@<script>PageData.user.is_login=true;</script></html>@
+! Invalid rule options:
+||x23us.com/scripts/xiaoshuo.js$s@function show_foot()*function class_share()@function xxx()@
+! Invalid rule options:
+||x81zw.com/x81.js$s@function style_top()*function tjkk()@function xxx()@
 ! Invalid rule options:
 ||zol.com.cn/|$s@var _gaq = _gaq *</script>@</script>@
 ! Invalid rule options:
 ||https://163.com$s@style="width:300px;height:250px;"></iframe>@style="display:none;"></iframe>@
 ! Invalid rule options:
 ||https://m.80s.tw$s@function(){var d=@{@
+! Invalid rule options:
+||https://newplayer.jfrft.com/webcloud/index.php?url=$s@if (count == 40)@if (count == 1)@
+! Invalid rule options:
+||https://news.163.com$s@DDDDDD; height: 241px;@DDDDDD; height: 151px;@
 ! Invalid rule options:
 |https://bbs.feng.com/$s@<div><script type="text/javascript">*<!-- header start -->@<!-- header start -->@
 ! Invalid rule options:
@@ -3855,7 +3947,7 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 |http://live.titan007.com/live.htm$s@var ShowAd=true;@var ShowAd=false;@
 ! Invalid rule options:
-|http://lol.qq.com/v/go.shtml?$s@<span id="jVideoTipsTime">5</span>@<span id="jVideoTipsTime">1</span>@
+|http://lol.qq.com/v/go.shtml^$s@<span id="jVideoTipsTime">5</span>@<span id="jVideoTipsTime">1</span>@
 ! Invalid rule options:
 |http://lol.yzz.cn/$s@var overtime = 30;@var overtime = 1;@
 ! Invalid rule options:
@@ -3904,6 +3996,8 @@ yxdown.com###topsearch{top: 100px;}
 |http://m.2kxs.com/wap/wap.js$s@function lanmu_head()*function tongji()@function xxx()@
 ! Invalid rule options:
 |http://m.3dllc.com/js/common.js$s@function style_top(){*function tm()@function xxx()@
+! Invalid rule options:
+|http://m.3kdu.com/17mb/script/wap.js$s@function index_top*function tj_3k()@function xxx()@
 ! Invalid rule options:
 |http://m.50zw.la/wap.js$s@function _js_xf()*function _BottomAll()@function xxx()@
 ! Invalid rule options:

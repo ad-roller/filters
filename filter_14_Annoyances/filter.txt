@@ -1558,6 +1558,7 @@ blackpoolgazette.co.uk,derbyshiretimes.co.uk,lep.co.uk,yorkshireeveningpost.co.u
 ! NoAdBlock (CloudflareApps)
 rulu.co#%#!function(b,a){AG_defineProperty('CloudflareApps.installs',{get:function(){return a instanceof Object&&Object.getOwnPropertyNames(a).forEach(function(c){a[c].appId=='ziT6U3epKObS'&&Object.defineProperty(a[c],'URLPatterns',{value:b})}),a},set:function(b){a=b}})}(Object.seal([/(?!)/]));
 ! General anti-adblock rules
+||wp-r.github.io/adsplacer_pro/$third-party
 /wp-content/plugins/adsplacer_pro/assets/js/jquery.adsplacer.adblock.js
 @@/wp-content/themes/wp-mason/static/js/ads.js$~third-party
 /wp-content/plugins/simple-adblock-notice/*
@@ -1592,6 +1593,16 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 !+ NOT_PLATFORM (windows, mac, android)
 @@||androidworld.it^$generichide
 !
+malekal.com#@##adsense
+malekal.com#@#.an-advert-banner
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=malekal.com
+@@||pagead2.googlesyndication.com/pagead/js/*/*/show_ads_impl.js$domain=malekal.com
+malekal.com#@#.adsbygoogle
+@@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=epicbundle.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=epicbundle.com
+sergeistrelec.ru$$script[tag-content="ad_nodes"][max-length="3000"]
+sergeistrelec.ru#@#.ad_top
+sergeistrelec.ru#@#.ad-slot
 ||d1z8dffpbvf0ns.cloudfront.net/app.min.js
 @@||voldffgkdsllkjthlkjt.b-cdn.net/ads/ads.js
 football365.com#%#AG_defineProperty('CatapultTools.AdblockDetection', { get: function() { throw null; }, set: function() { throw null; } });
@@ -3880,7 +3891,7 @@ howwindows.ru#%#window.canRunAds = true;
 ##.js-cookie-widget
 ##.js-cookieComply
 ##.js-cookieMessage
-##.js-cookies
+~1plus1.ua##.js-cookies
 ##.js-cookies-box
 ##.js-message-cookies
 ##.js-toast-cookies
@@ -4285,6 +4296,7 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+armfight.eu##.coockiesfixed
 allegro.pl#$#body { overflow:visible!important; }
 allegro.pl#$#div[data-box-name="allegro.rodoConsentModal"] { display:none!important; }
 purepc.pl##.cookiesinfo
@@ -5510,7 +5522,7 @@ lego.com###GFSticky
 kpn.com,telfort.nl###KPN_cookie
 theregister.co.uk###RegCCO
 pclooptvast.nl###WGzqwaqbvy
-denofgeek.com,expertreviews.co.uk,theweek.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###__ic-notice
+carbuyer.co.uk,denofgeek.com,expertreviews.co.uk,theweek.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###__ic-notice
 paradigit.nl###acceptCookiesForm
 energy.de###attention_cookies
 eindhoven.nl,verzekerdbijhema.nl###bcpm-notification-outer-border
@@ -5741,6 +5753,10 @@ wykop.pl#$#.type-permanent+#nav { top: 0px!important; }
 ||pnp.de/np-intern/js/Cookie.js
 ||publiekeomroep.nl/data/script/cconsent
 ||tol.postnl.nl/toestemming
+!
+1plus1.ua#$#body > header { top: 0!important; }
+1plus1.ua#$#body > section.slider { margin-top: 0!important; }
+1plus1.ua#$#.js-cookies { display: none!important; }
 !
 radioset.es,bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es#$#div[class^="cookiesAlert"] { display: none!important; }
 radioset.es,bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es#$#body { overflow: visible!important; }
@@ -6546,6 +6562,7 @@ gir.im##.smartbanner
 !+ NOT_PLATFORM(ios, ext_android_cb)
 shazam.com##.shz-frame-apps-banner
 !
+ck101.com###app-download
 allo.ua##.smart-banner
 allo.ua##.bg-fade
 weathernews.jp##.wni-appMenu
@@ -7060,6 +7077,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+1plus1.ua##.popup--subscribe
 bostonglobe.com#$#body { overflow:visible!important; }
 bostonglobe.com#$#.meter-social-connect { display:none!important; }
 spravochnick.ru#$#body { overflow: visible!important; }
@@ -8324,6 +8342,7 @@ wallstreet-online.de,dni.ru,polit.info#%#if (window.PushManager) { window.PushMa
 ||pushiki.ru^$third-party
 ||push-money.ru^$third-party
 !
+||push-ad.com^$third-party
 ||realpush.media^$third-party
 ||pushnotificationx.com^$third-party
 ||getpushmonkey.com^$third-party
