@@ -200,8 +200,6 @@ urlaubstracker.de##.optin-monster-saas-overlay
 ibc.org#%#document.cookie = "AnonUserCookie = " + Math.random() + ";path=/";
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10911
 100percentfedup.com###enhancedtextwidget-6
-! mail.ru - bla-bla-car banner on the main page
-mail.ru##.grid-down__lcol > div.well.notify
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8975
 t-online.de###TbNewsWrap
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10700
@@ -276,8 +274,6 @@ phys.org##.nwletter-box
 mercedes-benz.de##.nextstepnavigation__base > .target + .parbase.nextstepnavigationelement.section.base
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8390
 newtab.club##.section-icon-tabs
-! go.mail.ru - browser banner
-go.mail.ru##.layout-content > aside.layout-rightcol > div.rb-slot_side:has(> .rb_banner)
 ! org.rambler.ru - browser banner
 org.rambler.ru##.b-chrome_widget
 ! https://forum.adguard.com/index.php?threads/http-www-webtekno-com.27339/
@@ -290,6 +286,8 @@ pri.org##aside.always-under.donate
 wikipedia.org##.cnotice
 ! https://forum.adguard.com/index.php?threads/https-www-emaze-com.26992/
 emaze.com#%#var _st = window.setTimeout; window.setTimeout = function(a, b) { if(!/loginPopup.show/.test(a)){ _st(a,b);}};
+! https://github.com/AdguardTeam/AdguardFilters/issues/23739
+vk.com##.feed_friends_recomm
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7747
 vk.com##aside[aria-label="Актуальные новости"]
 ! https://forum.adguard.com/index.php?threads/https-www-cinemaximum-com-tr.26866/
@@ -306,8 +304,6 @@ handelsblatt.com###hb-message-alert-bookmark
 ||mystatext.ru^$third-party
 ! https://forum.adguard.com/index.php?threads/26125/
 last.fm##.profile-banner
-! https://forum.adguard.com/index.php?threads/26276/
-go.mail.ru##div[id^="tb-"][class$="_footer"]
 ! Edge browser suggestion
 xbox.com,skype.com##.f-information.epb-container
 ! screenshots.firefox.com - FF suggestion
@@ -398,8 +394,6 @@ riafan.ru###yandex_widget_one
 rueconomics.ru###yandex_save
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5430
 blick.ch###article-flyin-container
-! e.mail.ru - banner about taxes
-e.mail.ru###b-announcements
 ! https://forum.adguard.com/index.php?threads/21288/
 kinopoisk.ru##.film-thin-teaser
 ! https://forum.adguard.com/index.php?threads/22946/
@@ -466,12 +460,8 @@ dailypost.co.uk##.float-and-park
 simplest-image-hosting.net##div#extensionBar
 ! medium.com - register popup (Never miss a story from ...)
 ##.screenContent > main[role="main"] ~ .js-stickyFooter.u-bottom0.u-sizeFullWidth
-! https://github.com/AdguardTeam/AdguardFilters/issues/4600
-my.mail.ru##.b-head__banner
 ! livejournal.com - suggestion bar
 livejournal.com##.b-discoverytimes-wrapper
-! lady.mail.ru - блок "Сейчас ищут"
-lady.mail.ru##div[data-adq-id^="adqcontainer"]
 ! https://forum.adguard.com/index.php?threads/19501/
 100tipcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,bimbolive.com,bongacam.net,bongacam.org,bongacams-chat.ru,bongacams.com,bongacams.eu,bongacams2.com,cammbi.com,dcmoz.net,prostocams.com,r2games.com,redlightarea.com,smutcam.com###dmca_security
 ! canlive.net - tag cloud and remains of social buttons
@@ -559,8 +549,6 @@ grammarly.com#%#(function() { try { if ("undefined" != typeof localStorage) { lo
 zaycev.fm###__notifyBar
 ! focus.ua - плавающее окно с соц. ссылками
 focus.ua###at4-follow
-! news.mail.ru - полоса с новостью внизу экрана
-news.mail.ru##.sticky.sticky_full
 ! disqus.com - vote for third-party sites notification
 disqus.com##div[data-role="motd-alert"]
 ! online-life.cc - предложеие зарегистрироваться
@@ -788,6 +776,39 @@ money.yandex.ru##.promo-header
 ! END: Yandex
 !
 !
+! START: mail.ru
+!
+! Main page - self promo
+mail.ru##div[class="grid__lcol i-pull-left"] > div.well.notify
+mail.ru##.bubble-home
+mail.ru##.grid__header > div.toolbar
+mail.ru##.grid-top__rcol > div.games
+! self promo
+cloud.mail.ru##.space__payment
+go.mail.ru##div[id^="tb-"][class$="_footer"]
+ok.ru##.layer_hld > div.__pro-music
+! push notification
+horo.mail.ru##body > div.tooltip:has(div.m-push-notifications__buttons)
+kino.mail.ru##body > div.tooltip:has(div.m-push-notifications__buttons)
+||mail.ru/*/js/cmpld/_push.js
+! start page
+health.mail.ru###ph-extension-block
+auto.mail.ru###ph-extension-block
+hi-tech.mail.ru###ph-extension-block
+horo.mail.ru###ph-extension-block
+kino.mail.ru###ph-extension-block
+news.mail.ru###ph-extension-block
+pogoda.mail.ru###ph-extension-block
+!
+! App banners
+cloud.mail.ru##.b-layer_disko-popup
+cloud.mail.ru##div[class^="portal-promo-manager"]
+cloud.mail.ru##div[class^="portal-promo-manager"]+div[onclick="this.querySelector('a').click();"]
+cloud.mail.ru##.b-bubble__wrapper
+! popups
+lady.mail.ru##.m-subscription
+horo.mail.ru##.js-promo-popup
+! END: mail.ru
 !***
 !* Subscriptions/newsletters (not popups)
 !*
@@ -1023,7 +1044,6 @@ ghacks.net##.ghacks-sidebar > #ghacks_ad_code-6
 eusouandroid.co##.td-ss-main-sidebar .sfm_widget_sec
 vellisa.ru###mbt-sub-box
 wochenblick.at##img[title="newsletter"]
-lady.mail.ru,hi-tech.mail.ru##.m-subscription
 thedenverchannel.com##.module--email-widget
 buhgalteria.ru##.subscribe
 lifehacker.ru##.mailchimp-ajax-form
@@ -2555,9 +2575,6 @@ televisa.com#%#Object.defineProperty(window,'opened_adbblock',{value:false});
 @@||fightnews.info^$generichide
 !+ PLATFORM(ios, ext_android_cb, ext_ublock)
 @@||iphonesoft.fr^$generichide
-!
-minigames.mail.ru###like-buttons > div[class][style="display: block;"]
-minigames.mail.ru#$##like-buttons > div.soc-buttons { display: block!important; }
 !
 @@||native-english.ru/i/ads/ads.js
 native-english.ru#%#window.canRunAds = true;
@@ -6309,9 +6326,6 @@ muhammetefe.com###leftcol .module-outer[-ext-has='script:contains(reklam)']
 lolchampion.de###sidebar div[class="widget widget_text"][-ext-has=".textwidget:contains(Anzeige)"]
 pawno-info.ru##.body_wrapper > center > div#wgo[-ext-has=".blockhead:contains(Реклама)"]
 chip.com.tr##.col-300 > div[class$="lastscroll"][-ext-has='div[class^="ad"]']
-hi-tech.mail.ru##.cols__inner .rb[-ext-has=".p-mimic"]
-hi-tech.mail.ru##.cols__inner .spring[-ext-has=".rb-slot:contains(Ya.Direct)"]
-hi-tech.mail.ru##.cols__inner .spring[-ext-has=".rb-slot:contains(getAdsContainers)"]
 voyeurhit.com##.heading:contains(Advertising)
 imgwallet.com##.sidebar > h3[-ext-has="a:contains(Recommended)"]
 imgwallet.com##.sidebar > h3[-ext-has="a:contains(Recommended)"] + div
@@ -6613,7 +6627,6 @@ autoshow.com.tr###text-41
 onedrive.live.com##.c-uhfh-alert.f-information
 bing.com##.opal_serpftrc
 tvplusnewtab.com##.chromeStoreBadge
-touch.mail.ru##body > div[id^="meta-block-"][id$="-main"]
 turkuvazradyolar.com##.col-right-sticky .col-12 > .row > .col-12[-ext-has='.mobileApp']
 turkuvazradyolar.com##.mobileApp
 eda.yandex##.src-common-components-common-Header--header-smartBanner
@@ -6834,7 +6847,6 @@ delfi.ee###delfi_header > div#dh_middle
 freekaamaal.com###ftrbgdiv
 mangareader.net###googleModal > a[href="http://www.animemobile.com/MangaApp/"]
 tellows.de###hint_box
-cloud.mail.ru###leftcol > div.download
 baidu.com###main > div[lgoinprompt="prompt"]
 obzor.press###meerkat-wrap
 tripadvisor.co.uk,tripadvisor.com.br,tripadvisor.jp###partialScreenInterrupter
@@ -7258,7 +7270,6 @@ babaszoba.hu#$#body.modal-open { overflow: visible!important; }
 babaszoba.hu#$##webpushModal { display: none!important; }
 zismo.biz##.simplemodal-overlay
 zismo.biz##.simplemodal-container
-mail.ru##body > div.tooltip_arrow_top-left
 gruene.de###fancybox-content
 gruene.de###fancybox-overlay
 lexpress.mu##.page-views-counter
@@ -7937,9 +7948,7 @@ wallpapershome.ru###welcome
 cosmo.ru###widget-collection-overlay
 cosmo.ru###widget-collection-popup
 geliebte-katze.de###zs_next_article
-cloud.mail.ru##.b-bubble__wrapper
 businessua.com##.b-counter
-cloud.mail.ru##.b-tooltip_animate.b-tooltip_tc
 linux.com##.backdrop-default
 alexanderschimpf.de##.blocker
 eugene.kaspersky.ru##.blog_subscription_wrapper
@@ -7966,7 +7975,6 @@ sabah.com.tr##.ilgi
 sex-empire.tv##.in.fade.modal-backdrop
 unn.com.ua##.jqmOverlay
 rgmechanics.com##.jquery-modal.blocker
-mail.ru##.kristi-position
 community.sony.de##.lia-panel-dialog-modal-valuesurvey
 community.sony.de##.lia-panel-dialog-modal-valuesurvey ~ .ui-widget-overlay
 gurubanks.com##.lwp-modal_wrap
@@ -8003,7 +8011,6 @@ cryptozoic.com,fusion.net,mindbodygreen.com##.reveal-modal-bg
 cryptozoic.com##.reveal.open
 rolex.com##.rlx-popin
 tichyseinblick.de##.rty-pop-up
-mail.ru##.set-homepage
 golos-ameriki.ru##.slide-in-widget
 bolumsonucanavari.com,forum.donanimhaber.com##.smtakip
 domkino.tv##.social-annoyer
@@ -8049,7 +8056,6 @@ okcaller.com##div[class="modal-backdrop fade in"]
 tomchun.tw##div[class^="ArevicoModal"]
 androidsage.com,ilife97.com,politeka.net##div[class^="spu-"]
 sahibinden.com##div[class^="walkme-custom-"]
-mail.ru##div[data-module="PromoPopup"]
 opodo.de##div[data-viewwidget="newsletter"]
 oddee.com##div[id="slidebox"][style="right: 0px;"]
 applesencia.com##div[id^="facebook-flyer"]
@@ -8541,7 +8547,6 @@ sanalbasin.com##.push-wrapper
 kommersant.ru##.push_notification
 apkdayi.com##.subsbar
 24tv.ua##.subscription-bell-wrap
-tv.mail.ru##div[data-module="GuideTooltip"]
 sinemia.com##.web-notification
 yenisafak.com##.ys-push
 indiatimes.com##div[class^="ntfc_"]
@@ -8549,7 +8554,6 @@ ndtv.com/js/notify.js
 zr.ru#%#document.cookie = "zrPushSubsPopUp=1";
 ||avtoblog.ua/sw.js
 ||img.acunn.com/s/template/acunn/script/push.js
-||mail.ru/*/js/cmpld/_push.js
 ||ndtv.com/popupNotification.aspx
 ||rackcdn.com/stf.js$domain=rg.ru
 ||superzarabotki.com/notify/
@@ -8859,7 +8863,6 @@ tagesspiegel.de##aside[id^="plista_widget_"]
 xtreme.ws##aside[role="complementary"] > div.newss
 m.comic.naver.com##body > div.viewer.cuttoon > div[class^=ly_dim].on
 comparegames.com.au$$span[tag-content="Advert"]
-cloud.mail.ru##div.content__along > div[id]:not([title]):not([class]):not([data-classes])
 anrufer.info##div[class$="box_small"]
 yookartik.com##div[class$="last-add"] > .main-head
 superhaber.tv##div[class$="tema_1 module module_301"]
@@ -9010,8 +9013,6 @@ rankw.ru##section[style="margin-left:0;margin-right:0;margin-top:0;margin-bottom
 sysadmins.ru##table[background="/images/header.gif"] td[align="right"] a img
 ||sysadmins.ru/iq-powered.png
 ||sysadmins.ru/samag.gif
-! http://forum.adguard.com/showthread.php?6258
-auto.mail.ru##.shadow.margin
 ! http://forum.adguard.com/showthread.php?5875
 fast-torrent.ru##.no-mobile > div > h1 > span[style="font-size: small;"]
 ! footballtransfer.com.ua - удаление нижнего отступа
@@ -9190,19 +9191,6 @@ msn.com###eubanner
 radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-station__brand
 ! Adblock detection
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
-!-----------------------------------------------
-!
-!--- Mail.ru self-promo -------------------------
-! Main page - games
-mail.ru##.i-pull-right > div.games
-! Browser promo
-mail.ru##div[class="toolbar__inner"][style^="min-width:980px;"]
-~e.mail.ru,mail.ru#$#.layout__promotoolbar { position: absolute!important; left: -3000px!important; }
-!
-mail.ru###ph-extension-block
-mail.ru##div[class="grid__lcol i-pull-left"] > div.well.notify
-go.mail.ru##.go-headlinks__wrap > div[class^="tb-"]
-pogoda.mail.ru##body > header > a[href^="https://r.mail.ru/"][class^="tb-"]
 !-----------------------------------------------
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23655
@@ -9477,7 +9465,6 @@ dyttw.com.cn##a[href="/ads"]
 dx.com###commonHeadBannerPanel
 blog.konusarakogren.com##a.nolazy
 blog.konusarakogren.com##.wpcmsdev-alert
-mail.ru##.grid-top__rcol > div.games
 drweb.ru###ShowIt
 xda-developers.com##a[href^="http://forum.xda-developers.com/ad-free"]
 forum.xda-developers.com##a[href="/ad-free"]
