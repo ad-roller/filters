@@ -42,5 +42,14 @@
 ||umengcloud.com^
 ||umeng.co^
 
+!others
+||xlog.snssdk.com^
+||log.yex.youdao.com^
+||analytics-api.smzdm.com^
+||policy.jd.com^
+||zeus.ad.xiaomi.com^
+||log.dc.cn.happyelements.com^
+||da.mmarket.com^
+
 
 @include "https://kprule.com/koolproxy.txt" /exclude="./exclusions.txt" /stripComments
