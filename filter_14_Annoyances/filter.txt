@@ -23,6 +23,8 @@
 !
 !######### Annoying elements (not ads)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/23808
+autotraveler.ru##.floater.mt-5
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9133
 computeruniverse.ru###MegaBanner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23707
@@ -782,7 +784,7 @@ money.yandex.ru##.promo-header
 mail.ru##div[class="grid__lcol i-pull-left"] > div.well.notify
 mail.ru##.bubble-home
 mail.ru##.grid__header > div.toolbar
-mail.ru##.grid-top__rcol > div.games
+mail.ru##.grid__rcol > div.games
 ! self promo
 cloud.mail.ru##.space__payment
 go.mail.ru##div[id^="tb-"][class$="_footer"]
@@ -1614,6 +1616,7 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 !+ NOT_PLATFORM (windows, mac, android)
 @@||androidworld.it^$generichide
 !
+tesall.ru##.test-blocker
 1fichier.com##.alc > .ct_warn
 petrimazepa.com##div[role="dialog"][style^="position: fixed; height: auto; width: 415px;"]
 malekal.com#@##adsense
@@ -4318,6 +4321,13 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+uptodate.com##body > .cookie-accept
+quicksave.su##.banner-policy-wrap
+||nordbysupermarket.se/cookie-warning/cookie-warning.js
+hotellook.com##.policy-bar
+iobit.com##.float-bar
+dm.de###cookiebar-wrapper
+netto.de##.cookie-message-blocking-background
 alpro.com##.notification.cookie
 fjallbrynt.se###itc-cookie-notify
 iopen.pl###cookie
@@ -5031,7 +5041,6 @@ ring.com##.de-cookie-popup
 chamsko.pl##.cookies1
 interia.pl###inpl_cp_cnt
 bing.com##body > #b_notificationContainer
-hornbach.de##.cookielayer
 caravaning.de##div[element-structure-cookiemonster]
 markafoni.com##.personal-data-protection-bar
 morhipo.com###legal-alert
@@ -5095,7 +5104,7 @@ internedservices.nl##.ccdiv
 ||m.diabetes-ratgeber.net/css/Components/willow.css
 gittigidiyor.com##.policy-alert
 phys.org##.notice
-titus.de,titus-shop.com,pflanzen-koelle.de,bijou-brigitte.com,w6-naehmaschinen.de##.page-wrap--cookie-permission
+globus-baumarkt.de,titus.de,titus-shop.com,pflanzen-koelle.de,bijou-brigitte.com,w6-naehmaschinen.de##.page-wrap--cookie-permission
 ratemyprofessors.com###cookie_notice
 ratemyprofessors.com##.preventAcceptance.balaMainContainer
 edeka.de##.o-core-cookie-notification
@@ -5423,7 +5432,6 @@ walloniebelgiquetourisme.be###block-wbt-block-domain-cookie
 onvasortir.com###infocookies
 tastedive.com##.tk-Footer-cc
 cinetrafic.fr###cookies_div
-rewe.de###cookieNote
 saveur-biere.com###footer_cookie_bar_block
 bestbeersfrombelgium.eu###sfCookieWarningBar
 carrefour.eu##.cfrcookiebar
@@ -5449,7 +5457,7 @@ auchan.fr##.loi_hamon.loi_hamon_open
 musicstore.de###footerCookieDirective
 netdoktor.de##.cc-floating
 arte.tv##.next-cookie-banner
-bigge-energie.de###cookieNote
+basicbio.de,rewe.de,bigge-energie.de###cookieNote
 eindelijkglasvezel.nl##.notice-bar
 ft.com##.o-cookie-message
 mirror.co.uk##.mod-cookiepolicy
@@ -5464,7 +5472,6 @@ drtuber.com,pcmag.com###cookie-policy
 schnaeppchenfuchs.com##.cookie-agreement
 itv.com##.cookie-policy
 channel4.com###all4gn-cookie-policy-notification
-bmw-motorrad.co.uk##.cookielayer
 france.tv###cookie
 rewe.de##div[data-fragment="disclaimer-layer"]
 askmen.com##.privacy_popup__container
@@ -5672,7 +5679,7 @@ indiatimes.com##.cookie_info
 erlangen.de##.cookie_richtlinien
 ombudsmanpensioenen.nl##.cookiebar-panel
 flightradar24.com##.cookielaw-msg
-telekom.com##.cookielayer
+deutschepost.de,hornbach.de,bmw-motorrad.co.uk,telekom.com##.cookielayer
 telegraaf.nl##.cookiepolicy-txt
 arcor.de##.cookiepopup
 moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
@@ -6413,6 +6420,8 @@ online-life.cc##div[style="height:10px;"] ~ div.block_title[-ext-contains="НА�
 !
 !--- Ads ---
 !
+||kpk.guru/uploads/*-guruMesto_
+kpk.guru##.part-items
 nautilus.ru##div[style="border:1px dashed black;padding:5px;font-size:10px;"]
 alensat.org##.phpbb-ads-center
 hi-cd.ru##.bannpanel
@@ -7110,6 +7119,10 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+lidl.de##.newsletter-extra-wrap
+gearslutz.com##.EngagementDrawer
+huffingtonpost.jp###newsletter-toaster
+globus-baumarkt.de##.alpha-popup--wrapper
 iopen.pl###facebook
 obozrevatel.com##.poll-notification__head
 ciddigazete.com###siradaki-haberler
