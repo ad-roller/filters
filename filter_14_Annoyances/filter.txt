@@ -23,6 +23,12 @@
 !
 !######### Annoying elements (not ads)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/23735
+ck101.com##.shopping-links-con
+ck101.com##.topicReward5Progress
+ck101.com##.thread_shopping_opener
+ck101.com##.viewthread-leftfloatbox-con
+ck101.com##.topicReward5Container__float
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23808
 autotraveler.ru##.floater.mt-5
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9133
@@ -772,6 +778,7 @@ eda.yandex##.src-common-components-common-MobileAddressPromptBar--mobileAddressP
 !
 ! Yandex.Money
 ! Mobile apps
+money.yandex.ru##.payment-success__banner
 money.yandex.ru##.money-app-promo2
 money.yandex.ru##.promo-header
 !
@@ -814,6 +821,7 @@ horo.mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+kakprosto.ru###blocks-sidebar-follow-us-block
 sunderlandecho.com##.newsletter-mobile-widget
 postandcourier.com##div[id^="tncms-region-article_instory_"].tncms-region.hidden-print
 jpost.com##.newsletter-signup-wrap
@@ -1422,6 +1430,7 @@ c4crack.com,warezcrack.net#$#.onp-sl-social-locker { display: none!important; }
 warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
 crackflare.com#$#.onp-sl-content { display: block!important; }
 !
+hdkino.biz##.right-col > div[class="right-block"]:first-child
 jp.techcrunch.com##body #stcky-footer
 informator.news##.td-social-list
 tass.ru##.social-promo
@@ -1573,7 +1582,7 @@ essen-und-trinken.de,techardar.com#@#.player_page_ad_box
 essen-und-trinken.de,techardar.com#@##player_ads
 !
 ! FuckAdBlock CSS
-swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
+modelist-konstruktor.com,swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
 !
 ! Evolok ev-dab.js (.pub_300x25)
 sunderlandecho.com,blackpoolgazette.co.uk,derbyshiretimes.co.uk,lep.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,peterboroughtoday.co.uk#$#.pub_300x25.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
@@ -1616,6 +1625,12 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 !+ NOT_PLATFORM (windows, mac, android)
 @@||androidworld.it^$generichide
 !
+@@||mangafox.fun/adsbygoogle.js
+imtranslator.net#@#.adsBox
+imtranslator.net#@#.adsbox
+@@||modelist-konstruktor.com*/_adsense_/*.json
+@@||cdn.cdn000.club/cnads.js
+duolingo.com##div[class^="_"]:has(> div[class^="_"] > a[href*="How-can-I-disable-my-ad-blocker-to-support-Duolingo"])
 tesall.ru##.test-blocker
 1fichier.com##.alc > .ct_warn
 petrimazepa.com##div[role="dialog"][style^="position: fixed; height: auto; width: 415px;"]
@@ -4321,6 +4336,11 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+||consent.dk/consent/bootstrap.js
+fantrax.com##toast > section.toast.ng-trigger-enterLeave
+prostoporno.sexy##.cookie-message
+producthunt.com##.app_1151c > div.container_3300b
+baon.hu###cookie-window
 uptodate.com##body > .cookie-accept
 quicksave.su##.banner-policy-wrap
 ||nordbysupermarket.se/cookie-warning/cookie-warning.js
@@ -6034,6 +6054,8 @@ ziekenhuis.nl#%#AG_onLoad(function() { setTimeout(function() {var check = docume
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/23930
+@@||mac4ever.com/min.php?*/javascript/cookieconsent.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23556
 @@||mirrorlessrumors.com/wp-content/plugins/ginger/front/js/cookies-enabler.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23379
@@ -7119,6 +7141,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+finans.dk##.desktopFloatingBanner
 lidl.de##.newsletter-extra-wrap
 gearslutz.com##.EngagementDrawer
 huffingtonpost.jp###newsletter-toaster
@@ -8459,6 +8482,7 @@ wallstreet-online.de,dni.ru,polit.info#%#if (window.PushManager) { window.PushMa
 sports.ru#%#(function() { try { if ("undefined" != typeof localStorage) { var a = { date: (new Date).toString(), time: (new Date).getTime(), data: 2 }; localStorage.setItem("sports:view:notifications-subscribe-popup:closed:count", JSON.stringify(a)) } } catch (ex) {} })();
 sports.ru#%#(function() { try { if ("undefined" != typeof localStorage) { var a = { date: (new Date).toString(), time: (new Date).getTime(), data: true }; localStorage.setItem("sports:view:notifications-subscribe-popup:view", JSON.stringify(a)) } } catch (ex) {} })();
 !
+vc.ru##.push_offer
 ettoday.net##.et_push_notification
 jpost.com##.jeeng-widght
 businessinsider.com.pl###pushBell
@@ -9224,6 +9248,8 @@ radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-station__
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/23755
+epicbundle.com##.blogArticleAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23655
 benchmark.pl##[class^="productCompareSimilar "]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23399

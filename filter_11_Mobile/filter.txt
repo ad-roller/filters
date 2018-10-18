@@ -980,6 +980,9 @@
 ! https://github.com/AdguardTeam/AdguardForiOS/issues/255
 @@||m.beautypageants.in^$elemhide
 !---
+! https://github.com/AdguardTeam/AdguardFilters/issues/23913
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anlink.top
 ! nrz.de
 !+ PLATFORM(ios, ext_android_cb)
 @@||nrz.de^$generichide
@@ -1342,6 +1345,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/23772
+@@||pics.porndroids.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18815
 @@||api.gamer.com.tw/mobile_app/anime/*/stat_ad.php
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23118
@@ -1661,6 +1666,10 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+sarkariyojana-com.cdn.ampproject.org,sarkariyojana.com##.amp-adv
+anlink.top##iframe[src^="//ad.a-ads.com"]
+octoba.net##.sp-middle2-ads
+octoba.net##.contentbody > .post > div[style="height:100px;overflow:hidden;text-align:center;padding:1em 0 0 0;"]
 jiji.com##[amp] #recommend_list
 novelplanet.com###divReadContent > div[style="text-align: center; margin-bottom: 10px"]
 m.eprice.com.tw##.ad-300x250-g
