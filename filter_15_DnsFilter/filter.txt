@@ -3,13 +3,14 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-10-18 14:28:55
+! Last modified: 2018-10-20 14:30:27
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! AdGuard Filters
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||chygam.ru^
 ||rbrxg.com^
 ||leuxq.com^
 ||jsc.idealmedia.io^
@@ -3593,6 +3594,8 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||poogriry.click^
+||wirenth.com^
 ||4dsbanner.net^
 ||spunto.ru^
 ||apopgo.com^
@@ -11844,8 +11847,10 @@ ws*://video.docfilms.info^
 ||aikdakxoc.com^
 ||aitdwhmcvlm.com^
 ||aizopowmtnho.com^
+||ajttqxeqg.com^
 ||akmihtdbbz.com^
 ||akzvxmjnubq.com^
+||aljsuubo.com^
 ||alkagrkgvltzlk.com^
 ||allnvbtrtpku.com^
 ||amaecylce.com^
@@ -11930,6 +11935,7 @@ ws*://video.docfilms.info^
 ||ctjtlrmy.com^
 ||cttnlnsnwdokqb.com^
 ||cvhcrbbbfaa.com^
+||cvjzauehxjsy.com^
 ||cxxsegmhltakq.com^
 ||cxzisvjhpt.com^
 ||cybzsdkmrqgy.com^
@@ -11952,6 +11958,7 @@ ws*://video.docfilms.info^
 ||dmkadnohjoqh.com^
 ||dmrqnwtyttd.com^
 ||dqekudhbwprx.com^
+||dsemgngou.com^
 ||dtqcjtkytuqn.com^
 ||duwrigndkjp.com^
 ||dvdyicsndqbqo.com^
@@ -12000,6 +12007,7 @@ ws*://video.docfilms.info^
 ||fkfmujcudpwdn.com^
 ||flbecoidmt.com^
 ||flnqkhnqjcmvp.com^
+||flvuylhsyg.com^
 ||fngoubeq.com^
 ||fnuuhrhfkvpbnm.com^
 ||fpdsavexteno.com^
@@ -12044,6 +12052,7 @@ ws*://video.docfilms.info^
 ||gqlaoeyczxsvk.com^
 ||gqlmavnoavcaw.com^
 ||grkrkurbyykok.com^
+||gsghbxydcyum.com^
 ||gsjhehtqvin.com^
 ||gtorsoxdh.com^
 ||gvahzhgblkkyr.com^
@@ -12218,6 +12227,7 @@ ws*://video.docfilms.info^
 ||lxymfyptdrast.com^
 ||lybmmxah.com^
 ||lykuxkxsvvnxqd.com^
+||lyyenjcocog.com^
 ||lzopoqzlihfbc.com^
 ||maidlytsnrn.com^
 ||mbixofultnnd.com^
@@ -12327,6 +12337,7 @@ ws*://video.docfilms.info^
 ||prulogzjtyksnh.com^
 ||psborsxlcorxuq.com^
 ||ptiniretm.com^
+||ptkgzsqf.com^
 ||ptrahwwg.com^
 ||ptxqjyqhscs.com^
 ||ptyezfyxcaeu.com^
@@ -12384,6 +12395,7 @@ ws*://video.docfilms.info^
 ||qzbnokxxvvpwf.com^
 ||qzhaqsxb.com^
 ||rahvoujjgmtvft.com^
+||rbefggthfx.com^
 ||rbtpsbtzh.com^
 ||rcumwyqkv.com^
 ||rdfpnzisjyiwtu.com^
@@ -12511,6 +12523,7 @@ ws*://video.docfilms.info^
 ||utbclxmcv.com^
 ||utmcttmdaoqd.com^
 ||utuqrzwg.com^
+||utxatnjs.com^
 ||uubxhbwnwmfqp.com^
 ||uvlyzxml.com^
 ||uvniygdwmoojfm.com^
@@ -12543,6 +12556,7 @@ ws*://video.docfilms.info^
 ||vsrpztnxdejo.com^
 ||vsrsviytlb.com^
 ||vsxjjmyz.com^
+||vtgdjgtwl.com^
 ||vtmkgqcvzvlsdt.com^
 ||vudbfsnvyzxo.com^
 ||vuwojxgklca.com^
@@ -12550,6 +12564,7 @@ ws*://video.docfilms.info^
 ||vwkyuawm.com^
 ||vwpoxvufxnon.com^
 ||vxkupxpf.com^
+||vxyqsxeo.com^
 ||vyjwsifvybc.com^
 ||vzhlsmmboaqxlv.com^
 ||vzlyapss.com^
@@ -12570,6 +12585,7 @@ ws*://video.docfilms.info^
 ||wiklrrrwqqf.com^
 ||wjgddzpvx.com^
 ||wjpdgueqasdgeq.com^
+||wkwakmsttsehi.com^
 ||wmqdgaptep.com^
 ||wnstpoiqrv.com^
 ||woghqyjpiwddme.com^
@@ -12599,6 +12615,7 @@ ws*://video.docfilms.info^
 ||xhlrlyygx.com^
 ||xibnqcksoax.com^
 ||xihkdzijh.com^
+||xiodoyvbauv.com^
 ||xkgbbiqqekja.com^
 ||xkhxejeaarq.com^
 ||xkjlcqbufdlwrq.com^
@@ -12624,6 +12641,7 @@ ws*://video.docfilms.info^
 ||xvxcpdcnfgte.com^
 ||xwavfvpzg.com^
 ||xwrmlohlri.com^
+||xzcdzfkwk.com^
 ||xzwynraczfcq.com^
 ||xzywlbgldmpi.com^
 ||yaikleyabl.com^
@@ -12660,6 +12678,7 @@ ws*://video.docfilms.info^
 ||zabpkrvgswdroz.com^
 ||zajawwgpl.com^
 ||zbsqhxyjlh.com^
+||zcchnqgq.com^
 ||zcczlrtbbx.com^
 ||zfpsotrgboqp.com^
 ||zgwuvfye.com^
@@ -22287,7 +22306,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bloomjoy.com^
 ||botman.ninja^
 ||bouncepilot.com^
-||bpmonline.com^
 ||branch.io^
 ||bunchbox.co^
 ||c-rings.net^
@@ -22366,6 +22384,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||heatmap.services^
 ||hira-meki.jp^
 ||hivps.xyz^
+||hospitality-optimizer.com^
 ||host-tracker.com^
 ||hotdogsandads.com^
 ||hsadspixel.net^
@@ -22431,6 +22450,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||mppapi.io^
 ||msparktrk.com^
 ||mstrlytcs.com^
+||murdoog.com^
 ||musthird.com^
 ||mynsystems.com^
 ||nakanohito.jp^
@@ -22564,6 +22584,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tw.cx^
 ||txmoadserver.net^
 ||tz284.com^
+||u5c93.com^
 ||uciservice.com^
 ||uhygtf1.com^
 ||ultratokensx.com^
@@ -23226,7 +23247,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||r24-tech.com^
 ||retag.xyz^
 ||rnet.plus^
-||ru.net^
 ||sarov.ws^
 ||sas.com^
 ||stat-well.com^
@@ -24828,6 +24848,8 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 !
 ! Tracking
 !
+! replacing ||bpmonline.com^ from easyprivacy
+*.bpmonline.com^
 ! https://github.com/AdguardTeam/AdguardDNS/issues/52
 ||analytics.twitter.com^
 ||click.aliexpress.com^$image,script
@@ -24947,6 +24969,9 @@ raovat.vnecdn.net^
 !--------------------
 !
 ! Adguard DNS exceptions
+! https://github.com/AdguardTeam/AdguardFilters/issues/23929
+@@||cm-beacon.nakanohito.jp^|
+@@||cm-widget.nakanohito.jp^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19113
 @@||ads.tdbank.com^
 ! https://forum.adguard.com/index.php?threads/23410/page-7#post-165504

@@ -340,6 +340,8 @@
 @@|http://resource.redirect.kukuplay.com/upload/zhangyu
 ! @@|http://rm.sina.com.cn/minisite/20140421emarketing/js/ is excluded by: @@
 @@|http://rm.sina.com.cn/minisite/20140421emarketing/js/
+! @@|http://rm.sina.com.cn$domain=weibo.com is excluded by: @@
+@@|http://rm.sina.com.cn$domain=weibo.com
 ! @@|http://rr.knet.cn/static/images/logo/cnnic.png$image is excluded by: @@
 @@|http://rr.knet.cn/static/images/logo/cnnic.png$image
 ! @@|http://s.acs86.com/crossdomain.xml is excluded by: @@
