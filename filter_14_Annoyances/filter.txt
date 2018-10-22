@@ -183,8 +183,6 @@ crazymailing.com#$#body.download-pl { padding-top: 0!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12831
 wikitribune.com##.wt-support-us
 !
-cracxsoftwares.com#$#.onp-sl-content { display:block!important; }
-cracxsoftwares.com#$#.onp-sl-social-locker { display:none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11980
 providr.com###mc_embed_signup
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11757
@@ -193,12 +191,6 @@ mercurynews.com##.sign-up-follow
 m.auto.ru##.index-evaluation-banner
 m.auto.ru##.index-autocode-banner
 m.auto.ru##.ListingPromoParts__wrapper
-! https://github.com/AdguardTeam/AdguardFilters/issues/9851
-serialkeypro.com#$#.onp-sl-content { display:block!important; }
-serialkeypro.com#$#.onp-sl-social-locker { display:none!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/11076
-fullpcsoftz.com#$#.onp-sl-content { display:block!important; }
-fullpcsoftz.com#$#.onp-sl-social-locker { display:none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11496
 dnepr.info##.btn-ads-fix
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11245
@@ -808,6 +800,7 @@ horo.mail.ru##body > div.tooltip:has(div.m-push-notifications__buttons)
 kino.mail.ru##body > div.tooltip:has(div.m-push-notifications__buttons)
 ||mail.ru/*/js/cmpld/_push.js
 ! start page
+lady.mail.ru###ph-extension-block
 health.mail.ru###ph-extension-block
 auto.mail.ru###ph-extension-block
 hi-tech.mail.ru###ph-extension-block
@@ -828,6 +821,7 @@ horo.mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+igniel.com###ignielNewsletter > .email__
 updatesmarugujarat.in###twist-blogger-sbox-v2
 kakprosto.ru###blocks-sidebar-follow-us-block
 sunderlandecho.com##.newsletter-mobile-widget
@@ -1411,33 +1405,20 @@ solidsoftwaretools.com#$#div[class][data-locker-id] { display: block!important; 
 ! Social Locker - WordPress content locking plugin
 /wp-content/plugins/sociallocker-
 ! onp-sl-social-locker
+creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-social-locker { display: none!important; }
+creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-content { display: block!important; }
+psdfreebies.com#$#.onp-locker-call { display: block!important; }
+warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
 windowstechblog.nl#%#AG_onLoad(function() { window.bizpanda = {}; });
 windowstechblog.nl#$#.onp-sl-blur-area[style="filter: blur(5px);"] { filter: none!important; }
-oxo-nulled.info#$#.onp-sl-social-locker { display: none!important; }
-oxo-nulled.info#$#.h-item-download { display: block!important; }
 gigadownloads.co,techsini.com##.onp-sl-overlap-box
 /pandalocker.$script,domain=lanka.ru
 0lik.ru##.onp-sl-outer-wrap
 0lik.ru$replace=/locker:{\s+timer:\s'\d\d'/locker: { timer: '1'/
-soft7star.com#$#.onp-sl-social-locker { display: none!important; }
-soft7star.com#$#.onp-sl-content { display: block!important; }
-profullcrack.com#$#.onp-sl-social-locker { display: none!important; }
-profullcrack.com#$#.onp-sl-content { display: block!important; }
-freeappstorepc.com#$#.onp-sl-social-locker { display: none!important; }
-freeappstorepc.com#$#.onp-sl-content { display: block!important; }
-sjcrack.com#$#.onp-sl-content { display: block!important; }
-sjcrack.com#$#.onp-sl-social-locker { display: none!important; }
-ckfile.com#$#.onp-sl-content { display: block!important; }
-ckfile.com#$#.onp-sl-social-locker { display: none!important; }
-gomovies.co#$#.onp-sl-content { display: block!important; }
-gomovies.co#$#.onp-sl-social-locker { display: none!important; }
-sajidpc.com#$#.onp-sl-content { display: block!important; }
-sajidpc.com#$#.onp-sl-social-locker { display: none!important; }
-c4crack.com,warezcrack.net#$#.onp-sl-content { display: block!important; }
-c4crack.com,warezcrack.net#$#.onp-sl-social-locker { display: none!important; }
 warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
-crackflare.com#$#.onp-sl-content { display: block!important; }
+djcracx.com#$#.onp-locker-call { display: block !important; }
 !
+newkaliningrad.ru##.soclinks__list
 hdkino.biz##.right-col > div[class="right-block"]:first-child
 jp.techcrunch.com##body #stcky-footer
 informator.news##.td-social-list
@@ -4344,6 +4325,8 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+vivense.com##.cookie-warning-wrapper
+zaful.com##.cookie-tip-wrap
 ginagerson.xxx###gdpr-cookie-accept
 ||cdn.rp.pl/rodo-agreement-popup/rodo-agreement-popup.min.js
 rappler.com##.cp-slider-popup
@@ -4874,7 +4857,7 @@ ocsworldwide.co.uk###divcookie
 knowyourmeme.com,cheezburger.com##div[id^="sp_message"]
 myecotest.com##.pp-cookies-notice
 shophair.ru##.modal_popup_sessid_box
-tomshardware.co.uk##.prism-modal
+tomshardware.com,tomshardware.co.uk##.prism-modal
 motor1.com###privacy_accept
 gadgetsnow.com##.consent-popup
 m.standaard.be##.gdpr-dialog
@@ -5950,6 +5933,8 @@ m.lavenir.net#$#main[role="main"] { transform: translateY(0px)!important; }
 !
 ! Extended CSS rules
 !
+nytimes.com##div[class^="expanded css-"]:has(a[href="https://nytimes.com/cookie-policy"])
+nytimes.com##div[class^="shown expanded css-"]:has(a[href="https://nytimes.com/cookie-policy"])
 maximum.com.tr##.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 mycinema.pro##[class][-ext-has=">span:contains(Cookies help us deliver our services. By using our services, you agree to our use of cookies.)"]
 bmwfaq.org##.Notices[-ext-has='a[href="//www.bmwfaq.org/help/cookies"]']
@@ -6059,6 +6044,8 @@ ziekenhuis.nl#%#AG_onLoad(function() { setTimeout(function() {var check = docume
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24193
+@@||flowbox.io/wp-content/plugins/uk-cookie-consent^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24040
 @@||pole-emploi.fr/*/jquery-eu-cookie-law-popup.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23930
@@ -6419,6 +6406,8 @@ run.az##div[class$="bolmem"][-ext-has='load:contains(Sayğac)']
 ! Popular among Facebook
 facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"][-ext-has='div._5_xt']
 m.facebook.com##.storyStream > #MNewsFeed > section.storyStream > article[-ext-has='div._xlq']
+! move rule to English filter if still nothing broken on 31.10.2018
+facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"][-ext-has='[id*="feed_subtitle_"] a[href^="https://www.facebook.com/#"] > span > span']
 ! End Facebook
 techrepublic.com##.row > .col-4 > section:not([class]):not([id]):has(>.keep-up > .newsletter-wrap)
 designmodo.com###sidebar-wrapper > .sidebar-h3:contains(Newsletter)
@@ -6633,6 +6622,7 @@ gir.im##.smartbanner
 !+ NOT_PLATFORM(ios, ext_android_cb)
 shazam.com##.shz-frame-apps-banner
 !
+boston.com##.content-toaster--mobile-app
 gaana.com###smsbanner
 ||m.autohome.com.cn/news/cdn_20180706/view/ah/nsee.html
 ck101.com###app-download
@@ -7148,6 +7138,10 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+журналистика-обучение.рф##.spu-bg
+журналистика-обучение.рф##.spu-box
+tomshardware.com###ec-modal
+boston.com##.content-toaster--newsletter
 ejje.weblio.jp###free-house-ad-on-load-modal-overlay
 ejje.weblio.jp###free-house-ad-on-load-modal-container
 ||weblio.hs.llnwd.net/*/script/include/house_ad_on_load_modal_smp.js
@@ -9261,6 +9255,8 @@ radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-station__
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24194
+trakt.tv###huckster-mobile-square-wrapper
 ! notizie.tiscali.it in article
 notizie.tiscali.it##.pull-right .nplr > a img
 notizie.tiscali.it##body > div[id^="tsSkinAuto"]
@@ -9491,6 +9487,8 @@ alexfitness.ru#$#.modal-open { overflow: visible!important; }
 gearbest.com##.siteBanner
 gearbest.com##.siteFooter_banner
 !
+premier.ua###bpu_prem_side
+premier.ua##.flying-action
 search.yahoo.com###browserExtensionPromotionBanner
 sports.ru##.news-item__content > .ad
 autogrodno.by###gkPageContent > aside#gkSidebar
@@ -9669,7 +9667,7 @@ politicaluk.com#$#.post-nav .nav-links { visibility: visible!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16558
 pu.nl#$#.article-meta { height: auto!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15059
-gesundheitsfrage.net,gutefrage.net,finanzfrage.net#$#gf-deferred-content.u-invisible { visibility: visibile!important;}
+gesundheitsfrage.net,gutefrage.net,finanzfrage.net#$#gf-deferred-content.u-invisible { visibility: visible!important;}
 gesundheitsfrage.net,gutefrage.net,finanzfrage.net#$#gf-shortened-block.is-short { max-height: none!important; }
 gesundheitsfrage.net,gutefrage.net,finanzfrage.net#$#.is-short::after { background:none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14804
@@ -10167,6 +10165,4 @@ fosshub.com##.download-dl-boxDN
 !
 ! Social locker widget
 !
-f4freesoftware.com#$#.onp-sl-content {display:block!important;}
-f4freesoftware.com#$#.onp-sl-social-locker {display:none!important;}
 
