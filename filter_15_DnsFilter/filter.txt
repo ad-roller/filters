@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-10-22 14:32:06
+! Last modified: 2018-10-24 14:32:50
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,11 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||cbgunpz3aoayscg.ru^
+||7offers.ru^
+||cqhciif9bjtplrc.ru^
+||trevoltas.pro^
+||dounwil.ru^
 ||forum.globusevent.ru^
 ||bgclck.me^
 ||prnhpe.pro^
@@ -3599,6 +3604,7 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||culsauwou.com^
 ||coinhits.com^
 ||poogriry.click^
 ||wirenth.com^
@@ -4976,6 +4982,7 @@ ws*://video.docfilms.info^
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers.txt]
 !
 !
+||performancenative.com^
 ||git.emarketing724.com^
 ||smrtbnr.top^
 ||binaryad.com^
@@ -11941,6 +11948,7 @@ ws*://video.docfilms.info^
 ||cfskcqrwbog.com^
 ||cgaemihcbvr.com^
 ||cgkpwhkgjxo.com^
+||cgrvnpkwuytts.com^
 ||cifipkbu.com^
 ||cjgpifztileh.com^
 ||cjojvvfyb.com^
@@ -11967,6 +11975,7 @@ ws*://video.docfilms.info^
 ||cybzsdkmrqgy.com^
 ||cyhcpeprgy.com^
 ||cytpfucbb.com^
+||czqrilwnayq.com^
 ||dbuwkhpggim.com^
 ||dcyeufoq.com^
 ||degitlwfezpe.com^
@@ -12160,6 +12169,7 @@ ws*://video.docfilms.info^
 ||itzgybxfrbodq.com^
 ||iwfzluau.com^
 ||iwgdguuz.com^
+||ixsogpaexhgzn.com^
 ||iybkbyciv.com^
 ||izavihllfvej.com^
 ||izwzyhlm.com^
@@ -12319,6 +12329,7 @@ ws*://video.docfilms.info^
 ||ntkuokicthbxc.com^
 ||ntoyqqrwrmzr.com^
 ||ntwhbuqmel.com^
+||nvgcmeqfn.com^
 ||nvztwdkbldp.com^
 ||nwwuhiukrq.com^
 ||nxewruvxprbd.com^
@@ -12403,6 +12414,7 @@ ws*://video.docfilms.info^
 ||qkyzjwhyeh.com^
 ||qlatsfeyg.com^
 ||qnhwhedcrzeodd.com^
+||qnzelsgj.com^
 ||qolrlwwirf.com^
 ||qopqudzeaywc.com^
 ||qowmqduocv.com^
@@ -12410,6 +12422,7 @@ ws*://video.docfilms.info^
 ||qpqnbnsnosdss.com^
 ||qqcbzxwzpmzdcd.com^
 ||qsoetgedlgyhyz.com^
+||qtahsbgdqbu.com^
 ||qukqptxilr.com^
 ||qupiinlyjuf.com^
 ||qwittqgogiip.com^
@@ -12423,6 +12436,7 @@ ws*://video.docfilms.info^
 ||qytuwxcozbk.com^
 ||qzbnokxxvvpwf.com^
 ||qzhaqsxb.com^
+||qzizjjyvsa.com^
 ||rahvoujjgmtvft.com^
 ||rbefggthfx.com^
 ||rbtpsbtzh.com^
@@ -12438,6 +12452,7 @@ ws*://video.docfilms.info^
 ||rgvrddwoccsgn.com^
 ||rhqrfnkngrhrha.com^
 ||rhypgggd.com^
+||rhzpcnueogbexb.com^
 ||rigoczly.com^
 ||rjeksrigwzm.com^
 ||rjirxadtq.com^
@@ -12446,6 +12461,7 @@ ws*://video.docfilms.info^
 ||rkgznnhikrfphq.com^
 ||rlgungosm.com^
 ||rmjwdosemtg.com^
+||rmwjtqazyk.com^
 ||rnlfitypkucbhi.com^
 ||roibwbjaclwgg.com^
 ||ropkrhilt.com^
@@ -12460,6 +12476,7 @@ ws*://video.docfilms.info^
 ||runwtxeisppmt.com^
 ||ruodzaboyf.com^
 ||rvtxrtzbswdji.com^
+||rwphwhdoktfq.com^
 ||rwugdvqdpxfz.com^
 ||rwugglxboxgw.com^
 ||ryybhoklizmuew.com^
@@ -12535,6 +12552,7 @@ ws*://video.docfilms.info^
 ||uenpibqyjvim.com^
 ||ufnozeotbqsn.com^
 ||ufugfbtpp.com^
+||ugkppchlelde.com^
 ||ugwkyqdbmpwbbi.com^
 ||ugzpvflxa.com^
 ||uimrmuoztkoia.com^
@@ -12571,6 +12589,7 @@ ws*://video.docfilms.info^
 ||vemrhavwgchp.com^
 ||veoujrnenng.com^
 ||vfnemtpehzmzwc.com^
+||vgogzrukn.com^
 ||vhdvllhgyrjy.com^
 ||vickgdkdrwpdt.com^
 ||vkhrnisuky.com^
@@ -12621,6 +12640,7 @@ ws*://video.docfilms.info^
 ||wnstpoiqrv.com^
 ||woghqyjpiwddme.com^
 ||wozltvfxtntaqk.com^
+||wplqgfpj.com^
 ||wqobjrevtkqym.com^
 ||wqpyqirgzfqsc.com^
 ||wstvcgfkvc.com^
@@ -17822,6 +17842,8 @@ ws*://video.docfilms.info^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||smpl.hit.ppdb.pl^
+||topiz.ru^
 ||hit.interia.pl^
 ||socialhoney.co^
 ||trk.olnl.net^
@@ -22465,7 +22487,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||leadsrx.com^
 ||limbik.io^
 ||linksynergy.com^
-||litix.io^
 ||livesegmentservice.com^
 ||livetrafficfeed.com^
 ||locotrack.net^
@@ -24580,7 +24601,6 @@ charlestownwyllie.oaklawnnonantum.com^
 |https://a.pr-cy.ru^
 ||a.tovarro.com^
 ||awaps.yandex.ru^
-||clck.yandex.ru^
 ||cnstats.cdev.eu^
 ||cnt.rate.ru^
 ||count.yandeg.ru^
@@ -24995,6 +25015,8 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 !
 ! Ads
 !
+||adocean.cz^
+||doubleclick.net^
 ||tt.onthe.io^
 ||dualstack.adbert-web-lbs-*.elb.amazonaws.com^
 ||weline.info^

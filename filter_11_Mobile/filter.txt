@@ -1345,6 +1345,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24331
+@@||s.youtube.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23772
 @@||pics.porndroids.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18815
@@ -1666,6 +1668,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+eroido.jp##.adv_dmm
+eroido.jp##body > div#div_container[style^="position: fixed;"]
 ru-porn.org##.bannergroup-topteaser
 sarkariyojana-com.cdn.ampproject.org,sarkariyojana.com##.amp-adv
 anlink.top##iframe[src^="//ad.a-ads.com"]
@@ -2675,6 +2679,9 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.quoord.tapatalkpro.activity
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24182
+@@||imasdk.googleapis.com^|$app=com.nextmediatw
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=com.nextmediatw
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18815
 @@||imasdk.googleapis.com^$app=tw.com.gamer.android.animad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22839
