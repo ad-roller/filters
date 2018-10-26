@@ -244,6 +244,8 @@
 @@|http://imgcache.qq.com/music/photo/
 ! @@|http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json is excluded by: @@
 @@|http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=json
+! @@|http://jobsfe.funshion.com/query is excluded by: @@
+@@|http://jobsfe.funshion.com/query
 ! @@|http://irs01.net/MTFlashStore.swf$domain=56.com is excluded by: @@
 @@|http://irs01.net/MTFlashStore.swf$domain=56.com
 ! @@|http://isdspeed.qq.com/cgi-bin/r.cgi?flag1= is excluded by: @@
@@ -3436,6 +3438,8 @@
 |https://btdiggs.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
 |https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+! Invalid rule options:
+|https://www.666kao.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:
 |https://www.busdmm.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
 ! Invalid rule options:

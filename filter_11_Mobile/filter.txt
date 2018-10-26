@@ -1071,6 +1071,13 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24411
+bunshun.jp##.sp-list-thumb > li[-ext-has='.pr']
+! https://github.com/AdguardTeam/AdguardFilters/issues/24412
+mdpr.jp##aside > .ad-f__link[-ext-has='.ad-f__sup--pr']
+mdpr.jp##.media__list > .media__item[-ext-has='.media__sup:contains(PR)']
+! https://github.com/AdguardTeam/AdguardFilters/issues/24417
+s.response.jp##.ranking-list > .item[-ext-has='a > .pr']
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23663
 !! mobile main page ad
 quora.com##.mobile_app2 .paged_list_wrapper > span[id] > .Bundle:not(.AnswerStoryBundle):has(a[href][target="_blank"][rel="noopener nofollow"]):has( > div:contains(/promoted\s*by\s*/))
@@ -1100,9 +1107,6 @@ m.auto.ru##.content > div.card > div[class*="_type_card"]:not([data-bem]):has(> 
 www-chip-de.cdn.ampproject.org##.amp-article > div:not([class]):not([id]) > .amp-article-chapter[-ext-has='.cart']
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13649
 mobile.twitter.com##section[role="region"] > div > div[style^="padding-bottom"] > div[class] > div[class][-ext-has='div.rn-1uif7bo[dir="auto"]']
-! https://github.com/AdguardTeam/AdguardFilters/issues/13010
-spcs.me##body.mobile div[class]:has(> div[class] > img[title="Закрыть"])
-spcs.me##body.mobile div[class]:has(> div[class] > img+a[class^="arrow_link"])
 ! reddit.com hiding promoted posts on mobile device
 reddit.com##.PostsList > .Post[-ext-has='.PostHeader__promoted-flair']
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11988
@@ -1165,6 +1169,7 @@ m.reddit.com##article[class="Post size-compact"][-ext-has=".PostHeader__sponsore
 ##img[width="320"][height="50"]
 ##iframe[width="320"][height="50"]
 ! AMP websites ad container class
+##amp-iframe[src^="https://widgets.outbrain.com"]
 ##.amp-ad-container
 ##.amp-ad container
 ##amp-ad
@@ -1668,6 +1673,20 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+mdpr.jp##.recommend-dd-link
+rocketnews24.com###related-posts
+fnn.jp##.Ad
+cinematoday.jp##.ct-ad
+sanspo.com##amp-iframe[src^="https://static.aja-recommend.com"]
+s.response.jp##.arti-body > p[style="margin-bottom:5px;"] > .bottom-link
+s.response.jp##.relation-arti-list
+s.response.jp###ad1
+s.response.jp##.relation-arti-list > .item[style="padding-bottom:10px;"]
+cnn.co.jp##amp-iframe[src^="https://widgets.outbrain.com"]
+tocana.jp##amp-iframe[src^="https://taxel.jp/amp/sponsor.html"]
+www-buzzfeed-com.cdn.ampproject.org##amp-layout.ad-bsu
+www-buzzfeed-com.cdn.ampproject.org##amp-layout.ad-promo-bottom
+www-buzzfeed-com.cdn.ampproject.org##amp-layout.ad-amp--inline
 eroido.jp##.adv_dmm
 eroido.jp##body > div#div_container[style^="position: fixed;"]
 ru-porn.org##.bannergroup-topteaser
@@ -2559,6 +2578,7 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ! Google ads (be careful)
 ||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
 ! Blocking of Facebook ads
+||graph.facebook.com^$app=com.lazymasters.wordweekend
 ||graph.facebook.com^$app=com.worldradios.ukraine
 ||graph.facebook.com^$app=net.b92.android.brisbane
 ||graph.facebook.com^$app=mobi.drupe.app
