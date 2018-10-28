@@ -2022,8 +2022,8 @@
 |http://*/img/ad.jpg$image
 ! |http://*/img/ad/ is excluded by: |http://*
 |http://*/img/ad/
-! |http://*/img/ads/$image is excluded by: |http://*
-|http://*/img/ads/$image
+! |http://*/img/ads/$image,domain=~open.com.cn is excluded by: |http://*
+|http://*/img/ads/$image,domain=~open.com.cn
 ! |http://*/imgad is excluded by: |http://*
 |http://*/imgad
 ! |http://*/img_ad/$image is excluded by: |http://*
@@ -3365,105 +3365,105 @@
 ! Invalid rule options:
 ||mobads.baidu.com$agent=~Android
 ! Invalid rule options:
-||16888.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||16888.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||bitauto.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||bitauto.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||ddc.net.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||ddc.net.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
-||renrencili.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||renrencili.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://4pda.ru/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://4pda.ru/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://btdiggs.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://btdiggs.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://bbs.pcbeta.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/koolproxy-element-hiding.js"></script></head>@
 ! Invalid rule options:
-|http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://gaoqing.la/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://gaoqing.la/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://sports.mop.com/$s@</body>@<script>inHackcss.H('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
 ! Invalid rule options:
-|http://www.21rv.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.21rv.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.66rd.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.66rd.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.bidchance.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.bidchance.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.btjia.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.btjia.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.cnautonews.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.cnautonews.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.creaders.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.creaders.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://www.creaders.net/$s@</body>@<script>inHackcss.H('[style="padding:5px 0px;"]')</script></body>@
 ! Invalid rule options:
-|http://www.doutula.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.doutula.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.hanzify.org/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.hanzify.org/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.kuoo8.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.kuoo8.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.kengso.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.kengso.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.sopanxia.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.sopanxia.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.xitongtiandi.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://www.xitongtiandi.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://zhongzishenqi.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|http://zhongzishenqi.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||https://eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||https://eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||https://eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
-||https://javbus.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||https://javbus.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||https://pchome.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||https://pchome.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||https://qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+||https://qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||https://qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
-|https://91mjw.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://91mjw.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://btdiggs.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://btdiggs.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.666kao.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.666kao.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.busdmm.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.busdmm.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.busjav.cc/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.busjav.cc/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.bttiantangs.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.bttiantangs.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://cnbtkitty.me/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://cnbtkitty.me/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.qdmm.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.qdmm.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.qdmm.com/$s@</body>@<script>inHackcss.H('.top-game-op,.banner-wrap.box-center.mb40,.focus-img.cf')</script></body>@
 ! Invalid rule options:
-|https://www.gaoqingkong.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.gaoqingkong.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.gamersky.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.gamersky.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</body>@<script>inHackcss.H('#j-topOpBox')</script></body>@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</body>@<script>inHackcss.H('.focus-img.cf')</script></body>@
 ! Invalid rule options:
-|https://www.v2ex.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/fcss.mini.js"></script></head>@
+|https://www.v2ex.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.v2ex.com/$s@</body>@<script>inHackcss.H('.sidebar_compliance')</script></body>@
 ! Invalid selector:
