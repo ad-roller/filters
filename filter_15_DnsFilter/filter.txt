@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-10-28 14:35:08
+! Last modified: 2018-10-30 14:36:18
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,10 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||zurgerya.ru^
+||doptik.ru^
+||apiyandex.site^
+||adverdata.net^
 ||her-ber.top^
 ||blablabla.pp.ua^
 ||look-reklama.ru^
@@ -3610,6 +3614,11 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||newsupdatewe.info^
+||intertakekuhy.info^
+||gaitheed.com^
+||aiwhebey.com^
+||propellerclick.com^
 ||koapsooh.click^
 ||ryllae.com^
 ||blastnotificationx.com^
@@ -3968,7 +3977,6 @@ ws*://video.docfilms.info^
 ||niajmtjqexq.co^
 ||adkernel.com^
 ||dopor.info^
-||tmearn.com^
 ||yaranitsa.info^
 ||ovustav.ru^
 ||plutusads.com^
@@ -4839,6 +4847,9 @@ ws*://video.docfilms.info^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||dxprljqoay4rt.cloudfront.net^
+||dash.tmearn.com^
+||d1uanozc5el74n.cloudfront.net^
 ||djz9es32qen64.cloudfront.net^
 ||drrcckbju3nd0.cloudfront.net^
 ||dkm6b5q0h53z4.cloudfront.net^
@@ -6508,6 +6519,7 @@ ws*://video.docfilms.info^
 ||aa.voice2page.com^
 ||aaa.at4.info^
 ||aaa.dv0.info^
+||aaxads.com^
 ||abasourdir.tech^
 ||abletomeet.com^
 ||aboutads.quantcast.com^
@@ -11892,6 +11904,7 @@ ws*://video.docfilms.info^
 ! popads.net
 ||aayaknbn.com^
 ||abfcfxfkzmiqht.com^
+||acduswfvyjylzq.com^
 ||achsijkc.com^
 ||acrsgxeah.com^
 ||acvxsptoqh.com^
@@ -11912,6 +11925,7 @@ ws*://video.docfilms.info^
 ||alkagrkgvltzlk.com^
 ||allnvbtrtpku.com^
 ||amaecylce.com^
+||amauzaqp.com^
 ||aonxktnn.com^
 ||apddozcgdh.com^
 ||artsdvaguur.com^
@@ -11981,6 +11995,7 @@ ws*://video.docfilms.info^
 ||cifipkbu.com^
 ||cjgpifztileh.com^
 ||cjojvvfyb.com^
+||cjsgmoekcb.com^
 ||ckxyvauhqfuoin.com^
 ||clgyhwaoh.com^
 ||clsvugmivpf.com^
@@ -12025,9 +12040,11 @@ ws*://video.docfilms.info^
 ||dmrqnwtyttd.com^
 ||dqekudhbwprx.com^
 ||dsemgngou.com^
+||dsgjefwejkc.com^
 ||dtqcjtkytuqn.com^
 ||duwrigndkjp.com^
 ||dvdyicsndqbqo.com^
+||dwopbruzifg.com^
 ||dwvfccxbj.com^
 ||dxqorupwedbotu.com^
 ||dxzgoyzo.com^
@@ -12036,6 +12053,7 @@ ws*://video.docfilms.info^
 ||dywqwrtnhegyz.com^
 ||dzqoubtxsaskdl.com^
 ||dzztjcbt.com^
+||eaffxhnzh.com^
 ||ebbhjxspf.com^
 ||ebifuaad.com^
 ||eekmkywfke.com^
@@ -12081,6 +12099,7 @@ ws*://video.docfilms.info^
 ||fpluhtibx.com^
 ||fpxkjlzmkqp.com^
 ||fqckdxjgle.com^
+||fqldrulyjfnt.com^
 ||frbhjvazapgo.com^
 ||frfgfhzxtfvsp.com^
 ||fsdvydpldxrbu.com^
@@ -12132,6 +12151,7 @@ ws*://video.docfilms.info^
 ||gyycgkchjtimu.com^
 ||gzoprhvqhie.com^
 ||hafksvqiir.com^
+||haqbllmvpbqc.com^
 ||hasrijwnxtn.com^
 ||hauvkkwrbme.com^
 ||hayxktgbqpmult.com^
@@ -12176,6 +12196,7 @@ ws*://video.docfilms.info^
 ||iatwyqgvpq.com^
 ||ibfueyttemsefi.com^
 ||ibnuoduab.com^
+||icfjzmqsejzfb.com^
 ||icfxndxwpan.com^
 ||icuazeczpeoohx.com^
 ||idbtfwllhogxc.com^
@@ -12264,12 +12285,15 @@ ws*://video.docfilms.info^
 ||klhvqeajy.com^
 ||klxteeltivy.com^
 ||klzvkrzluqnx.com^
+||kpoplhjnhlagy.com^
 ||kqohskoysgxx.com^
 ||krpdqnnb.com^
 ||ksrcnyrntlyfo.com^
+||ktdthraxzxt.com^
 ||kujwlsnl.com^
 ||kvhxckkd.com^
 ||kwajysvvjeyvs.com^
+||kwcrryneebg.com^
 ||kweayxzfazrws.com^
 ||kwomkjjoajcyyt.com^
 ||kwsmqtposrub.com^
@@ -12281,12 +12305,14 @@ ws*://video.docfilms.info^
 ||ledvqaldtf.com^
 ||lfqocbhv.com^
 ||liadlzantv.com^
+||ljkihuolgoh.com^
 ||ljrljohnoqa.com^
 ||lkksbzcslmeefw.com^
 ||lkzvhtetshbu.com^
 ||llhjbwcjnuii.com^
 ||llpdtbmowsg.com^
 ||llvidwpt.com^
+||lnicyniqxdxg.com^
 ||lojuxbnt.com^
 ||lptggobhuuxcdw.com^
 ||lpxxafsupgsho.com^
@@ -12408,10 +12434,12 @@ ws*://video.docfilms.info^
 ||pejhnrurllsq.com^
 ||peyttlwbznahi.com^
 ||pfiuzxey.com^
+||pfxcnvjoysztb.com^
 ||pgfxwbgema.com^
 ||phiubpdrh.com^
 ||pifsistcwycouc.com^
 ||pkxquvydrgin.com^
+||pllregftgbgmdi.com^
 ||pmohsibnim.com^
 ||pncbscbuzss.com^
 ||pnzchguyctrsyb.com^
@@ -12440,7 +12468,9 @@ ws*://video.docfilms.info^
 ||qcexplnqbrral.com^
 ||qczvjjdbaj.com^
 ||qdpxpnmh.com^
+||qduijsyonrmfke.com^
 ||qevmzohvwxesrd.com^
+||qfcsljgckvpz.com^
 ||qfpqmxkiwh.com^
 ||qfsutura.com^
 ||qgawivqfotfyrw.com^
@@ -12461,6 +12491,7 @@ ws*://video.docfilms.info^
 ||qlatsfeyg.com^
 ||qnhwhedcrzeodd.com^
 ||qnzelsgj.com^
+||qoiagrfbmquek.com^
 ||qolrlwwirf.com^
 ||qopqudzeaywc.com^
 ||qowmqduocv.com^
@@ -12486,6 +12517,7 @@ ws*://video.docfilms.info^
 ||qzizjjyvsa.com^
 ||rahvoujjgmtvft.com^
 ||rbefggthfx.com^
+||rbfgsoanxw.com^
 ||rbtpsbtzh.com^
 ||rcumwyqkv.com^
 ||rdfpnzisjyiwtu.com^
@@ -12509,6 +12541,7 @@ ws*://video.docfilms.info^
 ||rlgungosm.com^
 ||rmjwdosemtg.com^
 ||rmwjtqazyk.com^
+||rnagwksouk.com^
 ||rnlfitypkucbhi.com^
 ||roibwbjaclwgg.com^
 ||ropkrhilt.com^
@@ -12529,6 +12562,7 @@ ws*://video.docfilms.info^
 ||ryybhoklizmuew.com^
 ||rzfldcrlwe.com^
 ||sbmijpifoszz.com^
+||sbudbyidtdrgey.com^
 ||scjczeqyuqjs.com^
 ||secfpgpqx.com^
 ||sfrsuihcubepzd.com^
@@ -12632,6 +12666,7 @@ ws*://video.docfilms.info^
 ||uvyfszshvgassp.com^
 ||uwidtpjwh.com^
 ||uxnssjly.com^
+||uymxsbbh.com^
 ||uyxjfkgudefv.com^
 ||uzrrqqzlktpymn.com^
 ||uzylpwfamhcb.com^
@@ -12642,6 +12677,7 @@ ws*://video.docfilms.info^
 ||velfssiowmyos.com^
 ||vemrhavwgchp.com^
 ||veoujrnenng.com^
+||vepatyei.com^
 ||vfnemtpehzmzwc.com^
 ||vgogzrukn.com^
 ||vhdvllhgyrjy.com^
@@ -12655,6 +12691,7 @@ ws*://video.docfilms.info^
 ||vndfakned.com^
 ||vndrcewnard.com^
 ||vnfdwoljzoaer.com^
+||vodbordnhhemq.com^
 ||vptkyunlzfy.com^
 ||vqnruxpecsn.com^
 ||vrzparvhipmo.com^
@@ -12682,6 +12719,7 @@ ws*://video.docfilms.info^
 ||wepyyttx.com^
 ||weqfcudxrrbwn.com^
 ||wetunfdnruy.com^
+||wgaycnmfz.com^
 ||wgrbdqucfoieha.com^
 ||wgssxjoac.com^
 ||whgvyswets.com^
@@ -12690,6 +12728,7 @@ ws*://video.docfilms.info^
 ||wiklrrrwqqf.com^
 ||wjgddzpvx.com^
 ||wjpdgueqasdgeq.com^
+||wjvwxcnavjodj.com^
 ||wkwakmsttsehi.com^
 ||wlhbgwzgep.com^
 ||wmqdgaptep.com^
@@ -12722,6 +12761,7 @@ ws*://video.docfilms.info^
 ||xeirmdgphdl.com^
 ||xgznkebnjme.com^
 ||xhlrlyygx.com^
+||xhyjlfbqnbr.com^
 ||xibnqcksoax.com^
 ||xihkdzijh.com^
 ||xiodoyvbauv.com^
@@ -12776,10 +12816,12 @@ ws*://video.docfilms.info^
 ||ykyryixcwn.com^
 ||ylbslipwhfdwr.com^
 ||ymgjtzciu.com^
+||ymhqeelitngcr.com^
 ||ymvkirvjqgha.com^
 ||ynhetcoypgnl.com^
 ||ynhonjqahrh.com^
 ||ynzdtoawstxvh.com^
+||ypictqesjuib.com^
 ||yrkozodemantj.com^
 ||yruwnpnam.com^
 ||ysljgoytuyfbg.com^
@@ -12825,6 +12867,7 @@ ws*://video.docfilms.info^
 ||zxbzuyuifdqj.com^
 ||zxeyqwgwsfv.com^
 ||zxiikxeagmferu.com^
+||zxkrdvrijsp.com^
 ||zxqudunt.com^
 ||zxreyuxvrjzxa.com^
 ||zzmyypjedpfxck.com^
@@ -17907,6 +17950,7 @@ ws*://video.docfilms.info^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||168logger.com^
 ||nxcount.com^
 ||t.seesaa.net^
 ||pfx.sma-clsystem.info^
@@ -17989,7 +18033,6 @@ ws*://video.docfilms.info^
 ||medialogger.ru^
 ||rtbanalytics.com^
 ||waust.at^
-||168logger.com^
 ||isterra.ru^
 ||user-clicks.com^
 ||mediapixelnet.com^
@@ -22380,6 +22423,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||720-trail.co.uk^
 ||88infra-strat.com^
 ||9juj88.com^
+||aaxdetect.com^
 ||ablsrv.com^
 ||abtrcking.com^
 ||acceptableserver.com^
@@ -23767,7 +23811,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d1r55yzuc1b1bw.cloudfront.net^
 ||d1rnw04e6mc22h.cloudfront.net^
 ||d1ssbq1bwjg5ux.cloudfront.net^
-||d1uanozc5el74n.cloudfront.net^
 ||d25ezbwokoefx6.cloudfront.net^
 ||d2kyy9hvbrzkgn.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^

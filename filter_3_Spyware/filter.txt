@@ -102,6 +102,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||168logger.com^$third-party
 ||nxcount.com^$third-party
 ||t.seesaa.net^
 ||pfx.sma-clsystem.info^$third-party
@@ -6176,6 +6177,10 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24603
+@@||recs.engageya.com/rec-api/getrecs.json$domain=video.haber7.com
+! Fixing player
+@@||sbg.hit.gemius.pl/gplayer.js$domain=play.nova.bg
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24203
 @@||inpref.com/frosmo.xdm.html?
 @@||inpref.com/messageApi?
