@@ -326,6 +326,8 @@
 @@|http://pic.gimhoy.com/js/ads/advertisement.js
 ! @@|http://plat.tgp.qq.com/center/ is excluded by: @@
 @@|http://plat.tgp.qq.com/center/
+! @@|http://pl.cp12.wasu.tv/playlist/m3u8? is excluded by: @@
+@@|http://pl.cp12.wasu.tv/playlist/m3u8?
 ! @@|http://player.letvcdn.com/*/plugins/Hint.swf is excluded by: @@
 @@|http://player.letvcdn.com/*/plugins/Hint.swf
 ! @@|http://player.letvcdn.com/p/201*.swf is excluded by: @@
@@ -3458,8 +3460,6 @@
 |https://ck101.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://cnbtkitty.me/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
-! Invalid rule options:
-|https://daohang.qq.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://r3sub.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:

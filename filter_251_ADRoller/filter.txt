@@ -3,6 +3,7 @@
 @@|https://$domain=yeepay.com|alipay.com|tenpay.com|jd.com|cmbchina.com
 ||adse.wsa.ximalaya.com^
 ||msg.qy.net^$third-party
+||unityads.unity3d.com^
 ||ximalaya.com/api/*/adRealTime
 ||igexin.com^
 ||customstat.video.51togic.com^
