@@ -3004,6 +3004,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$third-party
 ! Admiral domains
+||referdriving.com^$third-party
+||innocentinvention.com^$third-party
 ||stickssheep.com^$third-party
 ||tranquilside.com^$third-party
 ||screechingfurniture.com^$third-party
@@ -3163,6 +3165,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||api.logmatic.io^$third-party
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
@@ -4733,6 +4736,7 @@ _tracking.php?b=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22746
 ||ci.phncdn.com/www-static/js/ph-tracking.js$important
 !
+||vc.ru/booster/daily/hits
 ||directmarketingturkey.com/d.asp
 ||directmarketingturkey.com/l.asp
 ||directmarketingturkey.com/n.asp

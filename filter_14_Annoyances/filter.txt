@@ -23,6 +23,10 @@
 !
 !######### Annoying elements (not ads)
 !
+! quora.com - login window on question
+quora.com##div[id$="_signup_wall_wrapper"]:empty
+quora.com#$#.signup_wall_prevent_scroll { overflow: auto!important; position: inherit!important; }
+quora.com#$#.signup_wall_prevent_scroll div[class] { filter: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24339
 cooking.nytimes.com#$#html.nytc---modal-window---noScroll { overflow: visible!important; }
 cooking.nytimes.com#$#body.nytc---modal-window---noScroll { overflow: visible!important; }
@@ -844,6 +848,7 @@ horo.mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+inforeactor.ru##.yandex-widget
 cooking.nytimes.com##.recipe-newsletter-signup
 pazarlamasyon.com##.essb-subscribe-form
 meduza.io##.BriefSubscription-root
@@ -853,6 +858,7 @@ kakprosto.ru###blocks-sidebar-follow-us-block
 sunderlandecho.com##.newsletter-mobile-widget
 postandcourier.com##div[id^="tncms-region-article_instory_"].tncms-region.hidden-print
 jpost.com##.newsletter-signup-wrap
+jpost.com##.sign-up-wrapjpost.com
 jpost.com##.sign-up-wrap
 sierratradingpost.com##.footer-subscribe
 pcworld.pl###newsletter-box
@@ -1515,7 +1521,6 @@ themeslide.com##.mts-cl-overlap-box
 post-gazette.com#$##toolbar > #share-bar { display: none!important; }
 post-gazette.com#$##content > #toolbar.top-bar[style="height: 85px;"] { height: 45px!important; }
 dailymail.co.uk##.dms-puff
-gofeminin.de##.af-htmlblock-autopromo
 menshealth.com##.pane-blocks-menshealth-ajax-newsletter
 knowyourmeme.com##.combo-wrapper
 haberinadresi.com##.hs-panel-social
@@ -1623,11 +1628,12 @@ rulu.co#%#!function(b,a){AG_defineProperty('CloudflareApps.installs',{get:functi
 ##.kill-adblock-container
 !
 ! Admiral
-tenforums.com,majorgeeks.com#%#Object.defineProperty(window, 'admiral', { get: function() { throw null; }, set: function() { throw null; } });
+wokesloth.com,tenforums.com,majorgeeks.com#%#Object.defineProperty(window, 'admiral', { get: function() { throw null; }, set: function() { throw null; } });
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||tpc.googlesyndication.com/safeframe^$domain=windowscentral.com|androidcentral.com
 windowscentral.com,androidcentral.com#%#AG_abortInlineScript(/,blockerScore:/, 'Promise');
 thewindowsclub.com#%#AG_abortInlineScript(/,blockerScore:/, 'Promise');
+||referdriving.com^$third-party
 ||butterburst.com^$third-party
 ||82o9v830.com^$third-party
 ||screechingfurniture.com^$third-party
@@ -4354,6 +4360,9 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+teknosa.com###cookiescript_injectedone
+anisima.ru##.clearfy-cookie
+patee.ru##.informer2
 ilanversen.com###cookiesusage
 kanalben.com###CookieMsgBox
 mkidn.gov.pl#$##myModal { display: none!important; }
@@ -6693,6 +6702,7 @@ gir.im##.smartbanner
 !+ NOT_PLATFORM(ios, ext_android_cb)
 shazam.com##.shz-frame-apps-banner
 !
+wiwo.de##.c-sticky-footer__block > a[href="https://auswahl.wiwo.de/relaunch/app/intern/eigenportal/"]
 ganganonline.com##.gn_top_foot_app
 ganganonline.com##body > [style^="position: fixed; z-index: 1000;"]:not([class]):not([id])
 mdpr.jp###app-footer-banner
@@ -7117,6 +7127,7 @@ tripadvisor.co.uk,tripadvisor.jp,tripadvisor.com.br#$##PAGE_CONTAINER.smartbanne
 !
 ! JS
 !
+wiwo.de#%#document.cookie = "appInstall=true";
 m.nhaccuatui.com#%#document.cookie = "isCloseSmartAppBanner=true";
 m.standaard.be#%#document.cookie = "sb-closed=true";
 givemesport.com#%#document.cookie = "gms.appPromo=1";
@@ -7213,6 +7224,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+inforeactor.ru##.sn_groupblock
 beru.ru##div[data-zone-name="EmailSubscriptionForm"]
 beru.ru#$#.modal_js_inited { display: none!important; }
 beru.ru#$#body { overflow: visible!important; }
@@ -8257,8 +8269,8 @@ turizm.ru#$#html:has(> body) { overflow: visible!important; }
 turizm.ru#$#body:has(> div) { overflow: visible!important; }
 turizm.ru##.fancybox-overlay:has(> div)
 !
-pedrada.com.ua,zdrav.ru,law.ru,26-2.ru,mcfr.kz,sekretariat.ru,gkh.ru,fd.ru#$#body { overflow: visible!important; }
-pedrada.com.ua,zdrav.ru,law.ru,26-2.ru,mcfr.kz,sekretariat.ru,gkh.ru,fd.ru#$#.megaShadow { display: none!important; }
+trudohrana.ru,pedrada.com.ua,zdrav.ru,law.ru,26-2.ru,mcfr.kz,sekretariat.ru,gkh.ru,fd.ru#$#body { overflow: visible!important; }
+trudohrana.ru,pedrada.com.ua,zdrav.ru,law.ru,26-2.ru,mcfr.kz,sekretariat.ru,gkh.ru,fd.ru#$#.megaShadow { display: none!important; }
 !
 fotostrana.ru#$#.fs2-newsignup-popup { display: none!important; }
 fotostrana.ru#$#.fs2-login-popup { display: none!important; }
@@ -9907,7 +9919,7 @@ imslp.org#%#AG_onLoad(function(){var b=document.getElementById("sm_dl_wait");if(
 ||cdn.web.tv/asset/javascripts/smothScroll.min.js
 ||serialuk.net/js/copyright.js
 !--- CSS ---
-apkinstaller.com,androidmtk.com,serial-key.com,sjcrack.com,themeslide.com,openssource.biz,kinogo-net-2017.ru,kinogo-online.online,kino-zal.net,lavka-invaitov.ru#$#body * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
+toptech360.com,devicespecifications.com,apkinstaller.com,androidmtk.com,serial-key.com,sjcrack.com,themeslide.com,openssource.biz,kinogo-net-2017.ru,kinogo-online.online,kino-zal.net,lavka-invaitov.ru#$#body * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 catekno.com#$#img { -webkit-touch-callout: default!important; -webkit-user-select: text!important; }
 !--- JS ----
 animesrbija.com#%#AG_onLoad(function() { document.oncontextmenu = function() { return true; }; });
@@ -9921,7 +9933,7 @@ gagetmatome.com#%#AG_onLoad(function() { document.oncontextmenu = document.ondra
 linkerpt.com#%#AG_abortInlineScript(/fp_mouse_right_click_restriction/, 'jQuery');
 linkerpt.com#%#Object.defineProperties(window,{sccopytext:{value:function(){}},add_message_to_copied_text:{value:function(){}}});Object.defineProperties(document,{onkeydown:{value:function(){}},onkeypress:{value:function(){}}});
 animeplus.org#%#AG_onLoad(function() { setTimeout(function() { $(document).unbind('contextmenu'); $(document).unbind('keydown'); }, 300); });
-hoquangdai.com,firmwarefile.com,universaladbdriver.com,toptech360.com,explorewin.com,infoserial.tv,androidmtk.com,volt-index.ru,toptech360.com,solvettube.com#%#Object.defineProperty(document, 'oncontextmenu', { get: function() { return; } }); Object.defineProperty(document, 'ondragstart', { get: function() { return; } }); Object.defineProperty(document, 'onkeydown', { get: function() { return; } }); Object.defineProperty(document, 'onselectstart', { get: function() { return; } }); Object.defineProperty(document, 'onmousedown', { get: function() { return; } }); Object.defineProperty(document, 'onclick', { get: function() { return; } }); Object.defineProperty(window, 'disableSelection', { get: function() { return; } }); Object.defineProperty(window, 'disable_copy', { get: function() { return; } }); Object.defineProperty(window, 'disableEnterKey', { get: function() { return; } }); Object.defineProperty(window, 'disable_copy_ie', { get: function() { return; } });
+hoquangdai.com,firmwarefile.com,universaladbdriver.com,explorewin.com,infoserial.tv,androidmtk.com,volt-index.ru,toptech360.com,solvettube.com#%#Object.defineProperty(document, 'oncontextmenu', { get: function() { return; } }); Object.defineProperty(document, 'ondragstart', { get: function() { return; } }); Object.defineProperty(document, 'onkeydown', { get: function() { return; } }); Object.defineProperty(document, 'onselectstart', { get: function() { return; } }); Object.defineProperty(document, 'onmousedown', { get: function() { return; } }); Object.defineProperty(document, 'onclick', { get: function() { return; } }); Object.defineProperty(window, 'disableSelection', { get: function() { return; } }); Object.defineProperty(window, 'disable_copy', { get: function() { return; } }); Object.defineProperty(window, 'disableEnterKey', { get: function() { return; } }); Object.defineProperty(window, 'disable_copy_ie', { get: function() { return; } });
 volt-index.ru#%#AG_abortInlineScript(/oncopy/, 'jQuery');
 pelispedia.tv#%#AG_onLoad(function() { document.oncontextmenu = function(){return true}; });
 livetvcafe.me#%#Object.defineProperty(window, 'clickIE', { get: function() { return; } });

@@ -700,8 +700,8 @@
 @@||v.17173.com/advideo/*.mp4
 ! @@||v.17173.com/advideo/20*.flv is excluded by: @@
 @@||v.17173.com/advideo/20*.flv
-! @@||voiceads.cn is excluded by: @@
-@@||voiceads.cn
+! !@@||voiceads.cn is excluded by: @@
+!@@||voiceads.cn
 ! @@||weibo.com/adshow/ is excluded by: @@
 @@||weibo.com/adshow/
 ! @@||wx.qq.com is excluded by: @@
@@ -802,6 +802,8 @@
 @@@@|https://frodo.douban.com
 ! @@@@|https://haojia-api.smzdm.com is excluded by: @@
 @@@@|https://haojia-api.smzdm.com
+! @@@@|https://ifs.tanx.com is excluded by: @@
+@@@@|https://ifs.tanx.com
 ! @@@@|https://g1.163.com is excluded by: @@
 @@@@|https://g1.163.com
 ! @@@@|https://g.alicdn.com is excluded by: @@
@@ -1870,6 +1872,8 @@
 |http://*/flvPlayerV1.swf?flvID=$image
 ! |http://*/fn/minibar_1.js|$script is excluded by: |http://*
 |http://*/fn/minibar_1.js|$script
+! |http://*/footer_ad. is excluded by: |http://*
+|http://*/footer_ad.
 ! |http://*/ftad.js?$script is excluded by: |http://*
 |http://*/ftad.js?$script
 ! |http://*/G-G/ is excluded by: |http://*
@@ -3419,11 +3423,17 @@
 ! Invalid rule options:
 |http://www.hanzify.org/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|http://www.kanmeiju.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
 |http://www.kuoo8.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://www.kengso.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|http://www.tt27.tv/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
 |http://lq.win0168.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|http://m.yznnw.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://ozxw.co/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3432,6 +3442,8 @@
 |http://www.xitongtiandi.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://zhongzishenqi.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+||p*.space/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3446,6 +3458,8 @@
 ||https://qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||https://qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
+! Invalid rule options:
+|https://51.ruyo.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://91mjw.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3492,6 +3506,8 @@
 |https://www.v2ex.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.v2ex.com/$s@</body>@<script>inHackcss.H('.sidebar_compliance')</script></body>@
+! Invalid rule options:
+|https://www.zimuku.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid selector:
 10pan.cc###dl_addr,#down_box{display:block!important;}
 ! Invalid selector:
@@ -3578,6 +3594,8 @@ yxdown.com###topsearch{top: 100px;}
 ||https://80s.tw###ad_rightBottom
 ! || are unnecessary for element hiding rule:
 ||https://aizhan.com##.azone,.cha_side_thumb
+! || are unnecessary for element hiding rule:
+||https://appinn.com##.ads-m,.adsbygoogle,.ads
 ! || are unnecessary for element hiding rule:
 ||https://autohome.com.cn###ad-top-1111
 ! || are unnecessary for element hiding rule:

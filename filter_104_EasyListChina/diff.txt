@@ -62,8 +62,6 @@
 |https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
 ! |https:$subdocument,domain=nod32key.xyz is excluded by: |https:$
 |https:$subdocument,domain=nod32key.xyz
-! t66y.com#?#div:-abp-has(> script + table) is excluded by: #?#
-t66y.com#?#div:-abp-has(> script + table)
 ! 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;) is excluded by: #?#
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;)
 ! 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."]) is excluded by: #?#
@@ -176,5 +174,13 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ||web.da.mgtv.com/pc/player$rewrite=/m5/page
 ! ||web2.da.mgtv.com/pc/player$rewrite=/m5/page is excluded by: $rewrite=
 ||web2.da.mgtv.com/pc/player$rewrite=/m5/page
+! t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+160) is excluded by: #?#
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+160)
+! t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ br:nth-child(-n+160) is excluded by: #?#
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ br:nth-child(-n+160)
+! t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child is excluded by: #?#
+t66y.com,u5k0.icu#?#.f24:-abp-has(a[href*="//mo"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
+! t66y.com,u5k0.icu#?#div:-abp-has(> script + table) td * is excluded by: #?#
+t66y.com,u5k0.icu#?#div:-abp-has(> script + table) td *
 ! |http:$script,third-party,domain=wuzuowei.net is excluded by: |http:$
 |http:$script,third-party,domain=wuzuowei.net
