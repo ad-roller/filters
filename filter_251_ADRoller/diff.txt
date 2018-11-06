@@ -1372,6 +1372,8 @@
 |http://*.org/xiaoyi/$script
 ! |http://*.org/xxgg/book.js is excluded by: |http://*
 |http://*.org/xxgg/book.js
+! |http://*.php?ad= is excluded by: |http://*
+|http://*.php?ad=
 ! |http://*.swf?clicktag= is excluded by: |http://*
 |http://*.swf?clicktag=
 ! |http://*.topad. is excluded by: |http://*
@@ -1470,6 +1472,8 @@
 |http://*/980x60.jpg
 ! |http://*/99ad/ is excluded by: |http://*
 |http://*/99ad/
+! |http://*/99rejs/js is excluded by: |http://*
+|http://*/99rejs/js
 ! |http://*/99tt.js|$script is excluded by: |http://*
 |http://*/99tt.js|$script
 ! |http://*/9lala.gif$image is excluded by: |http://*
@@ -1684,6 +1688,8 @@
 |http://*/afp/door/;ap=
 ! |http://*/afp6_ is excluded by: |http://*
 |http://*/afp6_
+! |http://*/agetsou.js^ is excluded by: |http://*
+|http://*/agetsou.js^
 ! |http://*/agfile/ is excluded by: |http://*
 |http://*/agfile/
 ! |http://*/aili_content_ is excluded by: |http://*
@@ -1748,6 +1754,8 @@
 |http://*/botbanner
 ! |http://*.com/ps/data.js?t= is excluded by: |http://*
 |http://*.com/ps/data.js?t=
+! |http://*/c@*!25.js|$script is excluded by: |http://*
+|http://*/c@*!25.js|$script
 ! |http://*/cpm-$script is excluded by: |http://*
 |http://*/cpm-$script
 ! |http://*/cpv-$script is excluded by: |http://*
@@ -1762,6 +1770,8 @@
 |http://*/cjsh.js|$script
 ! |http://*/cn.php?u=*|*|*$third-party is excluded by: |http://*
 |http://*/cn.php?u=*|*|*$third-party
+! |http://*/cococ-66/$script is excluded by: |http://*
+|http://*/cococ-66/$script
 ! |http://*/code/cpc.$script is excluded by: |http://*
 |http://*/code/cpc.$script
 ! |http://*/code/popjs.asp? is excluded by: |http://*
@@ -1898,6 +1908,8 @@
 |http://*/get_ad_
 ! |http://*/gg.html|$document is excluded by: |http://*
 |http://*/gg.html|$document
+! |http://*/gg_js/ is excluded by: |http://*
+|http://*/gg_js/
 ! |http://*/gg.js|$script is excluded by: |http://*
 |http://*/gg.js|$script
 ! |http://*/gg/$domain=~cnr.cn|~health.dahe.cn|~youlu.net|~www.zsnews.cn|~haolexiang.com|~11185.cn is excluded by: |http://*
@@ -1934,6 +1946,8 @@
 |http://*/gg_final
 ! |http://*/gg_search_ is excluded by: |http://*
 |http://*/gg_search_
+! |http://*/qkostn.js| is excluded by: |http://*
+|http://*/qkostn.js|
 ! |http://*/gongyong.js|$script is excluded by: |http://*
 |http://*/gongyong.js|$script
 ! |http://*/goo.js|$script is excluded by: |http://*
@@ -2026,6 +2040,8 @@
 |http://*/images/ping.js|$script
 ! |http://*/images/stock.js|$script is excluded by: |http://*
 |http://*/images/stock.js|$script
+! |http://*/imgs.js?t= is excluded by: |http://*
+|http://*/imgs.js?t=
 ! |http://*/img/ad.jpg$image is excluded by: |http://*
 |http://*/img/ad.jpg$image
 ! |http://*/img/ad/ is excluded by: |http://*
@@ -2090,6 +2106,8 @@
 |http://*/js/ads/
 ! |http://*/js/adv.js is excluded by: |http://*
 |http://*/js/adv.js
+! |http://*/js/adtop.js| is excluded by: |http://*
+|http://*/js/adtop.js|
 ! |http://*/js/advertisement.js^ is excluded by: |http://*
 |http://*/js/advertisement.js^
 ! |http://*/js/ad_$domain=~eslite.com|~colafile.com|~colayun.com|~coladrive.com is excluded by: |http://*
@@ -2156,6 +2174,8 @@
 |http://*/js/ggcommon$script
 ! |http://*/js/gg_$domain=~www.111ttt.com|~eastday.com is excluded by: |http://*
 |http://*/js/gg_$domain=~www.111ttt.com|~eastday.com
+! |http://*/js/guanggao_gg.js?d= is excluded by: |http://*
+|http://*/js/guanggao_gg.js?d=
 ! |http://*/js/guanggao.js| is excluded by: |http://*
 |http://*/js/guanggao.js|
 ! |http://*/js/i.js?$script,domain=~www.guokr.com is excluded by: |http://*
@@ -2190,6 +2210,8 @@
 |http://*/js/page_ad_$script
 ! |http://*/js/pcbook.js^ is excluded by: |http://*
 |http://*/js/pcbook.js^
+! |http://*/js/sss/ad.js is excluded by: |http://*
+|http://*/js/sss/ad.js
 ! |http://*/js/shang.$document is excluded by: |http://*
 |http://*/js/shang.$document
 ! |http://*/js/showad.js|$script is excluded by: |http://*
@@ -2380,6 +2402,8 @@
 |http://*/showpage.asp?u=
 ! |http://*/showpage2.asp?u= is excluded by: |http://*
 |http://*/showpage2.asp?u=
+! |http://*/showadv/ is excluded by: |http://*
+|http://*/showadv/
 ! |http://*/sj/a2 is excluded by: |http://*
 |http://*/sj/a2
 ! |http://*/skin/default/ad/ is excluded by: |http://*
@@ -2400,6 +2424,8 @@
 |http://*/ssss.asp?u=$third-party
 ! |http://*/static/ad/ is excluded by: |http://*
 |http://*/static/ad/
+! |http://*/static/js/aall.js is excluded by: |http://*
+|http://*/static/js/aall.js
 ! |http://*/static/js/mozReady.js?201 is excluded by: |http://*
 |http://*/static/js/mozReady.js?201
 ! |http://*/style/ad.js|$script is excluded by: |http://*
@@ -2540,6 +2566,8 @@
 |http://*/yuegui.js|$script
 ! |http://*/yxCoupletsAd is excluded by: |http://*
 |http://*/yxCoupletsAd
+! |http://*/zzhzgg.js is excluded by: |http://*
+|http://*/zzhzgg.js
 ! |http://*/zongheng_chat_loader is excluded by: |http://*
 |http://*/zongheng_chat_loader
 ! |http://*/Zotac600x60 is excluded by: |http://*
@@ -2622,6 +2650,8 @@
 ||pgl.yoyo.org
 ! ||umeng.com$third-party,domain=~so.com|~www.baidu.com is excluded by: umeng.co
 ||umeng.com$third-party,domain=~so.com|~www.baidu.com
+! |http://*btbtt.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@ is excluded by: |http://*
+|http://*btbtt.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! |https://wap.baquge.tw/files/article/html/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@ is excluded by: @@
 |https://wap.baquge.tw/files/article/html/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
 ! |http://*.com/statics/v?/js/global.js$s@tyMap = window.tyMap@@ is excluded by: @@
@@ -2748,12 +2778,8 @@
 ||panduoduo.net$s@<script type="text/javascript">if(!is_wx_browser())*}</script>@@
 ! ||savebt.$s@<div class="footer" >*/opensug.js"></script>@@ is excluded by: @@
 ||savebt.$s@<div class="footer" >*/opensug.js"></script>@@
-! ||t66y.com$s@<span class="f24">* 官方独家</a>@@ is excluded by: @@
-||t66y.com$s@<span class="f24">* 官方独家</a>@@
 ! ||taiwan123.cn$s@<script>;(function(){var a=new XMLHttpRequest();*</script>@@ is excluded by: @@
 ||taiwan123.cn$s@<script>;(function(){var a=new XMLHttpRequest();*</script>@@
-! ||t66y.com$s@<span class="f24">* 官方独家</a>@@ is excluded by: @@
-||t66y.com$s@<span class="f24">* 官方独家</a>@@
 ! ||taiwan123.cn$s@ads_codes: [@@ is excluded by: @@
 ||taiwan123.cn$s@ads_codes: [@@
 ! ||tsdm.net$s@<script>ipad_s('dm_tsdm','http://moe.005.tv/',50); </script>@@ is excluded by: @@
@@ -3370,6 +3396,8 @@
 |http://www.banyungong.org/scripts/ajax.js$s@function ShowSG*function ShowFMT(name)@function xxx(name)@
 ! Invalid rule options:
 |http://www.btmyi.com/$s@var rkey = Math.floor(Math.random*</script>@</script>@
+! || are unnecessary for element hiding rule:
+||https://china.com##.mxm.mxm-780x90
 ! Invalid rule options:
 ||1122dk.com/js/$scipt
 ! Invalid rule options:
@@ -3395,6 +3423,8 @@
 ! Invalid rule options:
 |http://bbs.pcbeta.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/koolproxy-element-hiding.js"></script></head>@
 ! Invalid rule options:
+|http://www.chinaz.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
 |http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://gaoqing.la/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
@@ -3402,6 +3432,8 @@
 |http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://sports.mop.com/$s@</body>@<script>inHackcss.H('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
+! Invalid rule options:
+|http://t66y.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://www.21rv.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3443,6 +3475,8 @@
 ! Invalid rule options:
 |http://zhongzishenqi.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+||imobile.com.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
 ||p*.space/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
@@ -3456,6 +3490,8 @@
 ||https://pchome.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||https://qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+||https://qianzhan.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||https://qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
@@ -3479,13 +3515,21 @@
 ! Invalid rule options:
 |https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|https://t66y.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://wangsuceshi.51240.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
 |https://www.666kao.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://www.bttiantang.la/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.busdmm.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.busjav.cc/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.bttiantangs.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://www.chinaz.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.halihali.tv/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3508,6 +3552,8 @@
 |https://www.v2ex.com/$s@</body>@<script>inHackcss.H('.sidebar_compliance')</script></body>@
 ! Invalid rule options:
 |https://www.zimuku.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://yaoshe26.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid selector:
 10pan.cc###dl_addr,#down_box{display:block!important;}
 ! Invalid selector:
@@ -3520,6 +3566,8 @@
 66yp.cc###down_box{display: block!important;display: block}
 ! Invalid selector:
 678pan.vip###down_box{display:block!important;}[src*=".sinaimg.cn/large/"],[height="105"]
+! Invalid selector:
+76fengyun.com###down_box{display:block!important;}.gggg,.ggao
 ! Invalid selector:
 blog.163.com##.wrapperbg{height: 151px;}
 ! Invalid selector:
@@ -3651,6 +3699,8 @@ yxdown.com###topsearch{top: 100px;}
 ! || are unnecessary for element hiding rule:
 ||https://hqew.com##.pop-banner
 ! || are unnecessary for element hiding rule:
+||https://iqiyi.com##div[id^="100000"]
+! || are unnecessary for element hiding rule:
 ||https://loldytt.com##div[id^="qj960"],div[id^="qj300"],div#xinxi,div#gouwu,div#xinnxi,div#xinxii,div#xinxin
 ! || are unnecessary for element hiding rule:
 ||https://loldytt.com###ad_rightBottom > A:last-child > IMG
@@ -3712,6 +3762,8 @@ yxdown.com###topsearch{top: 100px;}
 ||https://pythontab.com###head-bottom,.portal_block_summary
 ! || are unnecessary for element hiding rule:
 ||https://pythontab.com##.portal_block_summary
+! || are unnecessary for element hiding rule:
+||https://right.com.cn##.a_t,div#diy1.area,div.a_p,div.a_pr,DIV.column.frame-1-c,div.wp.a_f,div.a_cn,.a_mu,.a_pt,.a_pb
 ! || are unnecessary for element hiding rule:
 ||https://sina.cn##.centerad,.topad,[data-sudaclick^="game_wap_ad"],.bannerAD,[data-sudaclick^="one_pic_conf_"],[href^="https://render.m.taobao.com/shop/"],[class="m_f_a show "],[data-info^="ad_none"],[href^="http://saxn.sina.com.cn/dsp/click"],div.ad_baner.j_imgdelay,section > div.article_push,div.advertise,[class^="j_sax sina_tj_"],div.pic-wrap.j_article_cutpic,a[id^="jdAdplace"],[id^="_145595"],.sina_tj_banner,[data-id^="PDPS0000000"],.sax_banner_bottom,section[id^="_148751"],[class="extend-module j_hotpic_box"],.tj-list_md,[class^="article article-sax"],[class^="module-ads"],.s_card.z_c3,[data-adid]
 ! || are unnecessary for element hiding rule:
@@ -3811,7 +3863,13 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 |http://blog.sina.com.cn/s/blog_$s@<div STYLE="CLeAr: both;*HeiGHT: 300px">@<div style="display:none";>@
 ! Invalid rule options:
+|http://jump2.bdimg.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
+! Invalid rule options:
+|http://t66y.com/$s@function readS@function NoreadS@
+! Invalid rule options:
 ||7707890.com$s@v:0*b:0}@b:0}@
+! Invalid rule options:
+||76fengyun.com/file/$s@onclick="window.open('*');startWait();"@onclick="window.open(document.getElementById('downpage_link').href);startWait();"@
 ! Invalid rule options:
 ||9gui.net/$s@eval(function(p,a,c,k,e,r){e=function(c){ return(c<a*</script>@</script>@
 ! Invalid rule options:
@@ -3874,6 +3932,8 @@ yxdown.com###topsearch{top: 100px;}
 ||pstatp.com/toutiao/picc_mig/dist/img.min.js?ver=$s@display: block@display: none@
 ! Invalid rule options:
 ||pipipan.com/fs/$s@var _popup_ispoped =*</script>@</script>@
+! Invalid rule options:
+||res.jklan.cn/wp-content/themes/tt/js/system.js?ver=$s@function goto()@function xxx()@
 ! Invalid rule options:
 ||static.cdn.dlfyb.com/js/public/pc/player.js$s@var ad_time = 5;@var ad_time = 0;@
 ! Invalid rule options:
@@ -3938,6 +3998,12 @@ yxdown.com###topsearch{top: 100px;}
 |https://g.pconline.com.cn/$s@"display:block!important;"@"display:none!important;"@
 ! Invalid rule options:
 |https://js.tv.itc.cn/base/plugin/login_$s@i.cookie("fee_status",null,@i.cookie("fee_status",1,@
+! Invalid rule options:
+|https://jump2.bdimg.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
+! Invalid rule options:
+|https://t66y.com/$s@function readS@function NoreadS@
+! Invalid rule options:
+|https://www.chinaz.com/$s@<div id="imgbd" style="background-image: url('https://pic.chinaz.com/2018/*');@<div id="imgbd" style="background-image: url('');@
 ! Invalid rule options:
 |https://www.cnbeta.com/$s@<div style="display:block !important;*">@<div style="display:none !important;>@
 ! Invalid rule options:
@@ -4508,6 +4574,8 @@ yxdown.com###topsearch{top: 100px;}
 |http://www.cartoonmad.com/*.html$s@<script type="text/javascript" src="https://apis.google.com/js/plusone.js">*</script>@
 ! Invalid rule options:
 |http://www.cctv5bo.com/play.php?aid=$s@t=setTimeout("DaoJiShi()",1000)@t=setTimeout("DaoJiShi()",0)@
+! Invalid rule options:
+|http://www.chinaz.com/$s@<div id="imgbd" style="background-image: url('https://pic.chinaz.com/2018/*');@<div id="imgbd" style="background-image: url('');@
 ! Invalid rule options:
 |http://www.chinavoa.com/video-$s@l:'/statics/images/*t:'7',@l:'',r:'',t:'0',@
 ! Invalid rule options:

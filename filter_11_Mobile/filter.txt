@@ -1678,6 +1678,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+m.halihali.tv##a[href^="https://s.click.taobao.com/"] > img
+indianexpress.com##.adbox-border
 mdpr.jp##.recommend-dd-link
 rocketnews24.com###related-posts
 fnn.jp##.Ad
@@ -1945,6 +1947,7 @@ venturebeat.com##.medrec-wrapper
 s.famitsu.com##.l-ad-block
 japantoday.com##div[data-href^="https://go.injapan.com/zP2Vrj"]
 m.blogtruyen.com##.container > .qc-inner
+m.blogtruyen.com##center > a[href][target="_blank"] > img
 yemek-com.cdn.ampproject.org##.recipeContent > .printHidden
 amp.indiatimes.com##.ad-container
 m.auto.ru##.commercial-listing > div.commercial-listing-item-wrapper > div[id]:not([class*="Listing"]):not([class*="item"])
@@ -2110,8 +2113,8 @@ t-online.de###ma_mrec
 m.dnn.de##.pdma-adaside-declaration
 thechive.com##.phone-ad
 finance.yahoo.com###mrt-node-Col1-1-GeminiBrokerBtnsMobileWeb
-amp.focus.de##amp-fx-flying-carpet
-amp.focus.de##.amp-flying-carpet-text-border
+timesnownews.com,amp.focus.de##amp-fx-flying-carpet
+timesnownews.com,amp.focus.de##.amp-flying-carpet-text-border
 amp.focus.de,m.focus.de##article[data-teaser-type="unspecified_group"]
 vorsprung-online.de##.article-content .adsbygoogle
 ||vorsprung-online.de/images/images/*/Werbung/bannermobilwerbung.jpg
@@ -2325,7 +2328,7 @@ ndtv.com##.ad-wgt
 mdaily.bhaskar.com###atf_ad
 iapps.im##.experience-zyc
 */1121482/|$domain=kissanime.ru
-biz-journal.jp,sankei.com,m.mynet.com,amp.ibtimes.co.uk,lifehacker.com,jalopnik.com,m.gadgets.ndtv.com,gizmodo.com,cnbc.com##amp-embed[type="taboola"]
+timesnownews.com,biz-journal.jp,sankei.com,m.mynet.com,amp.ibtimes.co.uk,lifehacker.com,jalopnik.com,m.gadgets.ndtv.com,gizmodo.com,cnbc.com##amp-embed[type="taboola"]
 cnbc.com##.leaderboard_ad
 zybang.com##.qb-wgt_float-banner
 zybang.com##.cmn-zuoyebang-slogan
@@ -2583,6 +2586,7 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ! Google ads (be careful)
 ||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
 ! Blocking of Facebook ads
+||graph.facebook.com^$app=com.tourbillon.freeappsnow
 ||graph.facebook.com^$app=com.acg.manga
 ||graph.facebook.com^$app=com.bloodyluna.TaipeiMetroTimeAndFace
 ||graph.facebook.com^$app=com.lazymasters.wordweekend
@@ -2706,6 +2710,11 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.quoord.tapatalkpro.activity
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24782
+||api.rvuzov.ru/images/c4ac821d-4580-4011-a402-3de5d38b5709.jpg
+! https://github.com/AdguardTeam/AdguardFilters/issues/24907
+@@||imasdk.googleapis.com^|$app=net.ettoday.phone
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$app=net.ettoday.phone
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24541
 ||adcs.rqmob.com^
 ||static.rqmob.com/sa^
