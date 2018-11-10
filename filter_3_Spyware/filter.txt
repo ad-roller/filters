@@ -3168,6 +3168,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||smetrics.marriott.com^
 ||api.logmatic.io^$third-party
 ||adc.9news.com.au^
 ||adc.api.nine.com.au^
@@ -4377,7 +4378,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.vadio.com^
 ||analytics.xyscdn.com^
 ||app.adjust.io^
-||ascstats.iobit.com^
 ||b-aws.aol.com^
 ||b-aws.huffingtonpost.com^
 ||b.huffingtonpost.com^
@@ -4739,6 +4739,8 @@ _tracking.php?b=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22746
 ||ci.phncdn.com/www-static/js/ph-tracking.js$important
 !
+||tms.marriott.com/error/e.gif
+||kodik.cc/stats
 ||redditstatic.com/ads/pixel.js
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||rp-online.de/cre*/tracking^
@@ -5868,7 +5870,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestream.com^*/analytics/
-||load.sumome.com^$domain=onlinedizi.co
 ||log.liverail.com^
 ||log.thevideo.me/logpop^
 ||logger-*.vty.dailymotion.com/dm/

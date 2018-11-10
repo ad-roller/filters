@@ -1187,6 +1187,8 @@ nnm-club.tv,all-tor.net,free-rutor.org,lenfilm.tv,krutor.org,fast-bit.org,tor-ru
 pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 !#################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/24463
+hanime.tv#%#document.cookie = "in_m=1";
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17500
 motherless.com#%#AG_abortInlineScript(/awentw/, 'Math.floor');
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16498
@@ -1352,6 +1354,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! com.jellybtn.cashkingmobile - fixing permanent network requests
+@@||wd.adcolony.com^|$app=com.jellybtn.cashkingmobile
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22628
 @@||api.branch.io$app=com.zingat.emlak
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22498
