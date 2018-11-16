@@ -1,6 +1,7 @@
 !
 @@|http:/*/softdl.360tpcdn.com/
 @@|https://$domain=yeepay.com|alipay.com|tenpay.com|jd.com|cmbchina.com
+@@||cdn-thumb.fds.api.xiaomi.com^
 ||adse.wsa.ximalaya.com^
 ||msg.qy.net^$third-party
 ||unityads.unity3d.com^

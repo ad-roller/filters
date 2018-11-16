@@ -3006,6 +3006,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$third-party
 ! Admiral domains
+||jamexistence.com^$third-party
+||partplanes.com^$third-party
 ||actuallysnake.com^$third-party
 ||bulbbait.com^$third-party
 ||referdriving.com^$third-party
@@ -4744,6 +4746,10 @@ _tracking.php?b=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22746
 ||ci.phncdn.com/www-static/js/ph-tracking.js$important
 !
+||secure.agoda.com/pixel.gif
+||agoda.com/api/pixel/index?
+||washingtonpost.com/wp-stat/analytics/latest/main.js
+||d1d3jupgwm7m5r.cloudfront.net/prod/cloudfrontVideoTracker.
 ||united-infos.net/event^
 ||juicebeard.prod.tda.link/rec/*/tracking^
 ||track.tagesanzeiger.ch/cre*/static/tracking^
@@ -5547,6 +5553,8 @@ reuters.com###taboola-recirc
 ||api.netmera.com/event^
 ||addefend-platform.com/s?
 ||weltsport.appspot.com/hstrck-detect.js^
+drive2.ru##.js-page > * > .dv-post-header > [class] > [class] > [id] > [class][id]
+drive2.ru##.o-columns > .o-columns__side > [class] > [class][id] > [class][id]
 drive2.ru,drive2.com##.is-tracked[data-metrika="recomm"]
 drive2.ru,drive2.com##.js-scrolltracking[data-adkind="relap"]
 ||prezi.com/*/log/json^
@@ -6204,6 +6212,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/25189
+@@||static.chartbeat.com/js/chartbeat_mab.js$domain=ny1.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25320
 @@||google-analytics.com/analytics.js$domain=antenaplay.ro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24812
@@ -6787,7 +6797,7 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||adblockanalytics.com/ads.js|
 @@||detectadblock.com/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6269
-@@||ukit.com/js/lib/fingerprint2.min.js^$domain=ukit.com
+@@/fingerprint2.min.js^$domain=justfreethemes.com|ukit.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6216
 @@||tags.tiqcdn.com/utag/hsbc/au-rbwm/prod/utag.js$domain=hsbc.com.au|hsbc.com.au
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6197
