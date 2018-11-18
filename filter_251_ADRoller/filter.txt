@@ -6985,6 +6985,7 @@ bbs.txtnovel.net##[width="300"][height="250"]
 bbs.txwm.com##div#sitefocus
 bbs.vpser.net##.yb_pip,.postactions
 bbs.wlxww.com##div#framesJFWGF,div#frameF9V2pz,div#portal_block_26.block.move-span,div#framerhcSfN
+bbs.wfun.com##.subnavbanner,.wp_right_ad.mb-12.cl,.top_rad.mb-12.cl
 bbs.xineurope.com##div.center.clear.adft,td[width="240"],div[class^="a_p"]
 bbs.yawin.cn##div.ad,a[href^="http://bbs.yawin.cn/ad/"]
 bbs.ydss.cn##div#sitefocus.focus
@@ -8700,6 +8701,7 @@ thepiratebay.org##.ads,#sky-right
 thepiratebay.se##a#image,iframe[src^="//cdn1.adexprt.com/"],iframe[src^="//cdn2.adexprt.com/"]
 thesoccerline.com##.wp.a_h,[src^="/images/"]
 thn21.com##.adsbygoogle
+thzbt.co##.portal_block_summary,.it618_firstad_flex,table[bordercolor="#999999"]
 thzthz.net,thztv.net##.a_cn,.a_pb,.a_fl,[height="60"],[height="250"],[height="400"],[width="960"],.portal_block_summary,.it618_firstad_flex,[style="padding- bottom:5px;width:960px;height:60px;"],[src^="http://s1.thzok.com/"],[src^="http://s2.thzok.com/"],[style="margin-top:5px"],[src*=".sinaimg.cn/large/"],[style="padding- bottom:5px;width:960px;height:120px;"],.money_336
 thzbt.biz##[class^="a_"],[width="960"],.it618_firstad_flex,[style*="text-align:center;"]
 thzhd.org##div.a_fl,img[height="60"][width="960"],img[height="60"][width="476"],img[height="250"][width="250"],img[height="400"][width="180"],.it618_firstad_flex
