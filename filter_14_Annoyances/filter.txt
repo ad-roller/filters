@@ -850,6 +850,8 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+newrepublic.com##.inserted-housead
+newrepublic.com##.email-container
 psmag.com##.m-brand-engagement
 topwar.ru##.g-news
 topwar.ru##.ya-news
@@ -1618,7 +1620,18 @@ essen-und-trinken.de,techardar.com#@#.player_page_ad_box
 essen-und-trinken.de,techardar.com#@##player_ads
 !
 ! FuckAdBlock CSS
-outschool.com,proboards.com,independent.co.uk,fourtoutici.pro,blog.csdn.net,modelist-konstruktor.com,swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
+nzz.ch,saveur.com,dailyherald.com,watchtvseries.unblckd.cx,outschool.com,proboards.com,independent.co.uk,fourtoutici.pro,blog.csdn.net,modelist-konstruktor.com,swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
+!#if (adguard_app_ios || adguard_ext_android_cb)
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250m
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_728x90
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad-links
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ads
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.textAd
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ad
+abw.by,abw.ru,audio-cutter.com,audio-joiner.com,blackdesertbase.ru,blog.csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ads
+!#endif
 !
 ! Evolok ev-dab.js (.pub_300x25)
 sunderlandecho.com,blackpoolgazette.co.uk,derbyshiretimes.co.uk,lep.co.uk,yorkshireeveningpost.co.uk,yorkshirepost.co.uk,peterboroughtoday.co.uk#$#.pub_300x25.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
@@ -1665,6 +1678,12 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 !+ NOT_PLATFORM (windows, mac, android)
 @@||androidworld.it^$generichide
 !
+@@||swatchseries.to/templates/default/js/advertising.js
+theglobeandmail.com#@#.c-ad
+theglobeandmail.com##.c-ad > *
+theglobeandmail.com#$#.c-ad { position: absolute!important; left: -3000px!important; }
+@@||toolson.net/Scripts/core/advertisement.js
+independent.co.uk#@#.adBanner
 agotcitadel.boards.net#$#body { overflow: visible!important; position: initial!important; }
 agotcitadel.boards.net#$#body > div[id$="-overlay"] { display: none!important; }
 cnbeta.com#%#Object.defineProperty(window, 'Abd_Detector', { get: function() { return -1; } });
@@ -2574,6 +2593,12 @@ wotspeak.ru##.adb
 ||static.cdnslate.com/etc/designs/slate/js/plus-upsell-adblock.js
 techsolutiontips.com#%#window.google_jobrunner = function() { };
 !
+!+ PLATFORM(ios, ext_android_cb)
+@@||saveur.com^$generichide
+!+ PLATFORM(ios, ext_android_cb)
+@@||dailyherald.com^$generichide
+!+ PLATFORM(ios, ext_android_cb)
+dailyherald.com##.innerAd300
 !+ PLATFORM(ios, ext_android_cb)
 @@||outschool.com^$generichide
 !+ PLATFORM(ios, ext_android_cb)
@@ -4386,6 +4411,11 @@ _europecookielaw.
 !#######################################################
 !######### Rules for specific sites ####################
 !#######################################################
+! https://github.com/AdguardTeam/AdguardFilters/issues/25529
+! Rules to block cookie notice on "amp" websites on Safari
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+google.com,google.ad,google.ae,google.com.af,google.com.ag,google.com.ai,google.al,google.am,google.co.ao,google.com.ar,google.as,google.at,google.com.au,google.az,google.ba,google.com.bd,google.be,google.bf,google.bg,google.com.bh,google.bi,google.bj,google.com.bn,google.com.bo,google.com.br,google.bs,google.bt,google.co.bw,google.by,google.com.bz,google.ca,google.cd,google.cf,google.cg,google.ch,google.ci,google.co.ck,google.cl,google.cm,google.cn,google.com.co,google.co.cr,google.com.cu,google.cv,google.com.cy,google.cz,google.de,google.dj,google.dk,google.dm,google.com.do,google.dz,google.com.ec,google.ee,google.com.eg,google.es,google.com.et,google.fi,google.com.fj,google.fm,google.fr,google.ga,google.ge,google.gg,google.com.gh,google.com.gi,google.gl,google.gm,google.gp,google.gr,google.com.gt,google.gy,google.com.hk,google.hn,google.hr,google.ht,google.hu,google.co.id,google.ie,google.co.il,google.im,google.co.in,google.iq,google.is,google.it,google.je,google.com.jm,google.jo,google.co.jp,google.co.ke,google.com.kh,google.ki,google.kg,google.co.kr,google.com.kw,google.kz,google.la,google.com.lb,google.li,google.lk,google.co.ls,google.lt,google.lu,google.lv,google.com.ly,google.co.ma,google.md,google.me,google.mg,google.mk,google.ml,google.com.mm,google.mn,google.ms,google.com.mt,google.mu,google.mv,google.mw,google.com.mx,google.com.my,google.co.mz,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.ne,google.nl,google.no,google.com.np,google.nr,google.nu,google.co.nz,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.pl,google.pn,google.com.pr,google.ps,google.pt,google.com.py,google.com.qa,google.ro,google.ru,google.rw,google.com.sa,google.com.sb,google.sc,google.se,google.com.sg,google.sh,google.si,google.sk,google.com.sl,google.sn,google.so,google.sm,google.sr,google.st,google.com.sv,google.td,google.tg,google.co.th,google.com.tj,google.tk,google.tl,google.tm,google.tn,google.to,google.com.tr,google.tt,google.com.tw,google.co.tz,google.com.ua,google.co.ug,google.co.uk,google.com.uy,google.co.uz,google.com.vc,google.co.ve,google.vg,google.co.vi,google.com.vn,google.vu,google.ws,google.rs,google.co.za,google.co.zm,google.co.zw,google.cat###amp-cookie-hint
+!
 !+ PLATFORM(ios, ext_android_cb)
 xataka.com###cookies-overlay
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
@@ -4395,6 +4425,17 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 !
+newrepublic.com##.site-popup.consent
+skidresultat.se###message_cookie_info_accept
+gjovik.vgs.no##.container-floating-notifications
+kondis.no###coiConsentBanner
+ht.no###pm-privacy-banner
+deine-tierwelt.de###CybotCookiebotDialog
+via.tt.se##div[class^="footer__notification styledBarNotification__BarNotificationOverlay-sc-"]
+rtl.de##.dnt__container
+www-turn--on-de.cdn.ampproject.org###amp-cookie-hint
+independer.nl##.ind-cbar
+anlegen-in-immobilien.de##.avia-cookie-consent
 svd.se##.psi-parent[role="alertdialog"][aria-label="Vi respekterar din integritet"]
 leguide.com##.popup_policies
 drivereasy.com##.float-bar
@@ -4429,7 +4470,6 @@ smart.com###cp-dialog
 eukasa.pl##.div_coockie
 smalltronic.pl###InfoCookie
 telefonylodz.com###iqitcookielaw
-diamante-wear.com##.cookies
 narcity.com,mtlblog.com#$##mcanvas { filter: none!important; }
 narcity.com,mtlblog.com#$##lml-data-consent { display: none!important; }
 narcity.com,mtlblog.com#$#body[style="overflow: hidden;"] { overflow: visible!important; }
@@ -4462,7 +4502,6 @@ ilanversen.com###cookiesusage
 kanalben.com###CookieMsgBox
 mkidn.gov.pl#$##myModal { display: none!important; }
 mkidn.gov.pl#$#body { overflow: visible!important; }
-godealla.pl##.cookies
 zeropln.antyweb.pl#$#body[style="overflow: hidden;"] { overflow: visible!important; }
 zeropln.antyweb.pl#$#.pin.fixed.z-50.flex.flex-col.justify-end { display: none!important; }
 adidas.pl###truste-consent-track
@@ -4484,7 +4523,7 @@ teetres.com###_cookies_info
 rtlplay.be##.banner--gdpr
 facebook.com##div[data-testid="cookie-policy-banner"]
 tooway.pl###bandeauCookieIdweb
-eska.pl,eskago.pl###mpc_cookie_intro
+fokus.tv,eska.pl,eskago.pl###mpc_cookie_intro
 myspace.com###termsOfService
 money.yandex.ru##.gdpr
 visitnapavalley.com##.gdpr-banner
@@ -5074,7 +5113,7 @@ express.co.uk,pcgamer.com,techradar.com###cmp-container-id
 ||cdn.images.express.co.uk/cmp/cmpui.html
 gjirafa.com###iframe_cookie
 opten.hu###cookie_caution
-popkedi.com,weebly.com,carlsonlabs.com###kb-container
+linuxandubuntu.com,popkedi.com,weebly.com,carlsonlabs.com###kb-container
 haberler.com###cookiePolicyw
 tenniswarehouse-europe.com###data_protection
 dailymail.co.uk##div[data-cmp-no-consent]
@@ -5850,7 +5889,7 @@ flightradar24.com##.cookielaw-msg
 bonus4me.7pass.de,deutschepost.de,hornbach.de,bmw-motorrad.co.uk,telekom.com##.cookielayer
 telegraaf.nl##.cookiepolicy-txt
 arcor.de##.cookiepopup
-twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
+ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 m.diariovasco.com##.cookies-div
 2ip.ru##.cookies-notification
 mclaren.com##.cookies.show
@@ -6532,6 +6571,7 @@ tribalfootball.com##.core__aside > .widget[-ext-has='.mc_embed_signup']
 !
 !
 !--- Reamains of ads ---
+agar.space###login-tile > #instructions > h7:contains(- Advertisement -)
 news.tvbs.com.tw##.content_left2 > .newsdetail_box:has(> .content_center_list_box > .newsdetail_content_like > ul > [data-widget="plista_widget_belowArticle_default"])
 dvdlords.com###sidebar > .Widget:contains(ad_idzone)
 rtlnext.rtl.de##.rtli-master-split > .rtli-master-article > .rtli-master-section[-ext-has='.no-ads-passback']
@@ -6594,6 +6634,8 @@ m.facebook.com##.storyStream > #MNewsFeed > section.storyStream > article[-ext-h
 !! disabled due to rule update in English move rule to English filter if still nothing broken on 31.10.2018
 ! facebook.com##div[id^="substream_"] div[id^="hyperfeed_story_id_"][-ext-has='[id*="feed_subtitle_"] a[href^="https://www.facebook.com/#"] > span > span']
 ! End Facebook
+finanzen.net##.teaser > .box:has(> .box-headline:contains(WhatsApp Newsletter))
+finanzen.net##.col-sm-4 > .box:has(> .box-headline:contains(WhatsApp Newsletter))
 techrepublic.com##.row > .col-4 > section:not([class]):not([id]):has(>.keep-up > .newsletter-wrap)
 designmodo.com###sidebar-wrapper > .sidebar-h3:contains(Newsletter)
 latimes.com##.trb_ar_page > aside.trb_em[data-content-type="blurb"]:has(>.trb_em_bl[style="padding-top: 240px;"])
@@ -7348,6 +7390,10 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+deine-tierwelt.de#$##hunde_kontakt_warnung { display: none!important; }
+deine-tierwelt.de#$#body { overflow: visible!important; }
+plutonpromo.az###parent_popup
+anlegen-in-immobilien.de##.showAiiNewsletterLayer
 aktiencheck.de###side_teaser_topleft
 psmag.com##body > div.m-interstitial
 u.gg###main-content > .discord-notification
@@ -8401,6 +8447,8 @@ com-magazin.de##w-div[role$="dialog"]
 ||sud.ua/js/jquery.arcticmodal*.min.js
 ||turkusozu.com/js/fancybox/
 ||ufatime.ru/st/libs/magnific/jquery.magnific-popup.min.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/25623
+amfora.pl,budujesz.pl,digitalo.pl,hulahop.pl,meblujesz.pl,morele.net,motoria.pl,pupilo.pl,sklep-presto.pl,ubieramy.pl#%#document.cookie = "newPageInfoCookie=true";
 !
 diamante-wear.com#$#.newsletter__popup { display: none!important; }
 diamante-wear.com#$#.popup__opened { overflow: visible!important; }
@@ -10198,6 +10246,7 @@ mhealth.ru##.incut_readmore
 !
 ! START: Adviser/online-consultant/feedback widgets
 !
+.az/livechat/
 ||bazzaro.ru^$third-party
 ||callback.onlinepbx.ru^$third-party
 ||widget.textback.io^$third-party
