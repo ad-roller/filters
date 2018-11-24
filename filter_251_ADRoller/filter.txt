@@ -2475,7 +2475,6 @@
 |http://www.v-links.net$third-party
 |http://www.vdisk.cn/img/c728x90.gif
 |http://www.vdisk.cn/img/dcr2.gif
-|http://www.veryhuo.com/images/jscss/veryhuoads.js
 |http://www.veryhuo.com/plus/js/$script
 |http://www.vgugu.com/iframes/xp-$script
 |http://www.vgugu.com/templets/vgugu/images/$image

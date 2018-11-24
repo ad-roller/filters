@@ -376,6 +376,8 @@
 @@|http://show.g.mediav.com/s?type=$domain=7654.com
 ! @@|http://sports.eastday.com/jscss/v4/js/new_deatil_ad.js is excluded by: @@
 @@|http://sports.eastday.com/jscss/v4/js/new_deatil_ad.js
+! @@|http://sports.eastday.com/jscss/v4/js/common.j is excluded by: @@
+@@|http://sports.eastday.com/jscss/v4/js/common.j
 ! @@|http://ssl.p.jwpcdn.com/player/ is excluded by: @@
 @@|http://ssl.p.jwpcdn.com/player/
 ! @@|http://ssxd.mediav.com/s?type= is excluded by: @@
@@ -2670,8 +2672,6 @@
 |http://*/js/bqg.js|$s@function list1()*function footer1()@function xxx()@
 ! |http://*/js/common.js|$s@function listindex()*function dl*()@function xxx()@ is excluded by: |http://*
 |http://*/js/common.js|$s@function listindex()*function dl*()@function xxx()@
-! |http://*/js/common.js|$s@function listindex()*function tan()@function xxx()@ is excluded by: |http://*
-|http://*/js/common.js|$s@function listindex()*function tan()@function xxx()@
 ! |http://*/js/script.js|$s@function style_head()*function fmt()@function xxx()@ is excluded by: |http://*
 |http://*/js/script.js|$s@function style_head()*function fmt()@function xxx()@
 ! |http://*/scripts/header.js|$s@function listindex()*function bdshare()@function xxx()@ is excluded by: |http://*
@@ -3413,10 +3413,6 @@
 ! Invalid rule options:
 ||ddc.net.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
-! Invalid rule options:
-||eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
-! Invalid rule options:
 ||renrencili.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 ||sina.com.hk/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
@@ -3435,6 +3431,10 @@
 ! Invalid rule options:
 |http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|http://video.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|http://video.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+! Invalid rule options:
 |http://www.dysfz.vip/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://www.dysfz.vip/$s@</body>@<script>fuckcss('li:contains(优惠券),li:contains(红包)')</script></body>@
@@ -3444,6 +3444,10 @@
 |http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://sports.mop.com/$s@</body>@<script>inHackcss.H('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
+! Invalid rule options:
+|http://sports.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|http://sports.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 |http://t66y.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3497,9 +3501,9 @@
 ! Invalid rule options:
 ||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||https://eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://video.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-||https://eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+|https://video.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 ||https://javbus.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3546,6 +3550,10 @@
 |https://r3sub.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://sports.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://sports.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 |https://t66y.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3935,6 +3943,12 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||dnvod.tv/Movie/Readyplay.aspx$s@PlayVideo("t");@PlayVideo("txxx");@
 ! Invalid rule options:
+||eastday.com/*da_*.js$s@/\{.*\}/@{}@
+! Invalid rule options:
+||eastday.com/*detail*.js$s@/^/@function fuck_ad(){return ""}@
+! Invalid rule options:
+||eastday.com/*detail*.js$s@show_ad_dynamic@fuck_ad@
+! Invalid rule options:
 ||freecctv.xyz/biz/$s@var second = 15;@var second = 1;@
 ! Invalid rule options:
 ||freecctv.xyz/biz/player$s@flashvars.l = "*";@flashvars.l = "";@
@@ -4029,6 +4043,12 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||zol.com.cn/|$s@var _gaq = _gaq *</script>@</script>@
 ! Invalid rule options:
+||https://eastday.com/*da_*.js$s@/\{.*\}/@{}@
+! Invalid rule options:
+||https://eastday.com/*detail*.js$s@/^/@function fuck_ad(){return ""}@
+! Invalid rule options:
+||https://eastday.com/*detail*.js$s@show_ad_dynamic@fuck_ad@
+! Invalid rule options:
 ||https://163.com$s@style="width:300px;height:250px;"></iframe>@style="display:none;"></iframe>@
 ! Invalid rule options:
 ||https://m.80s.tw$s@function(){var d=@{@
@@ -4058,18 +4078,6 @@ yxdown.com###topsearch{top: 100px;}
 |https://tieba.baidu.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
 ! Invalid rule options:
 |https://www.bilibili.com/video/$s@src="http://static.hdslb.com/sohu.swf"@src="http://static.hdslb.com/sohu.swf?plid=7038006&"@
-! Invalid rule options:
-|https://video.eastday.com/*/js/gethot.js$s@000)@)@
-! Invalid rule options:
-|https://video.eastday.com/assets/vdetail_v*/js/detail.js$s@000)@)@
-! Invalid rule options:
-|https://video.eastday.com/*/js/*_gethot.js$s@000)@)@
-! Invalid rule options:
-|https://video.eastday.com/$s@<div class="ad">@<div style="display:none">@
-! Invalid rule options:
-|https://video.eastday.com/$s@<div class="ad no">@<div class="display:none">@
-! Invalid rule options:
-|https://video.eastday.com/$s@<div class="ad hide poa">@<div style="display:none">@
 ! Invalid rule options:
 |http://btkitty.$s@<script language="javascript" type="text/javascript">if(top.location!==self.location){top.location.href=self.location.href;}</script>*<script type="text/javascript">var params =@<script language="javascript" type="text/javascript">if(top.location!==self.location){top.location.href=self.location.href;}</script><script type="text/javascript">var params =@
 ! Invalid rule options:
@@ -4431,12 +4439,6 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 |http://vip.jindu179.com/js/tp.js$s@,15000)@,0)@
 ! Invalid rule options:
-|http://video.eastday.com/*/js/gethot.js$s@000)@)@
-! Invalid rule options:
-|http://video.eastday.com/assets/vdetail_v*/js/detail.js$s@000)@)@
-! Invalid rule options:
-|http://video.eastday.com/*/js/*_gethot.js$s@000)@)@
-! Invalid rule options:
 |http://v.17173.com/*.shtml$s@<div data-adtime="5" class="js-lol-ad"">@<div data-adtime="1" style="display:none">@
 ! Invalid rule options:
 |http://v.17173.com/v_$s@intervalid = setInterval("fun()", 1000);@intervalid = setInterval("fun()", 0);@
@@ -4460,12 +4462,6 @@ yxdown.com###topsearch{top: 100px;}
 |http://v.lupotian9.vip/share/$s@var        l = 'http*'@var        l = ''@
 ! Invalid rule options:
 |http://v.uggd.com/player/player*.xml$s@{d->http://v.uggd.com/player/temp/*{t->10|10}</flashvars>@{t->0|0}</flashvars>@
-! Invalid rule options:
-|http://video.eastday.com/$s@<div class="ad">@<div style="display:none">@
-! Invalid rule options:
-|http://video.eastday.com/$s@<div class="ad no">@<div style="display:none">@
-! Invalid rule options:
-|http://video.eastday.com/$s@<div class="ad hide poa">@<div style="display:none">@
 ! Invalid rule options:
 |http://vxml.56.com/crossdomain.xml$s@<allow-access-from domain="?.56.com"/>@<allow-access-from domain="*"/>@
 ! Invalid rule options:
