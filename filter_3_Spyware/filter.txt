@@ -3009,6 +3009,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$third-party
 ! Admiral domains
+||culturedcrayon.com^$third-party
 ||spuriousstranger.com^$third-party
 ||jamexistence.com^$third-party
 ||partplanes.com^$third-party
@@ -3175,6 +3176,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||banstat.nadavi.net^
 ||pixel.4players.de^$important
 ||lexip.4players.de^
 ||monitor-targeting-failures.sqrt-5041.de^
@@ -6221,6 +6223,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! cryptokitties.co - fixing the site
+@@||cdn.segment.com/analytics.js$domain=cryptokitties.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25440
 @@||googletagmanager.com/gtm.js$domain=dailyherald.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25518
