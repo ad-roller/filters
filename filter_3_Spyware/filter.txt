@@ -102,6 +102,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||stats.coronalabs.com^
 ||track.special-offers.online^$third-party
 ||crm-analytics.imweb.ru^$third-party
 ||i.clean.gg^
@@ -3176,6 +3177,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||stats.otempo.com.br^
 ||banstat.nadavi.net^
 ||pixel.4players.de^$important
 ||lexip.4players.de^
@@ -3273,8 +3275,6 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||cnt.nicemix.com^
 ||cnt.nuvid.com^
 ||cnt.vivatube.com^
-||collect.sas.com^
-||collect2.sas.com^
 ||collection.theaa.com^
 ||collector-cdn.github.com^
 ||collector-medium.lightstep.com^
@@ -4757,6 +4757,8 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||extremetech.com/sbs/beacon.js
+||myfonts.net/count
 ||youboranqs01.com/ping
 ||news.de/empty.txt
 ||ue.nordbayern.de/cre-*/tracking^

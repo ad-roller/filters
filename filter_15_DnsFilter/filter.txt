@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-11-26 14:51:32
+! Last modified: 2018-11-28 14:52:59
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,9 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||mbzl-pro.xyz^
+||ad.edugram.com^
+||kdsk32lfa.xyz^
 ||vrt.news^
 ||nnavigation.info^
 ||dintsupnejec.ru^
@@ -3663,6 +3666,7 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||lnkfast.com^
 ||newspolovb.info^
 ||uytestion.info^
 ||cultidifficient.info^
@@ -5633,6 +5637,7 @@ www.llllllllllll.net^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||a.6d47c1118927cf53ba9654931df80e8d.com^
 ||rtb.appbid.com^
 ||rtapi.abbi.io^
 ||ade.clmbtech.com^
@@ -12378,6 +12383,7 @@ www.llllllllllll.net^
 ||dglfkgmhahilp.com^
 ||dgnuumyxpqiget.com^
 ||dgrvnlhz.com^
+||dhmwedckf.com^
 ||dhtqupvxujyfp.com^
 ||dieohupl.com^
 ||dijutbdzbv.com^
@@ -12706,6 +12712,7 @@ www.llllllllllll.net^
 ||krpdqnnb.com^
 ||krtdobasy.com^
 ||ksrcnyrntlyfo.com^
+||ksufusxqd.com^
 ||ktdthraxzxt.com^
 ||kujwlsnl.com^
 ||kvhxckkd.com^
@@ -12897,6 +12904,7 @@ www.llllllllllll.net^
 ||pgfxwbgema.com^
 ||phiubpdrh.com^
 ||pifsistcwycouc.com^
+||pitduougk.com^
 ||pkxquvydrgin.com^
 ||pllregftgbgmdi.com^
 ||pmohsibnim.com^
@@ -13046,6 +13054,7 @@ www.llllllllllll.net^
 ||secfpgpqx.com^
 ||sepyqhipq.com^
 ||sfrsuihcubepzd.com^
+||sfxmdqbi.com^
 ||sgiueejx.com^
 ||shapzwwy.com^
 ||shgvuhvf.com^
@@ -13192,6 +13201,7 @@ www.llllllllllll.net^
 ||vhdvllhgyrjy.com^
 ||vickgdkdrwpdt.com^
 ||viphdsrlec.com^
+||vjcewkcjqu.com^
 ||vjzcgotoy.com^
 ||vkhrnisuky.com^
 ||vkrgljxqn.com^
@@ -13209,10 +13219,12 @@ www.llllllllllll.net^
 ||vptkyunlzfy.com^
 ||vqaizaukh.com^
 ||vqnruxpecsn.com^
+||vqqvpouifhv.com^
 ||vrzparvhipmo.com^
 ||vsrpztnxdejo.com^
 ||vsrsviytlb.com^
 ||vsxjjmyz.com^
+||vtcxhnri.com^
 ||vtgdjgtwl.com^
 ||vtmkgqcvzvlsdt.com^
 ||vudbfsnvyzxo.com^
@@ -13254,6 +13266,7 @@ www.llllllllllll.net^
 ||woghqyjpiwddme.com^
 ||wozltvfxtntaqk.com^
 ||wplqgfpj.com^
+||wqnpcflbcv.com^
 ||wqobjrevtkqym.com^
 ||wqpyqirgzfqsc.com^
 ||wstvcgfkvc.com^
@@ -18512,6 +18525,7 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||stats.coronalabs.com^
 ||track.special-offers.online^
 ||crm-analytics.imweb.ru^
 ||i.clean.gg^
@@ -21433,6 +21447,7 @@ www.llllllllllll.net^
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||stats.otempo.com.br^
 ||banstat.nadavi.net^
 ||pixel.4players.de^
 ||lexip.4players.de^
@@ -21527,8 +21542,6 @@ www.llllllllllll.net^
 ||cnt.nicemix.com^
 ||cnt.nuvid.com^
 ||cnt.vivatube.com^
-||collect.sas.com^
-||collect2.sas.com^
 ||collection.theaa.com^
 ||collector-cdn.github.com^
 ||collector-medium.lightstep.com^
@@ -25732,6 +25745,8 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||analytics.twitter.com^
 ||click.aliexpress.com^$image,script
 ||clientlog.portal.office.com^
+||collect.sas.com^
+||collect2.sas.com^
 ||log.optimizely.com^
 ||log.prezi.com^
 ||pixel.redditmedia.com^
@@ -25826,6 +25841,8 @@ raovat.vnecdn.net^
 !
 ! Adguard DNS exceptions
 !
+! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/23
+@@||sas.com^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23929
 @@||cm-beacon.nakanohito.jp^|
 @@||cm-widget.nakanohito.jp^|
