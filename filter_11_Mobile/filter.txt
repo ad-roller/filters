@@ -1693,6 +1693,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+weblio.jp##.adBkOverlayClr
 banglachotikahinii.com###mobile > div.row > div.mt_banner+span
 banglachotikahinii.com##.mt_banner
 banglachotikahinii.com##span[style="width: 320px; height: 70px;"]
@@ -2615,6 +2616,7 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ! Google ads (be careful)
 ||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
 ! Blocking of Facebook ads
+||graph.facebook.com^$app=com.geekslab.eyeprotection
 ||graph.facebook.com^$app=best.hd.uhd.amoled.wallpapers
 ||graph.facebook.com^$app=com.tourbillon.freeappsnow
 ||graph.facebook.com^$app=com.acg.manga
@@ -2740,6 +2742,9 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.quoord.tapatalkpro.activity
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
+!
+! com.edadeal.android - fixing an app
+@@||startup.mobile.yandex.net^$app=com.edadeal.android
 !
 @@||imasdk.googleapis.com^|$app=com.nhl.gc1112.free|com.nhl.hattrickchallenge
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24782

@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-11-28 14:52:59
+! Last modified: 2018-11-30 14:54:43
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,7 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||faktty.com^
 ||mbzl-pro.xyz^
 ||ad.edugram.com^
 ||kdsk32lfa.xyz^
@@ -43,6 +44,7 @@
 ||blablabla.pp.ua^
 ||look-reklama.ru^
 ||ylkkp.com^
+||kak-bit-new.ru^
 ||cbgunpz3aoayscg.ru^
 ||7offers.ru^
 ||cqhciif9bjtplrc.ru^
@@ -3666,6 +3668,11 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||keyrolan.com^
+||w13qh.cn^
+||neecnuaa.com^
+||btzuecidcshmmv.com^
+||foxypp.com^
 ||lnkfast.com^
 ||newspolovb.info^
 ||uytestion.info^
@@ -5149,6 +5156,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||dybxezbel1g44.cloudfront.net^
 ||d4ngwggzm3w7j.cloudfront.net^
 ||bidr.trellian.com^
 ||dxprljqoay4rt.cloudfront.net^
@@ -9007,6 +9015,7 @@ www.llllllllllll.net^
 ||kikuzip.com^
 ||kinley.com^
 ||kintokup.com^
+||kip5j.com^
 ||kitnmedia.com^
 ||kjgh5o.com^
 ||klikadvertising.com^
@@ -9437,6 +9446,7 @@ www.llllllllllll.net^
 ||newsadstream.com^
 ||newsmaxfeednetwork.com^
 ||newstogram.com^
+||newsushe.info^
 ||newtention.net^
 ||nexage.com^
 ||nexeps.com^
@@ -9743,6 +9753,7 @@ www.llllllllllll.net^
 ||pnd.gs^
 ||pnoss.com^
 ||pnsandbox.com^
+||pobaftern.info^
 ||pointclicktrack.com^
 ||pointroll.com^
 ||points2shop.com^
@@ -9849,6 +9860,7 @@ www.llllllllllll.net^
 ||protally.net^
 ||provider-direct.com^
 ||proximic.com^
+||prpops.com^
 ||prxio.github.io^
 ||prxio.pw^
 ||prxio.site^
@@ -11035,6 +11047,7 @@ www.llllllllllll.net^
 ||zerozo.work^
 ||zferral.com^
 ||zidae.com^
+||zidedge.com^
 ||zipropyl.com^
 ||zisboombah.net^
 ||zm232.com^
@@ -12289,9 +12302,12 @@ www.llllllllllll.net^
 ||bdtwxreri.com^
 ||begnsbnjegnolq.com^
 ||bekiruvppl.com^
+||bfhlxjwc.com^
 ||bfmrffluuazwn.com^
+||bgfdrngowyy.com^
 ||bgzyppwk.com^
 ||bhfuoayzqqv.com^
+||bhmzjxrf.com^
 ||bikuetrh.com^
 ||bimwswreljucxa.com^
 ||binullxzwnsqws.com^
@@ -12382,6 +12398,7 @@ www.llllllllllll.net^
 ||dfkpqvhcl.com^
 ||dglfkgmhahilp.com^
 ||dgnuumyxpqiget.com^
+||dgqktjmxtlp.com^
 ||dgrvnlhz.com^
 ||dhmwedckf.com^
 ||dhtqupvxujyfp.com^
@@ -12416,7 +12433,9 @@ www.llllllllllll.net^
 ||ebifuaad.com^
 ||eekmkywfke.com^
 ||efebafmqn.com^
+||efekvyyynwd.com^
 ||egcocjwpzqsa.com^
+||ehlfynuo.com^
 ||ekggptrw.com^
 ||ekxlneryaiefwn.com^
 ||elcolpplwua.com^
@@ -12463,6 +12482,7 @@ www.llllllllllll.net^
 ||fofjazpwccc.com^
 ||fpdsavexteno.com^
 ||fpluhtibx.com^
+||fpqeowmsv.com^
 ||fpxkjlzmkqp.com^
 ||fqckdxjgle.com^
 ||fqhpssdbenl.com^
@@ -12496,6 +12516,7 @@ www.llllllllllll.net^
 ||gdtbpaqa.com^
 ||gdyelbwku.com^
 ||gdyjhclaxvqz.com^
+||gecxceztcnhkmh.com^
 ||gekywqwky.com^
 ||gfuhjlpnuj.com^
 ||ggijrjktcld.com^
@@ -12503,6 +12524,7 @@ www.llllllllllll.net^
 ||gifjvmfkzykp.com^
 ||girrjaqgjb.com^
 ||gjliurjvfnkymq.com^
+||gjriyqsfrnvuv.com^
 ||gkaatcjxwa.com^
 ||glvjbogft.com^
 ||glzaaewyvdkae.com^
@@ -12551,6 +12573,7 @@ www.llllllllllll.net^
 ||heaaizwhm.com^
 ||hefgfqcyfmv.com^
 ||hezasoiduicbha.com^
+||hfedqcww.com^
 ||hfslmsbj.com^
 ||hgbxmqyqoplpif.com^
 ||hgdmzshm.com^
@@ -12599,6 +12622,7 @@ www.llllllllllll.net^
 ||iddvmkxme.com^
 ||ideprjebdvj.com^
 ||idernzastoeok.com^
+||idqzpnea.com^
 ||ieqbsnteuyn.com^
 ||ifbhceoxx.com^
 ||ifdmdfqysaacqa.com^
@@ -12622,6 +12646,7 @@ www.llllllllllll.net^
 ||imnsmvmjrdiwwr.com^
 ||inhcrirmboz.com^
 ||iogutpkrkkycq.com^
+||ioujbpldicfgm.com^
 ||ipehunxxyir.com^
 ||ipxdoldjsvnjvw.com^
 ||irfiysdcrnleu.com^
@@ -12756,6 +12781,7 @@ www.llllllllllll.net^
 ||lvctzafuvn.com^
 ||lvldcxnq.com^
 ||lwajqohv.com^
+||lwequndmgc.com^
 ||lxelgoqzvjfw.com^
 ||lxlisrvzz.com^
 ||lxnimmyikuekn.com^
@@ -12855,6 +12881,7 @@ www.llllllllllll.net^
 ||nwwuhiukrq.com^
 ||nxewruvxprbd.com^
 ||nyltsyud.com^
+||nyskocbhfz.com^
 ||nytqlenw.com^
 ||nywpxugigwfzb.com^
 ||nywuthdzdacoq.com^
@@ -12865,6 +12892,7 @@ www.llllllllllll.net^
 ||obpzuctfozram.com^
 ||obwvmzdb.com^
 ||ocrwyhamhfpfc.com^
+||odukhsymyua.com^
 ||oebdarcqsqcdk.com^
 ||oeevatisopdl.com^
 ||oeppesfmzlbpa.com^
@@ -12899,11 +12927,14 @@ www.llllllllllll.net^
 ||peyttlwbznahi.com^
 ||pfihfdmwdsjum.com^
 ||pfiuzxey.com^
+||pfoohjpdbxt.com^
 ||pfvfwielz.com^
 ||pfxcnvjoysztb.com^
 ||pgfxwbgema.com^
 ||phiubpdrh.com^
+||pidbbdxixp.com^
 ||pifsistcwycouc.com^
+||pimygjumeyrtxe.com^
 ||pitduougk.com^
 ||pkxquvydrgin.com^
 ||pllregftgbgmdi.com^
@@ -12933,6 +12964,7 @@ www.llllllllllll.net^
 ||pxzacgmr.com^
 ||pyhtclpgzbe.com^
 ||pzfittkdqrrsa.com^
+||qaiqromd.com^
 ||qaxtgbdxjpibc.com^
 ||qbsanzpkfj.com^
 ||qcaejiouuvgk.com^
@@ -12968,6 +13000,7 @@ www.llllllllllll.net^
 ||qolrlwwirf.com^
 ||qopqudzeaywc.com^
 ||qowmqduocv.com^
+||qpbaammdcwu.com^
 ||qpganepbkw.com^
 ||qpmswrurt.com^
 ||qpqnbnsnosdss.com^
@@ -13360,6 +13393,7 @@ www.llllllllllll.net^
 ||yimfcnxzyqhpih.com^
 ||yintkfbxaopyb.com^
 ||yisscbyq.com^
+||yjdbnkgonfp.com^
 ||yjijmpezje.com^
 ||yjipohjtdrxncg.com^
 ||yjseeodbma.com^
@@ -23754,7 +23788,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||onlinereserchstatistics.online^
 ||open-hive-server-1.pp.ua^
 ||openguid.org^
-||outbrainimg.com^
 ||oxwwoeukjispema.ru^
 ||p2poolmining.com^
 ||p2poolmining.net^
@@ -24435,6 +24468,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d3iouejux1os58.cloudfront.net^
 ||d3kyk5bao1crtw.cloudfront.net^
 ||d3mskfhorhi2fb.cloudfront.net^
+||d3n6i6eorggdxk.cloudfront.net^
 ||d3rmnwi2tssrfx.cloudfront.net^
 ||d3tglifpd8whs6.cloudfront.net^
 ||data.alexa.com^
@@ -25430,6 +25464,7 @@ charlestownwyllie.oaklawnnonantum.com^
 .3.n.2.2.l30.js
 !
 !
+||jwuqescfqa.xyz^
 ://mine.torrent.pw^
 ||besstahete.info^
 ||hostingcloud.*.wasm^

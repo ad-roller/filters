@@ -3417,7 +3417,7 @@
 ! Invalid rule options:
 ||sina.com.hk/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
 ! Invalid rule options:
-||sina.com.hk/$s@</body>@<script>inHackcss.H('.sbAds')</script></body>@
+||sina.com.hk/$s@</body>@<script>fuckcss('.sbAds')</script></body>@
 ! Invalid rule options:
 |http://4pda.ru/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3433,7 +3433,7 @@
 ! Invalid rule options:
 |http://video.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://video.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+|http://video.eastday.com/$s@</body>@<script>fuckcss('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 |http://www.dysfz.vip/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3443,11 +3443,11 @@
 ! Invalid rule options:
 |http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://sports.mop.com/$s@</body>@<script>inHackcss.H('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
+|http://sports.mop.com/$s@</body>@<script>fuckcss('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
 ! Invalid rule options:
 |http://sports.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://sports.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+|http://sports.eastday.com/$s@</body>@<script>fuckcss('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 |http://t66y.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3465,7 +3465,7 @@
 ! Invalid rule options:
 |http://www.creaders.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|http://www.creaders.net/$s@</body>@<script>inHackcss.H('[style="padding:5px 0px;"]')</script></body>@
+|http://www.creaders.net/$s@</body>@<script>fuckcss('[style="padding:5px 0px;"]')</script></body>@
 ! Invalid rule options:
 |http://www.doutula.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3503,7 +3503,7 @@
 ! Invalid rule options:
 |https://video.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://video.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+|https://video.eastday.com/$s@</body>@<script>fuckcss('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 ||https://javbus.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3511,9 +3511,11 @@
 ! Invalid rule options:
 ||https://qianzhan.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+||https://qidian.com$s@</body>@<script>fuckcss('[style^="width: 426px; height: 644px;"]')</script></body>@
+! Invalid rule options:
 ||https://sina.com.hk/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
 ! Invalid rule options:
-||https://sina.com.hk/$s@</body>@<script>inHackcss.H('.sbAds')</script></body>@
+||https://sina.com.hk/$s@</body>@<script>fuckcss('.sbAds')</script></body>@
 ! Invalid rule options:
 ||https://sina.com.tw/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
 ! Invalid rule options:
@@ -3523,15 +3525,15 @@
 ! Invalid rule options:
 |https://99a12.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://99a12.com/$s@</body>@<script>inHackcss.H('.half-img')</script></body>@
+|https://99a12.com/$s@</body>@<script>fuckcss('.half-img')</script></body>@
 ! Invalid rule options:
 |https://all.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://all.qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
+|https://all.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
 |https://book.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://book.qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
+|https://book.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
 |https://btdiggs.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3545,7 +3547,7 @@
 ! Invalid rule options:
 |https://read.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://read.qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
+|https://read.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
 |https://r3sub.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3553,7 +3555,7 @@
 ! Invalid rule options:
 |https://sports.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://sports.eastday.com/$s@</body>@<script>inHackcss.H('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
+|https://sports.eastday.com/$s@</body>@<script>fuckcss('.dspAd,.dsp_adxpf,.header_rightad,[id*="_ad_"],.new360ad,#ny_dbhf,.gglist,[src*="/images/ad/adarticle/"],[class^="banner"],[class^="gg-"],[id^="J_topappdownload"],.active-link,.interest-news,[class^="gg_"],[class^="channel_ybq_x gg_"],.ad,.index-ad,.img_click_gg,[class^="jrtt-ad"],[src^="https://mini.eastday.com/toutiaoh5/partner/gg_"],[data-ggid],[class^="ave_bd0"],.ave_spxia,[class*="_adv_"],[class^="ad-r"],.ad-l-three,.iframeDA,.ad-top,.ad-hf-l,.ad-hf-r')</script></body>@
 ! Invalid rule options:
 |https://t66y.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3577,11 +3579,11 @@
 ! Invalid rule options:
 |https://www.javbus.work/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.javbus.work/$s@</body>@<script>inHackcss.H('.ad-list')</script></body>@
+|https://www.javbus.work/$s@</body>@<script>fuckcss('.ad-list')</script></body>@
 ! Invalid rule options:
 |https://www.qdmm.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.qdmm.com/$s@</body>@<script>inHackcss.H('.top-game-op,.banner-wrap.box-center.mb40,.focus-img.cf')</script></body>@
+|https://www.qdmm.com/$s@</body>@<script>fuckcss('.top-game-op,.banner-wrap.box-center.mb40,.focus-img.cf')</script></body>@
 ! Invalid rule options:
 |https://www.gaoqingkong.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3589,15 +3591,15 @@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.qidian.com/$s@</body>@<script>inHackcss.H('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
+|https://www.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
-|https://www.qidian.com/$s@</body>@<script>inHackcss.H('#j-topOpBox')</script></body>@
+|https://www.qidian.com/$s@</body>@<script>fuckcss('#j-topOpBox')</script></body>@
 ! Invalid rule options:
-|https://www.qidian.com/$s@</body>@<script>inHackcss.H('.focus-img.cf')</script></body>@
+|https://www.qidian.com/$s@</body>@<script>fuckcss('.focus-img.cf')</script></body>@
 ! Invalid rule options:
 |https://www.v2ex.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.v2ex.com/$s@</body>@<script>inHackcss.H('.sidebar_compliance')</script></body>@
+|https://www.v2ex.com/$s@</body>@<script>fuckcss('.sidebar_compliance')</script></body>@
 ! Invalid rule options:
 |https://www.zimuku.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
