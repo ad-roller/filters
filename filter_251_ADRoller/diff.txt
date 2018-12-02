@@ -816,10 +816,14 @@
 !@@@@||https://googlesyndication.com$domain=babytoyhome.com
 ! @@@@||https://google-analytics.com$domain=battle.net is excluded by: @@
 @@@@||https://google-analytics.com$domain=battle.net
+! @@@@||https://music.163.com is excluded by: @@
+@@@@||https://music.163.com
 ! @@@@|https://iface2.iqiyi.com is excluded by: @@
 @@@@|https://iface2.iqiyi.com
 ! @@@@|https://img1.doubanio.com is excluded by: @@
 @@@@|https://img1.doubanio.com
+! @@@@|https://img1.mydrivers.com is excluded by: @@
+@@@@|https://img1.mydrivers.com
 ! @@@@|https://img3.doubanio.com is excluded by: @@
 @@@@|https://img3.doubanio.com
 ! @@@@|https://kprules.b0.upaiyun.com is excluded by: @@
@@ -838,6 +842,8 @@
 @@@@|https://nex.163.com
 ! @@@@|https://n.3g.163.com is excluded by: @@
 @@@@|https://n.3g.163.com
+! @@@@|https://music.httpdns.c.163.com/ is excluded by: @@
+@@@@|https://music.httpdns.c.163.com/
 ! @@@@|https://messaging.zhihu.com is excluded by: @@
 @@@@|https://messaging.zhihu.com
 ! @@@@|https://mail.sohu.com/fe/ is excluded by: @@
@@ -854,6 +860,8 @@
 @@@@|https://puma-api.iqiyi.com
 ! @@@@|https://paopao.iqiyi.com is excluded by: @@
 @@@@|https://paopao.iqiyi.com
+! @@@@|https://passport.mydrivers.com is excluded by: @@
+@@@@|https://passport.mydrivers.com
 ! @@@@|https://image.xingyan.panda.tv is excluded by: @@
 @@@@|https://image.xingyan.panda.tv
 ! @@@@|https://pv.sohu.com is excluded by: @@
@@ -944,8 +952,8 @@
 |http://*.cn/?ss=*_*_$third-party
 ! |http://*.cn/ad-js/ is excluded by: |http://*
 |http://*.cn/ad-js/
-! |http://*.cn/ad/$domain=~easybuy.com.cn|~kumi.cn|~kumi.hz.letv.com|~rbc.cn is excluded by: |http://*
-|http://*.cn/ad/$domain=~easybuy.com.cn|~kumi.cn|~kumi.hz.letv.com|~rbc.cn
+! |http://*.cn/ad/$domain=~easybuy.com.cn|~kumi.cn|~kumi.hz.letv.com|~rbc.cn|~ireader.com.cn is excluded by: |http://*
+|http://*.cn/ad/$domain=~easybuy.com.cn|~kumi.cn|~kumi.hz.letv.com|~rbc.cn|~ireader.com.cn
 ! |http://*.cn/ads/$domain=~cmbc.com.cn is excluded by: |http://*
 |http://*.cn/ads/$domain=~cmbc.com.cn
 ! |http://*.cn/Advertis is excluded by: |http://*
@@ -3834,6 +3842,30 @@ yxdown.com###topsearch{top: 100px;}
 ||https://xd0.com##.HtmlMoKua.two-thirds,.HtmlMoKua > .themeauthor
 ! || are unnecessary for element hiding rule:
 ||https://xd0.com##[href="http://yunchangkm.999ka.cn/"],[height="100"]
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.watch-sidebar-body > #watch-related > .related-list-item > .related-video
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.watch-sidebar-body > #watch-related > .related-list-item
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.home .branded-page-v2-secondary-col
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.feed .branded-page-v2-secondary-col
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.guide-builder-v2 .branded-page-v2-secondary-col
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.branded-page-v2-col-container > .branded-page-v2-col-container-inner > .branded-page-v2-secondary-col:last-child > .branded-page-box:first-child:last-child
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.html5-endscreen-content
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.html5-endscreen,#masthead-ad
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.branded-page-v2-secondary-col > .branded-page-related-channels > .yt-uix-tooltip
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.branded-page-v2-secondary-col > .branded-page-related-channels > .yt-uix-tooltip + .branded-page-related-channels-list
+! || are unnecessary for element hiding rule:
+||https://youtube.com##.branded-page-v2-col-container > .branded-page-v2-col-container-inner > .branded-page-v2-secondary-col:last-child > .branded-page-related-channels:first-child + .branded-page-box:last-child
+! || are unnecessary for element hiding rule:
+||https://youtube.com###channel-subscription-promo-in-feed
 ! || are unnecessary for element hiding rule:
 ||https://youku.com##.outsitepanel
 ! || are unnecessary for element hiding rule:
