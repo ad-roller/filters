@@ -102,6 +102,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||collector-*.perimeterx.net^$third-party
+||client.perimeterx.net^$third-party
 ||shifoagn.uk^$third-party
 ||stats.coronalabs.com^
 ||track.special-offers.online^$third-party
@@ -3011,6 +3013,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$third-party
 ! Admiral domains
+||standtrouble.com^$third-party
 ||culturedcrayon.com^$third-party
 ||spuriousstranger.com^$third-party
 ||jamexistence.com^$third-party
@@ -3740,7 +3743,6 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||abs.proxistore.com^$third-party
 ||cdn.tagcommander.com^$third-party
 ||mc.webvisor.org^
-||client.perimeterx.net^$third-party
 ||phen.fabricmedia.ru^$third-party
 ||m.dubcm.com^$third-party
 ||a1.huiqituan.com^$third-party
@@ -4787,6 +4789,7 @@ _tracking.php?b=
 ||sonar.semantiqo.com^$third-party
 ||manychat.com/widget/log?
 ||glssp.net/logger.js
+||growingio.com^$third-party
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
 ||medyaradar.com/Tools/AddHit.aspx?

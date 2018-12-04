@@ -5,8 +5,6 @@
 ! Invalid rule options:
 /\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
 ! Invalid rule options:
-||livew.l.qq.com/livemsg?ty=web&ad$rewrite=/livemsg?ty=web&az
-! Invalid rule options:
 ||web.da.mgtv.com/pc/player$rewrite=/m5/page
 ! Invalid rule options:
 ||web2.da.mgtv.com/pc/player$rewrite=/m5/page
