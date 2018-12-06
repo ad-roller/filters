@@ -736,6 +736,8 @@
 @@@@|https://api.car.autohome.com.cn
 ! @@@@|https://al.autohome.com.cn is excluded by: @@
 @@@@|https://al.autohome.com.cn
+! @@@@|https://alogs.umeng.com is excluded by: @@
+@@@@|https://alogs.umeng.com
 ! @@@@|https://api.k.sohu.com is excluded by: @@
 @@@@|https://api.k.sohu.com
 ! @@@@|https://api.smzdm.com is excluded by: @@
@@ -804,6 +806,8 @@
 @@@@|https://e-p4p.163.com
 ! @@@@|https://frodo.douban.com is excluded by: @@
 @@@@|https://frodo.douban.com
+! @@@@|https://game.163.com is excluded by: @@
+@@@@|https://game.163.com
 ! @@@@|https://haojia-api.smzdm.com is excluded by: @@
 @@@@|https://haojia-api.smzdm.com
 ! @@@@|https://ifs.tanx.com is excluded by: @@
@@ -826,6 +830,10 @@
 @@@@|https://img1.mydrivers.com
 ! @@@@|https://img3.doubanio.com is excluded by: @@
 @@@@|https://img3.doubanio.com
+! @@@@|https://image.gamersky.com is excluded by: @@
+@@@@|https://image.gamersky.com
+! @@@@|https://imgs.gamersky.com is excluded by: @@
+@@@@|https://imgs.gamersky.com
 ! @@@@|https://kprules.b0.upaiyun.com is excluded by: @@
 @@@@|https://kprules.b0.upaiyun.com
 ! @@@@|https://ka.163.com is excluded by: @@
@@ -834,6 +842,8 @@
 !@@@@|https://iface.iqiyi.com
 ! @@@@|https://lens.zhihu.com is excluded by: @@
 @@@@|https://lens.zhihu.com
+! @@@@|https://lx.hi.163.com is excluded by: @@
+@@@@|https://lx.hi.163.com
 ! @@@@|https://l-rcd.iqiyi.com is excluded by: @@
 @@@@|https://l-rcd.iqiyi.com
 ! @@@@|https://nl-rcd.iqiyi.com is excluded by: @@
@@ -852,6 +862,8 @@
 @@@@|https://m.ads.sohu.com
 ! @@@@|https://msg.iqiyi.com is excluded by: @@
 @@@@|https://msg.iqiyi.com
+! @@@@||https://mkey.163.com is excluded by: @@
+@@@@||https://mkey.163.com
 ! !@@@@|https://mi.gdt.qq.com is excluded by: @@
 !@@@@|https://mi.gdt.qq.com
 ! @@@@|https://passport.iqiyi.com is excluded by: @@
@@ -892,6 +904,8 @@
 @@@@|https://static.zhihu.com
 ! @@@@|https://s.youtube.com/api/ is excluded by: @@
 @@@@|https://s.youtube.com/api/
+! @@@@|https://uop.umeng.com is excluded by: @@
+@@@@|https://uop.umeng.com
 ! !@@@@|https://www.qidian.com/Javascript/ChapterPageHeader.js?t is excluded by: @@
 !@@@@|https://www.qidian.com/Javascript/ChapterPageHeader.js?t
 ! !@@@@|https://www.qidian.com/Javascript/qidian.bookchannel.js? is excluded by: @@
@@ -3491,6 +3505,8 @@
 ! Invalid rule options:
 |http://lq.win0168.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|http://m.szonline.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+! Invalid rule options:
 |http://m.yznnw.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |http://ozxw.co/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
@@ -3584,6 +3600,8 @@
 |https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
 |https://www.halihali.tv/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! Invalid rule options:
+|https://www.hdsky.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
 ! Invalid rule options:
 |https://www.javbus.work/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3741,11 +3759,9 @@ yxdown.com###topsearch{top: 100px;}
 ! || are unnecessary for element hiding rule:
 ||https://cnbeta.com##.cbv,.tigerstock,div.time,ins.adsbygoogle,[href="http://www.dangbei.com/?cnbeta"],[class="item cooperation"],.cbhelp,[href^="http://click.aliyun.com/m/"],.commt-r,#fixed_area,#aswift_0_expand,.other_news,a[href^="https://www.tigerbrokers.com/market/"],.article-global,.cnbeta-side-sponsor,.cbv810,[id^="dfb-wrapper-"]
 ! || are unnecessary for element hiding rule:
-||https://csdn.net###tad2,div#ad_top,DIV[class^="ad_"],#Topic_Top,div#ad_left,div#ad_right,DIV.AD.mb-bg,.enter-AD,.top_ad,.ad .J_adv,.dl_mar_b,.J_adv,.yd_a_d_feed_cla,[data-mod^="ad_popu_"]
+||https://csdn.net###tad2,div#ad_top,DIV[class^="ad_"],#Topic_Top,div#ad_left,div#ad_right,DIV.AD.mb-bg,.enter-AD,.top_ad,.ad .J_adv,.dl_mar_b,.J_adv,.yd_a_d_feed_cla,[data-mod^="ad_popu_"],.advert,.csdn-tracking-statistics.mb8
 ! || are unnecessary for element hiding rule:
-||https://csdn.net##.advert
-! || are unnecessary for element hiding rule:
-||https://csdn.net##.csdn-tracking-statistics.mb8
+||https://csdn.net##.right-item[data-track-click*="http"]:not([data-track-click*=".csdn."]),#adContent,.float-left > div[id^="dmp_ad_"],.recommend-item-box[data-track-click*="http"]:not([data-track-click*=".csdn."]),#kp_box_58,a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
 ! || are unnecessary for element hiding rule:
 ||https://dy2018.com##body[width="400"],[height="400"]
 ! || are unnecessary for element hiding rule:

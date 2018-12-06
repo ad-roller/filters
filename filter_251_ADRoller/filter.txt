@@ -2661,6 +2661,7 @@
 |http://zx.cp.ifeng.com/export/js/ifeng_sport_lottery_channel_pic.js$script
 |http://zy.nszmz.com/scrtips/777pan/777pan.js
 |http://zzimg.51.la^
+|http://zmz.maoyun.tv/*/ad-img$image
 |https://*.googlevideo.com/generate_204$image
 |https://*/*=adunit&
 |https://acg.gamersky.com/gsinc/content_bg.js$script
@@ -2741,6 +2742,9 @@
 |https://mixer.sina.cn^*/impress?
 |https://pingjs.qq.com^
 |https://promotion.aliyun.com/promotion/adv/getAliyunAdv.
+|https://pagead.googlesyndication.com^
+|https://pagead1.googlesyndication.com^
+|https://pagead2.googlesyndication.com^
 |https://g1.tagtic.cn/v1/xingyou/c/
 |https://gg.kkcaicai.com/$image
 |https://r1.ykimg.com/material/*/ad/
@@ -2832,6 +2836,7 @@
 |https://pcmx.autohome.com.cn/impress?
 |https://p-vp.autohome.com.cn/api/liveplayer
 |https://g.163.com
+|https://g.csdnimg.cn/check-adblock/*/check-adblock.js
 |https://googleads.
 |https://hao.qq.com/getadv.php?
 |https://hpd.baidu.com/v.gif?

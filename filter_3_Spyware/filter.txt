@@ -102,6 +102,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||checkmygeo.com^$third-party
 ||collector-*.perimeterx.net^$third-party
 ||client.perimeterx.net^$third-party
 ||shifoagn.uk^$third-party
@@ -4760,6 +4761,9 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||gittigidiyor.com/external-static/dtm/dtm.js
+||sumo.com/apps/heatmaps/
+||sumo.com/api/event/
 ||extremetech.com/sbs/beacon.js
 ||myfonts.net/count
 ||youboranqs01.com/ping
@@ -5394,6 +5398,7 @@ filmjethdizle.club##a[href="http://sayaclar.com"]
 ||hqq.watch/js/video.counters.js
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||newserv.xyz^$third-party
 ||tagesschau.de/resources/framework/js/sitestat.js
 ||wiwo.de/js/*/webtrekk
@@ -5457,8 +5462,8 @@ computerbild.de##.articleAdditional > .mehrthema
 ||xtraffstat.com/js/ktr.js
 ||zapcdn.space/zapret.js
 ||patreon.com/api/tracking^
-/index/ping^$domain=ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
-/callback/*$domain=ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/index/ping^$domain=briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/callback/*$domain=briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
 ||tracking-opi.fonpit.de/tracking/
 ||cdn3.net/pixe/
 ||dig.ultimedia.com^
@@ -5706,7 +5711,7 @@ dreamprogs.net##td[width="88"][height="31"]
 ||apple.com/metrics/
 ||arcpublishing.com^$domain=washingtonpost.com
 ||assets-jpcust.jwpsrv.com/*/ping.js
-||assets.adobedtm.com^$domain=eonline.com|f1sport.autorevue.cz|geico.com|samsung.com|lnk.to|bmw-motorrad.co.uk|sap.com
+||assets.adobedtm.com^$domain=gittigidiyor.com|eonline.com|f1sport.autorevue.cz|geico.com|samsung.com|lnk.to|bmw-motorrad.co.uk|sap.com
 ||at.mklaud.com/at/at_log_*.php
 ||auto-bild.de/*/gaEvents
 ||auto-motor-und-sport.de/js/sophus3/logging.js
@@ -6229,6 +6234,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26499
+@@||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=jiosaavn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24696
 @@||scdn.cxense.com/cx.js$domain=atmarkit.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23769
