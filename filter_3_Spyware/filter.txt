@@ -89,6 +89,7 @@ vol.az###footer > .column-one-fourth[-ext-has=".line > span:contains(Sayğac)"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5449
 donnerwetter.de##.col-xs-12 > div.block.prepend-top[-ext-has='> div.blocktitle-brand > h2 > span.blocktitle-brand:contains(weitere Wetter-Nachrichten)']
 !
+specialcom.net###sidebar > div.widget:has(span#openstat1)
 kinoman.me###extra_block > div.extra_mod > div.extra_mod:has(> div.extra_mod_title:contains(Счетчики))
 latino-serialo.tv###sidebar-left > div.block[-ext-has="> div.box > h2:contains(Счетчик)"]
 prjaga.ru###right > div#right_nav > h3:contains(Онлайн статистика)
@@ -102,6 +103,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||rs.mail.ru^$third-party,domain=~account.mail.ru
+||analytics.servogram.io^
 ||checkmygeo.com^$third-party
 ||collector-*.perimeterx.net^$third-party
 ||client.perimeterx.net^$third-party
@@ -4775,6 +4778,7 @@ _tracking.php?b=
 ||washingtonpost.com/wp-stat/analytics/latest/main.js
 ||d1d3jupgwm7m5r.cloudfront.net/prod/cloudfrontVideoTracker.
 ||united-infos.net/event^
+||logs*.smithsonian.museum^$domain=smithsonianmag.com
 ||juicebeard.prod.tda.link/rec/*/tracking^
 ||track.tagesanzeiger.ch/cre*/static/tracking^
 ||injapan.com/rest/*/track?*&callback=
@@ -6039,7 +6043,6 @@ dreamprogs.net##td[width="88"][height="31"]
 ||riotgames.com/m.gif
 ||rl0.ru/*/dist/post.js$domain=www.rambler.ru
 ||rozetka.com.ua/w/?
-||rs.mail.ru/*.gif
 ||ruslab.net/a/p.js
 ||russianfood.com/js/informb_stat.core.js
 ||s.d.adup-tech.com/services/track.js
@@ -6234,6 +6237,11 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26052
+!+ PLATFORM(ios, ext_android_cb)
+@@||camelcamelcamel.com/tracker?rf=
+! https://github.com/AdguardTeam/AdguardFilters/issues/25677
+@@||google-analytics.com/analytics.js$domain=thiojoe.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26499
 @@||cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/*/fingerprint2.min.js$domain=jiosaavn.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24696

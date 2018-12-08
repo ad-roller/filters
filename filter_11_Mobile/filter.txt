@@ -819,7 +819,6 @@
 ||richpays.com^
 ||robocat.me^
 ||rotaban.ru^
-||rs.mail.ru/pixel
 ||rtb.nexage.com^
 ||rtbimp-loadbalancer-*.amazonaws.com^
 ||rtbpop.com^
@@ -1355,6 +1354,8 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26520
+@@||imasdk.googleapis.com^$app=tv.fourgtv.fourgtv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25363
 @@||redirect.appmetrica.yandex.com/?appmetrica_tracking_id=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22203
@@ -2622,6 +2623,8 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ! Google ads (be careful)
 ||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
 ! Blocking of Facebook ads
+||graph.facebook.com^$app=com.advancedprocessmanager
+||graph.facebook.com^$app=tv.fourgtv.fourgtv
 ||graph.facebook.com^$app=com.geekslab.eyeprotection
 ||graph.facebook.com^$app=best.hd.uhd.amoled.wallpapers
 ||graph.facebook.com^$app=com.tourbillon.freeappsnow
