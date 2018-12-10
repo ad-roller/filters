@@ -867,6 +867,7 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+radbag.de##.custom-newsletter
 ichip.ru##.subscription
 netology.ru##div[class^="subscriptionForm-module"]
 gamespot.com##.newsletter-subscribe-box
@@ -4484,6 +4485,13 @@ strunz.com###v-cookielaw
 ! common name
 vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+vomfass.de##.vf-cookie
+radbag.de###cookienotification-block
+urbia.de##.layer-confirm-bottom.banner
+douploads.com###gdpr-cookie-notice
+reserved.com#$##cookies-container { display: none!important; }
+reserved.com#$#body.cookie-visible .main-header { top: 0!important; }
+ohmymag.com.br,ohmirevista.com,ohmymag.com.br,ohmymag.de##div[class^="sp_message_frame"]
 rankomat.pl##.rank-cookie-bar
 schuh-armbruster.de###egg-cookie-bar
 pullandbear.com###modalAceptCookies
@@ -4523,6 +4531,7 @@ travelchannel.co.uk#$##cppd { display: none!important; }
 travelchannel.co.uk#$#body { overflow: visible!important; }
 motocms.com##.cookie_block
 docmorris.de##.cookie
+||weblio.hs.llnwd.net/e7/script/include/free_or_premium_registration_cookie.js
 tesco.pl##.cp-cookie-bar
 travelplanet.pl###cookie--info-wrapper
 targeo.pl##body > div[style^="position: absolute; z-index:"]:not([class]):not([id])
@@ -5236,7 +5245,7 @@ nefisyemektarifleri.com###veriUyari
 xboxmedia.de##body > .bst-panel
 metabomb.net,eurogamer.pt,eurogamer.net,rockpapershotgun.com,vg247.com,nintendolife.com,usgamer.net##.cookie-gdpr
 ikea.com##.cookie-info__panel
-ikea.com##.cookie_banner
+mydays.de,ikea.com##.cookie_banner
 ikea.com.tr##.cookie-policy-cont
 livescore.com##.infobar
 opswat.com##.cookie-ntc
@@ -5932,7 +5941,7 @@ ariva.de###bottomWarnings
 deutsche-handwerks-zeitung.de###cc-box
 fiber.nl###ccm-banner-wrap
 msn.com###conditionalbanner
-meczenazywo.pl,mecze24.pl,atramentowka.com,pap.pl,merchtedes.pl,krs-online.com.pl,iopen.pl,techmantium.com,russiafm.net,die-glocke.de,foxgay.com,ruhrbarone.de,materiel.net,france.tv,paradoxplaza.com,europa-apotheek.com,e-smartphone.pl,mediaarena.pl###cookie
+odmiana.net,meczenazywo.pl,mecze24.pl,atramentowka.com,pap.pl,merchtedes.pl,krs-online.com.pl,iopen.pl,techmantium.com,russiafm.net,die-glocke.de,foxgay.com,ruhrbarone.de,materiel.net,france.tv,paradoxplaza.com,europa-apotheek.com,e-smartphone.pl,mediaarena.pl###cookie
 m.europa-apotheek.com###cookie-advice
 ip-address.org,shinden.pl###cookie-bar
 betfair.com###cookie-holder
@@ -6341,7 +6350,7 @@ sourceforge.net#%#AG_onLoad(function() { setTimeout(function() { window.__cmpui(
 gva.be#%#document.cookie = "C_05 = {%22C%22:%221.0%22%2C%22ID%22:%229dee0a48-e1b7-475f-9456-da27157e009e%22%2C%22P%22:%22' + location.href + '%22%2C%22T%22:%222018-08-04T17:54:39.929Z%22%2C%22V%22:%22Y%22%2C%22F%22:1}; path=/; domain=.gva.be"
 wikia.com#%#document.cookie = "tracking-opt-in-status=rejected";
 gadgethacks.com#%#AG_onLoad(function() { setTimeout(function() { if(document.getElementsByClassName("consentContainer")[0].isvisible = true) { var date = Date().split(" GMT"); document.cookie = "GDPRConsentDate = " + date[0] +";domain=.gadgethacks.com"; location.reload(); }; }, 1000); });
-reserved.com#%#document.cookie = "res_dcm=1";
+reserved.com#%#document.cookie = "re_dcm=1";
 instagram.com#%#document.cookie = "ig_cb=1";
 webmd.com#%#document.cookie = "gdpreu=eu%7C%7CCONSENTED%7C1531150348";
 popsugar.co.uk#%#AG_onLoad(function() { setTimeout(function() {if(window.location.href.indexOf("gdpr-consent") != -1) { document.getElementById("_evidon-banner-acceptbutton").click(); };  }, 1000); });
@@ -7563,6 +7572,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+portail.free.fr###boutonsdepartage
 pinterest.ru##div[data-test-id="giftWrap"]
 sabah.com.tr##.main-survey
 sabah.com.tr##.opacityBg
@@ -8644,6 +8654,10 @@ com-magazin.de##w-div[role$="dialog"]
 ||sud.ua/js/jquery.arcticmodal*.min.js
 ||turkusozu.com/js/fancybox/
 ||ufatime.ru/st/libs/magnific/jquery.magnific-popup.min.js
+!
+radbag.de#$#.newspopup-blur { filter: none!important; -moz-filter: none!important; }
+radbag.de#$#body { overflow: visible!important; }
+radbag.de#$#.newspopup_up_bg { display: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26046
 vw-passat.pl#%#document.cookie = "fblb=1";
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26050
@@ -9788,6 +9802,11 @@ radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-station__
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26738
+portail.free.fr##.inscriptionadsl
+portail.free.fr##.inscriptionmobilelien
+portail.free.fr###contenu > div[style^="width:1000px ;height:95px;"]
+portail.free.fr###contenuhp > .noid > div[style^="width:1000px ;height:95px;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25643
 ebok.vectra.pl###main-container > a[href="https://bm.pl/promocja-vectra-i-mastercard"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/21439
