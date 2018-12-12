@@ -103,6 +103,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||2iui01.com^$third-party
+||target.mixi.media^$third-party
 ||rs.mail.ru^$third-party,domain=~account.mail.ru
 ||analytics.servogram.io^
 ||checkmygeo.com^$third-party
@@ -3017,6 +3019,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! https://github.com/easylist/easylist/commit/a4d380ad1a3b33a0fab679a1a8c5a791321622b3
 ||functionalclam.com^$third-party
 ! Admiral domains
+||noiselessplough.com^$third-party
 ||standtrouble.com^$third-party
 ||culturedcrayon.com^$third-party
 ||spuriousstranger.com^$third-party
@@ -3185,6 +3188,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||p.gazeta.pl^
+||st.dynamicyield.com^
 ||log.outbrainimg.com^
 ||analytics-udg.netdna-ssl.com^
 ||collecte.audience.acpm.fr^
@@ -5646,7 +5651,7 @@ washingtonpost.com##.social-tools-wrapper-bottom
 espreso.tv##.wrap-footer .counter
 vse42.ru##.ya-metrika
 /smarttag.js$domain=faz.net|heute.de|zdf.de|zdfinfo.de|zdfkultur.de|zdfneo.de|zdfsport.de
-pb.wtf##a[href="//www.liveinternet.ru/click"]
+pb.wtf,piratbit.org,piratbit.pw##a[href="//www.liveinternet.ru/click"]
 hotstuff.com.ua,mobivid.net,theplanet.ws##a[href="http://mycounter.com.ua/"]
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 armyrecognition.com##a[href^="http://cqcounter.com/"]
@@ -6120,6 +6125,9 @@ dreamprogs.net##td[width="88"][height="31"]
 ||travelocity.com^*/2x2.gif?
 ||travelocity.com^*/evaluateexperimentsandlog
 ||traveltracking.check24.de^
+||tribl.io/h.js
+||tribl.io/firm_tracking.js
+||tribl.io/_t.gif?
 ||tribl.io/analytics*.js^
 ||tripadvisor.com/actionrecord
 ||tripadvisor.com/cookiepingback?
@@ -6240,6 +6248,10 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26330
+@@||log.mmstat.com/eg.js$domain=youku.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/23435
+@@||google-analytics.com/gtm/js^$domain=mediamarkt.com.tr
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26052
 !+ PLATFORM(ios, ext_android_cb)
 @@||camelcamelcamel.com/tracker?rf=

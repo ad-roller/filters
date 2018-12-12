@@ -1,15 +1,5 @@
 ! @@|http:/*/softdl.360tpcdn.com/ is excluded by: @@
 @@|http:/*/softdl.360tpcdn.com/
-! @@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|95599.cn|ccb.com is excluded by: @@
-@@|http://$domain=banggo.com|pili.com.tw|yunhou.com|voicecloud.cn|xunfei.cn|95599.cn|ccb.com
-! @@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com is excluded by: @@
-@@|http://$domain=code.google.com|yeepay.com|taoke.alimama.com|club.alimama.com|tenpay.com|tmall.com|tbcdn.cn|jd.com
-! @@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com is excluded by: @@
-@@|http://$domain=meidebi.com|alibaba.com|lifevc.com|ad.alimama.com|www.alimama.com|gome.com.cn|3songshu.com
-! @@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn is excluded by: @@
-@@|http://$domain=taobao.com|taobao.org|alipay.com|suning.com|51buy.com|ct10000.com|etao.com|hitao.com|paipai.com|189.cn
-! @@|http://$domain=vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com is excluded by: @@
-@@|http://$domain=vip.xunlei.com|lixian.xunlei.com|www.vmall.com|www.1688.com|www.mm111.net|jifen.qq.com
 ! @@|http://*.com/images/banner$domain=cncrypt.com|exp.qq.com is excluded by: @@
 @@|http://*.com/images/banner$domain=cncrypt.com|exp.qq.com
 ! @@|http://*.com/index0data/*.css is excluded by: @@
@@ -138,6 +128,10 @@
 @@|http://cdn4.v.17173.com/advideo/csyx-1112-kz.swf
 ! @@|http://clientupdate.175pt.com/ is excluded by: @@
 @@|http://clientupdate.175pt.com/
+! @@|http://club.alimama.com is excluded by: @@
+@@|http://club.alimama.com
+! @@|http://code.google.com is excluded by: @@
+@@|http://code.google.com
 ! @@|http://count.chanet.com.cn/click.cgi? is excluded by: @@
 @@|http://count.chanet.com.cn/click.cgi?
 ! @@|http://cpro.baidustatic.com/cpro/ui/baiduPatch.swf is excluded by: @@
@@ -160,6 +154,8 @@
 @@|http://d.107788.com/xml/?s=
 ! @@|http://d.x77918.com/qt/in.js is excluded by: @@
 @@|http://d.x77918.com/qt/in.js
+! @@|http://device.qq.com is excluded by: @@
+@@|http://device.qq.com
 ! @@|http://d1.sina.com.cn/zhuyan/jiaqing/F1/f1ad_nav_bg.jpg$image is excluded by: @@
 @@|http://d1.sina.com.cn/zhuyan/jiaqing/F1/f1ad_nav_bg.jpg$image
 ! @@|http://dp.gtimg.cn/discuzpic/0/discuz_qqgame_gamebbs_qq_com_forum_$domain=gamebbs.qq.com is excluded by: @@
@@ -252,6 +248,8 @@
 @@|http://irs01.net/MTFlashStore.swf$domain=56.com
 ! @@|http://isdspeed.qq.com/cgi-bin/r.cgi?flag1= is excluded by: @@
 @@|http://isdspeed.qq.com/cgi-bin/r.cgi?flag1=
+! @@|http://jifen.qq.com is excluded by: @@
+@@|http://jifen.qq.com
 ! @@|http://js.passport.qihucdn.com$script is excluded by: @@
 @@|http://js.passport.qihucdn.com$script
 ! @@|http://js.passport.qihucdn.com/5.0.3.js is excluded by: @@
@@ -276,6 +274,8 @@
 @@|http://livew.l.qq.com/livemsg?pf=H5&ad_type=W*&pf_ex=
 ! @@|http://luck.v1.cn/adxml.php?zoneid=922 is excluded by: @@
 @@|http://luck.v1.cn/adxml.php?zoneid=922
+! @@|http://lixian.xunlei.com is excluded by: @@
+@@|http://lixian.xunlei.com
 ! @@|http://m.analytics.126.net/news/ is excluded by: @@
 @@|http://m.analytics.126.net/news/
 ! @@|http://m.69shu.com/js/history.js is excluded by: @@
@@ -288,6 +288,8 @@
 @@|http://m.xielw.cn/js/gg.js
 ! @@|http://mb.yidianzixun.com/article/ is excluded by: @@
 @@|http://mb.yidianzixun.com/article/
+! @@|http://meidebi.com is excluded by: @@
+@@|http://meidebi.com
 ! @@|http://mimg.127.net/ggimg/all/img is excluded by: @@
 @@|http://mimg.127.net/ggimg/all/img
 ! @@|http://minisite.letv.com/tuiguang/ is excluded by: @@
@@ -306,6 +308,8 @@
 @@|http://ossweb-img.qq.com/images/nba2k/comm/js/gg.js
 ! @@|http://ping.xlmc.sandai.net is excluded by: @@
 @@|http://ping.xlmc.sandai.net
+! @@|http://pingtcss.qq.com/ is excluded by: @@
+@@|http://pingtcss.qq.com/
 ! @@|http://p.store.qq.com/photo is excluded by: @@
 @@|http://p.store.qq.com/photo
 ! @@|http://p.yiqifa.com/ is excluded by: @@
@@ -340,6 +344,8 @@
 @@|http://prod.game
 ! @@|http://qgcdn0.gtimg.com/ is excluded by: @@
 @@|http://qgcdn0.gtimg.com/
+! @@|http://qbwup.imtt.qq.com is excluded by: @@
+@@|http://qbwup.imtt.qq.com
 ! @@|http://resolver.msg.xiaomi.net is excluded by: @@
 @@|http://resolver.msg.xiaomi.net
 ! @@|http://resource.redirect.kukuplay.com/upload/zhangyu is excluded by: @@
@@ -394,6 +400,8 @@
 @@|http://tajs.qq.com/ping_hotclick_min.js
 ! @@|http://tajs.qq.com/stats?sId= is excluded by: @@
 @@|http://tajs.qq.com/stats?sId=
+! @@|http://taoke.alimama.com is excluded by: @@
+@@|http://taoke.alimama.com
 ! @@|http://tb1.bdstatic.com/*.css is excluded by: @@
 @@|http://tb1.bdstatic.com/*.css
 ! @@|http://upgrade.mishop.pandora.xiaomi.com/ is excluded by: @@
@@ -402,6 +410,10 @@
 @@|http://v.aty.sohu.com/ct?vid=
 ! @@|http://v.gdt.qq.com/gdt_stats.fcg? is excluded by: @@
 @@|http://v.gdt.qq.com/gdt_stats.fcg?
+! @@|http://vip.xunlei.com is excluded by: @@
+@@|http://vip.xunlei.com
+! @@|http://voicecloud.cn is excluded by: @@
+@@|http://voicecloud.cn
 ! @@|http://wot.kongzhong.com/embedpage is excluded by: @@
 @@|http://wot.kongzhong.com/embedpage
 ! @@|http://webresource.c-ctrip.com/ is excluded by: @@
@@ -424,6 +436,8 @@
 @@|http://www.05sun.com/js/jquery.min.js
 ! @@|http://www.10pan.cc/templates/default/images/ad/ is excluded by: @@
 @@|http://www.10pan.cc/templates/default/images/ad/
+! @@|http://www.1688.com is excluded by: @@
+@@|http://www.1688.com
 ! @@|http://www.400gb.com/advview201 is excluded by: @@
 @@|http://www.400gb.com/advview201
 ! @@|http://www.52flac.com/ggimages/xiazai.png is excluded by: @@
@@ -442,6 +456,8 @@
 @@|http://www.90oo.com/tp/*14$image
 ! @@|http://www.admin5.com/hezuo/action/inner.head.logo.js$script is excluded by: @@
 @@|http://www.admin5.com/hezuo/action/inner.head.logo.js$script
+! @@|http://www.alimama.com is excluded by: @@
+@@|http://www.alimama.com
 ! @@|http://www.aipai.com/apps/advert_ is excluded by: @@
 @@|http://www.aipai.com/apps/advert_
 ! @@|http://www.aqy103.com/js/aqy/main.js$script is excluded by: @@
@@ -482,6 +498,8 @@
 @@|http://www.letv.com/shtml/channel/tuiguang/player.html?
 ! @@|http://www.luje.cn/ad/ad.html is excluded by: @@
 @@|http://www.luje.cn/ad/ad.html
+! @@|http://www.mm111.net is excluded by: @@
+@@|http://www.mm111.net
 ! @@|http://www.netded.com/plus/ad_js.php?aid=3 is excluded by: @@
 @@|http://www.netded.com/plus/ad_js.php?aid=3
 ! @@|http://www.ntrun.com/images/banner_ is excluded by: @@
@@ -514,6 +532,8 @@
 @@|http://www.sxlib.com
 ! @@|http://www.touchaqua.com/images/ is excluded by: @@
 @@|http://www.touchaqua.com/images/
+! @@|http://www.vmall.com is excluded by: @@
+@@|http://www.vmall.com
 ! @@|http://www.wobuka2.com/js/cc is excluded by: @@
 @@|http://www.wobuka2.com/js/cc
 ! @@|http://www.wobuka2.com/js/jq/jquery.autocomplete.js is excluded by: @@
@@ -536,6 +556,8 @@
 @@|http://zpx.allyes.com
 ! @@||114la.com/| is excluded by: @@
 @@||114la.com/|
+! @@||189.cn is excluded by: @@
+@@||189.cn
 ! @@||17173im.allyes.com^ is excluded by: @@
 @@||17173im.allyes.com^
 ! @@||192.168. is excluded by: @@
@@ -544,6 +566,10 @@
 @@||19iiii.info/js/logo$script
 ! @@||360doc.com/resaveartsmall.aspx is excluded by: @@
 @@||360doc.com/resaveartsmall.aspx
+! @@||3songshu.com is excluded by: @@
+@@||3songshu.com
+! @@||51buy.com is excluded by: @@
+@@||51buy.com
 ! @@||52xiyou.com$domain=9377.com|52guoguo.cn is excluded by: @@
 @@||52xiyou.com$domain=9377.com|52guoguo.cn
 ! @@||53kf.com/company.php?arg=51fanli is excluded by: @@
@@ -552,18 +578,30 @@
 @@||6080ai.com/*play$script
 ! @@||70e.com$domain=2mn.tv is excluded by: @@
 @@||70e.com$domain=2mn.tv
+! @@||95599.cn is excluded by: @@
+@@||95599.cn
 ! @@||9.ujinbi.com/AD/ is excluded by: @@
 @@||9.ujinbi.com/AD/
+! @@||ad.alimama.com is excluded by: @@
+@@||ad.alimama.com
+! @@||alipay.com is excluded by: @@
+@@||alipay.com
+! @@||alibaba.com is excluded by: @@
+@@||alibaba.com
 ! @@||api.io.mi.com is excluded by: @@
 @@||api.io.mi.com
 ! @@||api.qingmang.mobi is excluded by: @@
 @@||api.qingmang.mobi
-! @@||http://baidustatic.com$domain=xoyo.com is excluded by: @@
-@@||http://baidustatic.com$domain=xoyo.com
+! @@||banggo.com is excluded by: @@
+@@||banggo.com
+! @@||baidustatic.com$domain=xoyo.com is excluded by: @@
+@@||baidustatic.com$domain=xoyo.com
 ! @@||battle.net is excluded by: @@
 @@||battle.net
 ! @@||bdstatic.com/tb/cms/ngmis/adsense/file_$image is excluded by: @@
 @@||bdstatic.com/tb/cms/ngmis/adsense/file_$image
+! @@||ccb.com is excluded by: @@
+@@||ccb.com
 ! @@||cdndm5.com/*/dm5/images/banners/$image is excluded by: @@
 @@||cdndm5.com/*/dm5/images/banners/$image
 ! @@||cache.tv.qq.com/gg/ is excluded by: @@
@@ -584,16 +622,20 @@
 @@||cntv.cn/nettv/adp/online
 ! @@||cupid.iqiyi.com/crossdomain.xml is excluded by: @@
 @@||cupid.iqiyi.com/crossdomain.xml
-! @@||http://cpro.baidu.com/cpro/ui/baiduLoader_as3.swf is excluded by: @@
-@@||http://cpro.baidu.com/cpro/ui/baiduLoader_as3.swf
-! @@||http://cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com is excluded by: @@
-@@||http://cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com
-! @@||http://cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com is excluded by: @@
-@@||http://cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
+! @@||cpro.baidu.com/cpro/ui/baiduLoader_as3.swf is excluded by: @@
+@@||cpro.baidu.com/cpro/ui/baiduLoader_as3.swf
+! @@||cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com is excluded by: @@
+@@||cpro.baidu.com/cpro/ui/uijs.php?$domain=www.400gb.com|www.pipipan.com
+! @@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com is excluded by: @@
+@@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
+! @@||ct10000.com is excluded by: @@
+@@||ct10000.com
 ! @@||download.mokeedev.com/ad-dl.php is excluded by: @@
 @@||download.mokeedev.com/ad-dl.php
 ! @@||e21.cn/sqlimg/advertisement/ is excluded by: @@
 @@||e21.cn/sqlimg/advertisement/
+! @@||etao.com is excluded by: @@
+@@||etao.com
 ! @@||exosrv.com/ads$domain=avgle.com is excluded by: @@
 @@||exosrv.com/ads$domain=avgle.com
 ! @@||ecitic.com is excluded by: @@
@@ -610,12 +652,16 @@
 @@||google-analytics.com$domain=battle.net
 ! @@||googlesyndication.com$domain=babytoyhome.com is excluded by: @@
 @@||googlesyndication.com$domain=babytoyhome.com
+! @@||gome.com.cn is excluded by: @@
+@@||gome.com.cn
 ! @@||gotunnel.org is excluded by: @@
 @@||gotunnel.org
 ! @@||granbluefantasy.jp/assets/*_skin_pop.js is excluded by: @@
 @@||granbluefantasy.jp/assets/*_skin_pop.js
 ! @@||hc360.com/ad/*.css is excluded by: @@
 @@||hc360.com/ad/*.css
+! @@||hitao.com is excluded by: @@
+@@||hitao.com
 ! @@||hudong.pl.youku.com/n/setplugins/id_ is excluded by: @@
 @@||hudong.pl.youku.com/n/setplugins/id_
 ! @@||irs01.net is excluded by: @@
@@ -630,12 +676,16 @@
 @@||images.sohu.com/bill/$domain=~auto.sohu.com
 ! @@||img.kf.cn/ad/css/*.css is excluded by: @@
 @@||img.kf.cn/ad/css/*.css
+! @@||jd.com is excluded by: @@
+@@||jd.com
 ! @@||kaixin001.com/ad/ is excluded by: @@
 @@||kaixin001.com/ad/
 ! @@||koolproxy.com is excluded by: @@
 @@||koolproxy.com
 ! @@||kprule.com is excluded by: @@
 @@||kprule.com
+! @@||lifevc.com is excluded by: @@
+@@||lifevc.com
 ! @@||linkstars.com/union/ is excluded by: @@
 @@||linkstars.com/union/
 ! @@||log.mmstat.com is excluded by: @@
@@ -664,10 +714,14 @@
 @@||olcdn.com/net/v1/gb2312/$script
 ! @@||p.jwpcdn.com$script is excluded by: @@
 @@||p.jwpcdn.com$script
+! @@||paipai.com is excluded by: @@
+@@||paipai.com
 ! @@||pdawiki.com/forum/source/plugin/freeaddon_banadblock/$script is excluded by: @@
 @@||pdawiki.com/forum/source/plugin/freeaddon_banadblock/$script
 ! @@||phs.tanx.com is excluded by: @@
 @@||phs.tanx.com
+! @@||pili.com.tw is excluded by: @@
+@@||pili.com.tw
 ! @@||pingma.qq.com is excluded by: @@
 @@||pingma.qq.com
 ! @@||player.letvcdn.com/*/letvPlayer.swf is excluded by: @@
@@ -692,10 +746,22 @@
 @@||swjoy.com
 ! @@||stu.126.net is excluded by: @@
 @@||stu.126.net
+! @@||suning.com is excluded by: @@
+@@||suning.com
+! @@||taobao.com is excluded by: @@
+@@||taobao.com
+! @@||taobao.org is excluded by: @@
+@@||taobao.org
 ! @@||tanx.com/ex?i=mm_$domain=www.hao123.com is excluded by: @@
 @@||tanx.com/ex?i=mm_$domain=www.hao123.com
+! @@||tbcdn.cn is excluded by: @@
+@@||tbcdn.cn
+! @@||tenpay.com is excluded by: @@
+@@||tenpay.com
 ! @@||tinypic.com is excluded by: @@
 @@||tinypic.com
+! @@||tmall.com is excluded by: @@
+@@||tmall.com
 ! @@||tcss.qq.com$domain=55you.com is excluded by: @@
 @@||tcss.qq.com$domain=55you.com
 ! @@||tf.360.cn/e/wb? is excluded by: @@
@@ -720,6 +786,12 @@
 @@||xsc.lise.edu.cn/ad/
 ! @@||xlmc.sandai.net is excluded by: @@
 @@||xlmc.sandai.net
+! @@||xunfei.cn is excluded by: @@
+@@||xunfei.cn
+! @@||yeepay.com is excluded by: @@
+@@||yeepay.com
+! @@||yunhou.com is excluded by: @@
+@@||yunhou.com
 ! @@||zbj.com is excluded by: @@
 @@||zbj.com
 ! @@||zllyun.com/images/banner/ is excluded by: @@
@@ -800,6 +872,8 @@
 @@@@|https://cs-feige.iqiyi.com
 ! @@@@|https://df.tanx.com is excluded by: @@
 @@@@|https://df.tanx.com
+! @@@@|https://device.qq.com is excluded by: @@
+@@@@|https://device.qq.com
 ! @@@@|https://ef-dongfeng.tanx.com is excluded by: @@
 @@@@|https://ef-dongfeng.tanx.com
 ! @@@@|https://emoticon-sns.iqiyi.com is excluded by: @@
@@ -836,6 +910,8 @@
 @@@@|https://image.gamersky.com
 ! @@@@|https://imgs.gamersky.com is excluded by: @@
 @@@@|https://imgs.gamersky.com
+! @@@@|https://imgcache.qq.com is excluded by: @@
+@@@@|https://imgcache.qq.com
 ! @@@@|https://kprules.b0.upaiyun.com is excluded by: @@
 @@@@|https://kprules.b0.upaiyun.com
 ! @@@@|https://ka.163.com is excluded by: @@
@@ -884,6 +960,8 @@
 @@@@|https://qosp.iqiyi.com
 ! @@@@|https://qnmob3.doubanio.com is excluded by: @@
 @@@@|https://qnmob3.doubanio.com
+! @@@@|https://qbwup.imtt.qq.com is excluded by: @@
+@@@@|https://qbwup.imtt.qq.com
 ! !@@@@|https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-a-sms.com is excluded by: @@
 !@@@@|https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=receive-a-sms.com
 ! @@@@|https://rdx.autohome.com.cn is excluded by: @@
@@ -3511,6 +3589,10 @@
 ! Invalid rule options:
 |http://www.tt27.tv/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|http://www.veryhuo.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
+! Invalid rule options:
+|http://www.veryhuo.com/$s@</body>@<script>unHackcss.A('.down_ads.pad')</script></body>@
+! Invalid rule options:
 |http://www.zdzdm.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
 ! Invalid rule options:
 |http://lq.win0168.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
@@ -3609,9 +3691,11 @@
 ! Invalid rule options:
 |https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
+|https://www.gaoqingkong.com/$s@</body>@<script>unHackcss.A('#ad.search_site')</script></body>@
+! Invalid rule options:
 |https://www.halihali.tv/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
-|https://www.hdsky.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.hdsky.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.javbus.work/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3623,7 +3707,7 @@
 ! Invalid rule options:
 |https://www.qdmm.com/$s@</body>@<script>fuckcss('.top-game-op,.banner-wrap.box-center.mb40,.focus-img.cf')</script></body>@
 ! Invalid rule options:
-|https://www.gaoqingkong.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.gaoqingkong.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js></script></head>@
 ! Invalid rule options:
 |https://www.gamersky.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
 ! Invalid rule options:
@@ -3771,6 +3855,8 @@ yxdown.com###topsearch{top: 100px;}
 ! || are unnecessary for element hiding rule:
 ||https://cnbeta.com##.cbv,.tigerstock,div.time,ins.adsbygoogle,[href="http://www.dangbei.com/?cnbeta"],[class="item cooperation"],.cbhelp,[href^="http://click.aliyun.com/m/"],.commt-r,#fixed_area,#aswift_0_expand,.other_news,a[href^="https://www.tigerbrokers.com/market/"],.article-global,.cnbeta-side-sponsor,.cbv810,[id^="dfb-wrapper-"]
 ! || are unnecessary for element hiding rule:
+||https://coolaler.com##img[width="728"][height="90"],.adsbygoogle,.post-ads,.section.funbox,.funbox,[style^="margin-top:4px;"],img[width="336"][height="280"]
+! || are unnecessary for element hiding rule:
 ||https://csdn.net###tad2,div#ad_top,DIV[class^="ad_"],#Topic_Top,div#ad_left,div#ad_right,DIV.AD.mb-bg,.enter-AD,.top_ad,.ad .J_adv,.dl_mar_b,.J_adv,.yd_a_d_feed_cla,[data-mod^="ad_popu_"],.advert,.csdn-tracking-statistics.mb8
 ! || are unnecessary for element hiding rule:
 ||https://csdn.net##.right-item[data-track-click*="http"]:not([data-track-click*=".csdn."]),#adContent,.float-left > div[id^="dmp_ad_"],.recommend-item-box[data-track-click*="http"]:not([data-track-click*=".csdn."]),#kp_box_58,a[href="//gitbook.cn/new/gitchat/activity?utm_source=csdnblog1"]
@@ -3786,6 +3872,10 @@ yxdown.com###topsearch{top: 100px;}
 ||https://golangtc.com###ads,[href^="https://www.upyun.com/zh/solution_video.html?utm_source=Golang&utm_medium=ad&"],.bar,#content-bar,[href^="http://click.aliyun.com/"]
 ! || are unnecessary for element hiding rule:
 ||https://hqew.com##.pop-banner
+! || are unnecessary for element hiding rule:
+||https://ifeng.com##.ad640x90,.h_top_box,.foot_top_box,.newbagicon,[class^="adList"],div[class^="ad200"],div[id^="padhide_"],div[id^="couplet3_"],div.ad980,DIV.ad950,div.ad300,div.topAd,div.adArea,div#smExtObj,DIV.block_ad,DIV.pic1000,DIV.recommend > DIV.picNews,DIV.eduList.cGray.lh22,DIV[class^="ad1000"],div[id^="ArpAdPro_"],DIV[id^="index_top_banner_newbanner_ad_"],div.ad300x250,DIV.games_right_side,div.col_ad,DIV.adbox,DIV.ad.bd.ss_none,UL.list022,div.an,div.ad90,div.ad600,div#ifengAehovering_small,div.ad.mt20,div.ad.mt32,div.gg298,div.col_w1000.mt38,DIV[id^="_AdSame_DIV"],div.leftpopad,img[src^="http://y1.ifengimg.com/mappa/201"],div[class^="FNewRAvt"],div.FNewLAvt,div[class^="Col"][class$="Avt"],div[class^="ad0"],div.box_08.mt08,div.adbest,div.trade,.Avt01,div.Avt02,div.js_lh_ad,div.col_pc.IphoneNone,div[class^="ad_"],div[class^="adv"],div.ad2,span#StreamMediaWrap,div.vAdImg,div.v_ad_btm,div.acAdLis,div.iggLine,div.v-adbox,.adarea2,.flashAd,#tcldivtf1_1,#tcldivtf1_2,.right_gg,.gg,[id^="ad"],#video_p,.double_l,.double_r,.ad.mt15,[id^="div-gpt-ad-"],.ad-position,.ad1,.ad8,.newAdImg,#questionDialogBox,[id^="mobile_gg"],[class^="acAd"],[id^="cl3"].threepics,.mr_top_box,[id^="bigContent"],.yc_con_r,iframe[src^="http://p0.ifengimg.com/a/20"],iframe[src^="http://y1.ifengimg.com/a/20"],#swiper-container_bottom,.jctj,#iis_yw0,.yy_right_bottom,.yiyuan,[class^="cont_bottom_Yy"],.gg4,.advmark,.bomAd,.bomBox,.embedHzh,.videoPausePosition,[id^="cl1"],[class^="gg_"],li[id^="dl1"][style],[class^="games_ad_20"]
+! || are unnecessary for element hiding rule:
+||https://ifeng.com##div[class^="pplive"],[class^="commentAd"],[class^="hardAd"],[class^="commomAd"]
 ! || are unnecessary for element hiding rule:
 ||https://iqiyi.com##div[id^="100000"]
 ! || are unnecessary for element hiding rule:
