@@ -631,8 +631,8 @@ dailycaller.com##.socialmedia-article
 dailycaller.com###article-share > .social-share-btn:not([onclick*="'ds'"])
 itnet.com.ua##.td-post-sharing-bottom
 review-hub.co.uk##.essb-viralpoint
-republicain-lorrain.fr,estrepublicain.fr##.multimedia_utils > .toolBar
-republicain-lorrain.fr,estrepublicain.fr##.scrollToolBar > .toolBar > ul > li[class]:not(.showComment)
+vosgesmatin.fr,republicain-lorrain.fr,estrepublicain.fr##.multimedia_utils > .toolBar
+vosgesmatin.fr,republicain-lorrain.fr,estrepublicain.fr##.scrollToolBar > .toolBar > ul > li[class]:not(.showComment)
 uai.com.br##.docs-buttons-share
 urbia.de##.socialslideout
 freecoursesite.com##.share-handler-wrap
@@ -666,6 +666,8 @@ realukraine.net##.newsstand-social-share
 adventskalender-gewinnspiele.de##.wrp > .shr
 watch.motortrend.com##.twitterTweet__button
 watch.motortrend.com##.facebookShare__button
+webmd.com##.module-social-share-container
+webmd.com##.global-sharebar-plugin
 eroido.jp##.socialArea
 searchenginejournal.com##.sharebtn
 fool.com###share-box
@@ -1306,7 +1308,7 @@ gamme.com.tw###wrap > .shareBtn.collapsed
 gamme.com.tw##.post > .share_like_area > .sharebtns > li > [class]:not(.sharebtns_url):not(.sharebtns_msg)
 muzmo.ru##.items > div[class="ajax-item item-song"]:not([id])
 literaturus.ru##.PlusFollowers
-news.yahoo.co.jp##.socialBtn
+yahoo.co.jp##.socialBtn
 evrl.to##div[class^="vk_group"]
 carnegie.ru##.selectionSharer
 yeniasir.com.tr##.infoMediaShare > ul > li:not(:first-child)
@@ -4723,8 +4725,8 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ##.help-social-buttons
 ##.i_v_fb_like
 ##.icon-digg
-~mvideo.ru,~zadowolenie.pl,~telepolis.pl,~transfermarkt.ch,~transfermarkt.at,~transfermarkt.co.uk,~transfermarkt.pl,~transfermarkt.nl,~transfermarkt.tv,~transfermarkt.it,~transfermarkt.com.tr,~transfermarkt.es,~transfermarkt.pt,~transfermarkt.com,~transfermarkt.de,~kompas.com,~hvv.de,~33sk.tv,~skrill.com,~neoldu.com,~leitesculinaria.com,~akhisarhaber.com,~eda.yandex,~mobillsapp.com,~itc.uam~autoscout24.de,~tokyohive.com,~teknolojioku.com,~popcrush.com,~tasteofcountry.com,~gardenista.com,~nauchpoint.com,~stasis.net,~kino.de,~entrepreneur.com,~jaxenter.de,~bilecikhaber.com.tr,~tvp.info,~tvp.pl,~androidpolice.com,~kingdomcomerpg.com,~canliradyodinle.web.tr,~dailycaller.com,~tvnz.co.nz,~pdc.tv,~redrivertravel.com,~lolking.net,~canon.de,~dawanda.com,~mcfit.com,~siemens.com,~actimel.de,~budapester.com,~yirmidort.tv,~volvic.de,~barmer.de,~wunderweib.de,~7up.com,~standard.co.uk,~basf.com,~godmode-trader.de,~thesun.co.uk,~howtogeek.com,~infranken.de,~developer.mozilla.org,~apkmirror.com,~gog.com,~dlisted.com,~tjournal.ru,~ain.ua,~aklamio.com,~cnnturk.com,~comediansincarsgettingcoffee.com,~forbes.com,~hubs.ua,~iguides.ru,~kicker.de,~logaster.com,~minfin.com.ua,~pexels.com,~t3n.de,~theverge.com,~deezer.com##.icon-facebook
-~mvideo.ru,~telepolis.pl,~transfermarkt.ch,~transfermarkt.at,~transfermarkt.co.uk,~transfermarkt.pl,~transfermarkt.nl,~transfermarkt.tv,~transfermarkt.it,~transfermarkt.com.tr,~transfermarkt.es,~transfermarkt.pt,~transfermarkt.com,~transfermarkt.de,~kompas.com,~33sk.tv,~skrill.com,~alternativeto.net,~neoldu.com,~leitesculinaria.com,~akhisarhaber.com,~mobillsapp.com,~autoscout24.de,~tokyohive.com,~teknolojioku.com,~popcrush.com,~tasteofcountry.com,~gardenista.com,~nauchpoint.com,~stasis.net,~kino.de,~entrepreneur.com,~jaxenter.de,~bilecikhaber.com.tr,~tvp.info,~tvp.pl,~androidpolice.com,~kingdomcomerpg.com,~canliradyodinle.web.tr,~weather.com,~dailycaller.com,~tvnz.co.nz,~pdc.tv,~lolking.net,~dawanda.com,~mcfit.com,~siemens.com,~actimel.de,~budapester.com,~yirmidort.tv,~volvic.de,~barmer.de,~wunderweib.de,~7up.com,~standard.co.uk,~basf.com,~godmode-trader.de,~thesun.co.uk,~howtogeek.com,~infranken.de,~developer.mozilla.org,~packagist.org,~apkmirror.com,~gog.com,~dlisted.com,~fanserials.tv,~gofeminin.de,~ain.ua,~cnnturk.com,~comediansincarsgettingcoffee.com,~forbes.com,~hubs.ua,~kicker.de,~pexels.com,~t3n.de,~webref.ru,~deezer.com##.icon-twitter
+~byhours.com,~lumosity.com,~mvideo.ru,~zadowolenie.pl,~telepolis.pl,~transfermarkt.ch,~transfermarkt.at,~transfermarkt.co.uk,~transfermarkt.pl,~transfermarkt.nl,~transfermarkt.tv,~transfermarkt.it,~transfermarkt.com.tr,~transfermarkt.es,~transfermarkt.pt,~transfermarkt.com,~transfermarkt.de,~kompas.com,~hvv.de,~33sk.tv,~skrill.com,~neoldu.com,~leitesculinaria.com,~akhisarhaber.com,~eda.yandex,~mobillsapp.com,~itc.uam~autoscout24.de,~tokyohive.com,~teknolojioku.com,~popcrush.com,~tasteofcountry.com,~gardenista.com,~nauchpoint.com,~stasis.net,~kino.de,~entrepreneur.com,~jaxenter.de,~bilecikhaber.com.tr,~tvp.info,~tvp.pl,~androidpolice.com,~kingdomcomerpg.com,~canliradyodinle.web.tr,~dailycaller.com,~tvnz.co.nz,~pdc.tv,~redrivertravel.com,~lolking.net,~canon.de,~dawanda.com,~mcfit.com,~siemens.com,~actimel.de,~budapester.com,~yirmidort.tv,~volvic.de,~barmer.de,~wunderweib.de,~7up.com,~standard.co.uk,~basf.com,~godmode-trader.de,~thesun.co.uk,~howtogeek.com,~infranken.de,~developer.mozilla.org,~apkmirror.com,~gog.com,~dlisted.com,~tjournal.ru,~ain.ua,~aklamio.com,~cnnturk.com,~comediansincarsgettingcoffee.com,~forbes.com,~hubs.ua,~iguides.ru,~kicker.de,~logaster.com,~minfin.com.ua,~pexels.com,~t3n.de,~theverge.com,~deezer.com##.icon-facebook
+~byhours.com,~mvideo.ru,~telepolis.pl,~transfermarkt.ch,~transfermarkt.at,~transfermarkt.co.uk,~transfermarkt.pl,~transfermarkt.nl,~transfermarkt.tv,~transfermarkt.it,~transfermarkt.com.tr,~transfermarkt.es,~transfermarkt.pt,~transfermarkt.com,~transfermarkt.de,~kompas.com,~33sk.tv,~skrill.com,~alternativeto.net,~neoldu.com,~leitesculinaria.com,~akhisarhaber.com,~mobillsapp.com,~autoscout24.de,~tokyohive.com,~teknolojioku.com,~popcrush.com,~tasteofcountry.com,~gardenista.com,~nauchpoint.com,~stasis.net,~kino.de,~entrepreneur.com,~jaxenter.de,~bilecikhaber.com.tr,~tvp.info,~tvp.pl,~androidpolice.com,~kingdomcomerpg.com,~canliradyodinle.web.tr,~weather.com,~dailycaller.com,~tvnz.co.nz,~pdc.tv,~lolking.net,~dawanda.com,~mcfit.com,~siemens.com,~actimel.de,~budapester.com,~yirmidort.tv,~volvic.de,~barmer.de,~wunderweib.de,~7up.com,~standard.co.uk,~basf.com,~godmode-trader.de,~thesun.co.uk,~howtogeek.com,~infranken.de,~developer.mozilla.org,~packagist.org,~apkmirror.com,~gog.com,~dlisted.com,~fanserials.tv,~gofeminin.de,~ain.ua,~cnnturk.com,~comediansincarsgettingcoffee.com,~forbes.com,~hubs.ua,~kicker.de,~pexels.com,~t3n.de,~webref.ru,~deezer.com##.icon-twitter
 ~mvideo.ru,~neoldu.com,~akhisarhaber.com,~nauchpoint.com,~bilecikhaber.com.tr,~canliradyodinle.web.tr,~dawanda.com,~godmode-trader.de,~infranken.de,~apkmirror.com,~ain.ua,~iguides.ru,~logaster.com,~minfin.com.ua,~pexels.com##.icon-gplus
 ~leitesculinaria.com,~androidpolice.com,~tokyohive.com,~teknolojioku.com,~entrepreneur.com,~weather.com,~t3n.de##.icon-google-plus
 ~autoscout24.de,~gardenista.com,~g2a.com,~dawanda.com,~budapester.com,~volvic.de,~wunderweib.de,~7up.com,~gofeminin.de,~pexels.com##.icon-pinterest
@@ -5258,6 +5260,8 @@ designboom.com,livescience.com,pbtech.co.nz,peoplesworld.org,space.com##.fa-face
 ||mailget.net^$third-party
 ||my.hellobar.com^$third-party
 !
+gamme.com.tw##.line_Promotion
+gamme.com.tw##.m_line_Promotion
 review-hub.co.uk##.essb-viralpoint-overlay
 portail.free.fr###boutonsdepartage
 forum.miuiturkiye.net##div[style="position: fixed;left: 0;top: 0;background-color: rgba(0,0,0, 0.8);overflow-x: hidden;height: 100%;width: 100%;z-index: 9999;"]:not([class]):not([id])
@@ -5624,6 +5628,8 @@ neokur.com#$#.jquery-modal.blocker { display: none!important; }
 !
 ! Section fixing issues caused by social filter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/27136
+@@||apis.google.com/js/platform.js$domain=lumosity.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26287
 arkansasmatters.com,kark.com#@#.meta-share
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23385
