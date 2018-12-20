@@ -103,6 +103,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||cinarra.com^$third-party
 ||2iui01.com^$third-party
 ||target.mixi.media^$third-party
 ||rs.mail.ru^$third-party,domain=~account.mail.ru
@@ -2736,7 +2737,6 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||uptime.monitorus.ru^$third-party
 ||uptimeviewer.com^$third-party
 ||uptracs.com^$third-party
-||uralweb.ru^$third-party
 ||uriuridfg.com^$third-party
 ||urlbrief.com^$third-party
 ||urlself.com^$third-party
@@ -3218,6 +3218,10 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||t.arianelab.com^
+||t.karte.io^
+||beacon.tws.toyota.jp^
+||c.marsflag.com^
 ||p.gazeta.pl^
 ||st.dynamicyield.com^
 ||log.outbrainimg.com^
@@ -4566,6 +4570,7 @@ charlestownwyllie.oaklawnnonantum.com^
 .sg/t.gif?
 .uk/t.gif?
 !
+/common/tracking/webtrekk
 /greenoaks.gif?
 /bbtstats/*
 /px.js?ch=
@@ -4803,6 +4808,14 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||tunein.com/api/*/comscore
+||cerberus.sqrt-5041.de/somtag/logs^
+||otto.de/tracking-bct^
+||hagebau.de/tracking^
+||imwalking.de/servlet/LandmarkServlet?clientId
+||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
+||d2-apps.net/*/impressions/log
+||cdn.d2-apps.net/js/tr.js
 ||gittigidiyor.com/external-static/dtm/dtm.js
 ||sumo.com/apps/heatmaps/
 ||sumo.com/api/event/
@@ -4890,7 +4903,7 @@ continentseven.com##.gaoop
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||cars.com/ajax/activityloggingapi^
 ||ref.dealerinspire.com/visit/*/events^
-||dpm.demdex.net/id$empty,important,domain=nhl.com
+||dpm.demdex.net/id$empty,important,domain=bt.com|nhl.com
 ||pix.spot.im/api/*/pixel
 ||bamgrid.com/telemetry
 ||finn.no/clientstats.html
@@ -6281,6 +6294,14 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/26787
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||analytics.twitter.com/mob_idsync_click
+! https://github.com/AdguardTeam/AdguardFilters/issues/26887
+@@||trackcmp.net^|
+! https://github.com/AdguardTeam/ExperimentalFilter/issues/27035
+! Fixing page loading. Examples: harveynorman.com.au, info.singtel.com
+@@||dev.visualwebsiteoptimizer.com/j.php
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27154
 @@||googletagmanager.com/gtm.js$domain=packtpub.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26761
@@ -6576,8 +6597,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 @@||tags.tiqcdn.com/utag/vodafone/it-main/prod/utag.js$domain=vodafone.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15472
 @@||google-analytics.com/analytics.js$domain=developers.google.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/15365
-@@||dev.visualwebsiteoptimizer.com/j.php$domain=luckytacklebox.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15210
 @@||d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js$domain=novayagazeta.ru
 ! checkout.paddle.com
@@ -7003,8 +7022,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 ! https://forum.adguard.com/index.php?threads/20668/
 @@||gaua.hit.gemius.pl/gplayer.js$domain=kanald.com.tr
 @@||sb.scorecardresearch.com/beacon.js$domain=kanald.com.tr
-! https://github.com/AdguardTeam/AdguardFilters/issues/4713
-@@||dev.visualwebsiteoptimizer.com/j.php$domain=skinny.co.nz
 ! https://forum.adguard.com/index.php?threads/startpage-tracking-adblock-users.20202/
 @@||startpage.com/js/abp.js^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4519
