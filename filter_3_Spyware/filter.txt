@@ -103,6 +103,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||metrics-collector.s-onetag.com^
 ||cinarra.com^$third-party
 ||2iui01.com^$third-party
 ||target.mixi.media^$third-party
@@ -3206,6 +3207,11 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 !
 ! Section contains the list of tracking servers, which are hosted on useful sites as subdomains
 !
+!#if (!adguard_ext_safari || !adguard_app_ios || !adguard_ext_android_cb)
+! https://github.com/AdguardTeam/AdguardFilters/issues/25467
+||ct.pinterest.com^
+!#endif
+!
 ! Big Star Labs
 ||ben.crxmouse.com^
 ||api2.poperblocker.com^
@@ -4463,7 +4469,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||counter.mediastealer.com^$third-party
 ||counter.tovarro.com^
 ||counter.yadro.ru^
-||ct.pinterest.com^
 ||d.haberler.com^
 ||d1m6l9dfulcyw7.cloudfront.net^
 ||d1xfq2052q7thw.cloudfront.net^
@@ -4808,6 +4813,8 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+/:\/\/rkn.gov.ru\/[a-g0-9]{30,}.gif/$domain=rkn.gov.ru
+||rkn.gov.ru/5a71c95863f38b1dcfcbb763.js
 ||tunein.com/api/*/comscore
 ||cerberus.sqrt-5041.de/somtag/logs^
 ||otto.de/tracking-bct^
@@ -4827,6 +4834,7 @@ _tracking.php?b=
 /bcommon/js/trckUtil.min.js$domain=buffed.de|gamesaktuell.de|videogameszone.de|gamezone.de|pcgames.de|pcgameshardware.de
 ||secure.agoda.com/pixel.gif
 ||agoda.com/api/pixel/index?
+||wcs.naver.net^$domain=brotoon.com
 ||washingtonpost.com/wp-stat/analytics/latest/main.js
 ||d1d3jupgwm7m5r.cloudfront.net/prod/cloudfrontVideoTracker.
 ||united-infos.net/event^
