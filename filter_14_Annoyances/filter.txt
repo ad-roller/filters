@@ -873,6 +873,8 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+popmech.ru##.subscription_block
+turizm.ru##.subscribe
 sntch.com##a[href="https://zen.yandex.ru/sntch"]
 sntch.com##.subscribe-inline-box
 esquire.ru##.subscription_block
@@ -1735,6 +1737,9 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+anidub.com##.errormodal
+psm7.com##.m-cookies
+tubeon.com###abmessage
 poedb.tw#$##wrapfabtest { height: 1px!important; }
 /sites/*/files/advagg_js/*$domain=version2.dk|crackberry.com
 ciftlikdergisi.com.tr##body > div[style^="position: fixed; top:"][style*="z-index: 9999"]:not([class]):not([id])
@@ -4500,6 +4505,7 @@ strunz.com###v-cookielaw
 ! common name
 tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+nv.ua##.cookie-label
 etherscan.io###divcookie
 source.android.com##devsite-snackbar[type="cookie-notification"]
 m.standaard.be##.dialog-backdrop
@@ -6370,6 +6376,7 @@ aliexpress.com###j-site-notice-header[-ext-has='>.site-notice-container:contains
 !
 ! JS rules
 !
+rtllatenight.nl#%#AG_onLoad(function() { setTimeout(function() { if(window.location.href.indexOf("/cookie.rtl.nl") != -1){ var el = document.querySelector('input.accept-button'); if(el) el.click(); }}, 30); });
 volkskrant.nl,trouw.nl#%#AG_onLoad(function() { if (document.cookie.indexOf('nl_cookiewall_version') == -1) { document.cookie = "nl_cookiewall_version=1"; location.reload(); } });
 xn--allestrungen-9ib.at,xn--allestrungen-9ib.ch,xn--allestrungen-9ib.de,allestoringen.be,allestoringen.nl,downdetector.ae,downdetector.ca,downdetector.cl,downdetector.co.nz,downdetector.co.za,downdetector.com,downdetector.com.ar,downdetector.com.au,downdetector.com.br,downdetector.dk,downdetector.es,downdetector.fi,downdetector.fr,downdetector.hk,downdetector.ie,downdetector.in,downdetector.it,downdetector.jp,downdetector.mx,downdetector.no,downdetector.pl,downdetector.pt,downdetector.ru,downdetector.se,downdetector.sg,downdetector.co.uk,downdetector.web.tr#%#document.cookie = "euconsent=1; path=/;";
 pfm.pl#%#document.cookie = 'NeucaCookieConsent={"necessary":false,"preferences":false,"statistics":false,"marketing":false,"id":""}';
@@ -7694,6 +7701,7 @@ opinie24.pl##.side-box-container.box-size
 bauhaus.com.tr##.noty_modal
 bauhaus.com.tr###noty_center_layout_container
 uphold.com###cta-join
+dailymail.co.uk##div[class^="shared-"]
 grupanya.com###colorbox
 grupanya.com###cboxOverlay
 gazetapraca.pl###overlayJS
@@ -10882,6 +10890,7 @@ nhentai.net##footer > p > b
 nhentai.net###chatbanner
 !
 ! Exchange rates widgets
+mediametrics.ru##.currency-moving-block
 ||kursvalut.com/informer/$third-party
 echo.co.ua###minfin-informer-m1Fn-currency
 rosbalt.ru##.ad_tele
