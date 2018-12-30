@@ -174,15 +174,13 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 ||web.da.mgtv.com/pc/player$rewrite=/m5/page
 ! ||web2.da.mgtv.com/pc/player$rewrite=/m5/page is excluded by: $rewrite=
 ||web2.da.mgtv.com/pc/player$rewrite=/m5/page
-! 9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+160) is excluded by: #?#
-9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(-n+160)
-! 9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ br:nth-child(-n+160) is excluded by: #?#
-9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ br:nth-child(-n+160)
-! 9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child is excluded by: #?#
-9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#.f24:-abp-has(a[href*="//mo"]) ~ span[class^="f"] > span > a[onmouseover="this.style.background='#DEF5CD';"]:first-child:last-child
-! 9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#div:-abp-has(> script + table) a is excluded by: #?#
-9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#div:-abp-has(> script + table) a
-! 9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#div:-abp-has(> script + table) h4 is excluded by: #?#
-9vs.xyz,nf3.xyz,t66y.com,u5k0.icu,ykzjz.cf#?#div:-abp-has(> script + table) h4
+! t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+160)) > :nth-child(-n+170) is excluded by: #?#
+t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+160)) > :nth-child(-n+170)
+! t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150)) > :nth-child(-n+155) is excluded by: #?#
+t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150)) > :nth-child(-n+155)
+! t66y.com#?#div:-abp-has(> script + table) a is excluded by: #?#
+t66y.com#?#div:-abp-has(> script + table) a
+! t66y.com#?#div:-abp-has(> script + table) h4 is excluded by: #?#
+t66y.com#?#div:-abp-has(> script + table) h4
 ! |http:$script,third-party,domain=wuzuowei.net is excluded by: |http:$
 |http:$script,third-party,domain=wuzuowei.net

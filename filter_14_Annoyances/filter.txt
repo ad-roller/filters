@@ -1707,8 +1707,8 @@ rulu.co#%#!function(b,a){AG_defineProperty('CloudflareApps.installs',{get:functi
 /wp-content/*/an-temp/*
 ||s3.amazonaws.com/assets.sidearmsports.com/plugins/detector.min.js
 !
-/^https?:\/\/[^\/]+\.[^\/]+\/[a-zA-Z0-9]{32,}$/$script,~third-party,domain=~onet.pl|~przegladsportowy.pl|~ekstraklasa.tv|~medonet.pl|~auto-swiat.pl|~businessinsider.com.pl|~fakt.pl|~forbes.pl|~noizz.pl|~plejada.pl|~vod.pl|~komputerswiat.pl|~wp.pl|~coco.fr|~ign.com|~namemc.com|~roblox.com|~sap.com|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de
-/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$script,third-party,domain=~onet.pl|~przegladsportowy.pl|~ekstraklasa.tv|~medonet.pl|~auto-swiat.pl|~businessinsider.com.pl|~fakt.pl|~forbes.pl|~noizz.pl|~plejada.pl|~vod.pl|~komputerswiat.pl|~coco.fr|~ign.com|~namemc.com|~roblox.com|~sap.com|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de
+/^https?:\/\/[^\/]+\.[^\/]+\/[a-zA-Z0-9]{32,}$/$script,~third-party,domain=~onet.pl|~przegladsportowy.pl|~ekstraklasa.tv|~medonet.pl|~auto-swiat.pl|~businessinsider.com.pl|~fakt.pl|~forbes.pl|~noizz.pl|~plejada.pl|~vod.pl|~komputerswiat.pl|~wp.pl|~coco.fr|~ign.com|~namemc.com|~roblox.com|~sap.com|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de|~justjared.com
+/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{32,}$/$script,third-party,domain=~onet.pl|~przegladsportowy.pl|~ekstraklasa.tv|~medonet.pl|~auto-swiat.pl|~businessinsider.com.pl|~fakt.pl|~forbes.pl|~noizz.pl|~plejada.pl|~vod.pl|~komputerswiat.pl|~coco.fr|~ign.com|~namemc.com|~roblox.com|~sap.com|~studio-svet.ru|~stumbleupon.com|~trueachievements.com|~tv.yandex.by|~tv.yandex.kz|~tv.yandex.ru|~tv.yandex.ua|~wetteronline.de|~justjared.com
 /^https:\/\/.*?\/v2\/0\/[a-zA-Z0-9_-]{30,}$/$third-party,script
 ! Kill-Adblock
 /wp-content/plugins/kill-adblock/*
@@ -3795,6 +3795,7 @@ howwindows.ru#%#window.canRunAds = true;
 ~538.nl##.cookie-box
 ##.cookie-check
 ##.cookie-compliance
+##.cookie-compliance-container
 ##.cookie-confirm
 ##.cookie-consent:not(body):not(html)
 ##.cookie-consent-block
@@ -4461,7 +4462,7 @@ howwindows.ru#%#window.canRunAds = true;
 /ttgcookieconsent-
 /TWCCookies/*
 /ubmcookieconsent-
-/uk-cookie-consent/*
+/uk-cookie-consent/*$domain=support.actualityextensions.com
 /usocookies.
 /warnCookies.
 /widgets/cookies-
@@ -4511,8 +4512,34 @@ chimica-online.it###cookieChoiceInfo
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
 strunz.com###v-cookielaw
 ! common name
-tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
+crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+revouninstaller.com###consentAccepted
+ankama.com##.ak-cookies-banner
+arena.net##body > div[class^="index_cookieNotification"]
+bluebyte.com###cookieNotificationBanner
+codemasters.com###codemasters_cookies
+daybreakgames.com##.soe-cookie-policy
+frozenbyte.com##.moove_gdpr_cookie_info_bar
+gsc-game.com##.cookieinfo
+guerrilla-games.com##.notification-cookie__wrapper
+jagex.com##.c-cookie-consent
+nianticlabs.com##body > .nl-cpb
+psyonix.com##body > #wrap ~ #message
+redthreadgames.com##.sqs-cookie-banner-v2
+relic.com##.GdprCookieConsent-ConsentContainerOverlay
+schellgames.com##.privacy__popup
+splashdamage.com###cookies-eu-banner
+square-enix-games.com##div[class^="notice_Notices_"]
+handy-games.com##.bugme-fixed
+atlus.com###wpfront-notification-bar-spacer
+mlg.com###policy-banner
+amplitude-studios.com##.system-notification-container > div[id*="-policy-"]
+ideafintl.com###notification-bar
+paradoxplaza.com##.cookie-image-wrapper
+paradoxplaza.com###disablingDiv
+sega.com##.cp-wrap.show
+aliexpress.com##.aliexpress-notice
 abebooks.co.uk,abebooks.fr###abe-gdpr
 wikistrike.com##.ob-cookies
 /pp-t-a-c.js$domain=bmi-online.pl|dieta.pl|domzdrowia.pl|fabrykasily.pl|fora.pl|toplista.pl|torrent.top-100.pl|odkrzychadoronaldo.pl|forum-kulturystyka.pl|swistak.pl|trizer.pl
@@ -4562,7 +4589,7 @@ youtube.com##ytd-popup-container ytd-mealbar-promo-renderer
 russ-litigation.de##.eu-cookie-compliance-banner
 spelersvrouw.nl##body > div[class^="app_"]
 rtl.hr###gdpr-modal
-reinisfischer.com##.sliding-popup-bottom
+asobostudio.com,stainlessgames.com,reinisfischer.com##.sliding-popup-bottom
 yellow.place###cc-bar
 businessinsider.fr##div[id^="sp_message_id"]
 design-3000.de,geschenke.de##.bar--cookienote
@@ -5428,7 +5455,7 @@ telekom.de###j-cookie-notification
 milligazete.com.tr##.f-data-policy
 deutsche-bank.de##body > #wt-confirm-layer
 solarmovie.watch##.fkplayer
-ladige.it##body > #sliding-popup
+rovio.com,ladige.it##body > #sliding-popup
 prointim.info##.pp-cookies-notice
 fantasy.li###privacy_cookies
 sdl.com##.sdl-notification-cookie-bar
@@ -6098,7 +6125,7 @@ lonelyplanet.com##.alert.is-visible
 linkedin.com##.alert.warning.animate-in
 soundcloud.com##.announcements > div.sc-list-nostyle
 soundcloud.com##.announcements__item.sc-clearfix
-callofduty.com##.atvi-cookie-disclaimer
+activision.com,activisionblizzard.com,callofduty.com##.atvi-cookie-disclaimer
 telia.dk##.block-attention.is-cookie
 ecopayz.com##.block-cookie
 xhamster.com##.bottom_message
@@ -6206,7 +6233,7 @@ comedycentral.tv,viva.tv##.viacomcookiebar
 plarium.com##.w-notifications__noty_cookie
 lawdepot.co.uk##.wbUKCookies
 lalafo.gr##.we-use-cookie
-longines.de##.widget-cookie
+supermassivegames.com,longines.de##.widget-cookie
 zdf.de##.x-cookies
 youtube.com##.yt-consent-banner
 gaming.youtube.com##.ytg-notification-footer
@@ -6391,7 +6418,6 @@ nytimes.com##div[class^="shown expanded css-"]:has(a[href="https://nytimes.com/c
 maximum.com.tr##.sticky_cookie_warning:has(> a[href^="/TR/gizlilik-politikamiz/Sayfalar/gizlilik-politikamiz.aspx"])
 mycinema.pro##[class][-ext-has=">span:contains(Cookies help us deliver our services. By using our services, you agree to our use of cookies.)"]
 bmwfaq.org##.Notices[-ext-has='a[href="//www.bmwfaq.org/help/cookies"]']
-aliexpress.com###j-site-notice-header[-ext-has='>.site-notice-container:contains(ookies)']
 !
 ! JS rules
 !
@@ -6519,6 +6545,8 @@ ziekenhuis.nl#%#AG_onLoad(function() { setTimeout(function() {var check = docume
 !######### White list. Fixing filtering errors #########
 !#######################################################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/27572
+@@||fatturaelettronica.infocamere.it/fpmi/js/jquery/jquery.cookiebar.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27262
 @@/cookieconsent.$domain=sammobile.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26793
@@ -7683,6 +7711,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+freedio.co.il###topopup
 glavcom.ua###facebook-popup
 therecoveryvillage.com##.spu-bg
 therecoveryvillage.com##.spu-box
@@ -10691,6 +10720,7 @@ mhealth.ru##.incut_readmore
 !
 ! START: Adviser/online-consultant/feedback widgets
 !
+fooda.com##.olark-bottom-left
 ||widget.contactleader.pl^$third-party
 ||blinger.io^$third-party
 .az/livechat/
@@ -10728,7 +10758,7 @@ networkguru.ru##.tbForm_CallMe
 ||foresee.com^$third-party
 ||js.driftt.com^$third-party
 ||embed.tawk.to^$third-party
-||static.olark.com/jsclient/$third-party
+||static.olark.com/jsclient/$third-party,domain=~fooda.com
 ||cdn.callbackkiller.com^$third-party
 ||static.leadia.ru^$third-party
 ||app.whappodo.com/pages/widget^$third-party

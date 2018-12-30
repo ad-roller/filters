@@ -979,6 +979,8 @@
 ! https://github.com/AdguardTeam/AdguardForiOS/issues/255
 @@||m.beautypageants.in^$elemhide
 !---
+! https://github.com/AdguardTeam/AdguardFilters/issues/27586
+@@||js.kanald.com.tr/assets/dist/js/custom/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23913
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=anlink.top
@@ -1357,6 +1359,9 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/27605
+m.veporns.com#@#.advertisment
+m.veporns.com#@##topAds
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26732
 @@||b92.net/a/cmt_submit.php$document
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26698
@@ -1704,6 +1709,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+carsales.com.au##.mrec-container
+m.adevarul.ro##.article > div[style="width:336px;height:280px;margin:5px auto;"]:not([id]):not([class])
 mail.yahoo.com##a[href*="beap.gemini.yahoo.com/bmclk"]
 mail.yahoo.com##form[name="showFolderForm"] > div.mb
 ndtv.com##amp-iframe[src^="https://drop.ndtv.com/common/gadgets360/pricee/pricee-widget.html?"]
@@ -2249,7 +2256,6 @@ m.sondakika.com##div > .widget_partner[style]
 m.sondakika.com###news-list-container > ul > li[style]:not([data-haber-id])
 m.katestube.com##.top-spot
 m.katestube.com##.bottom-spot
-m.katestube.com##.btn-share
 m.katestube.com##.pop-fade
 m.milliyet.com.tr##.Masthead > #div-320x100
 m.milliyet.com.tr##a[href^="http://secure.milliyet.com.tr/redirect/Default.aspx?"][target="_blank"] > article
@@ -2767,6 +2773,8 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/25302
+||etnet.com.hk/ad/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26774
 @@||ssl.google-analytics.com$app=com.avast.android.mobilesecurity
 ! com.edadeal.android - fixing an app

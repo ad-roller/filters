@@ -78,6 +78,8 @@ webfail.com#?##aside > :-abp-properties(cursor: pointer;)
 freethesaurus.com#?#.widget + :-abp-properties(height: 265px; width: 300px;)
 ! ksl.com#?#.queue:-abp-has(.sponsored) is excluded by: #?#
 ksl.com#?#.queue:-abp-has(.sponsored)
+! multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl) is excluded by: #?#
+multiup.eu,multiup.org#?#.col-md-4:-abp-contains(Usenet.nl)
 ! multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp) is excluded by: #?#
 multiup.eu,multiup.org#?#.trtbl:-abp-has(.warnIp)
 ! space.com#?#:-abp-properties(height: 250px;*width: 300px;) is excluded by: #?#

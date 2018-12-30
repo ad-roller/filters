@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2018-12-28 15:10:35
+! Last modified: 2018-12-30 15:12:33
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -3709,6 +3709,12 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||nompakru.click^
+||pirdoust.com^
+||i22lo.com^
+||furocmay.com^
+||aifoosty.net^
+||kaukoafa.net^
 ||deathereclother.info^
 ||yeahmobi.com^
 ||api.grumft.com^
@@ -5237,6 +5243,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||xml.revrtb.com^
 ||d1n3tk65esqc4k.cloudfront.net^
 ||d3vpf6i51y286p.cloudfront.net^
 ||ds02gfqy6io6i.cloudfront.net^
@@ -7216,6 +7223,7 @@ www.llllllllllll.net^
 ||adotmob.com^
 ||adotomy.com^
 ||adovida.com^
+||adovr.com^
 ||adowner.net^
 ||adpacks.com^
 ||adparlor.com^
@@ -10183,6 +10191,7 @@ www.llllllllllll.net^
 ||rewardisement.com^
 ||rewardsaffiliates.com^
 ||rewartific.com^
+||reyden-x.com^
 ||rfgsi.com^
 ||rfihub.net^
 ||rhombusads.com^
@@ -10571,6 +10580,7 @@ www.llllllllllll.net^
 ||td563.com^
 ||td583.com^
 ||tdmd.us^
+||tdntrack.com^
 ||tdsjsext.com^
 ||teambetaffiliates.com^
 ||teasernet.com^
@@ -10629,6 +10639,7 @@ www.llllllllllll.net^
 ||tmqhw.us^
 ||tmtrck.com^
 ||tnyzin.ru^
+||toads.id^
 ||toalhjpw.com^
 ||toboads.com^
 ||todich.ru^
@@ -10945,6 +10956,7 @@ www.llllllllllll.net^
 ||wagershare.com^
 ||wahoha.com^
 ||wallacemaloneymindanao.info^
+||wallstrads.com^
 ||walternsa.com^
 ||walternse.com^
 ||wamnetwork.com^
@@ -12482,6 +12494,7 @@ www.llllllllllll.net^
 ||cgkpwhkgjxo.com^
 ||cgrvnpkwuytts.com^
 ||cifipkbu.com^
+||cixvlpbnceh.com^
 ||cjgpifztileh.com^
 ||cjojvvfyb.com^
 ||cjsgmoekcb.com^
@@ -13589,6 +13602,7 @@ www.llllllllllll.net^
 ||wlhbgwzgep.com^
 ||wmqdgaptep.com^
 ||wnstpoiqrv.com^
+||wnzmauurgol.com^
 ||woghqyjpiwddme.com^
 ||wozltvfxtntaqk.com^
 ||wplqgfpj.com^
@@ -18887,6 +18901,7 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||noy90o.com^
 ||logsss.com^
 ||redatastore.ru^
 ||metrics-collector.s-onetag.com^
@@ -23653,6 +23668,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||keytiles.com^
 ||km-sea.net^
 ||knowlead.io^
+||l2.io^
 ||ladsp.com^
 ||lansrv030.com^
 ||lasagneandands.com^
@@ -23662,6 +23678,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||limbik.io^
 ||linksynergy.com^
 ||livesegmentservice.com^
+||livesession.io^
 ||livetrafficfeed.com^
 ||locotrack.net^
 ||logmatic.io^
@@ -23758,6 +23775,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||serv-ac.com^
 ||servingpps.com^
 ||sessions.exchange^
+||sessionstack.com^
 ||shoelace.com^
 ||shoptimally.com^
 ||showheroes.com^
@@ -23819,8 +23837,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||traversedlp.com^
 ||treasuredata.com^
 ||triptease.io^
+||triptease.net^
 ||trkn.us^
 ||trksrv44.com^
+||trmnsite.com^
 ||trs.cn^
 ||trtl.ws^
 ||truconversion.com^
@@ -25317,6 +25337,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stats.yourminis.com^
 ||stats.zotabox.com^
 ||stats1.tune.pk^
+||stats2.tune.pk^
 ||stats2.lightningcast.net^
 ||stats3.unrulymedia.com^
 ||statsadv.dadapro.com^
@@ -26052,7 +26073,6 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||fnkyyrgraizy.com^third-party
 ||fonderreaders.info^
 ||forumiklan.com^
-||furocmay.com^
 ||gehzj.com^
 ||greatwork.info^
 ||groupiklan.com^
