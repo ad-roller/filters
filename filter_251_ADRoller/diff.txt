@@ -1220,8 +1220,8 @@
 |http://*.com/images/ad.gif
 ! |http://*.com/images/adbanner$image is excluded by: |http://*
 |http://*.com/images/adbanner$image
-! |http://*.com/images/banner$domain=~touchrom.com|~shangxueba.com|~cncrypt.com|~exp.qq.com|~yoedge.com is excluded by: |http://*
-|http://*.com/images/banner$domain=~touchrom.com|~shangxueba.com|~cncrypt.com|~exp.qq.com|~yoedge.com
+! |http://*.com/images/banner$domain=~touchrom.com|~shangxueba.com|~cncrypt.com|~exp.qq.com|~yoedge.com|~58pic.com is excluded by: |http://*
+|http://*.com/images/banner$domain=~touchrom.com|~shangxueba.com|~cncrypt.com|~exp.qq.com|~yoedge.com|~58pic.com
 ! |http://*.com/images/js/*_$script,domain=~qq.com is excluded by: |http://*
 |http://*.com/images/js/*_$script,domain=~qq.com
 ! |http://*.com/images/openad/ is excluded by: |http://*
@@ -2762,8 +2762,8 @@
 ||pgl.yoyo.org
 ! ||umeng.com$third-party,domain=~so.com|~www.baidu.com is excluded by: umeng.co
 ||umeng.com$third-party,domain=~so.com|~www.baidu.com
-! |http://*btbtt.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@ is excluded by: |http://*
-|http://*btbtt.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+! |http://*btbtt.*/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@ is excluded by: |http://*
+|http://*btbtt.*/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! |https://wap.baquge.tw/files/article/html/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@ is excluded by: @@
 |https://wap.baquge.tw/files/article/html/*.html$s@<script type="text/javascript" src="/js/common.js"></script>@@
 ! |http://*.com/statics/v?/js/global.js$s@tyMap = window.tyMap@@ is excluded by: @@
@@ -3515,227 +3515,227 @@
 ! Invalid rule options:
 ||mobads.baidu.com$agent=~Android
 ! Invalid rule options:
-||16888.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||16888.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||21ic.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||21ic.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||51cto.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||51cto.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 ||51cto.com/$s@</body>@<script>fuckcss('#list4')</script></body>@
 ! Invalid rule options:
-||bitauto.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||bitauto.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||cb.com.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||cb.com.cn/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||ddc.net.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||ddc.net.cn/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||mp4pa.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||mp4pa.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||renrencili.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||renrencili.*/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||sina.com.hk/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||sina.com.hk/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 ||sina.com.hk/$s@</body>@<script>fuckcss('.sbAds')</script></body>@
 ! Invalid rule options:
-||tiexue.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||tiexue.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||wmxa.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||t66y.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||yingshidaquan.com$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||wmxa.cn/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://4pda.ru/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||yingshidaquan.com$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://btdiggs.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://4pda.ru/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
+! Invalid rule options:
+|http://btdiggs.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://bbs.pcbeta.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/koolproxy-element-hiding.js"></script></head>@
 ! Invalid rule options:
-|http://bbs.pcbeta.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://bbs.pcbeta.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://caibaojian.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://caibaojian.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://cnbtkitty.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://cnbtkitty.*/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://fulibus.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://fulibus.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://gaoqing.la/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://gaoqing.la/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://m.76long.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://m.76long.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://m.mm250.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://m.mm250.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://m.mm250.com/$s@</body>@<script>inHackcss.S('[id^="ndt"]','display:none!important')</script></body>@
 ! Invalid rule options:
-|http://mebtbtt.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://mebtbtt.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://oabt004.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://oabt004.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://sports.eastday.com$s@</body>@<script>fuckcss('a.dalink')</script></body>@
 ! Invalid rule options:
 |http://sports.mop.com/$s@</body>@<script>fuckcss('.ad-r.ad-r-one,.ad-r.ad-r-two.mt20,.ad-r.ad-r-three.mt20,.ad-r.ad-r-four.mt20')</script></body>@
 ! Invalid rule options:
-|http://sports.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://sports.eastday.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://t66y.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://video.eastday.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://video.eastday.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.21rv.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.21rv.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.66rd.cn/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.66rd.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.aixiaoju.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.aixiaoju.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.avtbl.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.avtbl.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.avtbk.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.avtbk.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.bidchance.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.bidchance.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.btjia.*/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.btjia.*/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.cartoonmad.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.cartoonmad.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.chinaz.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.chinaz.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
-! Invalid rule options:
-|http://www.cnautonews.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.cnautonews.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://www.cnscore.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://www.cnscore.com/$s@</body>@<script>fuckcss('.main.bdbanner')</script></body>@
 ! Invalid rule options:
-|http://www.creaders.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.creaders.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://www.creaders.net/$s@</body>@<script>fuckcss('[style="padding:5px 0px;"]')</script></body>@
 ! Invalid rule options:
-|http://www.discuz.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.discuz.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.dysfz.vip/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.dysfz.vip/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.dysfz.vip/$s@</body>@<script>fuckcss('li:contains(优惠券),li:contains(红包)')</script></body>@
+|http://www.dysfz.vip/$s@</body>@<script>fuckcss('li:contains(优惠券),li:contains(红包),li:contains(家里没矿)')</script></body>@
 ! Invalid rule options:
-|http://www.doutula.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.doutula.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.dxg0043.top/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.dxg0043.top/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.gugeys.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.gugeys.cc/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.hanzify.org/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.hanzify.org/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.kanmeiju.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.kanmeiju.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.kuoo8.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.kuoo8.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.kengso.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.kengso.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.loveshang.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.loveshang.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.rjno1.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.rjno1.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.tt27.tv/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.tt27.tv/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://www.veryhuo.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |http://www.veryhuo.com/$s@</body>@<script>unHackcss.A('.down_ads.pad')</script></body>@
 ! Invalid rule options:
-|http://www.zdzdm.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.zdzdm.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.zhuixinfan.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.zhuixinfan.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.zimuzu.tv/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://www.zimuzu.tv/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://lq.win0168.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://lq.win0168.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://m.szonline.net/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|http://m.szonline.net/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://m.yznnw.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://m.yznnw.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://ozxw.co/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://ozxw.co/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://thzbt.co/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://thzbt.co/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.sopanxia.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.sopanxia.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://www.xitongtiandi.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://www.xitongtiandi.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|http://zhongzishenqi.cc/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|http://zhongzishenqi.cc/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||imobile.com.cn/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||imobile.com.cn/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||p*.space/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||p*.space/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||mop.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||mop.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://video.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://video.eastday.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||https://cartoonmad.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||https://cartoonmad.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||https://halihali.tv/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||https://halihali.tv/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||https://javbus.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||https://javbus.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||https://pchome.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||https://pchome.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-||https://qianzhan.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||https://qianzhan.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 ||https://qidian.com$s@</body>@<script>fuckcss('[style^="width: 426px; height: 644px;"]')</script></body>@
 ! Invalid rule options:
-||https://sina.com.hk/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||https://sina.com.hk/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 ||https://sina.com.hk/$s@</body>@<script>fuckcss('.sbAds')</script></body>@
 ! Invalid rule options:
-||https://sina.com.tw/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+||https://sina.com.tw/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://51.ruyo.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+||https://t66y.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://91mjw.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://51.ruyo.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://99a12.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://91mjw.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
+! Invalid rule options:
+|https://99a12.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://99a12.com/$s@</body>@<script>fuckcss('.half-img')</script></body>@
 ! Invalid rule options:
-|https://all.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://all.qidian.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://all.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
-|https://book.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://book.qidian.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://book.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
 |https://bonuscloud.io/$r@https://bonuscloud.io/@https://kprules.b0.upaiyun.com/null/404.html@
 ! Invalid rule options:
-|https://btdiggs.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://btdiggs.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://cilidaquan.co/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://cilidaquan.co/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://ck101.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://ck101.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://cnbtkitty.me/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://cnbtkitty.me/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.laomoit.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.laomoit.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://m.baidu.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/baidu_ad.js"></script></head>@
 ! Invalid rule options:
-|https://m.zongheng.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://m.zongheng.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://m.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://m.qidian.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://read.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://read.qidian.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://read.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
-|https://r3sub.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://r3sub.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://share.dmhy.org/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://share.dmhy.org/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://sports.eastday.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://sports.eastday.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://t66y.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://wangsuceshi.51240.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://wangsuceshi.51240.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.666kao.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.666kao.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
-! Invalid rule options:
-|https://www.918pd.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.918pd.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.918pd.com/$s@</body>@<script>inHackcss.S('[img[style="display: none;]','display:none!important')</script></body>@
 ! Invalid rule options:
@@ -3743,55 +3743,55 @@
 ! Invalid rule options:
 |https://www.918pd.com/$s@</body>@<script>inHackcss.S('[style="display:none;]','display:none!important')</script></body>@
 ! Invalid rule options:
-|https://www.ahu.cc/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.ahu.cc/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.baidu.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/baidu_ad.js"></script></head>@
 ! Invalid rule options:
-|https://www.bttiantang.la/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.bttiantang.la/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.busdmm.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.busdmm.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.busjav.cc/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.busjav.cc/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.bttiantangs.com/$s@</head>@<script src="http://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.bttiantangs.com/$s@</head>@<script src=http://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=http://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.chinaz.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.chinaz.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.dmmsee.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.dmmsee.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.dygod.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.dyfc.net/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.dyfc.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.gaoqingkong.com/$s@</body>@<script>unHackcss.A('#ad.search_site')</script></body>@
 ! Invalid rule options:
-|https://www.halihali.tv/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.halihali.tv/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.hdsky.net/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.javbus.work/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.javbus.work/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.javbus.work/$s@</body>@<script>fuckcss('.ad-list')</script></body>@
 ! Invalid rule options:
-|https://www.kafan.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.kafan.cn/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.kafan.cn/$s@</body>@<script>fuckcss('p:contains(腾讯视频),p:contains(理论永久)');</script></body>@
 ! Invalid rule options:
-|https://www.meijutt.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://www.meijutt.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.ppx26.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.ppx26.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.gaoqingkong.com/$s@</body>@<script>fuckcss('li.post.box:contains(红包)')</script></body>@
 ! Invalid rule options:
-|https://www.qdmm.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.qdmm.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.qdmm.com/$s@</body>@<script>fuckcss('.top-game-op,.banner-wrap.box-center.mb40,.focus-img.cf')</script></body>@
 ! Invalid rule options:
 |https://www.gaoqingkong.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js></script></head>@
 ! Invalid rule options:
-|https://www.gamersky.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.gamersky.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://www.qidian.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.qidian.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</body>@<script>fuckcss('#j-topHeadBox,.games-op-wrap,.right-op-wrap.mb10')</script></body>@
 ! Invalid rule options:
@@ -3799,17 +3799,17 @@
 ! Invalid rule options:
 |https://www.qidian.com/$s@</body>@<script>fuckcss('.focus-img.cf')</script></body>@
 ! Invalid rule options:
-|https://www.v2ex.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.v2ex.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
 |https://www.v2ex.com/$s@</body>@<script>fuckcss('.sidebar_compliance')</script></body>@
 ! Invalid rule options:
-|https://www.zimuku.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://www.zimuku.cn/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://yaoshe26.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/hide.js"></script></head>@
+|https://yaoshe26.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://yaoshe28.com/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://yaoshe28.com/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid rule options:
-|https://zimuku.cn/$s@</head>@<script src="https://kprules.b0.upaiyun.com/js/AR.js"></script></head>@
+|https://zimuku.cn/$s@</head>@<script src=https://kprules.b0.upaiyun.com/js/hide_w.js></script><script src=https://kprules.b0.upaiyun.com/js/hide.js charset=UTF-8></script></head>@
 ! Invalid selector:
 10pan.cc###dl_addr,#down_box{display:block!important;}
 ! Invalid selector:
@@ -4047,6 +4047,10 @@ yxdown.com###topsearch{top: 100px;}
 ! || are unnecessary for element hiding rule:
 ||https://twitter.com##.suggested-tweet-stream-container,.stream-item[data-item-type="tweet"][data-item-id*=":"]
 ! || are unnecessary for element hiding rule:
+||https://t66y.com##.tips,#footer > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1)
+! || are unnecessary for element hiding rule:
+||https://t66y.cc,https://t66y.com##DIV > A > IMG[src^="http://www.t66y.cc/img/"]:first-child,DIV.container > DIV > A[rel="nofollow"],blockquote img[onclick^="window.open('http://www.viidii.info/"],blockquote .f16
+! || are unnecessary for element hiding rule:
 ||https://v2ex.com##.adsbygoogle
 ! || are unnecessary for element hiding rule:
 ||https://xd0.com##.HtmlMoKua.two-thirds,.HtmlMoKua > .themeauthor
@@ -4163,7 +4167,9 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 |http://jump2.bdimg.com/p/$s@<div class="l_post l_post_bright j_l_post clearfix ?????????? "@<div style="display:none"@
 ! Invalid rule options:
-||t66y.com/$s@function readS@function NoreadS@
+||t66y.com/*.html$s@/((!?function )[readS\w]+\(\) ?{)/@${1}return;@
+! Invalid rule options:
+||t66y.com/*.html$s@/(setTimeout\(function ?\(\) ?{)/@${1}return;@
 ! Invalid rule options:
 ||t66y.com/*.html$s@<br><br>@<br>@
 ! Invalid rule options:
@@ -4295,7 +4301,9 @@ yxdown.com###topsearch{top: 100px;}
 ! Invalid rule options:
 ||https://news.163.com$s@DDDDDD; height: 241px;@DDDDDD; height: 151px;@
 ! Invalid rule options:
-||https://t66y.com/$s@function readS@function NoreadS@
+||https://t66y.com/*.html$s@/((!?function )[readS\w]+\(\) ?{)/@${1}return;@
+! Invalid rule options:
+||https://t66y.com/*.html$s@/(setTimeout\(function ?\(\) ?{)/@${1}return;@
 ! Invalid rule options:
 ||https://t66y.com/*.html$s@<br><br>@<br>@
 ! Invalid rule options:
