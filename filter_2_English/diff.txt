@@ -40,6 +40,8 @@
 ||travelplus.tv^$third-party,domain=kissanime.com
 ! ||myiplayer.eu/ad is excluded by: myiplayer.eu
 ||myiplayer.eu/ad
+! |http://*?$script,xmlhttprequest,domain=1movies.is|moviescouch.co|torrentfunk.com is excluded by: |http://*
+|http://*?$script,xmlhttprequest,domain=1movies.is|moviescouch.co|torrentfunk.com
 ! |http:$xmlhttprequest,domain=mmohuts.com|onrpg.com is excluded by: |http:$
 |http:$xmlhttprequest,domain=mmohuts.com|onrpg.com
 ! |http://*=*&$third-party,xmlhttprequest,domain=sporcle.com is excluded by: |http://*
