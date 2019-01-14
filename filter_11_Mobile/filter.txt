@@ -1711,6 +1711,9 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+m.iceporn.com##.banner-full-fixed
+m.iceporn.com##.spot+p
+kanasoku.info##.adc_g_ko_sec
 egmnow.com##.pt_mobile_ad_iframe
 egmnow.com##.pt-embed-ad-single-mobile
 m.sondakika.com##.text_reklam
@@ -3135,6 +3138,7 @@ _*sec.mp4$mp4,domain=ivi.ru
 ||app.adjust.com^
 !
 ! For apps
+||tracking.ws.eurosport.com^
 ||tracker.rqmob.com^
 ||logconfig.polarisoffice.com
 ||analysis.polarisoffice.com
