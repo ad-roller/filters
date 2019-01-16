@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-01-14 15:18:19
+! Last modified: 2019-01-16 18:02:09
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -3709,6 +3709,13 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||fairnessels.com^
+||ousufauk.com^
+||fvtwyjev.com^
+||yoads.network^
+||getfree-vpn.com^
+||majoritishbettes.info^
+||expectorslapsino.info^
 ||adsnative.com^
 ||pheegoab.click^
 ||wynather.com^
@@ -3720,6 +3727,9 @@ ws*://video.docfilms.info^
 ||asasfasdf.xyz^
 ||nompakru.click^
 ||pirdoust.com^
+||libertystmedia.com^
+||tinb.net^
+||hwcdn.net^
 ||i22lo.com^
 ||furocmay.com^
 ||aifoosty.net^
@@ -4535,7 +4545,6 @@ www.llllllllllll.net^
 ||sebadu.com^
 ||ayclinical.com^
 ||naenticle.info^
-||localbitcoins.com^
 ||adconity.com^
 ||neads.delivery^
 ||kensyii.com^
@@ -5251,6 +5260,7 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||drda5yf9kgz5p.cloudfront.net^
 ||d1wjz6mrey9f5v.cloudfront.net^
 ||xml.revrtb.com^
 ||d1n3tk65esqc4k.cloudfront.net^
@@ -10336,7 +10346,7 @@ www.llllllllllll.net^
 ||sedatorslegallock.info^
 ||sedoparking.com^
 ||seductionprofits.com^
-||seecontentdelivery.info^third-party
+||seecontentdelivery.info^
 ||seegamese.com^
 ||seekads.net^
 ||seethisinaction.com^
@@ -11022,6 +11032,7 @@ www.llllllllllll.net^
 ||wat.ipowerapps.com^
 ||watchfree.flv.in^
 ||watchingthat.com^
+||watchingthat.net^
 ||watchnowlive.eu^
 ||wateristian.com^
 ||waycash.net^
@@ -12373,6 +12384,7 @@ www.llllllllllll.net^
 ||dxqorupwedbotu.com^
 ||dxzgoyzo.com^
 ||dydxtkvmktumjp.com^
+||dyhwaacbbntu.com^
 ||dypmzetaj.com^
 ||dywqwrtnhegyz.com^
 ||dzqoubtxsaskdl.com^
@@ -12445,6 +12457,7 @@ www.llllllllllll.net^
 ||fkfmujcudpwdn.com^
 ||fkvjntfj.com^
 ||flbecoidmt.com^
+||flepzrkdwm.com^
 ||flgstgrcwapk.com^
 ||flnqkhnqjcmvp.com^
 ||flvuylhsyg.com^
@@ -12474,7 +12487,6 @@ www.llllllllllll.net^
 ||fuwgbbkktwbu.com^
 ||fvenxjtzuaxu.com^
 ||fveugxikrgrbsh.com^
-||fvtwyjev.com^
 ||fwbhvrpiunlzyh.com^
 ||fwzqogrlgsdl.com^
 ||fxazopwrns.com^
@@ -12491,6 +12503,7 @@ www.llllllllllll.net^
 ||gbwhqbiiq.com^
 ||gbybvvfo.com^
 ||gbytjlggor.com^
+||gdbmpwlhf.com^
 ||gdtbpaqa.com^
 ||gdyelbwku.com^
 ||gdyjhclaxvqz.com^
@@ -12708,6 +12721,7 @@ www.llllllllllll.net^
 ||jqanygfhqne.com^
 ||jqsrfzjgn.com^
 ||jrarnqfvjijaa.com^
+||jrrekpskc.com^
 ||jtveisrh.com^
 ||juuwyyvjecnvps.com^
 ||juvqtttkhz.com^
@@ -12766,6 +12780,7 @@ www.llllllllllll.net^
 ||ksufusxqd.com^
 ||ktdthraxzxt.com^
 ||ktjcrhdppesdd.com^
+||ktzwdewsckssid.com^
 ||kujwlsnl.com^
 ||kvhxckkd.com^
 ||kwajysvvjeyvs.com^
@@ -13187,6 +13202,7 @@ www.llllllllllll.net^
 ||runwtxeisppmt.com^
 ||ruodzaboyf.com^
 ||rvtxrtzbswdji.com^
+||rvyvkjqffmdp.com^
 ||rwphwhdoktfq.com^
 ||rwugdvqdpxfz.com^
 ||rwugglxboxgw.com^
@@ -13314,7 +13330,9 @@ www.llllllllllll.net^
 ||uaneklzqph.com^
 ||uanomwcxixed.com^
 ||uaofcvzlhhh.com^
+||ubpjjgso.com^
 ||uclylhzwg.com^
+||ucvrtwfh.com^
 ||uembrcfeuwtsjy.com^
 ||uemjnvyn.com^
 ||uenpibqyjvim.com^
@@ -13523,6 +13541,7 @@ www.llllllllllll.net^
 ||xhyjlfbqnbr.com^
 ||xibnqcksoax.com^
 ||xihkdzijh.com^
+||xilnalycptredw.com^
 ||xiodoyvbauv.com^
 ||xiqlaxjbzjei.com^
 ||xirlmiyihvpi.com^
@@ -18787,6 +18806,7 @@ www.llllllllllll.net^
 ||i-bims-1-produkt.de^
 ||i-bims-ein-shopper.de^
 ||ichkaufehierein.de^
+||maria-herzt.de^
 ||meinelieblingsprodukte.de^
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/SpywareFilter/sections/tracking_servers.txt]
@@ -21811,6 +21831,7 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||logger.tv.telstra.com.au^
 ||t.arianelab.com^
 ||t.karte.io^
 ||beacon.tws.toyota.jp^
@@ -23444,7 +23465,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||bettermetrics.co^
 ||bfmio.com^
 ||bidr.io^
-||bigmir.net^
 ||bikepasture.com^
 ||bjcathay.com^
 ||bloomjoy.com^
@@ -23538,6 +23558,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||halo77.com^
 ||hdmtools.com^
 ||heatmap.services^
+||heg-cp.com^
 ||hira-meki.jp^
 ||hivps.xyz^
 ||hospitality-optimizer.com^
@@ -23594,7 +23615,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||macandcheeseandads.com^
 ||marketshot.com^
 ||marketshot.fr^
-||markitondemand.com^
 ||maropost.com^
 ||maryneallynndyl.com^
 ||mdxapi.io^
@@ -23736,7 +23756,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||thisisanothercoolthing.com^
 ||thrtle.com^
 ||tighting.info^
-||tinb.net^
 ||tnctrx.com^
 ||topstat.cn^
 ||traceless.me^
@@ -23746,6 +23765,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trafficfuel.com^
 ||transactionale.com^
 ||traversedlp.com^
+||trbas.com^
 ||treasuredata.com^
 ||triptease.io^
 ||triptease.net^
@@ -24685,7 +24705,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Turkish
 ! Ukranian
 ||getaim.info^
-||zmctrack.net^
 ! Vietnamese
 ||amcdn.vn^
 ||contineljs.com^

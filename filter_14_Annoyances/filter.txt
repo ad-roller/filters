@@ -23,6 +23,12 @@
 !
 !######### Annoying elements (not ads)
 !
+! Snow on the page
+/wp-content/plugins/snow-3d/*
+! https://github.com/AdguardTeam/AdguardFilters/issues/28258
+tw.yahoo.com##.tabbar-signin > .feature-cue > .FancyBox.Arrow.Tooltip
+! https://github.com/AdguardTeam/AdguardFilters/issues/28342
+idntimes.com###videoPlaylistPlugId.convertoFloatClass
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24697
 gnavi.co.jp##.hatena-module-body .hatena-fotolife[alt][width]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27911
@@ -693,6 +699,8 @@ youtube.com##.ytp-cards-teaser
 ! YouTube video annotations
 youtube.com##.ytp-ce-element
 youtube.com##.ytp-pause-overlay
+! https://github.com/AdguardTeam/AdguardFilters/issues/28271#issuecomment-454325128
+youtube.com##.ytp-paid-content-overlay
 ! https://forum.adguard.com/index.php?threads/11119/
 youtube.com###yt-lang-alert-container
 ! END: YouTube annoyances
@@ -1033,7 +1041,7 @@ bestvpn.com##.widget-subscribe_widget
 adguard.com##.gh-subscribe
 searchenginejournal.com##.sej-subscribe-form
 e-marine.ru###subscribe_form_fixed
-intothegloss.com##.m-newsletter
+gauchazh.clicrbs.com.br,intothegloss.com##.m-newsletter
 vokrug.tv##.subscribe-block
 appbrowser.ru##.jetpack_subscription_widget
 nationalpost.com##.Sailthru_Subscribe
@@ -1516,8 +1524,8 @@ solidsoftwaretools.com#$#div[class][data-locker-id] { display: block!important; 
 ! Social Locker - WordPress content locking plugin
 /wp-content/plugins/sociallocker-
 ! onp-sl-social-locker
-hentairon.net,creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-social-locker { display: none!important; }
-hentairon.net,creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-content { display: block!important; }
+downloadmockup.com,hentairon.net,creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-social-locker { display: none!important; }
+downloadmockup.com,hentairon.net,creativefabrica.com,serialkeypro.com,cracxsoftwares.com,fullpcsoftz.com,psdfreebies.com,c4crack.com,warezcrack.net,ckfile.com,crackflare.com,f4freesoftware.com,freeappstorepc.com,gomovies.co,profullcrack.com,sajidpc.com,sjcrack.com,soft7star.com,warezcrack.net,workingkeys.org#$#.onp-sl-content { display: block!important; }
 psdfreebies.com#$#.onp-locker-call { display: block!important; }
 warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
 windowstechblog.nl#%#AG_onLoad(function() { window.bizpanda = {}; });
@@ -4221,6 +4229,7 @@ howwindows.ru#%#window.canRunAds = true;
 !#######################################################
 !######### General URL blocking rules ##################
 !#######################################################
+/wp-content/plugins/wp-gdpr-compliance/*
 /wp-content/plugins/zigcookie/*
 /ibeugdpr.min.js
 ||oil.axelspringer.com^$third-party
@@ -4534,6 +4543,10 @@ strunz.com###v-cookielaw
 ! common name
 editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+katcr.co##a[title="Protect your privacy"]
+katcr.co##.ad__cta
+egyshort.info###cookie-pop
+pkobp.pl##.cookie-rodo
 dreamcatchers.fr##.cookies_v16
 neoldu.com###cm-cookie-policy
 philips.de##.dot-cc-wrapper
@@ -4546,6 +4559,8 @@ tata.com###popup-privacypolicy
 greedfall.com###cookies-interface
 plume.com##div[class^="GDPR-module_GDPR_"]
 shmh.de###hb-cc-wrap
+hilton.com##.truste_box_overlay
+cam4.com###promptArea
 finnair.com##.cookie-consent-wrapper
 go.cnn.com##.cnn-toasts > li[ng-repeat="toast in toasts track by $index"]
 audi.com##.gbp-cookieinfo
@@ -4561,6 +4576,7 @@ stormmanagement.com##.alert-banner--cookie
 celebheights.com###ckeu
 computertotaal.nl###cookie-wall
 smashbros.com##.cookie-notes
+alarabiya.net###consent
 kawasaki.hu###Panel_Cookies
 hyundai.hu###cookies_information
 ||forumsamochodowe.pl/js/jquery.cookie.js
@@ -5157,7 +5173,7 @@ app.myreadit.com##ri-cookie-notification
 dortmund.de###cookieNoteBox
 hovatek.com,cultofmac.com,besttechinfo.com,appletoolbox.com,asianhobbyist.com,rmprepusb.com,thefalse9.com,cyanogenmods.org###ez-cookie-dialog-wrapper
 adpop.me###cookie-pop
-thomas-philipps.de###eu-cookie-bar-notification
+shop.ltbjeans.com,thomas-philipps.de###eu-cookie-bar-notification
 thequietus.com###_evidon-background
 giphy.com##div[class^="flash-message__MessageWrapper-"]
 baby-vornamen.de###Cookies
@@ -5354,7 +5370,7 @@ takarek.hu###fhb-cookie
 kdb.hu###cookieallowbar
 fortiguard.com,fortinet.com###__agreementBar
 porta.de##.mod-cookie-warning
-mobile.twitter.com##.rn-1oszu61.rn-11luve4.rn-1efd50x.rn-14skgim.rn-rull8r.rn-mm0ijv.rn-13yce4e.rn-fnigne.rn-ndvcnb.rn-gxnn5r.rn-sfgjoc.rn-deolkf.rn-6koalj.rn-1pxmb3b.rn-7vfszb.rn-1mnahxq.rn-61z16t.rn-p1pxzi.rn-11wrixw.rn-ifefl9.rn-bcqeeo.rn-cq4nn.rn-1sbig5n.rn-1vzhmqw.rn-1pob48r.rn-bnwqim.rn-13qz1uu.rn-1lgpqti
+mobile.twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
 epochtimes.de###etd_cookie_alert
 pnas.org,london.gov.uk,humanite.fr,ikgastarten.nl,nbcsports.com,belltower.news,emma.de,musescore.com,la7.it,mnm.hu,mavcsoport.hu,click.ro,bigfm.de,mcdonalds.at,mcdonalds.it###sliding-popup
 starwindsoftware.com###privacyPopup
@@ -6128,7 +6144,7 @@ systemexplorer.net###cookie_statement
 azerty.nl###cookie_wrapper
 4launch.nl###cookiealertrow
 astonmartin.com###cookieheader
-myefe.ru###cookies-consent
+clevershuttle.de,myefe.ru###cookies-consent
 moj-posao.net###cookies-directive
 talktofrank.com###cookies-information-bar
 vipbox.nu##.cc-floating
@@ -6514,7 +6530,8 @@ pieseauto.ro#%#AG_onLoad(function() { var el = document.querySelector('.cookie-w
 fr12.nl#%#AG_onLoad(function() { var el = document.querySelector('body[page-name="cookies"] button#cookies'); if (el) el.click(); });
 tupperware.de#%#document.cookie = "cookiesAccepted=1";
 wonderhowto.com#%#AG_onLoad(function() { setTimeout(function() { if(document.getElementById("consentContainer").isvisible = true) { document.querySelectorAll('a[href="/consent-granted/"]')[0].click();}; }, 1000); });
-guce.oath.com#%#AG_onLoad(function() { setTimeout(function() { document.getElementsByClassName("agree")[0].click(); }, 300); });
+guce.oath.com#%#AG_onLoad(function() { setTimeout(function() { var el = document.querySelector('button[type="submit"][value="agree"].btn'); if(el) el.click(); }, 300); });
+guce.oath.com#%#AG_onLoad(function() { setTimeout(function() { var el = document.getElementsByClassName("agree")[0]; if(el) el.click(); }, 300); });
 jetphotos.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("cookieConsent", "1") } } catch (ex) {} })();
 sfgate.com#%#document.cookie = '_consent_cookie={"services":[]}';
 openpli.org#%#document.cookie = "gdpr-accepted=Yes";
@@ -7298,7 +7315,6 @@ eda.yandex##.src-common-components-common-Header--header-smartBanner
 leo.org##div[title="LEOs APPs"]
 reddit.com##a[href^="https://reddit.app.link"]
 auto.ru##.PromoFooterMobileApp-module__container
-tesco.hu,prima.hu##.smartbanner
 mkb.hu###mobilapp-download-module
 sp.baseball.findfriends.jp##.AppInstWrap
 m.accuweather.com###app-store-links
@@ -7550,7 +7566,7 @@ tripadvisor.ca,tripadvisor.co,tripadvisor.co.id,tripadvisor.co.uk,tripadvisor.co
 m.qidian.com##.read_app_download
 delfi.ee,delfi.lt,delfi.lv##.smart-app-banner
 cbsnews.com,lieferheld.de,rozetka.com.ua,terraria.wikia.com##.smart-banner
-immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##.smartbanner
+pkobp.pl,tesco.hu,prima.hu,immobilienscout24.de,lcwaikiki.com,m.sigrun-woehr.com,transfermarkt.de,fragfinn.de,hh.ru,eraffe24.de,infranken.de,m.computeruniverse.net,m.emp.de,meduza.io##.smartbanner
 lifehacker.ru##.soc-div
 zaycev.fm##.soft-promo
 sports.ru##.sports-apps-promo
@@ -7799,6 +7815,8 @@ glavcom.ua###facebook-popup
 therecoveryvillage.com##.spu-bg
 therecoveryvillage.com##.spu-box
 ppt.ru##.popup-form-advisory-council
+cam4.com###disclaimerModal
+cam4.com###Cam4DialogContainer
 espaebook.org###simplemodal-containter-share
 espaebook.org###simplemodal-overlay[style^="opacity: 0.95;"]
 mobile.de##.oo_feedback_float
@@ -8039,7 +8057,7 @@ theoaklandpress.com,twincities.com,macombdaily.com,delcotimes.com,chicoer.com,pe
 kinokadr.ru###floatleft
 androidauthority.com##.gcap-shown
 svoboda.org##.slide-in-wg[data-cookie-id]
-espaebook.org,javacodegeeks.com##.ulp-window-container
+karaoke-tutor.com,espaebook.org,javacodegeeks.com##.ulp-window-container
 sunfood.com###pdv4overlay
 twinlab.com###POPUPS_ROOT
 anti-malware.ru###parent_popup_ank
@@ -8851,7 +8869,7 @@ aliexpress.com##.ui-newuser-layer
 sobesednik.ru,ziekenhuis.nl##.ui-widget-overlay
 ziekenhuis.nl##.ui-widget.ui-widget-content
 natureweight.ru##.ulp-animated
-espaebook.org,javacodegeeks.com,highbrewcoffee.com##.ulp-overlay
+karaoke-tutor.com,espaebook.org,javacodegeeks.com,highbrewcoffee.com##.ulp-overlay
 highbrewcoffee.com,loleknbolek.com##.ulp-window
 natureweight.ru##.ulp-window-bottom-right
 cyberleninka.ru##.visual-big > .combo-box
@@ -9227,6 +9245,7 @@ wallstreet-online.de,dni.ru,polit.info#%#if (window.PushManager) { window.PushMa
 ||pushiki.ru^$third-party
 ||push-money.ru^$third-party
 !
+||bttm.guru^$third-party
 ||pushere.info^$third-party
 ||spacepush.ru^$third-party
 ||arianelab.com^$third-party
@@ -10705,6 +10724,7 @@ droidtk.com#$#body[data-protect="true"] { -webkit-touch-callout: default!importa
 toptech360.com,devicespecifications.com,apkinstaller.com,androidmtk.com,serial-key.com,sjcrack.com,themeslide.com,openssource.biz,kinogo-net-2017.ru,kinogo-online.online,kino-zal.net,lavka-invaitov.ru#$#body * { -webkit-touch-callout: default!important; -moz-user-select: text!important; -webkit-user-select: text!important; -ms-user-select: text!important; -o-user-select: text!important; user-select: text!important; -khtml-user-select: text!important; }
 catekno.com#$#img { -webkit-touch-callout: default!important; -webkit-user-select: text!important; }
 !--- JS ----
+topeuropix.net#%#Object.defineProperty(window, 'clickIE', { get: function() { return; } });
 runningnews.gr#%#Object.defineProperty(window, 'disableselect', { get: function() { return; } }); AG_onLoad(function(){AG_each('[oncontextmenu]',function(el){el.removeAttribute('oncontextmenu');});AG_each('[ondragstart]',function(el){el.removeAttribute('ondragstart');});AG_each('[onselectstart]',function(el){el.removeAttribute('onselectstart');});AG_each('img[onmousedown]',function(el){el.removeAttribute('onmousedown');});});
 hulkpop.com#%#Object.defineProperty(window, 'disableSelection', { get: function() { return; } }); AG_onLoad(function() { document.oncontextmenu = document.ondragstart = document.onselectstart = function() { return true; }; });
 liveinincheon.tistory.com#%#AG_onLoad(function() { document.oncontextmenu = document.ondragstart = document.onselectstart = function() { return true; }; });
@@ -10916,6 +10936,7 @@ networkguru.ru##.tbForm_CallMe
 ! ||cdn.bitrix24.ru/*/crm/site_button/$domain=oboitrade.ru|vistasport.ru|sportfood40.ru|infocomshop.ru
 ||cdn.bitrix24.ru/*/crm/site_button/loader_
 !
+||turimm.com/_*.php$script
 beru.ru##.zendesk-chat
 mylivecricket.info##iframe[src^="http://st.chatango.com/"]
 ||biznes-delo.ru/_*.php$script
