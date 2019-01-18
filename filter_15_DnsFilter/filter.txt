@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-01-16 18:02:09
+! Last modified: 2019-01-18 16:34:17
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -3709,6 +3709,9 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||coinzillatag.com^
+||gcontentdelivery.info^
+||smrtbnr.site^
 ||fairnessels.com^
 ||ousufauk.com^
 ||fvtwyjev.com^
@@ -3729,7 +3732,6 @@ ws*://video.docfilms.info^
 ||pirdoust.com^
 ||libertystmedia.com^
 ||tinb.net^
-||hwcdn.net^
 ||i22lo.com^
 ||furocmay.com^
 ||aifoosty.net^
@@ -8154,6 +8156,7 @@ www.llllllllllll.net^
 ||cmllk1.info^
 ||cntdy.mobi^
 ||coadvertise.com^
+||codefund.app^
 ||codefund.io^
 ||codezap.com^
 ||codigobarras.net^
@@ -9842,6 +9845,7 @@ www.llllllllllll.net^
 ||performanceadvertising.mobi^
 ||performancetrack.info^
 ||performancingads.com^
+||perkcanada.com^
 ||permanyb.com^
 ||persevered.com^
 ||pestrike.com^
@@ -21612,6 +21616,8 @@ www.llllllllllll.net^
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||sicksmash.com^
+||squeakzinc.com^
 ||penspade.com^
 ||caringzinc.com^
 ||foregoingfowl.com^
@@ -23558,7 +23564,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||halo77.com^
 ||hdmtools.com^
 ||heatmap.services^
-||heg-cp.com^
 ||hira-meki.jp^
 ||hivps.xyz^
 ||hospitality-optimizer.com^
@@ -23589,6 +23594,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||junta.net^
 ||k-analytix.com^
 ||kameleoon.eu^
+||kantartns.lt^
 ||kaxsdc.com^
 ||keytiles.com^
 ||km-sea.net^
@@ -23663,7 +23669,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||pnstat.com^
 ||polarcdn-pentos.com^
 ||popt.in^
-||proofpoint.com^
+||pro6e.com^
 ||pt-trx.com^
 ||ptengine.cn^
 ||ptengine.jp^
@@ -24574,6 +24580,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||iolam.it^
 ||keyxel.com^
 ||mwstats.net^
+||trick17.it^
 ||zt-dst.com^
 ! Japanese
 ||admatrix.jp^
@@ -25130,6 +25137,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||log.kibboko.com^
 ||log.kukuplay.com^
 ||log.liverail.com^
+||log.seekda.com^
 ||log000.goo.ne.jp^
 ||log1.survey.io^
 ||logger.logidea.info^
@@ -26007,6 +26015,7 @@ charlestownwyllie.oaklawnnonantum.com^
 .3.n.2.2.l30.js
 !
 !
+||tercabilis.info^
 ||jwuqescfqa.xyz^
 ://mine.torrent.pw^
 ||hostingcloud.*.wasm^
@@ -26230,6 +26239,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||window-close.cf^
 ||window-close.ga^
 ||www.adflazz.com^
+||www.ucvrtwfh.com^
 ||xbfk51p7.review^
 ||yesads.com^
 ||yx-ads6.com^
@@ -26346,6 +26356,8 @@ raovat.vnecdn.net^
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
 ! AdGuard DNS blocks this domain but for some reason, it messes with Android's network validation process.
 @@dnsotls-ds.metric.gstatic.com^
+! https://github.com/AdguardTeam/AdguardFilters/issues/27196
+@@||a.adwolf.ru^|
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26607
 @@||imasdk.googleapis.com^|
 ! https://github.com/AdguardTeam/AdGuardSDNSFilter/issues/23

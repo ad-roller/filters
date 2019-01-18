@@ -62,6 +62,8 @@
 |https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
 ! |https:$subdocument,domain=nod32key.xyz is excluded by: |https:$
 |https:$subdocument,domain=nod32key.xyz
+! dysfz.tv#?#li:-abp-has(> h2 > a:-abp-contains(红包)) is excluded by: #?#
+dysfz.tv#?#li:-abp-has(> h2 > a:-abp-contains(红包))
 ! 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;) is excluded by: #?#
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;)
 ! 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."]) is excluded by: #?#
@@ -80,10 +82,8 @@ cnbeta.com#?#.cnbeta-swiper-container-285x360 .swiper-slide:-abp-has(a[href^="ht
 dilidili.wang#?#article:first-child
 ! douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."]) is excluded by: #?#
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
-! dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"]) is excluded by: #?#
-dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
-! dysfz.vip#?#li:-abp-has(> h2 > a[href="http://www.dysfz.vip/movie23645.html"]) is excluded by: #?#
-dysfz.vip#?#li:-abp-has(> h2 > a[href="http://www.dysfz.vip/movie23645.html"])
+! dysfz.tv#?#li:-abp-has(> h2 > a[href*="t.cn"]) is excluded by: #?#
+dysfz.tv#?#li:-abp-has(> h2 > a[href*="t.cn"])
 ! ifeng.com#?#.box_list:-abp-has(.tuig) is excluded by: #?#
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ! ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray) is excluded by: #?#

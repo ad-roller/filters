@@ -224,6 +224,8 @@
 @@|http://i.umeng.com/
 ! @@|http://i2.bahamut.com.tw/JS/ad/animeVideo.js is excluded by: @@
 @@|http://i2.bahamut.com.tw/JS/ad/animeVideo.js
+! @@|http://icbc.allyes.com/ is excluded by: @@
+@@|http://icbc.allyes.com/
 ! @@|http://image.box.xiaomi.com/mfsv2/ is excluded by: @@
 @@|http://image.box.xiaomi.com/mfsv2/
 ! @@|http://image.res.hunantv.com/mediafiles/creative/u3154/ is excluded by: @@
@@ -3894,6 +3896,8 @@ yxdown.com###topsearch{top: 100px;}
 ||https://80s.tw###ad_rightBottom
 ! || are unnecessary for element hiding rule:
 ||https://aizhan.com##.azone,.cha_side_thumb
+! || are unnecessary for element hiding rule:
+||https://anywlan.com##div.a_pt,div.a_pb,.bscekvofc_o,.adsbygoogle,.a_pr
 ! || are unnecessary for element hiding rule:
 ||https://appinn.com##.ads-m,.adsbygoogle,.ads
 ! || are unnecessary for element hiding rule:

@@ -1377,6 +1377,7 @@ m.veporns.com#@##topAds
 @@||79423.analytics.edgekey.net/html5/akamaihtml5-min.js$domain=nhk.or.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22203
 !#if (adguard_app_android)
+@@||openload.pw/assets/js^
 @@||openload.co/assets/js^
 @@||hydrax.net/players^
 @@||mp4upload.com/jw/jwplayer.js
@@ -1711,6 +1712,9 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+dialog.ua##amp-ad
+dialog.ua###mgid_iframe
+dialog.ua##amp-iframe[src^="https://m.mixadvert.com/"]
 m.iceporn.com##.banner-full-fixed
 m.iceporn.com##.spot+p
 kanasoku.info##.adc_g_ko_sec
