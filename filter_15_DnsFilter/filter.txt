@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-01-20 15:20:47
+! Last modified: 2019-01-22 15:22:48
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,7 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||fafc5ra5.ru^
 ||perfmelab.com^
 ||sedorobma.ru^
 ||osrones.ru^
@@ -2387,7 +2388,6 @@ http://wq3.ru^
 ||novoteka.ru
 ||now73.ru^
 ||nrzcj.top^
-||nsoft-s.com^
 ||num-link.ru^
 ||numbers.md^
 ||nutkaekwcm.ru^
@@ -3709,6 +3709,16 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||holexknw.loan^
+||551f044b1a3f4ef.com^
+||keqi7dh3df.com^
+||installp.com^
+||producebreed.com^
+||letaikay.net^
+||shihoult.com^
+||whitwise.com^
+||ceptavou.net^
+||thiksikr.com^
 ||coinzillatag.com^
 ||gcontentdelivery.info^
 ||smrtbnr.site^
@@ -10879,6 +10889,7 @@ www.llllllllllll.net^
 ||unrulymedia.com^
 ||unterary.com^
 ||untidyquestion.com^
+||uod2quk646.com^
 ||upads.info^
 ||upliftsearch.com^
 ||upnorma.com^
@@ -12804,6 +12815,7 @@ www.llllllllllll.net^
 ||lawvcpqtapzsh.com^
 ||lbaybxwiklnfe.com^
 ||lbkprcoosfgk.com^
+||lcolevwciuwj.com^
 ||lcsgdwlxrlgq.com^
 ||ledvqaldtf.com^
 ||lesmyjzc.com^
@@ -12987,6 +12999,7 @@ www.llllllllllll.net^
 ||ognybevu.com^
 ||ogqclfvaq.com^
 ||ohrdpvkzhzbg.com^
+||oinqqbzs.com^
 ||oixisqtlbhygp.com^
 ||ojbevkqot.com^
 ||ojsfjyekvmyb.com^
@@ -13288,6 +13301,7 @@ www.llllllllllll.net^
 ||tfxorvbelxfbmk.com^
 ||tfyxcbougqvmk.com^
 ||tgkcxtvryb.com^
+||tgujinopirjgnn.com^
 ||thbuhcnpt.com^
 ||thjlnyagmxrbt.com^
 ||thqwivyhdpoem.com^
@@ -13314,6 +13328,7 @@ www.llllllllllll.net^
 ||tqomajswbm.com^
 ||trbucgmbren.com^
 ||trgdwwhaa.com^
+||tricsdqejmu.com^
 ||ttegjzxzxyetf.com^
 ||tufpmrcdc.com^
 ||tuggbdzprgudk.com^
@@ -18808,6 +18823,7 @@ www.llllllllllll.net^
 ||da-shoppe-ich-gerne.de^
 ||eckstein-eckstein-alles-muss-versteckt-sein.de^
 ||elijah-erwirbt.de^
+||eren-empfiehlt.de^
 ||i-bims-1-produkt.de^
 ||i-bims-ein-shopper.de^
 ||ichkaufehierein.de^
@@ -21838,6 +21854,7 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||ipcheck.tmgrup.com.tr^
 ||logger.tv.telstra.com.au^
 ||t.arianelab.com^
 ||t.karte.io^
@@ -23635,6 +23652,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||micpn.com^
 ||mno.link^
 ||momently.com^
+||mooseway.com^
 ||mparticle.com^
 ||mppapi.io^
 ||msecure108.com^
@@ -24507,7 +24525,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Armenian
 ! Bulgarian
 ! Chinese
-||163yun.com^
 ||ad7.com^
 ||adop.cc^
 ||adskom.com^
