@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-01-22 15:22:48
+! Last modified: 2019-01-24 15:23:30
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,7 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||cbbvi.com^
 ||fafc5ra5.ru^
 ||perfmelab.com^
 ||sedorobma.ru^
@@ -3709,6 +3710,9 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||adslop.com^
+||phastoag.com^
+||glodrips.com^
 ||holexknw.loan^
 ||551f044b1a3f4ef.com^
 ||keqi7dh3df.com^
@@ -6894,6 +6898,7 @@ www.llllllllllll.net^
 ||360adstrack.com^
 ||360installer.com^
 ||360popads.com^
+||360protected.com^
 ||365sbaffiliates.com^
 ||3cnce854.com^
 ||3lift.com^
@@ -11257,6 +11262,15 @@ www.llllllllllll.net^
 ||zxxds.net^
 ||zyiis.net^
 ||zypenetwork.com^
+! IP addresses
+||104.154.
+||104.197.
+||104.198.
+||130.211.
+||216.21.
+||35.184.
+||35.188.
+||35.193.
 ! Altice / Optimum / CableVision injects ads
 ! https://github.com/ryanbr/fanboy-adblock/issues/816
 ||167.206.10.148^
@@ -18708,6 +18722,7 @@ www.llllllllllll.net^
 ||ppac.de^
 ||premiumbesucher.de^
 ||premiumdownloaden.de^
+||pressekompass.net^
 ||primussponsor.de^
 ||profiliate.net^
 ||prom.ecato.net^
@@ -18763,6 +18778,7 @@ www.llllllllllll.net^
 ||textklicks.de^
 ||textswap.de^
 ||tip-ads.de^
+||tisoomi-services.com^
 ||topiaserv.net^
 ||trabro.com^
 ||tracknet.twyn-group.com^
@@ -18837,12 +18853,13 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||digitru.st^
+||s-onetag.com^
 ||personaclick.com^
 ||counter*.freecounter.ovh^
 ||noy90o.com^
 ||logsss.com^
 ||redatastore.ru^
-||metrics-collector.s-onetag.com^
 ||cinarra.com^
 ||2iui01.com^
 ||target.mixi.media^
@@ -19210,7 +19227,6 @@ www.llllllllllll.net^
 ||announcement.ru^
 ||anonymousdmp.com^
 ||anormal-tracker.de^
-||anrdoezrs.net^
 ||anti-cheat.info^
 ||apexstats.com^
 ||apextwo.com^
@@ -21227,7 +21243,6 @@ www.llllllllllll.net^
 ||tinycounter.com^
 ||tinystat.ir^
 ||tiser.com.au^
-||tisoomi-services.com^
 ||titag.com^
 ||tkqlhce.com^
 ||tl813.com^
@@ -21854,6 +21869,8 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||stats.aws.rubiconproject.com^
+||a.ria.ru^
 ||ipcheck.tmgrup.com.tr^
 ||logger.tv.telstra.com.au^
 ||t.arianelab.com^
@@ -23463,6 +23480,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||albacross.com^
 ||alocdn.com^
 ||amilliamilli.com^
+||amnet.tw^
 ||amplitude.com^
 ||ampush.io^
 ||analitits.com^
@@ -23538,7 +23556,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||dataxpand.com^
 ||ddm.io^
 ||devatics.com^
-||digitru.st^
 ||distiltag.com^
 ||districtm.io^
 ||dm-event.net^
@@ -23639,6 +23656,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||lyngro.com^
 ||mabipa.com^
 ||macandcheeseandads.com^
+||marketo.com^
 ||marketshot.com^
 ||marketshot.fr^
 ||maropost.com^
@@ -23718,7 +23736,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||rtb123.com^
 ||rumpelstiltskinhead.com^
 ||runtnc.net^
-||s-onetag.com^
 ||salecycle.com^
 ||salemove.com^
 ||salesmanago.pl^
@@ -24475,7 +24492,9 @@ charlestownwyllie.oaklawnnonantum.com^
 ||giga-abs.de^
 ||hstrck.com^
 ||ingenioustech.biz^
+||mairdumont.com^
 ||mateti.net^
+||md-nx.com^
 ||mps-gba.de^
 ||ppro.de^
 ||redretarget.com^
@@ -24485,6 +24504,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||toplist100.org^
 ||trbo.com^
 ||usemaxserver.de^
+||vtracy.de^
 ! French
 ||7e59f52a58ab3be819c9a90ba53b9ffe.ovh^
 ||7x4.fr^
@@ -25568,6 +25588,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trakksocial.googlecode.com^
 ||trax.dirxion.com^
+||trc.pushnami.com^
 ||tree-pixel-log.s3.amazonaws.com^
 ||tremorhub.com^
 ||trf.intuitwebsites.com^
@@ -25630,6 +25651,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.cnd-motionmedia.de^
 ||analytics.gameforge.de^
 ||analytics.loop-cloud.de^
+||analytics.pinpoll.com^
 ||analytics.praetor.im^
 ||analytics.unister-gmbh.de^
 ||asci.freenet.de^
