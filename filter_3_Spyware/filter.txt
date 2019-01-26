@@ -4933,6 +4933,7 @@ _tracking.php?b=
 ||hagebau.de/tracking^
 ||imwalking.de/servlet/LandmarkServlet?clientId
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
+||static.canal-plus.net/*/trcking.min.js
 ||d2-apps.net/*/impressions/log
 ||cdn.d2-apps.net/js/tr.js
 ||gittigidiyor.com/external-static/dtm/dtm.js
@@ -5798,7 +5799,6 @@ sinoptik.ua###bigmirTop
 lurkmo.re,lurkmore.to###p-counters
 football-ukraine.com###reachMedia
 football-ukraine.com###shadowMedia
-vc.ru###surfingbird-block
 europcar.com###wt_overlay
 -pcre-js-gen.herokuapp.com/tracking-event|
 .arcor.de/pixel/

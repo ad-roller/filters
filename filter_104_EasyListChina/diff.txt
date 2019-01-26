@@ -168,12 +168,6 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 ! |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc is excluded by: |https:$
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
-! /\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1 is excluded by: $rewrite=
-/\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
-! ||web.da.mgtv.com/pc/player$rewrite=/m5/page is excluded by: $rewrite=
-||web.da.mgtv.com/pc/player$rewrite=/m5/page
-! ||web2.da.mgtv.com/pc/player$rewrite=/m5/page is excluded by: $rewrite=
-||web2.da.mgtv.com/pc/player$rewrite=/m5/page
 ! dety.men,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150)) > :nth-child(-n+155) is excluded by: #?#
 dety.men,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+150)) > :nth-child(-n+155)
 ! dety.men,t66y.com#?#[class]:-abp-has(>a[onmouseover="this.style.background='#DEF5CD';"]:nth-child(n+160)) > :nth-child(-n+170) is excluded by: #?#
