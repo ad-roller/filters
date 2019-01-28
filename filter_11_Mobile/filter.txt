@@ -1712,6 +1712,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+m.xhamster.com##.wid-spot-container
 m.sabah.com.tr##.promo
 gametech.ru##.mobadv
 dialog.ua##amp-ad
@@ -1730,6 +1731,14 @@ mail.yahoo.com##form[name="showFolderForm"] > div.mb
 ndtv.com##amp-iframe[src^="https://drop.ndtv.com/common/gadgets360/pricee/pricee-widget.html?"]
 m.rp5.by,m.rp5.kz,m.rp5.ru,m.rp5.ua##div[onclick*="/reClickAdvert.php?key="]
 sagligabiradim.com##.mrf-adv
+||momon-ga.com/*/pickup1.js
+||momon-ga.com/*/pickup2.js
+momon-ga.com###lite_link > .list-box
+momon-ga.com##.section-box:has(.list-box)
+momon-ga.com##.section-box > .plugin-blogroll
+momon-ga.com##.article-body-more > .post-footer
+momon-ga.com##.content > div[style="margin-bottom:12px;"]
+momon-ga.com##.container-inner > div[style="margin-bottom:12px;"]
 digit.in##.footerCatfishAdArea
 digit.in##iframe[src^="/blockarticledetailad/"][title="Advertisement"]
 kadikoylife.com##.gabfire_ad
@@ -2663,6 +2672,7 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||googleads.g.doubleclick.net^$app=world.cup|com.ludo.king
 ! Blocking of Facebook ads
 ||graph.facebook.com^$app=com.supergame.ultrasharp.cutitdown
+||graph.facebook.com^$app=com.candl.chronos
 ||graph.facebook.com^$app=com.advancedprocessmanager
 ||graph.facebook.com^$app=tv.fourgtv.fourgtv
 ||graph.facebook.com^$app=com.geekslab.eyeprotection
@@ -2791,6 +2801,9 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.quoord.tapatalkpro.activity
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
+!
+! https://github.com/AdguardTeam/AdguardFilters/issues/28297
+@@||data.flurry.com^$app=ru.afisha.android
 !
 ||api2.appscraft.mobi/banner/get_banners.php
 !

@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-01-26 15:24:35
+! Last modified: 2019-01-28 15:25:25
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,7 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||cinemahd.info^
 ||webmasterskyi.com^
 ||cbbvi.com^
 ||fafc5ra5.ru^
@@ -8732,6 +8733,7 @@ www.llllllllllll.net^
 ||fxdepo.com^
 ||fxyc0dwa.com^
 ||g-cash.biz^
+||g27zkdvsxl.com^
 ||g4whisperermedia.com^
 ||g5fzq2l.com^
 ||gagenez.com^
@@ -9354,7 +9356,6 @@ www.llllllllllll.net^
 ||mangoads.net^
 ||mangoforex.com^
 ||marbil24.co.za^
-||marfeelcache.com^
 ||marginalwoodfernrounddance.com^
 ||marimedia.com^
 ||markboil.online^
@@ -10060,6 +10061,7 @@ www.llllllllllll.net^
 ||publicidad.net^
 ||publicityclerks.com^
 ||publicsunrise.link^
+||publift.com^
 ||publir.com^
 ||publisher.to^
 ||publisheradnetwork.com^
@@ -10572,6 +10574,7 @@ www.llllllllllll.net^
 ||statecannoticed.com^
 ||statelead.com^
 ||statesol.net^
+||statsforads.com^
 ||statsmobi.com^
 ||stealthlockers.com^
 ||steepto.com^
@@ -12660,6 +12663,7 @@ www.llllllllllll.net^
 ||hwiccseamrs.com^
 ||hxhyejtblmu.com^
 ||hxqetblh.com^
+||hysyqgbls.com^
 ||iacexhglty.com^
 ||iapxxrjzc.com^
 ||iatwyqgvpq.com^
@@ -12714,6 +12718,7 @@ www.llllllllllll.net^
 ||isxwajatbig.com^
 ||itlmnxlauah.com^
 ||itsyuvrlesq.com^
+||itxljhric.com^
 ||itzgybxfrbodq.com^
 ||iuncajvw.com^
 ||iuooczzbi.com^
@@ -12877,6 +12882,7 @@ www.llllllllllll.net^
 ||lptggobhuuxcdw.com^
 ||lpxxafsupgsho.com^
 ||lqbyqjap.com^
+||lruyzrlcef.com^
 ||ltvrdftgr.com^
 ||luhbhndh.com^
 ||lusfrsxgxopm.com^
@@ -12907,6 +12913,7 @@ www.llllllllllll.net^
 ||mcfdnvewqws.com^
 ||mcnklvsodqqa.com^
 ||mcsnhbdil.com^
+||mcyopesbusomqf.com^
 ||mdlhzknv.com^
 ||mdulmrphzsnvw.com^
 ||mdurqeiydegwzy.com^
@@ -13023,6 +13030,7 @@ www.llllllllllll.net^
 ||ocfsmefzzarkmo.com^
 ||ocixtsnyxxvyaw.com^
 ||ocrwyhamhfpfc.com^
+||ododtktl.com^
 ||odukhsymyua.com^
 ||oebdarcqsqcdk.com^
 ||oeevatisopdl.com^
@@ -13201,6 +13209,7 @@ www.llllllllllll.net^
 ||raqucjjblu.com^
 ||rbefggthfx.com^
 ||rbfgsoanxw.com^
+||rbnjngtbpwbk.com^
 ||rbtpsbtzh.com^
 ||rcumwyqkv.com^
 ||rcvhzfcnja.com^
@@ -13273,6 +13282,7 @@ www.llllllllllll.net^
 ||scjczeqyuqjs.com^
 ||sckzvqadc.com^
 ||scsklzqwme.com^
+||sczcxmaizy.com^
 ||sdeadbqsjam.com^
 ||secfpgpqx.com^
 ||sepyqhipq.com^
@@ -13320,6 +13330,7 @@ www.llllllllllll.net^
 ||symydvmqjjp.com^
 ||szlkqxlkcz.com^
 ||szxnruaeuig.com^
+||tadaeizih.com^
 ||tamrczjeedauh.com^
 ||taqesyqne.com^
 ||tarxjwdkx.com^
@@ -13452,6 +13463,7 @@ www.llllllllllll.net^
 ||vbwfqaisbgn.com^
 ||vcfnspbgztl.com^
 ||vcvapkiua.com^
+||vcwrigdrnh.com^
 ||vczprcezg.com^
 ||vdbasihbxwea.com^
 ||vdldsjqxppi.com^
@@ -13555,6 +13567,7 @@ www.llllllllllll.net^
 ||wqobjrevtkqym.com^
 ||wqpyqirgzfqsc.com^
 ||wqtsvqzthaoq.com^
+||wrrytjtsyhrnfg.com^
 ||wrwwvymy.com^
 ||wstvcgfkvc.com^
 ||wsucuzkmnd.com^
@@ -13707,6 +13720,7 @@ www.llllllllllll.net^
 ||ysosfhyrbyre.com^
 ||yttvnnvklf.com^
 ||yuanaayutyd.com^
+||yuazwfzvdzfc.com^
 ||yvbrgzeu.com^
 ||yvlhxqxw.com^
 ||yvlmcehqt.com^
@@ -13714,6 +13728,7 @@ www.llllllllllll.net^
 ||yxbglezas.com^
 ||yyupkqqokrus.com^
 ||yzesxnzfhyy.com^
+||yzoyfmwr.com^
 ||yzveuheeothp.com^
 ||yzyalgnxo.com^
 ||yzysnbqc.com^
@@ -13725,8 +13740,10 @@ www.llllllllllll.net^
 ||zcchnqgq.com^
 ||zcczlrtbbx.com^
 ||zcwjasfrog.com^
+||zfcjtxosje.com^
 ||zfpsotrgboqp.com^
 ||zgwuvfye.com^
+||zhpdtoott.com^
 ||zidqkapwgnsh.com^
 ||zisbrygtluib.com^
 ||zjhnmbfqylme.com^
@@ -13758,6 +13775,7 @@ www.llllllllllll.net^
 ||zpkshggvjif.com^
 ||zplvjgpxvh.com^
 ||zpxlmtujszhixe.com^
+||zqdvdygz.com^
 ||zramisxvxmkf.com^
 ||zreqmcewq.com^
 ||zsikmzoehqw.com^
@@ -18885,6 +18903,7 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||mateti.net^
 ||digitru.st^
 ||s-onetag.com^
 ||personaclick.com^
@@ -21901,6 +21920,9 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||s24-analytics.com^
+||tracking.s24.com^
+||events.whisk.com^
 ||stats.aws.rubiconproject.com^
 ||a.ria.ru^
 ||ipcheck.tmgrup.com.tr^
@@ -23567,6 +23589,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||chardneave.info^
 ||chickensaladandads.com^
 ||cint.com^
+||ck-cdn.com^
 ||clickbrainiacs.com^
 ||clickcease.com^
 ||clickguardian.co.uk^
@@ -23702,6 +23725,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||micpn.com^
 ||mno.link^
 ||momently.com^
+||monu.delivery^
 ||mooseway.com^
 ||mparticle.com^
 ||mppapi.io^
@@ -24466,6 +24490,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||wp-monero-miner.de^
 ||wrxgandsfcz.ru^
 ||wtm.monitoringservice.co^
+||wtmtrack.com^
 ||wty46.com^
 ||xbasfbno.info^
 ||xfast.host^
@@ -24526,7 +24551,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||hstrck.com^
 ||ingenioustech.biz^
 ||mairdumont.com^
-||mateti.net^
 ||md-nx.com^
 ||mps-gba.de^
 ||ppro.de^
@@ -24698,6 +24722,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ! Norwegian
 ! Persian
 ! Polish
+||caanalytics.com^
 ||clickmatic.pl^
 ||hub.com.pl^
 ||tagcdn.com^
@@ -25121,7 +25146,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||events.marquee-cdn.net^
 ||events.medio.com^
 ||events.realgravity.com^
-||events.whisk.com^
 ||events.yourcx.io^
 ||eventtracker.videostrip.com^
 ||experience.contextly.com^
@@ -25763,7 +25787,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tracking.mvsuite.de^
 ||tracking.netzathleten-media.de^
 ||tracking.promiflash.de^
-||tracking.s24.com^
 ||tracking.srv2.de^
 ||traffic.brand-wall.net^
 ||urtracker.q-sis.de^
