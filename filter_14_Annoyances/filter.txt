@@ -911,6 +911,8 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+timeout.com##.newsletter_subscription
+publico.pt###newsletters_inline
 finparty.ru##.sidebar-subscribe-form
 championat.com###subscription_block
 axios.com##div[class^="SubscribeStreamCap__"]
@@ -1787,6 +1789,7 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+||vo-dela.su/templates/default/js/stopblock/
 @@||majorgeeks.com/b/advertisement.js
 mir74.ru###adblock_top_reminder
 kinopoisk.ru##.adblock-detector-partial-component__content
@@ -2888,6 +2891,7 @@ howwindows.ru#%#window.canRunAds = true;
 !+ NOT_OPTIMIZED
 ##.cookie-banner:not(body):not(html)
 !
+##.cp-info-bar-container
 ##.O-CookieLaw
 ##.o-cookielaw
 ##.gpm-cookie-accepted
@@ -4590,6 +4594,8 @@ strunz.com###v-cookielaw
 ! common name
 store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+hyperxgaming.com###policy_message
+bayer.com##.bayer-cookie-disclaimer
 igeekphone.com##.moove-gdpr-align-center
 internetpatika.hu##.tygh-top-cookies
 pcland.hu###cookie_figyelmeztetes
@@ -6207,7 +6213,6 @@ ariva.de###bottomWarnings
 deutsche-handwerks-zeitung.de###cc-box
 fiber.nl###ccm-banner-wrap
 msn.com###conditionalbanner
-odmiana.net,meczenazywo.pl,mecze24.pl,atramentowka.com,pap.pl,merchtedes.pl,krs-online.com.pl,iopen.pl,techmantium.com,russiafm.net,die-glocke.de,foxgay.com,ruhrbarone.de,materiel.net,france.tv,paradoxplaza.com,europa-apotheek.com,e-smartphone.pl,mediaarena.pl###cookie
 m.europa-apotheek.com###cookie-advice
 ip-address.org,shinden.pl###cookie-bar
 betfair.com###cookie-holder
@@ -6289,7 +6294,7 @@ infranken.de##.cc_banner-wrapper_FB
 vergelijk.nl##.cg-82
 netzwelt.de##.ckch
 promod.de##.content_cookies
-1mobil.hu,tvpaprika.ro,tvpaprika.cz,tvpaprika.hu,minimaxtv.rs,minimaxcz.tv,minimaxro.tv,minimaxtv.si,minimax.hu,docmorris.de,leroymerlin.pl,malavida.com,prodir.com,dw.com,joautok.hu,redditinc.com,oogfonds.nl,soft32.com,buffalo.de,donaukurier.de,le1hebdo.fr,turbo-c.soft32.com,juridischloket.nl,statusbrew.com,zumnorde.de,rbs.co.uk,okayfreedom.com,statarea.com,werkenbijbdo.nl##.cookie
+nature.com,1mobil.hu,tvpaprika.ro,tvpaprika.cz,tvpaprika.hu,minimaxtv.rs,minimaxcz.tv,minimaxro.tv,minimaxtv.si,minimax.hu,docmorris.de,leroymerlin.pl,malavida.com,prodir.com,dw.com,joautok.hu,redditinc.com,oogfonds.nl,soft32.com,buffalo.de,donaukurier.de,le1hebdo.fr,turbo-c.soft32.com,juridischloket.nl,statusbrew.com,zumnorde.de,rbs.co.uk,okayfreedom.com,statarea.com,werkenbijbdo.nl##.cookie
 m.shop-apotheke.com##.cookie-advice
 netzwelt.de##.cookie-choice
 v3.co.uk##.cookie-consent-content
@@ -6430,6 +6435,9 @@ wykop.pl#$#.type-permanent+#nav { top: 0!important; }
 !
 !+ PLATFORM(windows, mac, android, ext_chromium)
 nytimes.com##.expanded.gdpr[data-testid="gdpr-dock"]
+!
+timeout.com#$#body { overflow: visible!important; }
+timeout.com#$#.cookie_banner { display: none!important; }
 !
 1plus1.ua#$#body > header { top: 0!important; }
 1plus1.ua#$#body > section.slider { margin-top: 0!important; }
@@ -7867,6 +7875,9 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+merriam-webster.com###subscribe-overlay
+lenta.ru#$#.subscribe-popup { display: none!important; }
+lenta.ru#$#body { overflow: visible!important; }
 /sweetalert2.all.min.js$domain=indir.pub
 iptvdroid1.blogspot.com###subscription-button
 3bmeteo.com#$#body { overflow: visible!important; }

@@ -1,8 +1,2 @@
 ! Invalid rule options:
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
-! Invalid rule options:
-/\/videos\/other\/(.*?\.f4v)/$rewrite=/videos/othez/$1
-! Invalid rule options:
-||web.da.mgtv.com/pc/player$rewrite=/m5/page
-! Invalid rule options:
-||web2.da.mgtv.com/pc/player$rewrite=/m5/page

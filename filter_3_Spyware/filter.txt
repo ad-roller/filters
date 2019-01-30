@@ -103,6 +103,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||targetman.ru^$third-party
+||adtlgc.com^$third-party
 ||mateti.net^$third-party
 ||digitru.st^$third-party
 ||s-onetag.com^$third-party
@@ -112,6 +114,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||logsss.com^$third-party
 ||redatastore.ru^$third-party
 ||cinarra.com^$third-party
+||marketo.com^$third-party
 ||2iui01.com^$third-party
 ||target.mixi.media^$third-party
 ||rs.mail.ru^$third-party,domain=~account.mail.ru
@@ -4926,6 +4929,7 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||onesignal.com/webPushAnalytics
 tensaigakkou.ru###custom_html-16
 ||at.rtb-cdn.net/?t_aid
 ||optimizely.com/js/geo2.js
@@ -6423,6 +6427,9 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28934
+@@||recommender.scarabresearch.com/js^$domain=tekzen.com.tr
+@@||recommender.scarabresearch.com/merchants/$domain=tekzen.com.tr
 ! line.me - menu buttons not working
 @@||google-analytics.com/plugins/ua/linkid.js$domain=line.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28754
