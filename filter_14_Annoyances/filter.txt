@@ -911,6 +911,8 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 4px; margin-bottom:10px; background-color: #d0ecff; text-align:center;"]
+m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 9px; margin-bottom:10px; margin-top:25px; background-color: #f7dede; text-align:center; line-height:25px;"]
 sobesednik.ru##a[href="https://zen.yandex.ru/sobesednik.ru"]
 oxforddictionaries.com##.sidebar-newsletter
 oxforddictionaries.com##.dayword
@@ -1792,9 +1794,13 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+@@||anidub.com/ads.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=anidub.com
 ||vo-dela.su/templates/default/js/stopblock/
 @@||majorgeeks.com/b/advertisement.js
 mir74.ru###adblock_top_reminder
+kinopoisk.ru##.adblock-warning
+kinopoisk.ru##.adblock-warning-partial-component
 kinopoisk.ru##.adblock-detector-partial-component__content
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=2ip.ua
 @@||fastly.net/js/_ads/prebid-*-min.js$domain=spanishdict.com
@@ -1979,7 +1985,6 @@ poedb.tw,independent.co.uk,pixlr.com#@#.adBanner
 @@||html5.nicogame.jp/misc/ad*.js
 @@||laptopmedia.com/ads.js|
 ||st1.kp.yandex.net/js/main.js$replace=/t._state=true;t._adbType=e;/t._state=false;t._adbType=null;/
-kinopoisk.ru###partial_component__header div[class*="monsters-vacation-banner"]+div
 pln-pskov.ru###check_ad_block
 @@||hindistopin.com/wp-content/plugins/wp-quads-pro/assets/js/ads.js
 @@||hindinewstop.com/wp-content/plugins/wp-quads-pro/assets/js/ads.js
@@ -4595,6 +4600,9 @@ strunz.com###v-cookielaw
 ! common name
 store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+thehungryjpeg.com###stickyWarningCookiePolicy
+moduscreate.com##.gdpr-show
+aignes.com###aignescookie
 tv3.ru##.app-cookie-agreement
 geo.de##.guj-cb
 hyperxgaming.com###policy_message

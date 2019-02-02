@@ -3333,6 +3333,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||ophan.theguardian.com^
 ||s24-analytics.com^
 ||tracking.s24.com^
 ||events.whisk.com^
@@ -4929,6 +4930,8 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||static-cl.xhcdn.com/js/track.min.js
+||tagm.tchibo.de/ai.aspx
 ||onesignal.com/webPushAnalytics
 tensaigakkou.ru###custom_html-16
 ||at.rtb-cdn.net/?t_aid
@@ -6427,6 +6430,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29054
+@@||halykbank.kz/assets/js/fingerprint2.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28934
 @@||recommender.scarabresearch.com/js^$domain=tekzen.com.tr
 @@||recommender.scarabresearch.com/merchants/$domain=tekzen.com.tr
