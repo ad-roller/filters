@@ -23,6 +23,8 @@
 !
 !######### Annoying elements (not ads)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28829
+travelask.ru##.addPhoto-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28532
 britannica.com###marketing-slider
 ||cdn.britannica.com/mendel/curiosity/eb-mendel-curiosity-300x90c.png
@@ -911,6 +913,7 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+travelask.ru##.f-banner--booking
 m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 4px; margin-bottom:10px; background-color: #d0ecff; text-align:center;"]
 m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 9px; margin-bottom:10px; margin-top:25px; background-color: #f7dede; text-align:center; line-height:25px;"]
 sobesednik.ru##a[href="https://zen.yandex.ru/sobesednik.ru"]
@@ -1794,6 +1797,7 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+||karaokes.com.ar/wp-content/uploads/*/*.js
 @@||anidub.com/ads.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=anidub.com
 ||vo-dela.su/templates/default/js/stopblock/
@@ -1872,7 +1876,6 @@ mctop.su#@#.adsbygoogle
 cnbeta.com#@##abd-ad-iframe
 ||t-library.net/themes/shoppe_original/js/voc89b0.js
 @@||static.mmzstatic.com/wp-content/themes/unicorn/assets/js/ads.js
-скачатьофис.рф##div[style="width: 300px; height: 250px;"]
 audiobyray.com###adblock_screen
 qrz.ru##.content > div[style="display: block;"]:has(> div > a[href="/help/adblock/"])
 ||web.cofp.ru/templates/webcofp_new/js/cookie_check.min.js
@@ -2435,7 +2438,6 @@ itavisen.no##cloudflare-app[app-id="no-adblock"]
 ||getgreenshot.org/js/vendor/blockadblock.js
 ||xiaomitech.net/wp-content/uploads/*/*.js
 @@||torrenting.com/js/advertisement*.js
-@@||pcgames-download.com/wp-content/plugins/noadb-leftthenicemessage/assets/js/ads.js
 psm7.com##.detect-block
 @@||numerama.com/ads.js
 @@||heidoc.net/amazon/detect.js
@@ -4600,6 +4602,10 @@ strunz.com###v-cookielaw
 ! common name
 store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+nhk.or.jp###nw_gdpr_view_id
+motortests.de,motor-talk.de,motorbasar.de##.mt-cc-bnnr
+over-blog.net##.ob-cookies
+journals.openedition.org###privacynotice
 thehungryjpeg.com###stickyWarningCookiePolicy
 moduscreate.com##.gdpr-show
 aignes.com###aignescookie
@@ -5273,7 +5279,6 @@ adpop.me###cookie-pop
 shop.ltbjeans.com,thomas-philipps.de###eu-cookie-bar-notification
 thequietus.com###_evidon-background
 giphy.com##div[class^="flash-message__MessageWrapper-"]
-baby-vornamen.de###Cookies
 filmweb.pl#$#body.rodo #header { position: relative!important; }
 filmweb.pl#$#.rodo { overflow: visible!important; position: static!important;}
 filmweb.pl#$#.rodo__overlay { display:none!important; }
@@ -5287,7 +5292,7 @@ my.kaspersky.com##.banner-type-cookiePolicyFixed
 kinoafisha.ua##.privacy-modal
 ivacy.com##.gdpr-hellobar
 timeanddate.de###mpo
-gusto.at,profil.at###cookieBgOverlay
+news.at,vgn.at,lustaufsleben.at,gusto.at,profil.at###cookieBgOverlay
 cocooncenter.de###infoscookies
 pclab.pl,forbes.pl,onet.pl##.cmp-app_gdpr
 winclub.pl,iphoneyardim.net,schiffsmodell.net,iosgods.com,forum.kvinneguiden.no,forums.malwarebytes.com,turkish-media.com,excelbet365.com,gamedev.net,forum.brcbet.com,polar-chat.de,board.sonicstadium.org###elGuestTerms
@@ -6208,7 +6213,7 @@ nelly.de###toast-container
 hurriyet.com.tr###CookieMsgBox
 theinquirer.net##.cookie-consent-content
 madeleine.de###AcceptCookiesBannerTemplate
-designhousestockholm.com###Cookies
+paradisi.de,baby-vornamen.de,designhousestockholm.com###Cookies
 druckerchannel.de###DCINFO_COOKIE_AGB
 stadtwerke-bamberg.de###Datenschutzhinweis
 lego.com###GFSticky
@@ -9216,7 +9221,7 @@ mic.com#%#if (typeof localStorage != 'undefined' && localStorage.setItem) { loca
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19976
 hotline.ua#$#body.reset-scroll:before { z-index: -9999!important; display: none!important; }
-hotline.ua#$#body { overflow: visible!important; }
+hotline.ua#$#body.reset-scroll { overflow: visible!important; }
 hotline.ua#$#div[data-lightbox-id="product-fast-question"] { display: none!important; }
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/5525
@@ -10203,6 +10208,12 @@ radio.yandex.by,radio.yandex.kz,radio.yandex.ru,radio.yandex.ua##.page-station__
 @@||yastatic.net/daas/atom.js$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 !-----------------------------------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28792
+! https://github.com/AdguardTeam/AdguardFilters/issues/25932#issuecomment-452334513
+gamepedia.com##body #pageWrapper > #content[role="main"] > div[id^="siderail_"][id$="_gamepedia"]
+gamepedia.com#$##pageWrapper > #content[role="main"] > #bodyContent:has(+div[id^="siderail_"][id$="_gamepedia"]) { width: 100%!important; }
+! https://forum.adguard.com/index.php?threads/theguardian-com-self-promo-blocked-element-returns.30772/
+theguardian.com##.contributions__epic
 ! netzpolitik.org - site donation bar at bottom
 netzpolitik.org###spendenleiste
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28170
@@ -11211,7 +11222,7 @@ web.archive.org###donate_banner
 ||fosshub.com/index/donate
 fosshub.com##.download-dl-boxDN
 ||money.yandex.ru/quickpay/shop-widget$domain=ovgorskiy.ru|samlab.ws
-||funding.webmoney.ru/widgets/$domain=ovgorskiy.ru|demek.ru
+||funding.webmoney.ru/widgets/$domain=ovgorskiy.ru|demek.ru|скачатьофис.рф
 ||money.yandex.ru/embed/$domain=samlab.ws
 !
 ! Social locker widget
