@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-02-04 18:58:55
+! Last modified: 2019-02-06 15:29:48
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,9 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||xr-tds.com^
+||ali-crm.ru^
+||lostplanetcdn.com^
 ||d30gt5larl1k8h.cloudfront.net^
 ||kinopushka.xyz^
 ||mirongotrof.ru^
@@ -3717,6 +3720,10 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||jungloconding.info^
+||propu.sh^
+||storoukr.net^
+||bestadbid.com^
 ||ad.mox.tv^
 ||dm.hybrid.ai^
 ||uptopop.com^
@@ -3813,7 +3820,6 @@ ws*://video.docfilms.info^
 ||newspolovb.info^
 ||uytestion.info^
 ||cultidifficient.info^
-||bestadbid.com^
 ||trafficclub-nde.netdna-ssl.com^
 ||lovacmar.click^
 ||niltutch.com^
@@ -5288,6 +5294,8 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||match.rundsp.com^
+||d2ho1n52p59mwv.cloudfront.net^
 ||drda5yf9kgz5p.cloudfront.net^
 ||d1wjz6mrey9f5v.cloudfront.net^
 ||xml.revrtb.com^
@@ -19183,6 +19191,8 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||vidapi.expepp.de^
+||builfico.de^
 ||s24-analytics.com^
 ||targetman.ru^
 ||adtlgc.com^
@@ -19193,6 +19203,7 @@ www.llllllllllll.net^
 ||counter*.freecounter.ovh^
 ||noy90o.com^
 ||logsss.com^
+||tnative.ru^
 ||redatastore.ru^
 ||cinarra.com^
 ||marketo.com^
@@ -20888,7 +20899,6 @@ www.llllllllllll.net^
 ||nstracking.com^
 ||ntlab.org^
 ||nuconomy.com^
-||nudatasecurity.com^
 ||nuggad.net^
 ||numerino.cz^
 ||nyctrl32.com^
@@ -24179,6 +24189,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||uciservice.com^
 ||uhygtf1.com^
 ||ultratokensx.com^
+||uniqodo.com^
 ||upapi.net^
 ||uptain.de^
 ||uptrendsdata.com^
@@ -25045,6 +25056,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||retargeting.biz^
 ||zontera.com^
 ! Russian
+||1dmp.io^
 ||24smi.info^
 ||2ip.ua^
 ||3wnp9.ru^
@@ -25074,7 +25086,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stat-well.com^
 ||tbex.ru^
 ||tds.io^
-||tnative.ru^
 ||toptracker.ru^
 ||tpm.pw^
 ||track.cooster.ru^
@@ -25445,6 +25456,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||events.air.tv^
 ||events.antenna.is^
 ||events.bounceexchange.com^
+||events.demoup.com^
 ||events.izooto.com^
 ||events.jotform.com^
 ||events.launchdarkly.com^
@@ -26340,6 +26352,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||counter.pr-cy.ru^
 ||counter.star.lg.ua^
 ||counter.wapstart.ru^
+||error.videonow.ru^
 ||mediator.mail.ru^
 ||metrics.aviasales.ru^
 ||montblanc.rambler.ru^

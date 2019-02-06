@@ -1276,8 +1276,8 @@ deviantart.com#$#div[class*="dp-ad-"] {height: 0!important; width: 0!important; 
 !-------------------
 !-------HTML--------
 !-------------------
-! 4pda.ru - main page
-4pda.ru##body > * > * > div > *:matches-css(max-height: 99.)
+! https://github.com/AdguardTeam/AdguardFilters/issues/28322
+nashobmen.org$$script[tag-content="script_0.src ="][max-length="900"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17500
 motherless.com$$script[tag-content="awentw.com"][min-length="2000"][max-length="2500"]
 ! Yandex search
@@ -1726,10 +1726,12 @@ dialog.ua###mgid_iframe
 dialog.ua##amp-iframe[src^="https://m.mixadvert.com/"]
 m.iceporn.com##.banner-full-fixed
 m.iceporn.com##.spot+p
+m.discuss.com.hk##.MFV
 kanasoku.info##.adc_g_ko_sec
 egmnow.com##.pt_mobile_ad_iframe
 egmnow.com##.pt-embed-ad-single-mobile
 m.sondakika.com##.text_reklam
+newtoki.com###hd_pop
 carsales.com.au##.mrec-container
 m.adevarul.ro##.article > div[style="width:336px;height:280px;margin:5px auto;"]:not([id]):not([class])
 mail.yahoo.com##a[href*="beap.gemini.yahoo.com/bmclk"]
