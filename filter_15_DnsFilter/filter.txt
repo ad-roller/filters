@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-02-06 15:29:48
+! Last modified: 2019-02-08 15:30:11
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -3720,6 +3720,9 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||psughooy.com^
+||dolohen.com^
+||agxclick.com^
 ||jungloconding.info^
 ||propu.sh^
 ||storoukr.net^
@@ -5294,8 +5297,8 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
-||match.rundsp.com^
 ||d2ho1n52p59mwv.cloudfront.net^
+||match.rundsp.com^
 ||drda5yf9kgz5p.cloudfront.net^
 ||d1wjz6mrey9f5v.cloudfront.net^
 ||xml.revrtb.com^
@@ -5795,6 +5798,7 @@ www.llllllllllll.net^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||crosspromo.voodoo.io^
 ||abtest.mistat.intl.xiaomi.com^
 ||abtest.mistat.xiaomi.com^
 ||liftoff.io^
@@ -7569,6 +7573,7 @@ www.llllllllllll.net^
 ||adzposter.com^
 ||adzpower.com^
 ||adzs.nl^
+||adzyou.com^
 ||ae1a1e258b8b016.com^
 ||aerobins.com^
 ||af201768865.com^
@@ -19191,6 +19196,7 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||group-ib.ru^
 ||vidapi.expepp.de^
 ||builfico.de^
 ||s24-analytics.com^
@@ -19208,6 +19214,9 @@ www.llllllllllll.net^
 ||cinarra.com^
 ||marketo.com^
 ||2iui01.com^
+||bd4travel.com^
+||bm.adentifi.com^
+||prvsz4pe.micpn.com^
 ||target.mixi.media^
 ||analytics.servogram.io^
 ||checkmygeo.com^
@@ -22216,6 +22225,7 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||tracker.blutv.com^
 ||metrics.infranken.de^
 ||ophan.theguardian.com^
 ||tracking.s24.com^
@@ -23936,6 +23946,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||fastly-insights.com^
 ||fdxstats.xyz^
 ||feathr.co^
+||fn-pz.com^
 ||fonderredd.info^
 ||fqsecure.com^
 ||freegeoip.app^
@@ -23950,7 +23961,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||gim.co.il^
 ||gnpge.com^
 ||gostats.org^
-||group-ib.ru^
 ||grumrt.com^
 ||gweini.com^
 ||halo77.com^
@@ -24866,6 +24876,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||stetic.com^
 ||tausch-link.de^
 ||toplist100.org^
+||tracdelight.com^
 ||trbo.com^
 ||usemaxserver.de^
 ||vtracy.de^
@@ -25833,6 +25844,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||tags.newscgp.com^
 ||target.fark.com^
 ||tc.airfrance.com^
+||tcheck.outbrainimg.com^
 ||telemetry.reembed.com^
 ||telemetry.soundcloud.com^
 ||thetradedesk-tags.s3.amazonaws.com^
@@ -26774,6 +26786,9 @@ raovat.vnecdn.net^
 ! Fixing the issue with "Wi-Fi" connection mark when you configure private DNS on Android 9
 ! Once you enable private DNS, Android 9 starts resolving random domains looking like
 ! `*-dnsotls-ds.metric.gstatic.com` (for instance, `a5a6380f-dnsotls-ds.metric.gstatic.com`).
+!
+! Unblock logrocket.com blog
+@@||blog.logrocket.com^|
 ! AdGuard DNS blocks this domain but for some reason, it messes with Android's network validation process.
 @@dnsotls-ds.metric.gstatic.com^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27196

@@ -103,6 +103,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||group-ib.ru^$third-party
 ||vidapi.expepp.de^$third-party
 ||builfico.de^$third-party
 ||s24-analytics.com^
@@ -120,6 +121,9 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||cinarra.com^$third-party
 ||marketo.com^$third-party
 ||2iui01.com^$third-party
+||bd4travel.com^$third-party
+||bm.adentifi.com^$third-party
+||prvsz4pe.micpn.com^$third-party
 ||target.mixi.media^$third-party
 ||rs.mail.ru^$third-party,domain=~account.mail.ru
 ||analytics.servogram.io^
@@ -3336,6 +3340,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||tracker.blutv.com^
 ||metrics.infranken.de^
 ||ophan.theguardian.com^
 ||tracking.s24.com^
@@ -4949,14 +4954,17 @@ tensaigakkou.ru###custom_html-16
 ||tunein.com/api/*/comscore
 ||cerberus.sqrt-5041.de/somtag/logs^
 ||hagebau.de/tracking^
+||rushlane.com/*/ga-*.js
 ||imwalking.de/servlet/LandmarkServlet?clientId
 ||static1.dmcdn.net/js/cpe/cpeEventTracking.min.js
 ||static.canal-plus.net/*/trcking.min.js
 ||d2-apps.net/*/impressions/log
+||businesswire.com/js/videojs.ga.min.js
 ||cdn.d2-apps.net/js/tr.js
 ||gittigidiyor.com/external-static/dtm/dtm.js
 ||sumo.com/apps/heatmaps/
 ||sumo.com/api/event/
+||rumble.com/l/$image
 ||extremetech.com/sbs/beacon.js
 ||myfonts.net/count
 ||youboranqs01.com/ping

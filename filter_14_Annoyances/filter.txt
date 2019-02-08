@@ -23,6 +23,10 @@
 !
 !######### Annoying elements (not ads)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29107
+thestar.com##.meter-banner
+thestar.com##.articleMeterBanner
+thestar.com##.secondary-header
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28183
 fainaidea.com##.td-footer-wrapper > div.td-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29264
@@ -926,13 +930,17 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+hh.ua##.saved-search-subscription-wrapper
+popsci.com##.enews-wrapper
+infokam.su,facenewss.ru,sntch.com,sobesednik.ru,facenewss.ru,гибдд-дпс.рф##a[href^="https://zen.yandex.ru/"]
+||link.watchstitch.com/join/5ed/signup-box-embed
+wesh.com##iframe[src="https://link.watchstitch.com/join/5ed/signup-box-embed"]
 download.cnet.com##form.SignUp
 gdetraffic.com##.post-footer
 intex-press.by##.readalso
 travelask.ru##.f-banner--booking
 m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 4px; margin-bottom:10px; background-color: #d0ecff; text-align:center;"]
 m.gordonua.com##body .content > div.article > div[style="height: auto; padding: 9px; margin-bottom:10px; margin-top:25px; background-color: #f7dede; text-align:center; line-height:25px;"]
-sobesednik.ru##a[href="https://zen.yandex.ru/sobesednik.ru"]
 oxforddictionaries.com##.sidebar-newsletter
 oxforddictionaries.com##.dayword
 timeout.com##.newsletter_subscription
@@ -949,7 +957,6 @@ pcmag.com##.newsletter-widget
 theatlantic.com##.c-newsletter-promo
 popmech.ru##.subscription_block
 turizm.ru##.subscribe
-sntch.com##a[href="https://zen.yandex.ru/sntch"]
 sntch.com##.subscribe-inline-box
 esquire.ru##.subscription_block
 gamezebo.com##.mail-form-container
@@ -1197,7 +1204,7 @@ maximonline.ru##.b_subscribe
 andoveradvertiser.co.uk,asianimage.co.uk,banburycake.co.uk,barryanddistrictnews.co.uk,basildonstandard.co.uk,basingstokegazette.co.uk,bicesteradvertiser.net,borehamwoodtimes.co.uk,braintreeandwithamtimes.co.uk,brentwoodlive.co.uk,bridportnews.co.uk,bromsgroveadvertiser.co.uk,bucksfreepress.co.uk,burytimes.co.uk,campaignseries.co.uk,chelmsfordweeklynews.co.uk,chorleycitizen.co.uk,clactonandfrintongazette.co.uk,cotswoldjournal.co.uk,cravenherald.co.uk,croydonguardian.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,droitwichadvertiser.co.uk,dudleynews.co.uk,ealingtimes.co.uk,echo-news.co.uk,enfieldindependent.co.uk,eppingforestguardian.co.uk,epsomguardian.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,freepressseries.co.uk,gazette-news.co.uk,gazetteherald.co.uk,gazetteseries.co.uk,guardian-series.co.uk,halesowennews.co.uk,halsteadgazette.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,harwichandmanningtreestandard.co.uk,heraldseries.co.uk,herefordtimes.com,hillingdontimes.co.uk,ilkleygazette.co.uk,keighleynews.co.uk,kidderminstershuttle.co.uk,knutsfordguardian.co.uk,lancashiretelegraph.co.uk,ledburyreporter.co.uk,leighjournal.co.uk,ludlowadvertiser.co.uk,maldonandburnhamstandard.co.uk,malverngazette.co.uk,messengernewspapers.co.uk,middlewichguardian.co.uk,milfordmercury.co.uk,newsshopper.co.uk,northwichguardian.co.uk,northyorkshireadvertiser.co.uk,oxfordmail.co.uk,oxfordtimes.co.uk,penarthtimes.co.uk,prestwichandwhitefieldguide.co.uk,redditchadvertiser.co.uk,richmondandtwickenhamtimes.co.uk,romseyadvertiser.co.uk,runcornandwidnesworld.co.uk,salisburyjournal.co.uk,smallholder.co.uk,southendstandard.co.uk,southwalesargus.co.uk,southwalesguardian.co.uk,southwestfarmer.co.uk,stalbansreview.co.uk,sthelensstar.co.uk,stourbridgenews.co.uk,surreycomet.co.uk,suttonguardian.co.uk,tewkesburyadmag.co.uk,theargus.co.uk,theboltonnews.co.uk,thenational.scot,thenorthernecho.co.uk,theoldhamtimes.co.uk,thescottishfarmer.co.uk,thetelegraphandargus.co.uk,thetottenhamindependent.co.uk,thewestmorlandgazette.co.uk,thurrockgazette.co.uk,times-series.co.uk,tivysideadvertiser.co.uk,wandsworthguardian.co.uk,watfordobserver.co.uk,wearvalleyadvertiser.co.uk,westerntelegraph.co.uk,wharfedaleobserver.co.uk,wilmslowguardian.co.uk,wiltsglosstandard.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.cta-component-half-width
 xcom.me##.cactus-sidebar-content > #text-145
 techrepublic.com##.newsletter-promo
-metalinjection.net###newsletter-form
+salon.com,metalinjection.net###newsletter-form
 theregister.co.uk###article_newsletter_signup
 primamedia.ru##.news_subscribe_form
 iphones.ru##.social-subscription
@@ -1605,7 +1612,6 @@ sportarena.com##.social-like
 examiner.co.uk###social-follow
 ria.com##.news-social-btn
 press-centr.com##.social_buttom
-гибдд-дпс.рф##a[href^="https://zen.yandex.ru/"]
 picenonews24.it##.cresta-whatsapp-chat-box
 itc.ua###sn-2
 etcetera.media###telegramm-link
@@ -1748,17 +1754,17 @@ essen-und-trinken.de,techardar.com#@#.player_page_ad_box
 essen-und-trinken.de,techardar.com#@##player_ads
 !
 ! FuckAdBlock CSS
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,lalsace.fr,vosgesmatin.fr,republicain-lorrain.fr,estrepublicain.fr,bizjournals.com,foros.3dgames.com.ar,nzz.ch,saveur.com,dailyherald.com,watchtvseries.unblckd.cx,outschool.com,proboards.com,independent.co.uk,fourtoutici.pro,csdn.net,modelist-konstruktor.com,swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,lalsace.fr,vosgesmatin.fr,republicain-lorrain.fr,estrepublicain.fr,bizjournals.com,foros.3dgames.com.ar,nzz.ch,saveur.com,dailyherald.com,watchtvseries.unblckd.cx,outschool.com,proboards.com,independent.co.uk,fourtoutici.pro,csdn.net,modelist-konstruktor.com,swatchseries.to,shopback.com.au,tsn.ua,zerohedge.com,flightaware.com,fourtoutici.top,peers.tv,umterps.com,thurrott.com,tideschart.com,orlygift.com,newkaliningrad.ru,sbs.com.au,bloomberg.com,observador.pt,phpscripttr.com,megagames.com,theralphretort.com,fourtoutici.xyz,xataka.com,postandcourier.com,nv-online.info,tumangaonline.com,thestar.co.uk,bold.dk,professorweb.ru,pixiz.com,flashgames.ru,mel.fm,blackdesertbase.ru,freegfxdownload.com,mp3cut.net,pri.org,mp3cut.ru,audio-cutter.com,online-audio-converter.com,audio-joiner.com,convert-video-online.com,online-video-cutter.com,online-voice-recorder.com,webcamera.io,extract.me,abw.ru,abw.by,lifehack.org,returnofreckoning.com,semantic-ui.com,fightnews.info,randaris-anime.net,iphonesoft.fr,tmohentai.com,kshowonline.com,topsante.com,topsante.com,getgreenshot.org,forexpeacearmy.com,pr-cy.ru,pokehuntr.com,theland.com.au,greenbayphoenix.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links {display:block!important;}
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250m
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_728x90
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad-links
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ads
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.textAd
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ad
-atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ads
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_300x250m
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.pub_728x90
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ad-links
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text-ads
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.textAd
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ad
+wesh.com,atwiki.jp,windowscentral.com,tarkov-wiki.ru,radioforest.net,downloadgamexbox.com,abw.by,abw.ru,audio-cutter.com,audio-joiner.com,bizjournals.com,blackdesertbase.ru,csdn.net,bloomberg.com,bold.dk,convert-video-online.com,dailyherald.com,estrepublicain.fr,extract.me,fightnews.info,flashgames.ru,flightaware.com,forexpeacearmy.com,foros.3dgames.com.ar,fourtoutici.pro,fourtoutici.top,fourtoutici.xyz,freegfxdownload.com,getgreenshot.org,greenbayphoenix.com,independent.co.uk,iphonesoft.fr,kshowonline.com,lalsace.fr,lifehack.org,megagames.com,mel.fm,modelist-konstruktor.com,mp3cut.net,mp3cut.ru,newkaliningrad.ru,nv-online.info,nzz.ch,observador.pt,online-audio-converter.com,online-video-cutter.com,online-voice-recorder.com,orlygift.com,outschool.com,peers.tv,phpscripttr.com,pixiz.com,pokehuntr.com,postandcourier.com,pr-cy.ru,pri.org,proboards.com,professorweb.ru,randaris-anime.net,republicain-lorrain.fr,returnofreckoning.com,saveur.com,sbs.com.au,semantic-ui.com,shopback.com.au,swatchseries.to,theland.com.au,theralphretort.com,thestar.co.uk,thurrott.com,tideschart.com,tmohentai.com,topsante.com,tsn.ua,tumangaonline.com,umterps.com,vosgesmatin.fr,watchtvseries.unblckd.cx,webcamera.io,xataka.com,zerohedge.com#@#.text_ads
 !#endif
 !
 ! Evolok ev-dab.js (.pub_300x25)
@@ -1813,6 +1819,11 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+repo.xarold.com#%#window.ga = function() {};
+@@||boerse-express.com/*javascript/ads.js
+@@||mangasail.co/sites/all/themes/*/js/advertisement.js
+rambler.ru##.popup--rambler-start
+wesh.com#%#Object.defineProperty(window, 'adblockDetector', { get: function() { return { init: function() {} }; }, set: function() {} });
 atwiki.jp#%#AG_abortInlineScript(/adblockDetect/, 'atwiki_j$');
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=atwiki.jp
 fmoviez.org###cookiedata.ann-home.alert
@@ -1894,7 +1905,6 @@ agotcitadel.boards.net#$#body > div[id$="-overlay"] { display: none!important; }
 cnbeta.com#%#Object.defineProperty(window, 'Abd_Detector', { get: function() { return -1; } });
 @@||static.googles.com/adserver/adlogger_tracker.php$domain=cnbeta.com
 @@||nashaplaneta.net/ads/reklama-banner.js
-@@||boerse-express.com/themes/bex/javascript/ads.js
 mctop.su#@#.adsbygoogle
 cnbeta.com#@##abd-ad-iframe
 ||t-library.net/themes/shoppe_original/js/voc89b0.js
@@ -2780,6 +2790,13 @@ wotspeak.ru##.adb
 ||rusopen.com/img/default/noblock.png
 ||static.cdnslate.com/etc/designs/slate/js/plus-upsell-adblock.js
 techsolutiontips.com#%#window.google_jobrunner = function() { };
+!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari)
+@@||googletagmanager.com/gtag/js$domain=repo.xarold.com
+!#if (adguard_ext_firefox || adguard_ext_opera || adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||nexus.ensighten.com/hearst/tv-mos/Bootstrap.js$domain=wesh.com
+@@||nexus.ensighten.com/hearst/tv-mos/serverComponent.php?$domain=wesh.com
+@@||nexus.ensighten.com/hearst/tv-mos/code/*.js?condition$domain=wesh.com
+!#endif
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=windowscentral.com
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
@@ -4627,6 +4644,13 @@ strunz.com###v-cookielaw
 ! common name
 store.hmv.com,editions-delcourt.fr,square-enix-games.com,capcom-germany.de,global.astonmartin.com,crytek.com,tomorrow.one,vypocitejto.cz,rozklad.pkp.pl,rozklad-pkp.pl,aliorbank.pl,macpaw.com,polsatsport.pl,meczyki.pl,dhosting.com,dhosting.pl,ostrog.com,godealla.pl,diamante-wear.com,twinings.co.uk,moviepilot.de,euronics.it,amnesty.org,glavred.info,unian.net,urtekram.com,ecuestre.es,betchannel.fr,scamner.com,mountainbike.es,feelunique.com,flooxer.com,tui.fr,comparateur-energie.be,sacsirlari.com,omaweetraad.nl,salusi.nl,uptodown.com##.cookies
 !
+tidal.com##div[class^="notificationWrapper--"] > div[class^="notification--"][data-test="GDPRNotification"]
+leo.org##.as-oil[data-qa="oil-Layer"]
+tekzen.com.tr##.sp-fancybox-wrap.fancybox-type-iframe
+tekzen.com.tr##.ins-content-wrapper > .ins-notification-content:not(.boostKeyframe)
+gazzetta.it###_evh-ric
+cbc.ca##.privacyNotification
+hubpages.com##.gdpr_popup_wrap
 vorname.com##.layer.banner.slidein-up
 image-line.com###cookie-toolbar
 netto-online.de###cookie-popup2
@@ -4703,6 +4727,7 @@ pkobp.pl##.cookie-rodo
 dreamcatchers.fr##.cookies_v16
 neoldu.com###cm-cookie-policy
 philips.de##.dot-cc-wrapper
+nalivay-ka.ru##.lwpcngNotice
 sosvirus.net,studydhaba.com##.fusion-privacy-bar
 marketcentral.hu##.cookieModal
 justanswer.de##.cookieBannerText
@@ -4712,7 +4737,8 @@ tata.com###popup-privacypolicy
 greedfall.com###cookies-interface
 plume.com##div[class^="GDPR-module_GDPR_"]
 shmh.de###hb-cc-wrap
-hilton.com##.truste_box_overlay
+hilton.com,hiltonhotels.com,hiltonhotels.de,hilton.ru,hiltonhotels.it,hilton.co.kr,hiltonhotels.jp,hilton.com.tr,hilton.com.cn##.truste_overlay
+hilton.com,hiltonhotels.com,hiltonhotels.de,hilton.ru,hiltonhotels.it,hilton.co.kr,hiltonhotels.jp,hilton.com.tr,hilton.com.cn##.truste_box_overlay
 cam4.com###promptArea
 finnair.com##.cookie-consent-wrapper
 go.cnn.com##.cnn-toasts > li[ng-repeat="toast in toasts track by $index"]
@@ -5327,7 +5353,7 @@ adpop.me###cookie-pop
 shop.ltbjeans.com,thomas-philipps.de###eu-cookie-bar-notification
 thequietus.com###_evidon-background
 giphy.com##div[class^="flash-message__MessageWrapper-"]
-filmweb.pl#$#body.rodo #header { position: relative!important; }
+filmweb.pl#$#body.rodo header#mainPageHeader { position: sticky!important; }
 filmweb.pl#$#.rodo { overflow: visible!important; position: static!important;}
 filmweb.pl#$#.rodo__overlay { display:none!important; }
 parmigiani.com##.slideout-cookies
@@ -5626,7 +5652,7 @@ cylance.com###gdpr-wrp
 gamefound.com###gfu-component-cookie-policy-box
 showtv.com.tr##.cookie-policy-confirmation
 stadt-bremerhaven.de##body > .bst-panel-fixed
-toptenreviews.com,laptopmag.com,tomsguide.com###prism-modal[data-template="banner"]
+livescience.com,space.com,toptenreviews.com,laptopmag.com,tomsguide.com###prism-modal[data-template="banner"]
 rbth.com,rt.com##.cookies__banner
 twitter.com##.gdpr-privacy-banner
 wowhead.com###gdpr-script
@@ -5659,7 +5685,7 @@ spox.com##.spxcib.open
 galeriasavaria.hu###notyCookie
 gyakorikerdesek.hu###cookiekezeles
 avforums.com##.panel.Notice
-m.life.hu###ac.ac-open
+menetrendek.hu,m.life.hu###ac.ac-open
 totalcar.hu,index.hu,femina.hu###_iph_cp_popup
 glamour.hu,blikk.hu###mainPrivacyDiv
 otthonterkep.hu###cookie-agree
@@ -7876,6 +7902,7 @@ edeka.de#@##smartbanner.android
 ! Whitelist is at the on of file
 !
 ! Generic rules
+/wp-content/plugins/thrive-leads/*
 /wp-content/plugins/modesco-zen-subscribe/*
 ||yakutia.io^$third-party
 ###siradaki-haberler
@@ -7946,6 +7973,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+thestar.com###digitalAccessOverlayParentContainer
 yakaboo.ua###modal-collect-emails
 yakaboo.ua##.modal-backdrop
 anti-malware.ru##.dialog-social-fb
@@ -7967,6 +7995,7 @@ omgfoss.com##.et_bloom_popup.et_bloom_optin.et_bloom_auto_popup
 ||sehrikeyif.com/ajax/bulten-kaydi-getir/
 armedangels.de###newsletterPopupModal
 scr.cr##cloudflare-app[app="flashcard"]
+kriminal.net.ua##.popup-show
 harpers.org##.splash
 harpers.org###issuem-leaky-paywall-articles-remaining-nag
 freedio.co.il###topopup
@@ -8087,7 +8116,7 @@ isralove.org###popup
 kissanime.ac,xmovies8.im,kisscartoon.su,bmovies.cz,xmovies8.pl###upgrade_pop
 журналистика-обучение.рф##.spu-bg
 журналистика-обучение.рф##.spu-box
-tomshardware.com###ec-modal
+livescience.com,space.com,tomshardware.com###ec-modal
 boston.com##.content-toaster--newsletter
 ejje.weblio.jp###free-house-ad-on-load-modal-overlay
 ejje.weblio.jp###free-house-ad-on-load-modal-container
@@ -11016,6 +11045,8 @@ mhealth.ru##.incut_readmore
 !
 ! START: Adviser/online-consultant/feedback widgets
 !
+! jurleads.ru/widget/?id=
+||jurleads.ru^$third-party
 ||gtlead.ru^$third-party
 ||client.crisp.chat^$third-party
 fooda.com##.olark-bottom-left
