@@ -220,8 +220,6 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||game-advertising-online.com/img/icon_stoplight.jpg?$domain=kissanime.com
 ! @@||hornyspots.com^$image,domain=kissanime.com is excluded by: kissanime.com
 @@||hornyspots.com^$image,domain=kissanime.com
-! @@||intoday.in^$generichide is excluded by: @@||intoday.in^$generichide
-@@||intoday.in^$generichide
 ! @@||kissanime.com/ads/$image,subdocument is excluded by: kissanime.com
 @@||kissanime.com/ads/$image,subdocument
 ! @@||madadsmedia.com^$image,script,domain=kissanime.com is excluded by: kissanime.com
@@ -244,16 +242,8 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||rubiconproject.com^$image,script,domain=kissanime.com
 ! @@||sonobi.com/welcome/$image,domain=kissanime.com is excluded by: kissanime.com
 @@||sonobi.com/welcome/$image,domain=kissanime.com
-! @@||timesofindia.indiatimes.com^$image,~third-party is excluded by: @@||timesofindia.indiatimes.com^$image,~third-party
-@@||timesofindia.indiatimes.com^$image,~third-party
 ! @@||tradedoubler.com/anet?type(iframe)loc($subdocument,domain=topzone.lt is excluded by: @@||tradedoubler.com/anet
 @@||tradedoubler.com/anet?type(iframe)loc($subdocument,domain=topzone.lt
-! @@||zedo.com/asw/$script,domain=intoday.in is excluded by: @@||zedo.com/asw/$script,domain=intoday.in
-@@||zedo.com/asw/$script,domain=intoday.in
-! @@||zedo.com/client/xp1/fmos.js$domain=intoday.in is excluded by: @@||zedo.com/client/xp1/fmos.js$domain=intoday.in
-@@||zedo.com/client/xp1/fmos.js$domain=intoday.in
-! @@||zedo.com/jsc/d2/fo.js$domain=intoday.in is excluded by: @@||zedo.com/jsc/d2/fo.js$domain=intoday.in
-@@||zedo.com/jsc/d2/fo.js$domain=intoday.in
 ! @@||propellerads.com/afu.php?zoneid=$subdocument,domain=moevideos.net is excluded by: .php?zoneid=
 @@||propellerads.com/afu.php?zoneid=$subdocument,domain=moevideos.net
 ! @@||propellerads.com^*/adlogo/$domain=kissanime.com is excluded by: kissanime.com

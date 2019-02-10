@@ -120,16 +120,8 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||www.google.*/search?$subdocument,~third-party,domain=google.ca|google.co.in|google.co.nz|google.co.uk|google.com|google.com.au|google.com.eg|google.de|google.es
 ! @@|http://*_ad$image,third-party,domain=socketloop.com is excluded by: |http://*
 @@|http://*_ad$image,third-party,domain=socketloop.com
-! @@||intoday.in^$generichide is excluded by: @@||intoday.in^$generichide
-@@||intoday.in^$generichide
 ! @@||mirrorcreator.com^$script,~third-party,xmlhttprequest is excluded by: @@||mirrorcreator.com^$script,~third-party,xmlhttprequest
 @@||mirrorcreator.com^$script,~third-party,xmlhttprequest
-! @@||zedo.com/asw/$script,domain=intoday.in is excluded by: @@||zedo.com/asw/$script,domain=intoday.in
-@@||zedo.com/asw/$script,domain=intoday.in
-! @@||zedo.com/client/xp1/fmos.js$domain=intoday.in is excluded by: @@||zedo.com/client/xp1/fmos.js$domain=intoday.in
-@@||zedo.com/client/xp1/fmos.js$domain=intoday.in
-! @@||zedo.com/jsc/d2/fo.js$domain=intoday.in is excluded by: @@||zedo.com/jsc/d2/fo.js$domain=intoday.in
-@@||zedo.com/jsc/d2/fo.js$domain=intoday.in
 ! @@||ads.twitter.com^$popup,~third-party is excluded by: $popup,~third-party
 @@||ads.twitter.com^$popup,~third-party
 ! @@||rule34hentai.net/post/$popup,~third-party is excluded by: $popup,~third-party
