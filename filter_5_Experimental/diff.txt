@@ -3,4 +3,8 @@ $cookie=/blcrm|bltsr|^from\$|^los\$/,domain=24smi.org|auto.ru|avito.ru|avtovzgly
 ! Invalid rule options:
 $cookie=/blcrm|bltsr|^from\$|^los\$/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
 ! Invalid rule options:
+$cookie=/BgeeyNoBJuyII|YvUVZgzQ/,domain=yandex.by|yandex.com|yandex.com.tr|yandex.fr|yandex.kz|yandex.ru|yandex.ua
+! Invalid rule options:
 ||kino*oisk.ru^$cookie=/kpunk/
+! Invalid rule options:
+$cookie=has_adblock,domain=24smi.org
