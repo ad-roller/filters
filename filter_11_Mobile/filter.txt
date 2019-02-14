@@ -1736,8 +1736,10 @@ techbang.com###related-posts
 egmnow.com##.pt_mobile_ad_iframe
 egmnow.com##.pt-embed-ad-single-mobile
 m.sondakika.com##.text_reklam
+jayisgames.com##.widget-support
 newtoki.com###hd_pop
 carsales.com.au##.mrec-container
+m.bulbapedia.bulbagarden.net##a[href="http://playiconoclasts.com/"]
 m.adevarul.ro##.article > div[style="width:336px;height:280px;margin:5px auto;"]:not([id]):not([class])
 mail.yahoo.com##a[href*="beap.gemini.yahoo.com/bmclk"]
 mail.yahoo.com##form[name="showFolderForm"] > div.mb
@@ -2828,10 +2830,11 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||d30x8mtr3hjnzo.cloudfront.net$app=ru.sports
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25302
 ||etnet.com.hk/ad/
+! https://github.com/AdguardTeam/AdguardFilters/issues/26940
+! https://github.com/AdguardTeam/AdguardFilters/issues/27245
+@@||googleads.g.doubleclick.net^$app=com.thoptv.livetvstream
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26774
 @@||ssl.google-analytics.com$app=com.avast.android.mobilesecurity
-! com.edadeal.android - fixing an app
-@@||startup.mobile.yandex.net^$app=com.edadeal.android
 !
 @@||imasdk.googleapis.com^|$app=com.nhl.gc1112.free|com.nhl.hattrickchallenge
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24782
@@ -3217,7 +3220,7 @@ _*sec.mp4$mp4,domain=ivi.ru
 ||helpshift.com/api/lib/2/events/
 ||mobileapptracking.com^
 ||mobile.bigfishgames.com/telemetry/
-||startup.mobile.yandex.net^
+||startup.mobile.yandex.net^$app=~com.edadeal.android|~ru.beru.android
 ||ilyonanalytics.herokuapp.com^
 ||register.appsflyer.com^
 ||kaffnet.com^

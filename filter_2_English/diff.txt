@@ -86,8 +86,8 @@ amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-re
 aol.co.uk,metabomb.net,moviefone.com#?#.trc-content-sponsored
 ! cesoirtv.com#?#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] is excluded by: #?#
 cesoirtv.com#?#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
-! facebook.com#?#.pagelet:-abp-has(a[href^="/ad_campaign"]) is excluded by: #?#
-facebook.com#?#.pagelet:-abp-has(a[href^="/ad_campaign"])
+! facebook.com#?#.ego_section:-abp-has(a[href^="/ad_campaign"]) is excluded by: #?#
+facebook.com#?#.ego_section:-abp-has(a[href^="/ad_campaign"])
 ! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"]) is excluded by: #?#
 facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href*="is_sponsored"])
 ! facebook.com#?#div[id^="hyperfeed_story_id_"]:-abp-has(a[href^="/business/help/788160621327601/?"]) is excluded by: #?#
@@ -256,6 +256,8 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||rule34hentai.net/post/$popup,~third-party
 ! Invalid rule options:
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=ehubsoft.net,redirect=noopjs
+! Invalid rule options:
+docer.pl#$?#iframe#doublebillboard-1 { width: 1px!important; }
 ! Invalid selector:
 sleazyneasy.com##.video-holder > .video-options::after
 ! Invalid selector:
