@@ -105,6 +105,8 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||trv.upperbooking.com^$third-party
+||trl.upperbooking.com^$third-party
 ||getback.ch^$third-party
 ||meapk.com^
 ||group-ib.ru^$third-party
@@ -3344,6 +3346,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||pa.tns-ua.com^
 ||r.rbc.ru^
 ||tcheck.outbrainimg.com^
 ||ats.otto.de^
@@ -5680,8 +5683,8 @@ computerbild.de##.articleAdditional > .mehrthema
 ||xtraffstat.com/js/ktr.js
 ||zapcdn.space/zapret.js
 ||patreon.com/api/tracking^
-/index/ping^$domain=atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
-/callback/*$domain=atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/index/ping^$domain=uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
+/callback/*$domain=uclaut.net|atabencot.net|thouth.net|cinebo.net|baymaleti.net|briskgram.net|ad.bdcraft.net|swiftviz.net|ad.sapixmedia.com|activetect.net|brightvar.bid|clearload.bid|restorecosm.bid|bee.anime-loads.org|threadsphere.bid|queuecosm.bid|yoitect.com|skamaker.com|adf.ly|ay.gy|cracksurl.com|tinyium.com|skamason.com|redir2.auto-login-xxx.com|dl.underclassblog.com|special.picons.eu|quainator.com|yoalizer.com|kibuilder.com|kimechanic.com|zo.ee|viahold.com|tinyical.com|mmoity.com|pintient.com|riffhold.com|picocurl.com|bitigee.com|picocurl.com|atomcurve.com|atominik.com|battleate.com|kaitect.com|simizer.com|coginator.com|cogismith.com|twineer.com|yobuilder.com|go.awanpc.me|viwright.com|yabuilder.com|yamechanic.com|kializer.com|yoineer.com
 ||tracking-opi.fonpit.de/tracking/
 ||cdn3.net/pixe/
 ||dig.ultimedia.com^
@@ -6455,6 +6458,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29768
+@@||googletagmanager.com/gtm.js$domain=besplatka.ua
 ! https://forum.adguard.com/index.php?threads/tf1-fr-broken.30944/
 @@||try.abtasty.com/78cb84f9b3158bdce6932109a6d7c7c1.js$domain=tf1.fr
 @@||dcinfos.abtasty.com/geolocAndWeather.php^$domain=tf1.fr
