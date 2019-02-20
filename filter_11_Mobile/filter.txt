@@ -93,6 +93,10 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||data2.doodlemobile.com^
+||d239g0z67jcted.cloudfront.net^
+||newfeatureview.perfectionholic.com^
+||featured.perfectionholic.com^
 ||crosspromo.voodoo.io^
 ||abtest.mistat.intl.xiaomi.com^
 ||abtest.mistat.xiaomi.com^
@@ -1077,6 +1081,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29888
+obozrevatel.com##div[style^="position:"][style*="relative"]:has(> [src^="https://i.obozrevatel.com/banners/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29451
 nytimes.com###site-content > div[class^="css-"] > div[class^="css-"] > div[class^="css-"] > div[class^="css-"] > div[class^="css-"] > div[class^="css-"][-ext-has='> div[class^="css-"] > div[class^="css-"]:contains(Advertisement) + div[class*="dfp-ad-"]']
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24411
@@ -1235,6 +1241,8 @@ sasisa.ru#%#AG_onLoad(function() { window.Umobi = function() {}; });
 !-------CSS---------
 !-------------------
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28542
+timeanddate.com#$#body.mob > .wrapper > .header__wrapper { height: 0!important; }
 ! rbc.ru - ad popup
 rbc.ru#$#div[class^="banners__mobile"] { display: none!important; }
 rbc.ru#$#body.g-lockscroll { overflow: visible!important; }
@@ -1724,6 +1732,8 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+obozrevatel.com##.banner-premium
+cnn.com###social-share_gig_containerParent .PartnerZone
 mobile.donanimhaber.com##body > div[style="float: left;width:100%;"] > div[style="margin:10px auto; text-align:center; width:300px; height:250px;"]
 techrum.vn###revive_banner_mobile_div
 scotsman.com##.slab--bottommobilebanner
@@ -2825,6 +2835,8 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29913
+||api.peers.tv/money_miner/$app=ru.cn.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28297
 @@||data.flurry.com^$app=ru.afisha.android
 !

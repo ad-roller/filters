@@ -2465,7 +2465,6 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||squidanalytics.com^$third-party
 ||srpx.net^$third-party
 ||ssl4stats.de^$third-party
-||start.ru^$third-party
 ||startstat.ru^$third-party
 ||stat.pl^$third-party
 ||stat08.com^$third-party
@@ -3346,6 +3345,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||analytics.cn.ru^
 ||pa.tns-ua.com^
 ||r.rbc.ru^
 ||tcheck.outbrainimg.com^
@@ -6458,6 +6458,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29892
+@@||google-analytics.com/analytics.js$domain=manga-zero.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29768
 @@||googletagmanager.com/gtm.js$domain=besplatka.ua
 ! https://forum.adguard.com/index.php?threads/tf1-fr-broken.30944/

@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-02-18 15:34:46
+! Last modified: 2019-02-20 15:35:57
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -3723,6 +3723,11 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||xml.revrtb.net^
+||xml.popmonetizer.net^
+||presbanise.pw^
+||mordi.fun^
+||aj1603.online^
 ||katurars.com^
 ||7wtic7ru.com^
 ||psulsobi.net^
@@ -5504,6 +5509,7 @@ www.llllllllllll.net^
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/TurkishFilter/sections/adservers.txt]
 !
 !
+||adimage.media^
 ||adnatro.com^
 ||betkanyon100.com^
 ||performancenative.com^
@@ -5831,6 +5837,7 @@ www.llllllllllll.net^
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||featured.perfectionholic.com^
 ||crosspromo.voodoo.io^
 ||abtest.mistat.intl.xiaomi.com^
 ||abtest.mistat.xiaomi.com^
@@ -12585,7 +12592,9 @@ www.llllllllllll.net^
 ||azgyimccolyyo.com^
 ||aznfyqgrbgy.com^
 ||baphruesqm.com^
+||bardogjvsa.com^
 ||bbxaumvpzqpunx.com^
+||bcajjtbzmdrl.com^
 ||bcxronvqkwe.com^
 ||bdhxpxohwssdfd.com^
 ||bdtmbiezv.com^
@@ -12643,6 +12652,7 @@ www.llllllllllll.net^
 ||caucqpoeg.com^
 ||cavdzowr.com^
 ||cayqecxokz.com^
+||cbchvrgqb.com^
 ||cbdjzemui.com^
 ||cbzkrwjdskg.com^
 ||ccemeoqbqb.com^
@@ -12660,6 +12670,7 @@ www.llllllllllll.net^
 ||cgrvnpkwuytts.com^
 ||cgtqfbnviajcx.com^
 ||chjvykulvzey.com^
+||chqspuonctkgz.com^
 ||chvwtxtzmzbggo.com^
 ||cifipkbu.com^
 ||cixvlpbnceh.com^
@@ -12763,6 +12774,7 @@ www.llllllllllll.net^
 ||dxzgoyzo.com^
 ||dydxtkvmktumjp.com^
 ||dyhwaacbbntu.com^
+||dymaffzxk.com^
 ||dypmzetaj.com^
 ||dywqwrtnhegyz.com^
 ||dzqoubtxsaskdl.com^
@@ -12802,6 +12814,7 @@ www.llllllllllll.net^
 ||epbathcyav.com^
 ||ephtwbxuqy.com^
 ||eplocjhuxsoj.com^
+||eqdlypxvit.com^
 ||eqezqqdpjmxbpb.com^
 ||eqhawyidkdug.com^
 ||eqrbfjwnmxpy.com^
@@ -12812,11 +12825,13 @@ www.llllllllllll.net^
 ||etizspyjmjhxo.com^
 ||etkhujhmhjix.com^
 ||etuihxnhuxrofl.com^
+||eugxcnqw.com^
 ||eutdrjvsrmav.com^
 ||euuikdao.com^
 ||ewlnukukkca.com^
 ||ewopxadcn.com^
 ||exbphrqpqukm.com^
+||eyqletzkhybsef.com^
 ||ezgswchaz.com^
 ||ezhinpwh.com^
 ||ezjepifcz.com^
@@ -12842,6 +12857,7 @@ www.llllllllllll.net^
 ||fjocjdbo.com^
 ||fjszsffyfihqlg.com^
 ||fkfmujcudpwdn.com^
+||fkrgfktdvta.com^
 ||fkvjntfj.com^
 ||flbecoidmt.com^
 ||flepzrkdwm.com^
@@ -12857,13 +12873,16 @@ www.llllllllllll.net^
 ||fpqeowmsv.com^
 ||fpxkjlzmkqp.com^
 ||fpxthotxzuf.com^
+||fpzcaabzhvzz.com^
 ||fqckdxjgle.com^
 ||fqhpssdbenl.com^
 ||fqldrulyjfnt.com^
+||fqqtlkuklrd.com^
 ||fqufpknrarn.com^
 ||frbhjvazapgo.com^
 ||frfgfhzxtfvsp.com^
 ||frqmnrlqk.com^
+||frtfwlvwuw.com^
 ||frxohovv.com^
 ||fsdvydpldxrbu.com^
 ||fsiadjbirgobi.com^
@@ -12878,6 +12897,7 @@ www.llllllllllll.net^
 ||fveugxikrgrbsh.com^
 ||fviwwkvvxs.com^
 ||fvsdvxjpxi.com^
+||fvzompquocgdsu.com^
 ||fwbhvrpiunlzyh.com^
 ||fwzqogrlgsdl.com^
 ||fxazopwrns.com^
@@ -12895,6 +12915,7 @@ www.llllllllllll.net^
 ||gbwhqbiiq.com^
 ||gbybvvfo.com^
 ||gbytjlggor.com^
+||gcpbftsiwdrajj.com^
 ||gdbmpwlhf.com^
 ||gdtbpaqa.com^
 ||gdyelbwku.com^
@@ -12914,6 +12935,7 @@ www.llllllllllll.net^
 ||gjnusfiby.com^
 ||gjriyqsfrnvuv.com^
 ||gkaatcjxwa.com^
+||gkhfahrtren.com^
 ||glvjbogft.com^
 ||glzaaewyvdkae.com^
 ||gmeomlvmqlmu.com^
@@ -12930,6 +12952,7 @@ www.llllllllllll.net^
 ||gqlaoeyczxsvk.com^
 ||gqlmavnoavcaw.com^
 ||grkrkurbyykok.com^
+||grlygpybnhbwcu.com^
 ||grsnseuoispsco.com^
 ||gsghbxydcyum.com^
 ||gsjhehtqvin.com^
@@ -12963,6 +12986,7 @@ www.llllllllllll.net^
 ||hcyqwhquqjosn.com^
 ||hdcfyrzx.com^
 ||hddzzizitskc.com^
+||hdnvtfyvyhq.com^
 ||hdoabbjyyebca.com^
 ||hduefoyd.com^
 ||hdwjwooqvnm.com^
@@ -13005,6 +13029,7 @@ www.llllllllllll.net^
 ||hqgenotbptcu.com^
 ||hqqyesittgihp.com^
 ||hqsgnzvjkyog.com^
+||hqupjfmq.com^
 ||hqwlpexoywbc.com^
 ||hraowdzgs.com^
 ||hrarjpeqtcsge.com^
@@ -13026,7 +13051,9 @@ www.llllllllllll.net^
 ||hysyqgbls.com^
 ||iacexhglty.com^
 ||iapxxrjzc.com^
+||iasodjsbjcq.com^
 ||iatwyqgvpq.com^
+||ibetinwubwl.com^
 ||ibfsream.com^
 ||ibfueyttemsefi.com^
 ||ibnuoduab.com^
@@ -13082,6 +13109,7 @@ www.llllllllllll.net^
 ||itsyuvrlesq.com^
 ||itxljhric.com^
 ||itzgybxfrbodq.com^
+||iuhojiqev.com^
 ||iuncajvw.com^
 ||iuooczzbi.com^
 ||ivvoooxuyjfuo.com^
@@ -13100,6 +13128,7 @@ www.llllllllllll.net^
 ||jakzpcgrxgda.com^
 ||jbcadlpdfsxsfe.com^
 ||jbdddxgjn.com^
+||jccszmkabdean.com^
 ||jcmdvfrn.com^
 ||jdbovkzjtuup.com^
 ||jdskyjntuhea.com^
@@ -13130,6 +13159,7 @@ www.llllllllllll.net^
 ||jpqmviofsf.com^
 ||jpxevzab.com^
 ||jqanygfhqne.com^
+||jqqlucchmbxnn.com^
 ||jqsrfzjgn.com^
 ||jrarnqfvjijaa.com^
 ||jrrekpskc.com^
@@ -13175,6 +13205,7 @@ www.llllllllllll.net^
 ||khdmabhykmj.com^
 ||khefhmgfwnnqgv.com^
 ||kiqsynap.com^
+||kjsedplonmifbe.com^
 ||kjtcdiyzd.com^
 ||kksoyysmpp.com^
 ||klhjuuwrmxyjsn.com^
@@ -13254,6 +13285,7 @@ www.llllllllllll.net^
 ||lpbhbwpbpnl.com^
 ||lptggobhuuxcdw.com^
 ||lpxxafsupgsho.com^
+||lpzsxemf.com^
 ||lqbyqjap.com^
 ||lquodkeqws.com^
 ||lruyzrlcef.com^
@@ -13299,6 +13331,7 @@ www.llllllllllll.net^
 ||mfxxpyhzofbsg.com^
 ||mgojnezwuuxyv.com^
 ||mgpejafvxxn.com^
+||mguqjbjgs.com^
 ||mgxjvidt.com^
 ||mgyovgqq.com^
 ||mgziozplbkzv.com^
@@ -13309,6 +13342,7 @@ www.llllllllllll.net^
 ||mldsiekmhy.com^
 ||mmsdewfvxhw.com^
 ||moginhstnxswt.com^
+||mogqlceldpwbxe.com^
 ||mpfzgidlxsqtyt.com^
 ||mqdznyotsam.com^
 ||mqgvsxqc.com^
@@ -13424,12 +13458,14 @@ www.llllllllllll.net^
 ||ognybevu.com^
 ||ogqclfvaq.com^
 ||ohrdpvkzhzbg.com^
+||oijjptnwrg.com^
 ||oinqqbzs.com^
 ||oixisqtlbhygp.com^
 ||ojbevkqot.com^
 ||ojsfjyekvmyb.com^
 ||okoufwmfzujsf.com^
 ||olgjzpgp.com^
+||olrznxrgkym.com^
 ||omakfhugexq.com^
 ||onocjgpq.com^
 ||ootqfqjhzfrtn.com^
@@ -13565,6 +13601,7 @@ www.llllllllllll.net^
 ||qosrridifvsr.com^
 ||qouiruhpxoa.com^
 ||qowmqduocv.com^
+||qoyagwzholjofg.com^
 ||qpbaammdcwu.com^
 ||qpganepbkw.com^
 ||qpmswrurt.com^
@@ -13588,6 +13625,7 @@ www.llllllllllll.net^
 ||qvilmdus.com^
 ||qvivzreleolawc.com^
 ||qwittqgogiip.com^
+||qwuxwxdr.com^
 ||qwzhaqtbiygid.com^
 ||qxamtnrwxjyy.com^
 ||qxboqjnmxv.com^
@@ -13642,6 +13680,7 @@ www.llllllllllll.net^
 ||rlgungosm.com^
 ||rljakgkixu.com^
 ||rlomrjxrpsev.com^
+||rlsqhgku.com^
 ||rmhdjambba.com^
 ||rmjwdosemtg.com^
 ||rmwjtqazyk.com^
@@ -13662,6 +13701,7 @@ www.llllllllllll.net^
 ||rqxwisgin.com^
 ||rrnqzntj.com^
 ||rrvpscehvjuz.com^
+||rsbblrpnjxgsk.com^
 ||rscqizsukecevh.com^
 ||rsiyppewvonkc.com^
 ||rstjainimptgn.com^
@@ -13708,6 +13748,7 @@ www.llllllllllll.net^
 ||sjqpctsz.com^
 ||skcyigichh.com^
 ||skgnompyiusim.com^
+||sksalqvpoc.com^
 ||skspurybnv.com^
 ||skzpsnpp.com^
 ||slwclrwmruuxav.com^
@@ -13722,6 +13763,7 @@ www.llllllllllll.net^
 ||srgszwexkpehb.com^
 ||srhovuokux.com^
 ||ssdsylfzav.com^
+||ssigftlcuc.com^
 ||sthtrtvkkt.com^
 ||stvayyokjvxnl.com^
 ||sudolljkjzxdfc.com^
@@ -13791,6 +13833,7 @@ www.llllllllllll.net^
 ||trbucgmbren.com^
 ||trgdwwhaa.com^
 ||tricsdqejmu.com^
+||tsdzmkpewrdxyl.com^
 ||ttegjzxzxyetf.com^
 ||tufpmrcdc.com^
 ||tuggbdzprgudk.com^
@@ -13843,10 +13886,12 @@ www.llllllllllll.net^
 ||umaglven.com^
 ||umqhjmowzjrl.com^
 ||umvgcqaxmie.com^
+||unikmmqybjy.com^
 ||unmdrnuzgel.com^
 ||uoapkzwkoqnk.com^
 ||uoccvsdh.com^
 ||uohpnvpynvsz.com^
+||uppybbhxbblxa.com^
 ||uqbxjdeeq.com^
 ||uqemcyylvcdrgs.com^
 ||uqihbnpqtwwzdv.com^
@@ -13969,6 +14014,7 @@ www.llllllllllll.net^
 ||wgrbdqucfoieha.com^
 ||wgssxjoac.com^
 ||whgvyswets.com^
+||whjibbprhng.com^
 ||whlugpfcuvryx.com^
 ||whzavlaamjcnt.com^
 ||wiazkkjbeqr.com^
@@ -14025,6 +14071,7 @@ www.llllllllllll.net^
 ||wzismevwhqixlq.com^
 ||wzlcpagvidi.com^
 ||wznnfwhwwjkp.com^
+||xalttgptij.com^
 ||xamxwvtsxdva.com^
 ||xasuekjguyub.com^
 ||xblcqncce.com^
@@ -14036,6 +14083,7 @@ www.llllllllllll.net^
 ||xcyptaqhl.com^
 ||xdonzpjglqxi.com^
 ||xdqjeggqm.com^
+||xdsydkgkbvwq.com^
 ||xdxzfqxudc.com^
 ||xedybxtqd.com^
 ||xeflnvycs.com^
@@ -14157,10 +14205,12 @@ www.llllllllllll.net^
 ||ypummbggdjex.com^
 ||yqmmjmjxdigdak.com^
 ||yrkozodemantj.com^
+||yrpjklwly.com^
 ||yrtyflmurngv.com^
 ||yruwnpnam.com^
 ||ysljgoytuyfbg.com^
 ||ysosfhyrbyre.com^
+||ytjocvggodnfbn.com^
 ||yttvnnvklf.com^
 ||yuanaayutyd.com^
 ||yuazwfzvdzfc.com^
@@ -14168,6 +14218,7 @@ www.llllllllllll.net^
 ||yvlhxqxw.com^
 ||yvlmcehqt.com^
 ||ywegbjiv.com^
+||ywolsukpto.com^
 ||ywxnjrkkrnyzc.com^
 ||yxbglezas.com^
 ||yyupkqqokrus.com^
@@ -14182,8 +14233,10 @@ www.llllllllllll.net^
 ||zadhrsvmawp.com^
 ||zajawwgpl.com^
 ||zbsqhxyjlh.com^
+||zccebnzdujjw.com^
 ||zcchnqgq.com^
 ||zcczlrtbbx.com^
+||zcjxeitlmnuq.com^
 ||zcwjasfrog.com^
 ||zfcjtxosje.com^
 ||zfpsotrgboqp.com^
@@ -14196,6 +14249,7 @@ www.llllllllllll.net^
 ||zjnmgmidmx.com^
 ||zjsbdjkdtjzoxh.com^
 ||zjsbeont.com^
+||zjsnrqxltqk.com^
 ||zjujxffup.com^
 ||zjwcddahpz.com^
 ||zkfhdpogauqb.com^
@@ -19220,7 +19274,6 @@ www.llllllllllll.net^
 ||ppac.de^
 ||premiumbesucher.de^
 ||premiumdownloaden.de^
-||pressekompass.net^
 ||primussponsor.de^
 ||profiliate.net^
 ||prom.ecato.net^
@@ -21607,7 +21660,6 @@ www.llllllllllll.net^
 ||squidanalytics.com^
 ||srpx.net^
 ||ssl4stats.de^
-||start.ru^
 ||startstat.ru^
 ||stat.pl^
 ||stat08.com^
@@ -22383,6 +22435,7 @@ t.yesware.com
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||pa.tns-ua.com^
 ||r.rbc.ru^
 ||tcheck.outbrainimg.com^
 ||ats.otto.de^
@@ -26716,6 +26769,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||gudangbanner.com^
 ||halal.ad^
 ||hwoxt.com^
+||iarfina.pw^
 ||iklan-indo.org^
 ||iklan-laris.com^
 ||iklan-sukses.com^
@@ -26834,6 +26888,9 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||window-close.cf^
 ||window-close.ga^
 ||www.adflazz.com^
+||www.bnjhbghjznq.com^
+||www.chqspuonctkgz.com^
+||www.hdnvtfyvyhq.com^
 ||www.ucvrtwfh.com^
 ||xbfk51p7.review^
 ||yesads.com^
