@@ -105,6 +105,10 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||app.shoptarget.com.br^$third-party
+||netdeal.com.br^$third-party
+||ibclick.stream^$third-party
+||denakop.com^$third-party
 ||trv.upperbooking.com^$third-party
 ||trl.upperbooking.com^$third-party
 ||getback.ch^$third-party
@@ -3345,6 +3349,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||bi.medscape.com^
 ||analytics.cn.ru^
 ||pa.tns-ua.com^
 ||r.rbc.ru^
@@ -6458,6 +6463,9 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29236
+@@||googletagmanager.com/gtm.js$domain=superesportes.com.br
+@@||d.tailtarget.com/profiles.js$domain=superesportes.com.br
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29892
 @@||google-analytics.com/analytics.js$domain=manga-zero.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29768
@@ -7068,8 +7076,6 @@ kizi.com#%#window.google_trackConversion = function() {};
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/1076
 @@||tags.bkrtx.com/js/bk-coretag.js$domain=mobile.pcmag.com
 @@||tags.bkrtx.com/js/$domain=cnet.com
-! https://forum.adguard.com/index.php?threads/25514/
-@@||mc.yandex.ru/watch/*/?ut=$domain=yastatic.net|news.yandex.by|news.yandex.com|news.yandex.kz|news.yandex.ru|news.yandex.ua
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6883
 !+ PLATFORM(ios, ext_android_cb, android)
 @@||googletagmanager.com/gtm.js^$domain=crunchbase.com
