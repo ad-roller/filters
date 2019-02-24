@@ -23,6 +23,8 @@
 !
 !######### Annoying elements (not ads)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28313
+play.shikimori.org##.about-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29802
 last.fm##.nag-bar--language-mismatch-prompt
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29341
@@ -1852,6 +1854,9 @@ androidworld.it#%#AG_abortInlineScript(/enm.com/, 'navigator');
 ! @@||servedby.flashtalking.com/imp^$domain=player.glomex.com
 ! @@||cdn.flashtalking.com^$domain=player.glomex.com
 !
+||ura-inform.com/img/ludynaroky2018.gif
+ura-inform.com##.top-banner
+||kriminalukraine.com.ua/sites/default/files/please.jpg
 скачатьофис.рф##div[style="width: 300px; height: 250px;"]
 simply-hentai.com##.detect-message
 @@||crunchyroll.com/versioned_assets/js/components/ads_enabled.ac6fa3aa.js
@@ -8108,6 +8113,7 @@ edeka.de#@##smartbanner.android
 !
 ! Specific sites
 !
+indirin.co###check-also-box
 medicinenet.com##.sc-modal
 daftsex.com##.extension
 gardrops.com##.callToRegister2
