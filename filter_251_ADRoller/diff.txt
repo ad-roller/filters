@@ -632,6 +632,8 @@
 @@||cpro.baidustatic.com/cpro/ui/f.js$script,domain=www.400gb.com|www.pipipan.com|colayun.com|coladrive.com
 ! @@||ct10000.com is excluded by: @@
 @@||ct10000.com
+! @@||doyoudo.com is excluded by: @@
+@@||doyoudo.com
 ! @@||download.mokeedev.com/ad-dl.php is excluded by: @@
 @@||download.mokeedev.com/ad-dl.php
 ! @@||e21.cn/sqlimg/advertisement/ is excluded by: @@
@@ -980,8 +982,8 @@
 @@@@|https://sns-paopao.iqiyi.com
 ! @@@@|https://subscription.iqiyi.com is excluded by: @@
 @@@@|https://subscription.iqiyi.com
-! @@@@|https://static.iqiyi.com is excluded by: @@
-@@@@|https://static.iqiyi.com
+! !@@@@|https://static.iqiyi.com is excluded by: @@
+!@@@@|https://static.iqiyi.com
 ! @@@@|https://sugar.zhihu.com is excluded by: @@
 @@@@|https://sugar.zhihu.com
 ! @@@@|https://static.zhihu.com is excluded by: @@

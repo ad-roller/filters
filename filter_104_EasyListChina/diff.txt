@@ -80,10 +80,10 @@ cnbeta.com#?#.cnbeta-swiper-container-285x360 .swiper-slide:-abp-has(a[href^="ht
 dilidili.wang#?#article:first-child
 ! douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."]) is excluded by: #?#
 douban.com#?#.rec_topics:-abp-has(>.rec_topics_name[href^="https://erebor.douban."])
-! dysfz.tv#?#li:-abp-has(> h2 > a:-abp-contains(红包)) is excluded by: #?#
-dysfz.tv#?#li:-abp-has(> h2 > a:-abp-contains(红包))
-! dysfz.tv#?#li:-abp-has(> h2 > a[href*="t.cn"]) is excluded by: #?#
-dysfz.tv#?#li:-abp-has(> h2 > a[href*="t.cn"])
+! dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a:-abp-contains(红包)) is excluded by: #?#
+dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a:-abp-contains(红包))
+! dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"]) is excluded by: #?#
+dysfz.tv,dysfz.vip#?#li:-abp-has(> h2 > a[href*="t.cn"])
 ! ifeng.com#?#.box_list:-abp-has(.tuig) is excluded by: #?#
 ifeng.com#?#.box_list:-abp-has(.tuig)
 ! ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray) is excluded by: #?#

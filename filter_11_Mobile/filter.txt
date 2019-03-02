@@ -3214,6 +3214,8 @@ _*sec.mp4$mp4,domain=ivi.ru
 !+ NOT_PLATFORM(ios, ext_safari, ext_android_cb)
 ||adj.st^
 !
+||pixapi.net^
+||appmetr.com^
 ||track.tenjin.io^
 ||stats.abbi.io^
 ||api.goodbarber.net/statsapi/
@@ -3395,6 +3397,7 @@ _*sec.mp4$mp4,domain=ivi.ru
 ||api.apptentive.com^
 ||api.branch.io^
 ||api.crittercism.com^
+||rubick.gameanalytics.com^
 ||api.gameanalytics.com^
 ||api.gimbal.com^
 ||api.sec.miui.com^
