@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-03-04 15:42:24
+! Last modified: 2019-03-06 15:43:46
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,11 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||andrectesit.ru^
+||paleseyi.ru^
+||redatastore.ru^
+||kewithrittit.ru^
+||fineg.pro^
 .adonweb.ru^
 .adv-multithreading.info^
 .allalla.com^
@@ -3735,6 +3740,15 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||carbian.info^
+||geesopso.net^
+||agreensdistra.info^
+||rensovetors.info^
+||soagitet.net^
+||togroltu.net^
+||oupushee.com^
+||voastauz.net^
+||pheergar.com^
 ||mybestdc.com^
 ||arkinhechershedt.info^
 ||waubasou.com^
@@ -5379,6 +5393,8 @@ www.llllllllllll.net^
 !
 ! Section contains the list of advertising networks, which are hosted on non advertising sites as subdomains
 !
+||osm-onead.cdn.hinet.net^
+||d63a3au5lqmtu.cloudfront.net^
 ||d13jhr4vol1304.cloudfront.net^
 ||d2va1d0hpla18n.cloudfront.net^
 ||d2ho1n52p59mwv.cloudfront.net^
@@ -19746,6 +19762,7 @@ www.llllllllllll.net^
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||pngme.ru^
 ||qoopler.ru^
 ||s.clicktex.ru^
 ||hitme.pw^
@@ -19773,7 +19790,6 @@ www.llllllllllll.net^
 ||noy90o.com^
 ||logsss.com^
 ||tnative.ru^
-||redatastore.ru^
 ||cinarra.com^
 ||marketo.com^
 ||2iui01.com^
@@ -22085,7 +22101,6 @@ www.llllllllllll.net^
 ||successfultogether.co.uk^
 ||suchmaschinen-ranking-hits.de^
 ||summitemarketinganalytics.com^
-||sumologic.com^
 ||sundaysky.com^
 ||sunios.de^
 ||supercounters.com^
@@ -27067,6 +27082,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||130.211.212.60^
 ||1iklanbaris.com^
 ||1st-iklan.com^
+||2go7v1nes8.com^
 ||35.188.59.75^
 ||3b7c0f01022f61d5.com^
 ||4dasli.com^
@@ -27256,6 +27272,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||window-close.cf^
 ||window-close.ga^
 ||www.adflazz.com^
+||www.adtival.com^
 ||www.bnjhbghjznq.com^
 ||www.chqspuonctkgz.com^
 ||www.cjnoeafncyzb.com^
@@ -27264,6 +27281,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||www.vjrpdagpjwyt.com^||05ee3a24ed11df058c8.com^
 ||xbfk51p7.review^
 ||yesads.com^
+||ys3e965d.top^
 ||yx-ads6.com^
 !
 ! Adguard DNS rules
