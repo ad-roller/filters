@@ -93,6 +93,7 @@
 ||plugin.mobopay.baidu.com^
 ||mo.freeindoapp.com^
 !
+||t7z.cupid.iqiyi.com^
 ||data2.doodlemobile.com^
 ||d239g0z67jcted.cloudfront.net^
 ||newfeatureview.perfectionholic.com^
@@ -1081,6 +1082,8 @@ westseattleblog.com#@#.header-ad
 !
 ! Extended CSS rules
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/30270
+nbcmontana.com,mynews4.com,nbc16.com,turnto10.com,news4sanantonio.com,nbc24.com,mycbs4.com,wtov9.com,mynbc15.com##div[class^="heroLayout_left__"] > ul[class^="heroLayout_heroSecondary__"] > li[class="teaserItem"]:has(> div > [class*="largeRectangleAd_container__"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29888
 obozrevatel.com##div[style^="position:"][style*="relative"]:has(> [src^="https://i.obozrevatel.com/banners/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29451
@@ -1727,6 +1730,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+m.milliyet.com.tr##div[id^="adv_"]
 m.sgkrehberi.com###page > .content + div[style="clear:both; height:80px; line-height:80px; margin-top:120px;"]
 fangraphs.com##div[id^="ra-mobile-unit-"]
 korrespondent.net##amp-iframe[src^="https://recreativ.ru/"]
@@ -1745,6 +1749,9 @@ gametech.ru##.mobadv
 dialog.ua##amp-ad
 dialog.ua###mgid_iframe
 dialog.ua##amp-iframe[src^="https://m.mixadvert.com/"]
+101android.ru##.spu-box
+101android.ru##.spu-bg
+101android.ru##.myblockbottom
 m.iceporn.com##.banner-full-fixed
 m.iceporn.com##.spot+p
 m.discuss.com.hk##.MFV

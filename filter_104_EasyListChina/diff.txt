@@ -106,10 +106,10 @@ news.sohu.com,www.sohu.com#?#.list16 > ul > li:-abp-contains(广告)
 taobao.com#?#.item-ad
 ! toutiao.com#?#.J_ad is excluded by: #?#
 toutiao.com#?#.J_ad
+! yahoo.com#?#.js-stream-content:-abp-has(p:-abp-contains(熱門搜尋)) is excluded by: #?#
+yahoo.com#?#.js-stream-content:-abp-has(p:-abp-contains(熱門搜尋))
 ! yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜)) is excluded by: #?#
 yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(即日熱搜))
-! yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(熱門搜尋)) is excluded by: #?#
-yahoo.com#?#.js-stream-content:-abp-has(span:-abp-contains(熱門搜尋))
 ! zhangxinxu.com#?#.top_da_out is excluded by: #?#
 zhangxinxu.com#?#.top_da_out
 ! zhihu.com#?#.TopstoryItem:-abp-has(.Popover > .TopstoryItem-advertButton) is excluded by: #?#

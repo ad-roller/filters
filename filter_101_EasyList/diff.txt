@@ -40,6 +40,8 @@
 |http:$third-party,xmlhttprequest,domain=camwhores.tv
 ! |https:$popup,third-party,domain=yourporn.sexy is excluded by: |https:$
 |https:$popup,third-party,domain=yourporn.sexy
+! aliexpress.com#?#.list-item:-abp-has(span.sponsored) is excluded by: #?#
+aliexpress.com#?#.list-item:-abp-has(span.sponsored)
 ! amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-result-item:-abp-has(h5.s-sponsored-header) is excluded by: #?#
 amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-result-item:-abp-has(h5.s-sponsored-header)
 ! aol.co.uk,metabomb.net,moviefone.com#?#.trc-content-sponsored is excluded by: #?#

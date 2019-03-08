@@ -80,6 +80,8 @@ kbb.com###New-spotlights
 biggestplayer.me##.adblock1
 ! mail.ru##.slot_left is excluded by: mail.ru##.slot_left
 mail.ru##.slot_left
+! aliexpress.com#?#.list-item:-abp-has(span.sponsored) is excluded by: #?#
+aliexpress.com#?#.list-item:-abp-has(span.sponsored)
 ! amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-result-item:-abp-has(h5.s-sponsored-header) is excluded by: #?#
 amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-result-item:-abp-has(h5.s-sponsored-header)
 ! aol.co.uk,metabomb.net,moviefone.com#?#.trc-content-sponsored is excluded by: #?#
