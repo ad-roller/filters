@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-03-08 15:44:19
+! Last modified: 2019-03-10 15:44:58
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -9935,6 +9935,7 @@ www.llllllllllll.net^
 ||othere.info^
 ||otherelis.info^
 ||othersonline.com^
+||otnolabttmup.com^
 ||ourbanners.net^
 ||ourunlimitedleads.com^
 ||ov8pc.tv^
@@ -12639,6 +12640,7 @@ www.llllllllllll.net^
 ||aljsuubo.com^
 ||alkagrkgvltzlk.com^
 ||allnvbtrtpku.com^
+||alvdtjrb.com^
 ||amaecylce.com^
 ||amauzaqp.com^
 ||amlcscfr.com^
@@ -12804,6 +12806,7 @@ www.llllllllllll.net^
 ||clgyhwaoh.com^
 ||clouxtnxsmxdva.com^
 ||clsvugmivpf.com^
+||clsyxddpbt.com^
 ||clutaqawmz.com^
 ||clybtbahdbwkep.com^
 ||cmnhwzdsvr.com^
@@ -12830,9 +12833,11 @@ www.llllllllllll.net^
 ||cttnlnsnwdokqb.com^
 ||cujsutkdbz.com^
 ||cukwbpne.com^
+||cvarxvlbnphcjq.com^
 ||cvdvexais.com^
 ||cvhcrbbbfaa.com^
 ||cvjzauehxjsy.com^
+||cvzixxiesyjkha.com^
 ||cwbbqhgtjbvtzi.com^
 ||cwvdzcqvg.com^
 ||cwvqtapvqbmxfd.com^
@@ -12891,6 +12896,7 @@ www.llllllllllll.net^
 ||dpwrhdzeqw.com^
 ||dpwsvrkmfxrt.com^
 ||dqekudhbwprx.com^
+||drjctivspweild.com^
 ||drsemkuhpg.com^
 ||drwfixovzqdcs.com^
 ||dsemgngou.com^
@@ -13026,6 +13032,7 @@ www.llllllllllll.net^
 ||fpxkjlzmkqp.com^
 ||fpxthotxzuf.com^
 ||fpzcaabzhvzz.com^
+||fpzcyccpqldc.com^
 ||fqbrdnpf.com^
 ||fqckdxjgle.com^
 ||fqhpssdbenl.com^
@@ -13097,6 +13104,7 @@ www.llllllllllll.net^
 ||gjriyqsfrnvuv.com^
 ||gkaatcjxwa.com^
 ||gkhfahrtren.com^
+||glfiivzom.com^
 ||glvjbogft.com^
 ||glzaaewyvdkae.com^
 ||gmeomlvmqlmu.com^
@@ -13124,6 +13132,7 @@ www.llllllllllll.net^
 ||gtkikiwa.com^
 ||gtorsoxdh.com^
 ||gudlhvxz.com^
+||gumdeqjzclc.com^
 ||guoyhfjrpt.com^
 ||gutccaxnwso.com^
 ||gvahzhgblkkyr.com^
@@ -13131,6 +13140,7 @@ www.llllllllllll.net^
 ||gwovohvkzay.com^
 ||gwxaulcgmizcq.com^
 ||gxeoadmo.com^
+||gxklbrtpqqyvy.com^
 ||gxleeixyzlaaab.com^
 ||gxptetvbtkfj.com^
 ||gxqocoxl.com^
@@ -13200,6 +13210,7 @@ www.llllllllllll.net^
 ||hpsthxyqxqae.com^
 ||hpufwccrmiwz.com^
 ||hpxbifcd.com^
+||hqbphxpavrxry.com^
 ||hqgenotbptcu.com^
 ||hqqyesittgihp.com^
 ||hqsgnzvjkyog.com^
@@ -13304,6 +13315,7 @@ www.llllllllllll.net^
 ||ivvoooxuyjfuo.com^
 ||iwfzluau.com^
 ||iwgdguuz.com^
+||ixskusmnsb.com^
 ||ixsogpaexhgzn.com^
 ||ixtmbdajhvimtv.com^
 ||ixwbgjnjf.com^
@@ -13368,6 +13380,7 @@ www.llllllllllll.net^
 ||jrarnqfvjijaa.com^
 ||jrrekpskc.com^
 ||jtveisrh.com^
+||juqakqgv.com^
 ||juuwyyvjecnvps.com^
 ||juvqtttkhz.com^
 ||jvkhhxwcnijvmf.com^
@@ -13397,6 +13410,7 @@ www.llllllllllll.net^
 ||kbqebfcubeiaa.com^
 ||kbwortdqjbns.com^
 ||kcarnzeaipjssg.com^
+||kcetcukaolxc.com^
 ||kcitwbcc.com^
 ||kcnyhfmowc.com^
 ||kcodndvh.com^
@@ -13453,6 +13467,7 @@ www.llllllllllll.net^
 ||kwomkjjoajcyyt.com^
 ||kwsmqtposrub.com^
 ||kwygntce.com^
+||kxkeuums.com^
 ||kxzmmtdx.com^
 ||kycsebgx.com^
 ||kyelvsyayysa.com^
@@ -13488,6 +13503,7 @@ www.llllllllllll.net^
 ||lkksbzcslmeefw.com^
 ||lknxarjfidm.com^
 ||lkohqfilvpked.com^
+||lkojwhiwcsum.com^
 ||lkzvhtetshbu.com^
 ||llgvjtkg.com^
 ||llhjbwcjnuii.com^
@@ -13497,6 +13513,7 @@ www.llllllllllll.net^
 ||llvidwpt.com^
 ||lmccawemcuqma.com^
 ||lmcoiiwpguaorp.com^
+||lmevacaixeqy.com^
 ||lmjxrhph.com^
 ||lnicyniqxdxg.com^
 ||lnpqqigowz.com^
@@ -13531,6 +13548,7 @@ www.llllllllllll.net^
 ||lxlisrvzz.com^
 ||lxnimmyikuekn.com^
 ||lxpgdkskkt.com^
+||lxwtezlcp.com^
 ||lxyadcffdpaytd.com^
 ||lxymfyptdrast.com^
 ||lxzwknybfvycxr.com^
@@ -13546,6 +13564,7 @@ www.llllllllllll.net^
 ||mascqybw.com^
 ||mbixofultnnd.com^
 ||mbmjqinvsil.com^
+||mbmwfufkaxll.com^
 ||mbyrgeoizdid.com^
 ||mcaxqvcu.com^
 ||mcaybfrnrqpmv.com^
@@ -13591,6 +13610,7 @@ www.llllllllllll.net^
 ||mtdlcstsqt.com^
 ||mtnobdfcgylhuj.com^
 ||muasoctv.com^
+||musighkm.com^
 ||muxtpvixahawy.com^
 ||mvxhbajzn.com^
 ||mvyctyji.com^
@@ -13612,6 +13632,7 @@ www.llllllllllll.net^
 ||nbvbblmksiahf.com^
 ||nbxfvfeanq.com^
 ||nbylhvbswplcj.com^
+||ncoibhdzttozh.com^
 ||ncsyyeabk.com^
 ||ndilzwjgblea.com^
 ||ndprxvzgy.com^
@@ -13678,6 +13699,7 @@ www.llllllllllll.net^
 ||nwwuhiukrq.com^
 ||nwxwaxhfg.com^
 ||nxewruvxprbd.com^
+||nxjlnchylgsw.com^
 ||nycnjewyxex.com^
 ||nyltsyud.com^
 ||nypmjsgpmhd.com^
@@ -13691,6 +13713,7 @@ www.llllllllllll.net^
 ||oarqgvtkco.com^
 ||oartozvwzv.com^
 ||obczphph.com^
+||obeeifroxtivh.com^
 ||obpzuctfozram.com^
 ||obwvmzdb.com^
 ||ocfsmefzzarkmo.com^
@@ -13706,6 +13729,7 @@ www.llllllllllll.net^
 ||ogjascdgq.com^
 ||ognybevu.com^
 ||ogqclfvaq.com^
+||ogyhsyuhczvjg.com^
 ||ohrdpvkzhzbg.com^
 ||oijjptnwrg.com^
 ||oinqqbzs.com^
@@ -13727,6 +13751,7 @@ www.llllllllllll.net^
 ||otuveoqm.com^
 ||ounyrilukncbj.com^
 ||ouzqwetenps.com^
+||ovckindyf.com^
 ||ovczxzkfkfbb.com^
 ||ovgepsxx.com^
 ||ovkihcbxsbfeo.com^
@@ -13790,6 +13815,7 @@ www.llllllllllll.net^
 ||pprcfwhlmtagay.com^
 ||ppxoxkdpxtu.com^
 ||pqajjgjg.com^
+||pqgslqshlj.com^
 ||pqkorfrurnn.com^
 ||prctxexizzpp.com^
 ||prgncwamr.com^
@@ -13805,6 +13831,7 @@ www.llllllllllll.net^
 ||ptzljkufu.com^
 ||pvpqgjkgvszq.com^
 ||pvuqahjiburadw.com^
+||pwaqmmquztyne.com^
 ||pwlqrkgkk.com^
 ||pxcveedcuzy.com^
 ||pxiqcfkbxof.com^
@@ -13825,6 +13852,7 @@ www.llllllllllll.net^
 ||qbttelbrupkss.com^
 ||qbwjddqa.com^
 ||qcaejiouuvgk.com^
+||qceixjlqe.com^
 ||qcexplnqbrral.com^
 ||qczvjjdbaj.com^
 ||qdjnwlrjllti.com^
@@ -13857,6 +13885,7 @@ www.llllllllllll.net^
 ||qjuzjpkihvya.com^
 ||qjvullwjz.com^
 ||qjwkyhlxa.com^
+||qkmvpyujof.com^
 ||qknfsqxxm.com^
 ||qkyzjwhyeh.com^
 ||qlatsfeyg.com^
@@ -13925,6 +13954,7 @@ www.llllllllllll.net^
 ||rbfgsoanxw.com^
 ||rbnjngtbpwbk.com^
 ||rbtpsbtzh.com^
+||rbtqofrkiixz.com^
 ||rcumwyqkv.com^
 ||rcvhzfcnja.com^
 ||rdfpnzisjyiwtu.com^
@@ -14169,6 +14199,7 @@ www.llllllllllll.net^
 ||ubpjjgso.com^
 ||ubusbjjd.com^
 ||uclylhzwg.com^
+||ucozssymgw.com^
 ||ucvrtwfh.com^
 ||uczaqrjgkztxe.com^
 ||uembrcfeuwtsjy.com^
@@ -14238,6 +14269,7 @@ www.llllllllllll.net^
 ||uytabzmvei.com^
 ||uyxjfkgudefv.com^
 ||uyznjuyfyjc.com^
+||uzlleehrsmibli.com^
 ||uzrrqqzlktpymn.com^
 ||uzvuhhyymmkc.com^
 ||uzxyqxolrc.com^
@@ -14256,6 +14288,7 @@ www.llllllllllll.net^
 ||vcfnspbgztl.com^
 ||vcvapkiua.com^
 ||vcwrigdrnh.com^
+||vcxoizuwy.com^
 ||vczprcezg.com^
 ||vdbasihbxwea.com^
 ||vdldsjqxppi.com^
@@ -14311,6 +14344,7 @@ www.llllllllllll.net^
 ||vtgdjgtwl.com^
 ||vtmkgqcvzvlsdt.com^
 ||vudbfsnvyzxo.com^
+||vuikvvkcdas.com^
 ||vuwojxgklca.com^
 ||vvkvlqubnge.com^
 ||vvrygjuozwps.com^
@@ -14401,6 +14435,7 @@ www.llllllllllll.net^
 ||wwmcuhvqaf.com^
 ||wwngdgldlsv.com^
 ||wxhpszslw.com^
+||wxmpekoil.com^
 ||wxtrzeizpnp.com^
 ||wybfcxze.com^
 ||wyjdunwcqnetus.com^
@@ -14489,6 +14524,7 @@ www.llllllllllll.net^
 ||xvxcpdcnfgte.com^
 ||xwavfvpzg.com^
 ||xwrmlohlri.com^
+||xwvofxgqilhy.com^
 ||xxhgzzinkrbbo.com^
 ||xxqriuedmqzs.com^
 ||xyepsjnt.com^
@@ -14630,6 +14666,7 @@ www.llllllllllll.net^
 ||zmkkiqghh.com^
 ||zmujsnyzujuy.com^
 ||znbokxhkwx.com^
+||znckkjdguw.com^
 ||znnabrxnotlm.com^
 ||znoumvve.com^
 ||znztvqgtaivf.com^
@@ -20757,7 +20794,6 @@ www.llllllllllll.net^
 ||evisitcs.com^
 ||evisitcs2.com^
 ||evolvemediametrics.com^
-||evyy.net^
 ||ewebanalytics.com^
 ||ewebcounter.com^
 ||exactag.com^
@@ -27098,18 +27134,14 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 !
 ||108.168.231.179^
 ||128cash.org^
-||1iklanbaris.com^
-||1st-iklan.com^
 ||2go7v1nes8.com^
 ||35.188.59.75^
 ||3b7c0f01022f61d5.com^
-||4dasli.com^
 ||66cpwgln.space^
 ||690179b5160e450.com^
 ||6a0e2d19ac28.com^
 ||899-cash.com^
 ||8a333bc2b4d6.com^
-||99doyan.com^
 ||abrts.pro^
 ||accesstrade.co.id^
 ||ad.adflazz.com^
@@ -27121,13 +27153,12 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||ads-link.net^
 ||adsbingo.com^
 ||adstars.co.id^
+||advertnative.com^
 ||afbcashidr.com^
 ||ajangiklangratis.com^
 ||alertpay.com^
 ||ampclicks.com^
 ||anekaiklan.com^
-||angkakembar.org^
-||asian4d.net^
 ||axzsd.pro^
 ||azxsd.pro^
 ||bakaratonline.com^
@@ -27135,6 +27166,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||bellaads.com^
 ||bmnet-ads.com^
 ||c-4fambt.com^
+||cfqpxzx.com^
 ||chidsimp.com^
 ||cjsab.com^
 ||clickmedia.co.id^
@@ -27164,7 +27196,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||iklan-laris.com^
 ||iklan-sukses.com^
 ||iklanads.com^
-||iklanbarisgratis.co.uk^
+||iklanbarisgratis.^
 ||iklanbarisgratispasang.^
 ||iklanbarismu.com^
 ||iklanbisnispro.com^
@@ -27172,7 +27204,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||iklanbogor.com^
 ||iklandenpasar.com^
 ||iklandiweb.com^
-||iklangratis.co.uk^
+||iklangratis.^
 ||iklangratis88.com^
 ||iklangratismu.com^
 ||iklanhemat.com^
@@ -27189,13 +27221,13 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||ikoh6ie.top^
 ||indobanner.com^
 ||indofreeads.com^
-||istana-impian.com^
-||istana-impian2.net^
+||istana-impian.^
+||istana-impian2.^
 ||istana3.net^
 ||istanaiklan.com^
-||istanaimpian1.com^
-||istanaimpian2.me^
-||istanaimpian3.net^
+||istanaimpian1.^
+||istanaimpian2.^
+||istanaimpian3.^
 ||jagoiklan.com^
 ||jagopromo.com^
 ||jasaiklan.com^
@@ -27203,14 +27235,11 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||jillsclickcorner.com^
 ||juruiklan.com^
 ||kitabanget.com^
-||klikabadi.com^
-||klikabadi.net^
+||klikabadi.^
 ||klikajadeh.com^
 ||l9tdhe6.com^
 ||lokeriklan.com^
-||lotus-4d.com^
 ||macarier.review^
-||maruduthutabarat.com^
 ||masteriklan.net^
 ||mediab.uy^
 ||mesiniklan.andipublisher.com^
@@ -27219,12 +27248,11 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||naetoris.pw^
 ||octafx.com^
 ||offerjuice.me^
-||onedollarptc.com^
 ||openadserving.com^
+||oxload.icu^
 ||paidforfree.com^
 ||pasangiklan.com^
 ||pasangiklangratisbaris.^
-||pasangnomor2.net^
 ||pasariklanbaris.com^
 ||paypopup.com^
 ||peevopoy.com^
@@ -27234,7 +27262,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||promotioncamp.com^
 ||publish.web.id^
 ||pusatiklan.com^
-||raja12shio.org^
+||raja12shio.^
 ||realwap.net^
 ||referral-secrets.com^
 ||replase.gq^
@@ -27246,8 +27274,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||sepakbolagol.com^
 ||serbapromo.com^
 ||shiokambing2.com^
-||shiokuda.me^
-||shiokuda.org^
+||shiokuda.^
 ||sitti.co.id^
 ||situsiklanbaris.com^
 ||sumberiklan.com^
@@ -27258,7 +27285,6 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||topklik.com^
 ||topsurfer.com^
 ||trndoffers.com^
-||twap.eu^
 ||u-on.eu^
 ||uadexchange.com^
 ||useads.com^
@@ -27274,6 +27300,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||www.vjrpdagpjwyt.com^
 ||xbfk51p7.review^
 ||yesads.com^
+||ys3e965d.top^
 ||yx-ads6.com^
 !
 ! Adguard DNS rules

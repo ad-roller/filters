@@ -70,6 +70,13 @@ forum.smartsworld.ru##.xenfocus-snow
 tw.yahoo.com##.tabbar-signin > .feature-cue > .FancyBox.Arrow.Tooltip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28342
 idntimes.com###videoPlaylistPlugId.convertoFloatClass
+! https://github.com/AdguardTeam/AdguardFilters/issues/28117
+yam.com###sns-desk
+yam.com###sns-mob
+! https://github.com/AdguardTeam/AdguardFilters/issues/28225
+xelent.ru#$#.fancybox-overlay { display: none!important; }
+xelent.ru#$#html.fancybox-lock { overflow: visible!important; }
+xelent.ru#$#html.fancybox-lock > body { overflow: visible!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28119
 pcgamer.com##.leaderboardAdPresent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/24697
@@ -131,6 +138,9 @@ tvp.info##.mini-player-container .vstream__small.move
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25885
 pomponik.pl,interia.pl##.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed"]
 pomponik.pl,interia.pl#$#.embed-video-player div[class="vjs-fixedmonitor-wrapper-fixed vjs-fixedmonitor-fixed vjs-fixedmonitor-fixed-slide-down"] { visibility: hidden!important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/25735
+luxuretv.com##.contentsvideosimilaire > .cam
+luxuretv.com##.title > div:contains(Webcam LuxureTV Club)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25561
 mangovideo.pw##.fp-brand
 ! https://github.com/AdguardTeam/AdguardFilters/issues/25359
@@ -972,6 +982,7 @@ cooking.nytimes.com##.has-newsletter
 nakedsecurity.sophos.com###newsletter-signup
 oantagonista.com##.form-newsletter
 mrskin.com##.inline-access-form
+xelent.ru###footer-feedback
 dom.ria.com##.mailing
 allowwonder.com##.td-post-content > .code-block-3
 jornaldacidadeonline.com.br##.newsletter__card
@@ -4822,6 +4833,7 @@ deac.eu###cookiescript_container
 milleni.com.tr###policy
 rubenweytjens.be##.eu-cookie-compliance-banner
 edx.org##.edx-cookie-banner-wrapper
+dorcelstore.com###header-cookie
 ancestry.com##div[id^="Banner_cookie"]
 kidstaff.com.ua###gdpr_panel
 dnslytics.com###EU_Cookie_Message
@@ -11666,6 +11678,8 @@ gazeta.ua##.container div.w:has(> div#SinoptikInformer)
 ! Donation widgets (which are really annoying only)
 !
 dvdgayonline.com##.mtsnb-shown[style^="background-color:"]
+yam.com##a[href^="https://donate.yam.com/dq/Donateinfo"]
+yam.com###donateIframe
 web.archive.org###donate_banner
 ||fosshub.com/index/donate
 fosshub.com##.download-dl-boxDN
