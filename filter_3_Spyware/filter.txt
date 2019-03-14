@@ -2784,7 +2784,6 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ||useronlinecounter.com^$third-party
 ||userreport.com^$third-party
 ||users.51.la^$third-party
-||userzoom.com^$third-party
 ||usuarios-online.com^$third-party
 ||uzrating.com^$third-party
 ||v.shopify.com^
@@ -4961,6 +4960,9 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||userzoom.com/uz.js$third-party
+||wieistmeineip.de/ip-adresse/$third-party
+||7days.ru/statistics/*/hit?id=
 ||api.radio.net/info/*/user/playlog
 ||reklama.lv/services/collect.php
 ||theverge.com/services/entry_stats?id=
@@ -5037,7 +5039,7 @@ tensaigakkou.ru###custom_html-16
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
 /counter?$domain=amazon.com|amazon.de|amazon.it|amazon.com.tr
-/batch*$domain=amazon.com|amazon.de|amazon.it
+||amazon.*/batch/*uedata=$image
 ||medyaradar.com/Tools/AddHit.aspx?
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||onecount.net/onecount/oc_track/
@@ -6478,6 +6480,13 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/30981
+@@||googletagmanager.com/gtm.js$domain=reuters.com
+@@||google-analytics.com/analytics.js$domain=reuters.com
+@@||google-analytics.com/gtm/js?id=$domain=reuters.com
+@@||google-analytics.com/plugins/ua/linkid.js$domain=reuters.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/30136
+@@||cdn.amplitude.com/libs/amplitude-*-min.gz.js$domain=crunchyroll.com|elconfidencial.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30806
 @@||tags.bluekai.com/site/*?ret=$domain=abc7chicago.com|abc13.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30337

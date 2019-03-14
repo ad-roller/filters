@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-03-12 15:46:07
+! Last modified: 2019-03-14 15:49:42
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -11,6 +11,8 @@
 !
 ! Содержит доменные имена, использующиеся рекламными сетями.
 !
+||adbutton.net^
+||mahaphanin.ru^
 ||rekl2.ru^
 ||adrek4.ru^
 ||awreert.ru^
@@ -192,7 +194,6 @@ us6odtasve.ru
 ||adbmi.com^
 ||adbn.ru^
 ||adbomb.ru^
-||adbutton.net^
 ||adcamp.ru^
 ||adcast.ru^
 ||add.in.ua^
@@ -3743,6 +3744,7 @@ ws*://video.docfilms.info^
 !
 ! The rules with hints are at the end of file
 !
+||xch.smrtgs.com^
 ||foagoasu.net^
 ||getcontent.net^
 ||tonstiparro.info^
@@ -7626,6 +7628,7 @@ www.llllllllllll.net^
 ||advertarium.com.ua^
 ||advertbox.us^
 ||adverteerdirect.nl^
+||adverti.io^
 ||advertica.ae^
 ||advertiseforfree.co.za^
 ||advertisegame.com^
@@ -10113,6 +10116,7 @@ www.llllllllllll.net^
 ||popcpv.com^
 ||popearn.com^
 ||popmonetizer.com^
+||popmonetizer.net^
 ||popmyad.com^
 ||popmyads.com^
 ||poponclick.com^
@@ -10394,6 +10398,7 @@ www.llllllllllll.net^
 ||revokinets.com^
 ||revresda.com^
 ||revresponse.com^
+||revrtb.net^
 ||revsci.net^
 ||revstripe.com^
 ||rewardisement.com^
@@ -12612,6 +12617,7 @@ www.llllllllllll.net^
 ||aclwlkyzxxhn.com^
 ||acrsgxeah.com^
 ||acvxsptoqh.com^
+||acwyoynw.com^
 ||addgfxnb.com^
 ||adeyujimmmh.com^
 ||adxpddpc.com^
@@ -12662,6 +12668,7 @@ www.llllllllllll.net^
 ||aplfkrppjsutf.com^
 ||apsntakwzycu.com^
 ||aqfpqzxzk.com^
+||aqotbmnzra.com^
 ||aqrglffxw.com^
 ||aqussxtpjfelp.com^
 ||arcfwcxi.com^
@@ -13204,6 +13211,7 @@ www.llllllllllll.net^
 ||hjgmasrve.com^
 ||hjihwmtsltqi.com^
 ||hjjdmohuzp.com^
+||hjknszojbbecy.com^
 ||hjnekvux.com^
 ||hjxrhlmei.com^
 ||hkhotpewfxr.com^
@@ -13231,6 +13239,7 @@ www.llllllllllll.net^
 ||hqgenotbptcu.com^
 ||hqqyesittgihp.com^
 ||hqsgnzvjkyog.com^
+||hqtlbsglscrju.com^
 ||hqtvvfqmfykcrs.com^
 ||hqupjfmq.com^
 ||hqwlpexoywbc.com^
@@ -13405,6 +13414,7 @@ www.llllllllllll.net^
 ||juqakqgv.com^
 ||juuwyyvjecnvps.com^
 ||juvqtttkhz.com^
+||jvjwaxjixypm.com^
 ||jvkhhxwcnijvmf.com^
 ||jvqbbfrg.com^
 ||jwbroglwc.com^
@@ -13577,6 +13587,7 @@ www.llllllllllll.net^
 ||lxymfyptdrast.com^
 ||lxzwknybfvycxr.com^
 ||lybmmxah.com^
+||lyghoxyxohkrdk.com^
 ||lykuxkxsvvnxqd.com^
 ||lynsvdabds.com^
 ||lyssmgbr.com^
@@ -13762,11 +13773,13 @@ www.llllllllllll.net^
 ||oixisqtlbhygp.com^
 ||ojbevkqot.com^
 ||ojsfjyekvmyb.com^
+||okffuzmscjboad.com^
 ||okoufwmfzujsf.com^
 ||olgjzpgp.com^
 ||olrznxrgkym.com^
 ||omakfhugexq.com^
 ||onocjgpq.com^
+||oofpjjtc.com^
 ||ootqfqjhzfrtn.com^
 ||ooutqfslr.com^
 ||opbneuozwyuvpk.com^
@@ -13814,6 +13827,7 @@ www.llllllllllll.net^
 ||pfvfwielz.com^
 ||pfxcnvjoysztb.com^
 ||pgfxwbgema.com^
+||pgnjgjiwomgdmn.com^
 ||phhigelii.com^
 ||phiubpdrh.com^
 ||phragnmpo.com^
@@ -13874,6 +13888,7 @@ www.llllllllllll.net^
 ||pyubjvvdsrja.com^
 ||pzbqocjaphp.com^
 ||pzfittkdqrrsa.com^
+||pzopzjlhqbkgnp.com^
 ||pzzmqjrp.com^
 ||qaiqromd.com^
 ||qaxtgbdxjpibc.com^
@@ -13958,6 +13973,7 @@ www.llllllllllll.net^
 ||qukqptxilr.com^
 ||qunnvfhdgfm.com^
 ||qupiinlyjuf.com^
+||qurhdjkms.com^
 ||qvgjqhfnbdeur.com^
 ||qvilmdus.com^
 ||qvivzreleolawc.com^
@@ -14090,6 +14106,7 @@ www.llllllllllll.net^
 ||shkfrsif.com^
 ||shmpdqwucl.com^
 ||shohabiymgjxdb.com^
+||siaiscphvghttd.com^
 ||sicpkohkcmt.com^
 ||sinyfqrmiqgd.com^
 ||sisrgcvomn.com^
@@ -14230,6 +14247,7 @@ www.llllllllllll.net^
 ||ubjnuclsgxu.com^
 ||ubpjjgso.com^
 ||ubusbjjd.com^
+||ubvyjgbdiq.com^
 ||uclylhzwg.com^
 ||ucozssymgw.com^
 ||ucvrtwfh.com^
@@ -14487,6 +14505,7 @@ www.llllllllllll.net^
 ||xamxwvtsxdva.com^
 ||xasuekjguyub.com^
 ||xblcqncce.com^
+||xbzakxofyhdy.com^
 ||xcajbqjdcguybf.com^
 ||xcgebfplttrdg.com^
 ||xcjelwzs.com^
@@ -14547,6 +14566,7 @@ www.llllllllllll.net^
 ||xrmrpcbaukli.com^
 ||xroonucyaoqljf.com^
 ||xrpcbukuwdvkc.com^
+||xruuohzpxmmw.com^
 ||xsgacudwlysw.com^
 ||xsgcobwd.com^
 ||xskbsyssik.com^
@@ -14647,6 +14667,7 @@ www.llllllllllll.net^
 ||yvlmcehqt.com^
 ||yvlrhnzid.com^
 ||ywegbjiv.com^
+||ywlaafzvnn.com^
 ||ywolsukpto.com^
 ||ywxnjrkkrnyzc.com^
 ||yxbglezas.com^
@@ -14666,6 +14687,7 @@ www.llllllllllll.net^
 ||zadhrsvmawp.com^
 ||zajawwgpl.com^
 ||zatrlsov.com^
+||zavlamhx.com^
 ||zbbqhdnef.com^
 ||zbsqhxyjlh.com^
 ||zccebnzdujjw.com^
@@ -14725,6 +14747,7 @@ www.llllllllllll.net^
 ||zqqyhcqf.com^
 ||zramisxvxmkf.com^
 ||zreqmcewq.com^
+||zrosbqwecw.com^
 ||zsikmzoehqw.com^
 ||ztiqalyrbfsnl.com^
 ||ztxohhagymj.com^
@@ -17242,6 +17265,7 @@ www.llllllllllll.net^
 ||oipsyfnmrwir.com^
 ||oiramtfxzqfc.com^
 ||oixafvoxnmceol.com^
+||oiycak.com^
 ||ojjsoozoerpt.com^
 ||ojmkcnuur.com^
 ||ojmokfvfi.com^
@@ -19484,6 +19508,7 @@ www.llllllllllll.net^
 ||adsplash.de^
 ||adspread.net^
 ||adsushi.de^
+||adtriba.com^
 ||advendi.de^
 ||advert-layer.de^
 ||adverticus.de^
@@ -24499,6 +24524,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||adhslx.com^
 ||adinsight.co.kr^
 ||adinte.jp^
+||admetric.io^
 ||adobedtm.com^
 ||adoric-om.com^
 ||adpaths.com^
@@ -25377,12 +25403,10 @@ charlestownwyllie.oaklawnnonantum.com^
 ||poolmining.eu^
 ||poolmining.net^
 ||porkypool.com^
-||ppoi.org^
 ||pr0gram.org^
 ||premiumstats.xyz^
 ||presjots.ga^
 ||proj2018.xyz^
-||projectpoi.com^
 ||proofly.win^
 ||pzoifaum.info^
 ||rand.com.ru^
@@ -25875,6 +25899,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||analytics.clickpathmedia.com^
 ||analytics.closealert.com^
 ||analytics.cmg.net^
+||analytics.cohesionapps.com^
 ||analytics.conmio.com^
 ||analytics.convertlanguage.com^
 ||analytics.cynapse.com^
@@ -26095,6 +26120,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||d25ezbwokoefx6.cloudfront.net^
 ||d2cpw6kwpff7n5.cloudfront.net^
 ||d2kyy9hvbrzkgn.cloudfront.net^
+||d2o5idwacg3gyw.cloudfront.net^
 ||d2o67tzzxkqap2.cloudfront.net^
 ||d2tcg4i9q4js4a.cloudfront.net^
 ||d3iouejux1os58.cloudfront.net^
@@ -26259,6 +26285,7 @@ charlestownwyllie.oaklawnnonantum.com^
 ||logger.sociablelabs.com^
 ||logging.prefixbox.com^
 ||loggingapi.spingo.com^
+||loglady.skypicker.com^
 ||logs.vmixcore.com^
 ||logssl.enquisite.com^
 ||lp.vadio.com^
@@ -26712,7 +26739,6 @@ charlestownwyllie.oaklawnnonantum.com^
 ||widget.quantcast.com^
 ||win.staticstuff.net^
 ||woolik.com^*^tracker^
-||wp-stat.s3.amazonaws.com^
 ||wsb.aracert.com^
 ||wstat.wibiya.com^
 ||wunderloop.aol.co.uk^
@@ -27151,6 +27177,8 @@ vkcdnservice.appspot.com^
 ||crypta.js^
 ||cdn.jquery-uim.download^
 ||coinimp.com^
+||ppoi.org^
+||projectpoi.com^
 ||questionfly.com^
 ! don't add `^` to these rules
 !
@@ -27186,6 +27214,7 @@ estream.nu#%#Object.defineProperty(window, 'WebAssembly', { get: function() { re
 ||ad.adflazz.com^
 ||addesigner.com^
 ||adexp.net^
+||admessage.support^
 ||adpop-1.com^
 ||adpstatic.com^
 ||adreviewcamp.com^

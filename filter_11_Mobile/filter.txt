@@ -1730,6 +1730,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+dexerto.com###articleContainer div[class=""] > div[style="text-align:center;"] > p.dn-ns[style="font-size:8px;color:#ccc;"]
 m.sportskeeda.com##.mobile-ad-negative-space
 m.sportskeeda.com##.ad-declare-explicit-parallax
 m.milliyet.com.tr##div[id^="adv_"]
@@ -2844,6 +2845,8 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/30906
+@@||events.appsflyer.com^$app=com.mapswithme.maps.pro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29964
 ||facemap.foldlife.net^$app=com.estrongs.android.pop
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29913
@@ -3191,6 +3194,9 @@ _*sec.mp4$mp4,domain=ivi.ru
 ||gameloft.com/*/index.ppp?ad=
 ! AMC app
 ||mdialog.com/*/stream_time_events$replace=/[\s\S]+/{}/
+! com.picsart.studio
+@@||dev.appboy.com^$app=com.picsart.studio
+@@||config.inmobi.com^$app=com.picsart.studio
 
 !---------------------------------------------------------------------------!
 !-------------- Rules for mobile analytics ---------------------------------!

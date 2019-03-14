@@ -60,6 +60,12 @@
 |https:$script,stylesheet,third-party,xmlhttprequest,domain=btdb.to
 ! |https:$subdocument,domain=nod32key.xyz is excluded by: |https:$
 |https:$subdocument,domain=nod32key.xyz
+! ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com is excluded by: $rewrite=
+||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
+! ||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com is excluded by: $rewrite=
+||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
+! ||ruanyifeng.com/blog/images$rewrite=abp-resource:1x1-transparent-gif,~third-party is excluded by: $rewrite=
+||ruanyifeng.com/blog/images$rewrite=abp-resource:1x1-transparent-gif,~third-party
 ! 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;) is excluded by: #?#
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#?#.p_postlist > :-abp-properties(width: 739px;)
 ! 2345.com#?#.pic:-abp-has(a[href^="http://g.wan."]) is excluded by: #?#
@@ -154,6 +160,8 @@ dnvod.tv#?#[data-code] > :not([pluginspage="http://www.macromedia.com/go/getflas
 dnvod.tv#?#[data-code] > :not(object)
 ! dnvod.tv#?#[data-code] > [target="_blank"] is excluded by: #?#
 dnvod.tv#?#[data-code] > [target="_blank"]
+! ||s1-a4.dnvod.tv^$rewrite=abp-resource:blank-mp3,domain=dnvod.tv is excluded by: $rewrite=
+||s1-a4.dnvod.tv^$rewrite=abp-resource:blank-mp3,domain=dnvod.tv
 ! dnvod.tv#?#:not(#video) > div[data-code] is excluded by: #?#
 dnvod.tv#?#:not(#video) > div[data-code]
 ! dnvod.tv#?#[style*="important"] is excluded by: #?#
@@ -168,6 +176,10 @@ ifeng.com#?#.slLis > li:-abp-has(span:-abp-contains(告))
 |http:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
 ! |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc is excluded by: |https:$
 |https:$script,third-party,xmlhttprequest,domain=m.733.so|m.mzitu.com|m.umei.cc
+! ||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com is excluded by: $rewrite=
+||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
+! ||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com is excluded by: $rewrite=
+||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com
 ! t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45) is excluded by: #?#
 t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+40)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+45)
 ! t66y.com#?#.tpc_content:-abp-has(>b:nth-child(n+50)>span>a[onmouseover="this.style.background='#DEF5CD';"]:-abp-contains(91TV)) > :nth-child(-n+55) is excluded by: #?#
