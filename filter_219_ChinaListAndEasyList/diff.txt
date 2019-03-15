@@ -1,4 +1,16 @@
 ! Invalid rule options:
+||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
+! Invalid rule options:
+||ruanyifeng.com/blog/images$rewrite=abp-resource:1x1-transparent-gif,~third-party
+! Invalid rule options:
+||vali*.cibntv.net^*.mp4?$rewrite=abp-resource:blank-mp3,domain=youku.com
+! Invalid rule options:
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 ! Invalid rule options:
 ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com#?#div[id$="_canvas"]
+! Invalid rule options:
+||s1-a4.dnvod.tv^$rewrite=abp-resource:blank-mp3,domain=dnvod.tv
+! Invalid rule options:
+||*^sdtfrom=^$rewrite=abp-resource:blank-mp3,domain=qq.com
+! Invalid rule options:
+||qq.com^*.ts?$rewrite=abp-resource:blank-js,xmlhttprequest,domain=qq.com

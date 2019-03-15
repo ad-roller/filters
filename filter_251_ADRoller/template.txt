@@ -32,12 +32,16 @@
 ||cmts.iqiyi.com^
 
 !dangbei
-||esw.tymcdn.com^
-||eapi.tymcdn.com^
-||esdk.tymcdn.com^
+||tymcdn.com^
+||dangbei.net^
 ||esw.dangbei.com^
 ||eapi.dangbei.com^
 ||esdk.dangbei.com^
+||znds.com^
+||pushapi.cdnimg.org^
+||tvfuwu.com^
+||qun7.com^
+||dangcdn.com^
 
 !umeng
 ||umeng.com^
