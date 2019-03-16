@@ -1376,6 +1376,9 @@ nasimke.ru$$script[tag-content="function show_ads"][max-length="6000"]
 !
 !#####################
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/28826
+!+ PLATFORM(ios)
+@@||gannettdigital.com/universal-web-client/$domain=usatoday.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26089
 !+ PLATFORM(ios, ext_android_cb)
 extremetube.com,redtube.com,tube8.com,tube8.es,tube8.fr,xtube.com,youjizz.com,youporn.com,youporngay.com#@#[src*="data:"]
@@ -1730,6 +1733,7 @@ anwap.club,anwap.film,anwap.mobi##body > div[class] > a > strong
 !+ NOT_PLATFORM(ios, ext_android_cb)
 ||mobile.donanimhaber.com/ads^
 !
+euroki.org##.mob_banner
 dexerto.com###articleContainer div[class=""] > div[style="text-align:center;"] > p.dn-ns[style="font-size:8px;color:#ccc;"]
 m.sportskeeda.com##.mobile-ad-negative-space
 m.sportskeeda.com##.ad-declare-explicit-parallax
@@ -1744,6 +1748,7 @@ cnn.com###social-share_gig_containerParent .PartnerZone
 mobile.donanimhaber.com##body > div[style="float: left;width:100%;"] > div[style="margin:10px auto; text-align:center; width:300px; height:250px;"]
 techrum.vn###revive_banner_mobile_div
 scotsman.com##.slab--bottommobilebanner
+usatooday.com##.partner-placement
 amp.fakty.ua##amp-iframe
 yahoo.com##.stream-sm-ad
 obozrevatel.com##amp-iframe.branding
@@ -1759,6 +1764,7 @@ m.iceporn.com##.banner-full-fixed
 m.iceporn.com##.spot+p
 m.discuss.com.hk##.MFV
 kanasoku.info##.adc_g_ko_sec
+gamesradar.com##div[class^="slot-single-height-"]
 techbang.com###related-posts
 egmnow.com##.pt_mobile_ad_iframe
 egmnow.com##.pt-embed-ad-single-mobile
@@ -2845,6 +2851,8 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||graph.facebook.com^$app=com.teeonsoft.ztorrent
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/29479
+@@||js.mamydirect.com^$app=com.adguard.dns
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30906
 @@||events.appsflyer.com^$app=com.mapswithme.maps.pro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29964
@@ -2958,8 +2966,6 @@ m.news.yandex.by,m.news.yandex.com,m.news.yandex.fr,m.news.yandex.kz,m.news.yand
 ||ws.kebapp.co/api/CrossPromotion
 ! https://github.com/AdguardTeam/AdguardFilters/issues/14202
 @@||www.google-analytics.com^$app=jp.naver.line.android
-! https://github.com/AdguardTeam/AdguardFilters/issues/14941
-@@||mc.yandex.ru^$app=com.adguard.dns
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13716
 ||varravgames.com/AdVarServer/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13224
