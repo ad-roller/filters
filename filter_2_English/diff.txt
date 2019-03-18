@@ -260,6 +260,8 @@ pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width
 @@||ads.twitter.com^$popup,~third-party
 ! @@||rule34hentai.net/post/$popup,~third-party is excluded by: $popup,~third-party
 @@||rule34hentai.net/post/$popup,~third-party
+! @@||gelbooru.com^$popup,~third-party is excluded by: $popup,~third-party
+@@||gelbooru.com^$popup,~third-party
 ! Invalid rule options:
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=ehubsoft.net,redirect=noopjs
 ! Invalid rule options:

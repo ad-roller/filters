@@ -975,6 +975,7 @@ mail.ru##.js-promo-popup
 !***
 !* Subscriptions/newsletters (not popups)
 !*
+astrakhan-24.ru##.goyandex
 thescore.com##div[class^="NewsletterCard__newsletterContainer--"]
 zik.ua##.button_social_like
 ain.ua##.news-subscribe
@@ -7418,6 +7419,7 @@ tribalfootball.com##.core__aside > .widget[-ext-has='.mc_embed_signup']
 !
 !
 !--- Reamains of ads ---
+bimmertoday.de##.push-container > div.container > div.row > div > div.box-sidebar-default:contains(/adsbygoogle|get.mirando.de|Facebook/)
 agar.space###login-tile > #instructions > h7:contains(- Advertisement -)
 news.tvbs.com.tw##.content_left2 > .newsdetail_box:has(> .content_center_list_box > .newsdetail_content_like > ul > [data-widget="plista_widget_belowArticle_default"])
 dvdlords.com###sidebar > .Widget:contains(ad_idzone)
@@ -11448,6 +11450,8 @@ mhealth.ru##.incut_readmore
 ! START: Adviser/online-consultant/feedback widgets
 !
 ! jurleads.ru/widget/?id=
+||chat24.io^$third-party
+||chats.novait.com.ua^$third-party
 ||servicelead.top^$third-party
 ||jurleads.ru^$third-party
 ||gtlead.ru^$third-party

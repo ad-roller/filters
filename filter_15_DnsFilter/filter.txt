@@ -3,7 +3,7 @@
 ! Title: AdGuard Simplified Domain Names filter
 ! Homepage: https://github.com/AdguardTeam/AdguardSDNSFilter
 ! License: https://github.com/AdguardTeam/AdguardSDNSFilter/blob/master/LICENSE
-! Last modified: 2019-03-16 15:48:22
+! Last modified: 2019-03-18 15:49:07
 ! Description: Filter composed from several other filters (English filter, Social media filter, Spyware filter, Mobile ads filter, EasyList and EasyPrivacy) and simplified specifically to be better compatible with DNS-level ad blocking.
 !
 ! [Inclusion: https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/RussianFilter/sections/adservers.txt]
@@ -6871,7 +6871,6 @@ www.llllllllllll.net^
 ||218.145.28.155^
 ||9vad.com^
 ||a-pagerank.net^
-||ab.auone-net.jp^
 ||ac8.i2i.jp^
 ||accesstrade.net^
 ||agilemedia.jp^
@@ -12751,6 +12750,7 @@ www.llllllllllll.net^
 ||bnjhbghjznq.com^
 ||bnjrtdsafo.com^
 ||bnpmudgktroz.com^
+||bocqmlgslzoo.com^
 ||boizgpgrxvokd.com^
 ||bonxsqstn.com^
 ||boqdapoiv.com^
@@ -12821,6 +12821,7 @@ www.llllllllllll.net^
 ||cifwsaufnalvh.com^
 ||civyssfaqtufib.com^
 ||cixvlpbnceh.com^
+||cizemeshbbc.com^
 ||cjgpifztileh.com^
 ||cjojvvfyb.com^
 ||cjsgmoekcb.com^
@@ -12839,6 +12840,7 @@ www.llllllllllll.net^
 ||coshfgpgab.com^
 ||cqhxrlnhzlda.com^
 ||cqjnxsbuplcqri.com^
+||cqyfjodshwuici.com^
 ||cracwrddcb.com^
 ||crgfbmzsk.com^
 ||crheaeqw.com^
@@ -12848,6 +12850,7 @@ www.llllllllllll.net^
 ||crxhbchbd.com^
 ||csdzhoku.com^
 ||cshzkkihjnweb.com^
+||csionjbak.com^
 ||cskwckhyhriyk.com^
 ||csouqeeviwo.com^
 ||ctcpwymaeuwnqd.com^
@@ -12922,6 +12925,7 @@ www.llllllllllll.net^
 ||dpwrhdzeqw.com^
 ||dpwsvrkmfxrt.com^
 ||dqekudhbwprx.com^
+||dqyczunj.com^
 ||drjctivspweild.com^
 ||drsemkuhpg.com^
 ||drwfixovzqdcs.com^
@@ -12931,6 +12935,7 @@ www.llllllllllll.net^
 ||dthmzwzsgjibw.com^
 ||dtjhwypfsayh.com^
 ||dtqcjtkytuqn.com^
+||dugqbllwslqrlj.com^
 ||durowueoaxjhd.com^
 ||duwrigndkjp.com^
 ||dvdyicsndqbqo.com^
@@ -13077,6 +13082,7 @@ www.llllllllllll.net^
 ||frqmnrlqk.com^
 ||frtfwlvwuw.com^
 ||frxohovv.com^
+||fscslwmvbadncb.com^
 ||fsdvydpldxrbu.com^
 ||fsiadjbirgobi.com^
 ||fsqknqvlngde.com^
@@ -13183,6 +13189,7 @@ www.llllllllllll.net^
 ||gyycgkchjtimu.com^
 ||gzoprhvqhie.com^
 ||hafksvqiir.com^
+||hagiqxizxqf.com^
 ||hanimyel.com^
 ||haqbllmvpbqc.com^
 ||hasrijwnxtn.com^
@@ -13215,6 +13222,7 @@ www.llllllllllll.net^
 ||hgdmzshm.com^
 ||hhffiibyamkvyu.com^
 ||hhleomgyiruth.com^
+||hhlrnfmn.com^
 ||hhrxmgaepe.com^
 ||higishzxn.com^
 ||hiitwzyvkdyvxn.com^
@@ -13388,6 +13396,7 @@ www.llllllllllll.net^
 ||jfvadxjr.com^
 ||jgjpicgy.com^
 ||jguczdjzvfp.com^
+||jheduynirrxkro.com^
 ||jhijojlatyvri.com^
 ||jhmmbrfsqm.com^
 ||jhxpbihkucrq.com^
@@ -13396,6 +13405,7 @@ www.llllllllllll.net^
 ||jimqcqsyhser.com^
 ||jimxaqrpqbxldt.com^
 ||jjhnnzef.com^
+||jkamuwyswgk.com^
 ||jkawfxvh.com^
 ||jkcvevwvgfopog.com^
 ||jkjcoyeeglunz.com^
@@ -13407,6 +13417,7 @@ www.llllllllllll.net^
 ||jlwejibe.com^
 ||jngxxwythaf.com^
 ||jnhjvkapqf.com^
+||jnhmeywrl.com^
 ||jnjbdvchvk.com^
 ||jnnswtdifjgx.com^
 ||johonmtpyv.com^
@@ -13471,6 +13482,7 @@ www.llllllllllll.net^
 ||kgxemdznctlmya.com^
 ||khdmabhykmj.com^
 ||khefhmgfwnnqgv.com^
+||kiobmbncsrwc.com^
 ||kiqsynap.com^
 ||kjizuuuvqbcd.com^
 ||kjsedplonmifbe.com^
@@ -13757,6 +13769,7 @@ www.llllllllllll.net^
 ||nytqlenw.com^
 ||nywpxugigwfzb.com^
 ||nywuthdzdacoq.com^
+||oabcufwk.com^
 ||oaibzaqh.com^
 ||oamhzvwle.com^
 ||oansiwcmc.com^
@@ -13822,6 +13835,7 @@ www.llllllllllll.net^
 ||paysoxemgjqp.com^
 ||pbofytmakvye.com^
 ||pbpdgojwzfdc.com^
+||pbttxbna.com^
 ||pcbfhotfyuyg.com^
 ||pcdzsowmktz.com^
 ||pcfobwzmlts.com^
@@ -14283,6 +14297,7 @@ www.llllllllllll.net^
 ||uimrmuoztkoia.com^
 ||uisrihozphejjt.com^
 ||ujpakyfu.com^
+||ujrtwvabum.com^
 ||ujwdwwfuqcgnv.com^
 ||ukdjbubvp.com^
 ||ukjsibgu.com^
@@ -14405,6 +14420,7 @@ www.llllllllllll.net^
 ||vqzqkhumdad.com^
 ||vrvyearwxo.com^
 ||vrzparvhipmo.com^
+||vsgvivozec.com^
 ||vsmqqjwwnoshrj.com^
 ||vsrpztnxdejo.com^
 ||vsrsviytlb.com^
@@ -14550,6 +14566,7 @@ www.llllllllllll.net^
 ||xgwslgpad.com^
 ||xgznkebnjme.com^
 ||xhfosyfia.com^
+||xhhfpakexs.com^
 ||xhlrlyygx.com^
 ||xhyjlfbqnbr.com^
 ||xibnqcksoax.com^
@@ -14592,6 +14609,7 @@ www.llllllllllll.net^
 ||xsgcobwd.com^
 ||xskbsyssik.com^
 ||xtixyzjeibh.com^
+||xtsnbxwak.com^
 ||xudfxpvm.com^
 ||xuqdbqkqgj.com^
 ||xurrehqawu.com^
