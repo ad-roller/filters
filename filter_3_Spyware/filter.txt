@@ -105,6 +105,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Should be uncommented once v2.10 goes live
 ! ||app-measurement.com^
 !
+||mrb.upapi.net^$third-party
 ||analytics*.clickdimensions.com^
 ||pngme.ru^$third-party
 ||qoopler.ru^$third-party
@@ -3357,6 +3358,7 @@ nethunt.com/api/v1/track/email/$image
 ||collection-endpoint-staging.herokuapp.com^
 ! end:
 !
+||sanalytics.ncaa.com^
 ||bi.medscape.com^$app=~com.medscape.android
 ||analytics.cn.ru^
 ||pa.tns-ua.com^
@@ -4960,6 +4962,8 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||cloudfront.net/sso.js
+||graph.instagram.com/logging_client_events
 ||vc.ru/hit^
 ||tracker.departapp.com/api/collect?
 ||open.spotify.com/log/analytics
@@ -6484,6 +6488,9 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/31097
+@@||marketo.com/js/forms$domain=kaspersky.com
+@@||marketo.com/index.php/form/$domain=kaspersky.com
 ! https://forum.adguard.com/index.php?threads/31245/
 @@||ssl.google-analytics.com/ga.js$domain=gmail.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30981
