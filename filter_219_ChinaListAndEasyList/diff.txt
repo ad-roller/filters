@@ -1,4 +1,6 @@
 ! Invalid rule options:
+||alicdn.com/img/ibank/2018/384/982/9460289483_$rewrite=abp-resource:1x1-transparent-gif,domain=rmdown.com
+! Invalid rule options:
 ||e9377f.com^$rewrite=abp-resource:blank-mp3,domain=eastday.com
 ! Invalid rule options:
 ||ruanyifeng.com/blog/images$rewrite=abp-resource:1x1-transparent-gif,~third-party

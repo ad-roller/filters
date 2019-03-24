@@ -4962,6 +4962,7 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||d1gofkrkum4ehe.cloudfront.net/tracker.js
 ||cloudfront.net/sso.js
 ||graph.instagram.com/logging_client_events
 ||vc.ru/hit^
@@ -6488,6 +6489,10 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/30065
+@@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/30497
+@@||wilko.com/_ui/shared/js/analyticsmediator.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31097
 @@||marketo.com/js/forms$domain=kaspersky.com
 @@||marketo.com/index.php/form/$domain=kaspersky.com
