@@ -3054,6 +3054,7 @@ journal-plaza.net##.rightside div.block.bnavi[-ext-has="h3.dtitle:contains(Сч�
 ! Admiral domains
 ! These domains are used for tracking purposes according to the data that is being sent there.
 ! More info: https://getadmiral.com/products/measure
+||squirrelhands.com^$third-party
 ||unbecominghall.com^$third-party
 ||attractivecap.com^$third-party
 ||forecasttiger.com^$third-party
@@ -4962,6 +4963,7 @@ _tracking.php?b=
 ! index.ru alternative way of loading (loads index.ru first, then /tnc.js from the same domain, see roem.ru for example)
 /tnc.js?h=
 !
+||citycost.matomo.cloud/matomo.js
 ||d1gofkrkum4ehe.cloudfront.net/tracker.js
 ||cloudfront.net/sso.js
 ||graph.instagram.com/logging_client_events
@@ -6489,6 +6491,8 @@ link.gmapp*.net$image
 !-------------- Whitelist ------------------------------------------------------!
 !-------------------------------------------------------------------------------!
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/31598
+@@||track.nzz.ch/cre-*/tracking/tracking.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30065
 @@||tags.tiqcdn.com/utag/tegna^$domain=kvue.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/30497

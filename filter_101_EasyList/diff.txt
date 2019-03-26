@@ -48,8 +48,8 @@ amazon.ca,amazon.co.uk,amazon.de,amazon.es,amazon.fr,amazon.in,amazon.it#?#.s-re
 aol.co.uk,metabomb.net,moviefone.com#?#.trc-content-sponsored
 ! cesoirtv.com#?#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] is excluded by: #?#
 cesoirtv.com#?#a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"]
-! ebay.com#?#li.s-item:-abp-has(.s-item__title-tag) is excluded by: #?#
-ebay.com#?#li.s-item:-abp-has(.s-item__title-tag)
+! ebay.com#?#li.s-item:-abp-has(span:-abp-contains(SPONSORED)) is excluded by: #?#
+ebay.com#?#li.s-item:-abp-has(span:-abp-contains(SPONSORED))
 ! etsy.com#?#li.block-grid-item:-abp-has(span.ad-indicator) is excluded by: #?#
 etsy.com#?#li.block-grid-item:-abp-has(span.ad-indicator)
 ! facebook.com#?#.ego_section:-abp-has(a[href^="/ad_"]) is excluded by: #?#
